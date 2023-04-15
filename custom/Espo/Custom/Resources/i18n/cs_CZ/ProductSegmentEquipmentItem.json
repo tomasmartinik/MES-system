@@ -1,0 +1,16 @@
+{
+    "labels": {
+        "Create ProductSegmentEquipmentItem": "Vytvořit Položka vybavení (Segment produktu)"
+    },
+    "fields": {
+        "equipmentClasses": "Třída",
+        "equipmentDefinitions": "Definice",
+        "productSegmentses": "Segment produktu",
+        "quantity": "Množství"
+    },
+    "links": {
+        "equipmentClasses": "Třída",
+        "equipmentDefinitions": "Definice",
+        "productSegmentses": "Segment produktu"
+    }
+}

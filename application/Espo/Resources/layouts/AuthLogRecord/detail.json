@@ -1,0 +1,13 @@
+[
+    {
+        "label":"",
+        "rows":[
+            [{"name":"username"}, {"name":"isDenied"}],
+            [{"name":"ipAddress"}, {"name":"denialReason"}],
+            [{"name":"createdAt"}, {"name": "authenticationMethod"}],
+            [{"name":"requestUrl"}, {"name":"requestMethod"}],
+            [{"name":"user"}, {"name":"authToken"}],
+            [{"name":"portal"}, {"name":"authTokenIsActive"}]
+        ]
+    }
+]

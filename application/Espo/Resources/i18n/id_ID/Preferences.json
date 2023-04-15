@@ -1,0 +1,43 @@
+{
+  "fields": {
+    "dateFormat": "Format tanggal",
+    "timeFormat": "Format waktu",
+    "timeZone": "Zona waktu",
+    "weekStart": "Hari Pertama dalam satu minggu",
+    "decimalMark": "Tanda desimal",
+    "defaultCurrency": "Setelan mata uang",
+    "currencyList": "Daftar mata uang",
+    "language": "Bahasa",
+    "smtpAuth": "Tupoksi",
+    "smtpSecurity": "Keamanan",
+    "smtpUsername": "Nama pengguna",
+    "emailAddress": "E-mail",
+    "smtpPassword": "Kata sandi",
+    "smtpEmailAddress": "Alamat email",
+    "exportDelimiter": "Pembatas Ekspor",
+    "signature": "email Signature",
+    "dashboardTabList": "Daftar tabel",
+    "tabList": "Daftar tabel",
+    "defaultReminders": "Atur Pengingat",
+    "theme": "Tema",
+    "useCustomTabList": "Daftar Tabel Biasa",
+    "receiveAssignmentEmailNotifications": "Menerima Pemberitahuan Email pada Tugas",
+    "autoFollowEntityTypeList": "Auto-Follow",
+    "emailReplyToAllByDefault": "Email Balas ke Semua sebagai pengaturan"
+  },
+  "options": {
+    "weekStart": {
+      "0": "Minggu",
+      "1": "Senin"
+    }
+  },
+  "labels": {
+    "Notifications": "pemberitahuan",
+    "User Interface": "Antarmuka pengguna",
+    "Misc": "Lain-lain",
+    "Locale": "lokal"
+  },
+  "tooltips": {
+    "autoFollowEntityTypeList": "Pengguna secara otomatis akan mengikuti semua catatan baru jenis entitas yang dipilih, akan melihat informasi yang mengalir dan menerima pemberitahuan."
+  }
+}

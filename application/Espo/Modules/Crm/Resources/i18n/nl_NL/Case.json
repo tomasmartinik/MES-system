@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "name": "Naam",
+    "number": "Nummer",
+    "account": "Relatie",
+    "contacts": "Contacten",
+    "priority": "Prioriteit",
+    "description": "Beschrijving",
+    "attachments": "Bijlagen",
+    "inboundEmail": "Groep e-mailaccount"
+  },
+  "links": {
+    "account": "Relatie",
+    "contact": "Contact (Primair)",
+    "Contacts": "Contacten",
+    "meetings": "Vergaderingen",
+    "calls": "Gesprekken",
+    "tasks": "Taken",
+    "emails": "E-mails",
+    "articles": "Kennisbank artikelen",
+    "attachments": "Bijlagen",
+    "inboundEmail": "Groep e-mailaccount"
+  },
+  "options": {
+    "status": {
+      "New": "Nieuw",
+      "Assigned": "Toegewezen",
+      "Pending": "In behandeling",
+      "Closed": "Gesloten",
+      "Rejected": "Afgewezen",
+      "Duplicate": "Dupliceer"
+    },
+    "priority": {
+      "Low": "Laag",
+      "Normal": "Normaal",
+      "High": "Hoog"
+    },
+    "type": {
+      "Question": "Vraag",
+      "Problem": "Probleem"
+    }
+  },
+  "labels": {
+    "Create Case": "Creëer Ticket",
+    "Close": "Afsluiten",
+    "Reject": "Afwijzen",
+    "Closed": "Gesloten",
+    "Rejected": "Afgewezen"
+  },
+  "presetFilters": {
+    "closed": "Gesloten"
+  }
+}

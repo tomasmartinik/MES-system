@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "enabled": "Diaktifkan",
+    "clientId": "ID klien",
+    "clientSecret": "klien Rahasia",
+    "redirectUri": "redirect URI"
+  },
+  "messages": {
+    "selectIntegration": "Pilih integrasi dari menu.",
+    "noIntegrations": "Tidak ada integrasi tersedia."
+  }
+}

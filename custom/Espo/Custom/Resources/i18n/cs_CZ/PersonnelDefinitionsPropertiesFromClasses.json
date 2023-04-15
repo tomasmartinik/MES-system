@@ -1,0 +1,16 @@
+{
+    "labels": {
+        "Create PersonnelDefinitionsPropertiesFromClasses": "Vytvořit Záznam vlastností definic personálu"
+    },
+    "fields": {
+        "personnelDefinitions": "Definice personálu",
+        "personnelProperties": "Vlastnost personálu",
+        "value": "Hodnota",
+        "personnelClasses": "Třída personálu"
+    },
+    "links": {
+        "personnelDefinitions": "Definice personálu",
+        "personnelProperties": "Vlastnost personálu",
+        "personnelClasses": "Třída personálu"
+    }
+}

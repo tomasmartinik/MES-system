@@ -1,0 +1,43 @@
+{
+    "fields": {
+        "customerName": "Jméno zákazníka",
+        "customerEmail": "Email zákazníka",
+        "status": "Status",
+        "priority": "Priorita (1-10)",
+        "orderItems": "Položky objednávky",
+        "number": "Číslo objednávky",
+        "confirmed": "Objednávka potvrzena",
+        "confirmedBy": "Potvrzeno",
+        "finishedAt": "FinishedAt",
+        "orderedAt": "Datum a čas objednání",
+        "startedAt": "StartedAt",
+        "productsFull": "ProductsFull",
+        "state": "Stav"
+    },
+    "links": {
+        "orderItems": "Položky objednávky",
+        "confirmedBy": "Potvrzeno"
+    },
+    "labels": {
+        "Create Orders": "Create Objednávka"
+    },
+    "options": {
+        "status": {
+            "new": "Nová",
+            "inProcess": "V procesu",
+            "Done": "Hotová"
+        },
+        "priority": {
+            "1": "1 (nejnižší)",
+            "2": "2",
+            "3": "3",
+            "4": "4",
+            "5": "5",
+            "6": "6",
+            "7": "7",
+            "8": "8",
+            "9": "9",
+            "10": "10 (nejvyšší)"
+        }
+    }
+}

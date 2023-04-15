@@ -1,0 +1,26 @@
+{
+  "fields": {
+    "executeTime": "Ausführen um",
+    "attempts": "Verbleibende Versuche",
+    "failedAttempts": "Fehlgeschlagene Versuche",
+    "methodName": "Methode",
+    "scheduledJob": "Geplante Aufgabe",
+    "data": "Daten",
+    "method": "Methode",
+    "scheduledJobJob": "Geplante Aufgabe Name",
+    "executedAt": "Ausgeführt um",
+    "startedAt": "Gestartet um",
+    "targetType": "Zieltyp",
+    "targetId": "Ziel ID",
+    "number": "Nummer",
+    "queue": "Warteschlange"
+  },
+  "options": {
+    "status": {
+      "Pending": "Schwebend",
+      "Success": "Erfolg",
+      "Running": "Läuft",
+      "Failed": "Fehlgeschlagen"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "fields": {
+        "personnelClasses": "Třídy personálu",
+        "personnelDefinitionsPropertiesFromClasses": "Vlastnosti",
+        "valueType": "Typ"
+    },
+    "links": {
+        "personnelClasses": "Třídy personálu",
+        "personnelDefinitionsPropertiesFromClasses": "Vlastnosti"
+    },
+    "labels": {
+        "Create PersonnelProperties": "Create Vlastnost třídy personálu"
+    },
+    "options": {
+        "valueType": {
+            "String": "String",
+            "Float": "Float",
+            "Int": "Int"
+        }
+    }
+}

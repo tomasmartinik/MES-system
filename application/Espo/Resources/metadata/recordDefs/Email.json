@@ -1,0 +1,13 @@
+{
+    "readLoaderClassNameList": [
+        "Espo\\Classes\\FieldProcessing\\Email\\AddressDataLoader",
+        "Espo\\Classes\\FieldProcessing\\Email\\UserColumnsLoader",
+        "Espo\\Classes\\FieldProcessing\\Email\\IcsDataLoader"
+    ],
+    "listLoaderClassNameList": [
+        "Espo\\Classes\\FieldProcessing\\Email\\StringDataLoader"
+    ],
+    "selectApplierClassNameList": [
+        "Espo\\Classes\\Select\\Email\\AdditionalAppliers\\Main"
+    ]
+}

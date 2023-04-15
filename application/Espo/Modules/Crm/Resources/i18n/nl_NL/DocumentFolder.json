@@ -1,0 +1,10 @@
+{
+  "labels": {
+    "Create DocumentFolder": "Creëer Document map",
+    "Manage Categories": "Beheer mappen",
+    "Documents": "Documenten"
+  },
+  "links": {
+    "documents": "Documenten"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "layout": "Lay-out",
+    "append": "Toevoegen (verwijder de tabbladen van de gebruiker niet)"
+  },
+  "labels": {
+    "Create DashboardTemplate": "Creëer Sjabloon",
+    "Deploy to Users": "Implementeer bij gebruikers",
+    "Deploy to Team": "Implementeer bij groep"
+  }
+}

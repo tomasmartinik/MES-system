@@ -1,0 +1,30 @@
+{
+    "fields": {
+        "materialDefinitions": "Materiál",
+        "equipmentDefinitions": "Vybavení",
+        "duration": "Doba trvání (s)",
+        "productDefinitions": "Definice produktu",
+        "materialClasses": "Třída materiálu",
+        "equipmentClasses": "Třída vybavení",
+        "productSegmentMaterialItems": "Materiál",
+        "productSegmentEquipmentItems": "Vybavení",
+        "productSegmentPersonnelItems1": "Personál",
+        "productSegmentPersonnelItemy": "Personál",
+        "productSegmentPersonnelItems": "Personál"
+    },
+    "links": {
+        "materialDefinitions": "Materiál",
+        "equipmentDefinitions": "Vybavení",
+        "productDefinitions": "Definice produktu",
+        "materialClasses": "Třída materiálu",
+        "equipmentClasses": "Třída vybavení",
+        "productSegmentMaterialItems": "Materiál",
+        "productSegmentEquipmentItems": "Vybavení",
+        "productSegmentPersonnelItems": "Personál",
+        "productSegmentPersonnelItems1": "Personál",
+        "productSegmentPersonnelItemy": "Personál"
+    },
+    "labels": {
+        "Create ProductSegments": "Create Segment produktu"
+    }
+}

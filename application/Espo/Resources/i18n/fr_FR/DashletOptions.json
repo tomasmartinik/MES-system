@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "title": "Titre",
+    "dateFrom": "Début",
+    "dateTo": "Fin",
+    "autorefreshInterval": "Intervalle de rafraîchissement automatique",
+    "displayRecords": "Afficher les enregistrements",
+    "isDoubleHeight": "Hauteur 2x",
+    "enabledScopeList": "Afficher",
+    "users": "Utilisateurs",
+    "entityType": "Type de Fonctionnalités",
+    "dateFilter": "Filtre de date",
+    "skipOwn": "Ne pas montrer ses propres dossiers"
+  },
+  "options": {
+    "mode": {
+      "agendaWeek": "Semaine (agenda)",
+      "basicWeek": "Semaine",
+      "month": "Mois",
+      "basicDay": "Jour",
+      "agendaDay": "Jour (calendrier)",
+      "timeline": "Plage de temps"
+    }
+  },
+  "messages": {
+    "selectEntityType": "Sélectionnez un Type de Fonctionnalité parmi les options."
+  },
+  "tooltips": {
+    "skipOwn": "Les actions effectuées par votre compte d'utilisateur ne seront pas affichées."
+  }
+}

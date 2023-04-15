@@ -1,0 +1,16 @@
+{
+    "labels": {
+        "Create ProductItem": "Vytvořit Položka produktu"
+    },
+    "fields": {
+        "orders": "Objednávky",
+        "components": "Komponenty",
+        "quantity": "Množství",
+        "products": "Produkty"
+    },
+    "links": {
+        "orders": "Objednávky",
+        "components": "Komponenty",
+        "products": "Produkty"
+    }
+}

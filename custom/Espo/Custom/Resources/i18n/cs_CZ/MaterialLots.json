@@ -1,0 +1,19 @@
+{
+    "labels": {
+        "Create MaterialLots": "Vytvořit Dávka materiálu"
+    },
+    "fields": {
+        "materialDefinitionses": "Material Definitionses",
+        "storageLocation": "Místo uskladnění",
+        "quantityUnit": "Jednotka",
+        "quantityValue": "Množství",
+        "materialDefinitions": "Definice materiálu"
+    },
+    "links": {
+        "materialDefinitionses": "Material Definitionses",
+        "materialDefinitions": "Definice materiálu"
+    },
+    "tooltips": {
+        "name": "Pokud prázdné, tak \"Dávka ... \""
+    }
+}

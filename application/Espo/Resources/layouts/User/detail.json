@@ -1,0 +1,11 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [{"name":"userName"}, false],
+            [{"name": "name"}, {"name": "title"}],
+            [{"name": "emailAddress"}, {"name": "phoneNumber"}],
+            [{"name":"gender"}, false]
+        ]
+    }
+]

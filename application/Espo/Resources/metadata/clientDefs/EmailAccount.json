@@ -1,0 +1,101 @@
+{
+    "controller": "controllers/email-account",
+    "recordViews": {
+        "list":"views/email-account/record/list",
+        "detail": "views/email-account/record/detail",
+        "edit": "views/email-account/record/edit"
+    },
+    "views": {
+    	"list": "views/email-account/list"
+    },
+    "inlineEditDisabled": true,
+    "searchPanelDisabled": true,
+    "formDependency": {
+        "storeSentEmails": {
+            "map": {
+                "true" : [
+                    {
+                        "action": "show",
+                        "fields": ["sentFolder"]
+                    },
+                    {
+                        "action": "setRequired",
+                        "fields": ["sentFolder"]
+                    }
+                ]
+            },
+            "default": [
+                {
+                    "action": "hide",
+                    "fields": ["sentFolder"]
+                },
+                {
+                    "action": "setNotRequired",
+                    "fields": ["sentFolder"]
+                }
+            ]
+        }
+    },
+    "dynamicLogic": {
+        "fields": {
+            "smtpUsername": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "and",
+                            "value": [
+                                {
+                                    "type": "isTrue",
+                                    "attribute": "useImap"
+                                },
+                                {
+                                    "type": "isTrue",
+                                    "attribute": "smtpAuth"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "fetchSince": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "fetchData"
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "relationshipPanels": {
+        "filters": {
+            "select": false,
+            "rowActionsView": "views/record/row-actions/relationship-edit-and-remove",
+            "unlinkDisabled": true
+        },
+        "emails": {
+            "select": false,
+            "create": false,
+            "rowActionsView": "views/record/row-actions/remove-only",
+            "unlinkDisabled": true
+        }
+    }
+}

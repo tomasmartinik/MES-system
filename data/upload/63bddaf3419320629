@@ -1,0 +1,8 @@
+Barva (popis);String;
+Chuť (popis);String;
+Obsah alkoholu (%);Int;
+Cena;Float;
+Objem sklenice;Float;
+Typ sklenice;String;
+Výrobce;String;Kdo vzorek dodal
+;;

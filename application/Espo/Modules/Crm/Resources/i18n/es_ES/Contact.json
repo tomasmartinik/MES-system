@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "name": "Nombre",
+    "emailAddress": "Correo electrónico",
+    "accountRole": "Título",
+    "account": "Cuenta",
+    "accounts": "Cuentas",
+    "phoneNumber": "Teléfono",
+    "accountType": "Tipo de Cuenta",
+    "doNotCall": "No llamar",
+    "address": "Dirección",
+    "opportunityRole": "Rol de Oportunidad",
+    "description": "Descripción",
+    "campaign": "Campaña",
+    "targetLists": "Lista de objetivos",
+    "targetList": "Lista de objetivos",
+    "portalUser": "Usuario del portal",
+    "originalLead": "Posible cliente de origen",
+    "acceptanceStatus": "Estado de Aceptación",
+    "accountIsInactive": "Cuenta inactiva",
+    "acceptanceStatusMeetings": "Estado de aceptación (Reuniones)",
+    "acceptanceStatusCalls": "Estado de aceptación (Llamadas)",
+    "title": "Titulo de cuenta",
+    "hasPortalUser": "Tiene usuario del portal"
+  },
+  "links": {
+    "opportunities": "Oportunidades",
+    "cases": "Tickets",
+    "targetLists": "Lista de objetivos",
+    "campaignLogRecords": "Registro de Campaña",
+    "campaign": "Campaña",
+    "account": "Cuentas (principal)",
+    "accounts": "Cuentas",
+    "casesPrimary": "Tickets (principal)",
+    "portalUser": "Usuario del portal",
+    "originalLead": "Posible cliente de origen",
+    "documents": "Documentos",
+    "tasksPrimary": "Tareas (ampliadas)",
+    "opportunitiesPrimary": "Oportunidades (primaria)"
+  },
+  "labels": {
+    "Create Contact": "Crear contacto"
+  },
+  "options": {
+    "opportunityRole": {
+      "Decision Maker": "Tomador de decisiones",
+      "Evaluator": "Evaluador",
+      "Influencer": "Factor de influencia"
+    }
+  },
+  "presetFilters": {
+    "portalUsers": "Usuarios del portal",
+    "notPortalUsers": "No son usuarios del portal",
+    "accountActive": "Activo"
+  }
+}

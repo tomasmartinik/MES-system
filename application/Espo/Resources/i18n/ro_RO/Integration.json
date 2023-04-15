@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "enabled": "Activat",
+    "redirectUri": "Redirecționare URI",
+    "apiKey": "Cheie API"
+  },
+  "messages": {
+    "selectIntegration": "Selectați o integrare din meniu",
+    "noIntegrations": "Nu este disponibilă nici o integrare"
+  }
+}

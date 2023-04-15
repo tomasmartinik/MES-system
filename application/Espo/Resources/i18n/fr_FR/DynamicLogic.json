@@ -1,0 +1,12 @@
+{
+  "options": {
+    "operators": {
+      "notEquals": "N'est pas égale",
+      "notContains": "Ne contient pas",
+      "notHas": "Ne contient pas"
+    }
+  },
+  "labels": {
+    "Field": "Champ"
+  }
+}

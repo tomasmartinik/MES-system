@@ -1,0 +1,14 @@
+{
+  "labels": {
+    "Primary": "Primārais",
+    "Opted Out": "Neizvēlēties",
+    "Invalid": "Nederīgs"
+  },
+  "fields": {
+    "optOut": "Izslēgts",
+    "invalid": "Nederīgs"
+  },
+  "presetFilters": {
+    "orphan": "Bāreņi"
+  }
+}

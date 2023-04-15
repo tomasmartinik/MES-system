@@ -1,0 +1,196 @@
+<?php
+/************************************************************************
+ * This file is part of EspoCRM.
+ *
+ * EspoCRM - Open Source CRM application.
+ * Copyright (C) 2014-2022 Yurii Kuznietsov, Taras Machyshyn, Oleksii Avramenko
+ * Website: https://www.espocrm.com
+ *
+ * EspoCRM is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * EspoCRM is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with EspoCRM. If not, see http://www.gnu.org/licenses/.
+ *
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU General Public License version 3.
+ *
+ * In accordance with Section 7(b) of the GNU General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "EspoCRM" word.
+ ************************************************************************/
+
+namespace Espo\Core\Field;
+
+use Espo\Core\Currency\CalculatorUtil;
+
+use RuntimeException;
+use InvalidArgumentException;
+
+/**
+ * A currency value object. Immutable.
+ */
+class Currency
+{
+    private string $amount;
+
+    private string $code;
+
+    /**
+     * @param string|float $amount
+     * @throws RuntimeException
+     */
+    public function __construct($amount, string $code)
+    {
+        if (!is_string($amount) && !is_float($amount)) {
+            throw new InvalidArgumentException();
+        }
+
+        if (strlen($code) !== 3) {
+            throw new RuntimeException("Bad currency code.");
+        }
+
+        if (is_float($amount)) {
+            $amount = (string) $amount;
+        }
+
+        $this->amount = $amount;
+        $this->code = $code;
+    }
+
+    /**
+     * Get an amount as string.
+     */
+    public function getAmountAsString(): string
+    {
+        return $this->amount;
+    }
+
+    /**
+     * Get an amount.
+     */
+    public function getAmount(): float
+    {
+        return (float) $this->amount;
+    }
+
+    /**
+     * Get a currency code.
+     */
+    public function getCode(): string
+    {
+        return $this->code;
+    }
+
+    /**
+     * Add a currency value.
+     *
+     * @throws RuntimeException If currency codes are different.
+     */
+    public function add(self $value): self
+    {
+        if ($this->getCode() !== $value->getCode()) {
+            throw new RuntimeException("Can't add a currency value with a different code.");
+        }
+
+        $amount = CalculatorUtil::add(
+            $this->getAmountAsString(),
+            $value->getAmountAsString()
+        );
+
+        return new self($amount, $this->getCode());
+    }
+
+    /**
+     * Subtract a currency value.
+     *
+     * @throws RuntimeException If currency codes are different.
+     */
+    public function subtract(self $value): self
+    {
+        if ($this->getCode() !== $value->getCode()) {
+            throw new RuntimeException("Can't substract a currency value with a different code.");
+        }
+
+        $amount = CalculatorUtil::subtract(
+            $this->getAmountAsString(),
+            $value->getAmountAsString()
+        );
+
+        return new self($amount, $this->getCode());
+    }
+
+    /**
+     * Multiply by a multiplier.
+     */
+    public function multiply(float $multiplier): self
+    {
+        $amount = CalculatorUtil::multiply(
+            $this->getAmountAsString(),
+            (string) $multiplier
+        );
+
+        return new self($amount, $this->getCode());
+    }
+
+    /**
+     * Divide by a divider.
+     */
+    public function divide(float $divider): self
+    {
+        $amount = CalculatorUtil::divide(
+            $this->getAmountAsString(),
+            (string) $divider
+        );
+
+        return new self($amount, $this->getCode());
+    }
+
+    /**
+     * Round with a precision.
+     */
+    public function round(int $precision = 0): self
+    {
+        $amount = CalculatorUtil::round($this->getAmountAsString(), $precision);
+
+        return new self($amount, $this->getCode());
+    }
+
+    /**
+     * Compare with another currency value. Returns:
+     * - `1` if greater than the value;
+     * - `0` if equal to the value;
+     * - `-1` if less than the value.
+     *
+     * @throws RuntimeException If currency codes are different.
+     */
+    public function compare(self $value): int
+    {
+        if ($this->getCode() !== $value->getCode()) {
+            throw new RuntimeException("Can't compare currencies with different codes.");
+        }
+
+        return CalculatorUtil::compare(
+            $this->getAmountAsString(),
+            $value->getAmountAsString()
+        );
+    }
+
+    /**
+     * Create from an amount and code.
+     *
+     * @param string|float $amount
+     * @throws RuntimeException
+     */
+    public static function create($amount, string $code): self
+    {
+        return new self($amount, $code);
+    }
+}

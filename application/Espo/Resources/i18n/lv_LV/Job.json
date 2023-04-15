@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "status": "statuss",
+    "executeTime": "Izpildīt",
+    "attempts": "Palikušie mēģinājumi",
+    "failedAttempts": "Neizdevušies mēģinājumi",
+    "serviceName": "Pakalpojums",
+    "methodName": "Metode",
+    "scheduledJob": "Ieplānotais darbs",
+    "data": "Dati",
+    "method": "Metode (novecojis)",
+    "scheduledJobJob": "Ieplānotā darba nosaukums",
+    "executedAt": "Izpildīts",
+    "startedAt": "Sākās",
+    "targetType": "Mērķa tips",
+    "targetId": "Mērķa ID",
+    "number": "Numurs",
+    "queue": "Rinda",
+    "job": "Darbs",
+    "group": "Grupa",
+    "className": "Klases nosaukums",
+    "targetGroup": "Mērķa grupa"
+  },
+  "options": {
+    "status": {
+      "Pending": "Tiek gaidīts",
+      "Success": "Veiksmīgi izpildīts",
+      "Running": "Tiek izpildīts",
+      "Failed": "Neizdevās"
+    }
+  }
+}

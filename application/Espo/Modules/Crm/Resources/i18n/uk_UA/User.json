@@ -1,0 +1,10 @@
+{
+  "links": {
+    "targetLists": "Цільові списки"
+  },
+  "fields": {
+    "acceptanceStatus": "Статус підтвердження",
+    "acceptanceStatusMeetings": "Статус підтвердження (Зустрічі)",
+    "acceptanceStatusCalls": "Статус підтвердження (Дзвінки)"
+  }
+}

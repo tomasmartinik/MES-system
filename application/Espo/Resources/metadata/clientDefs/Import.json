@@ -1,0 +1,81 @@
+{
+    "controller": "controllers/import",
+    "acl": "acl/import",
+    "recordViews": {
+        "list": "views/import/record/list",
+        "detail": "views/import/record/detail"
+    },
+    "views": {
+    	"list": "views/import/list",
+    	"detail": "views/import/detail"
+    },
+    "bottomPanels": {
+    	"detail": [
+	    	{
+	    		"name": "imported",
+	    		"label": "Imported",
+	    		"view": "views/import/record/panels/imported",
+                "createDisabled": true,
+                "selectDisabled": true,
+                "unlinkDisabled": true
+	    	},
+	    	{
+	    		"name": "duplicates",
+	    		"label": "Duplicates",
+	    		"view": "views/import/record/panels/duplicates",
+                "rowActionsView": "views/import/record/row-actions/duplicates",
+                "createDisabled": true,
+                "selectDisabled": true,
+                "unlinkDisabled": true
+	    	},
+	    	{
+	    		"name": "updated",
+	    		"label": "Updated",
+	    		"view": "views/import/record/panels/updated",
+                "createDisabled": true,
+                "selectDisabled": true,
+                "unlinkDisabled": true
+	    	}
+	    ]
+    },
+    "searchPanelDisabled": true,
+    "relationshipPanels": {
+        "errors": {
+            "unlinkDisabled": true,
+            "actionList": [
+                {
+                    "name": "export",
+                    "action": "errorExport",
+                    "label": "Export",
+                    "data": {
+                        "handler": "handlers/import"
+                    }
+                }
+            ]
+        }
+    },
+    "iconClass": "fas fa-file-import",
+    "dateFormatList": [
+        "YYYY-MM-DD",
+        "DD-MM-YYYY",
+        "MM-DD-YYYY",
+        "MM/DD/YYYY",
+        "DD/MM/YYYY",
+        "DD.MM.YYYY",
+        "MM.DD.YYYY",
+        "YYYY.MM.DD",
+        "DD. MM. YYYY"
+    ],
+    "timeFormatList": [
+        "HH:mm:ss",
+        "HH:mm",
+        "hh:mm a",
+        "hh:mma",
+        "hh:mm A",
+        "hh:mmA",
+        "hh:mm:ss a",
+        "hh:mm:ssa",
+        "hh:mm:ss A",
+        "hh:mm:ssA"
+    ]
+}

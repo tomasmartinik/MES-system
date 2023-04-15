@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "name": "Naam",
+    "body": "Inhoud",
+    "entityType": "Type entiteit",
+    "header": "Koptekst",
+    "footer": "Voettekst",
+    "leftMargin": "Linker marge",
+    "topMargin": "Boven marge",
+    "rightMargin": "Rechter marge",
+    "bottomMargin": "Onderste marge",
+    "printFooter": "Print voettekst",
+    "footerPosition": "Voettekst positie",
+    "variables": "Beschikbare aanduidingen",
+    "pageOrientation": "Paginaoriëntatie",
+    "pageFormat": "Papierformaat",
+    "fontFace": "Lettertype",
+    "pageWidth": "Paginabreedte (mm)",
+    "pageHeight": "Pagina Hoogte (mm)",
+    "headerPosition": "Koptekst Positie",
+    "printHeader": "Kop afdrukken",
+    "title": "Titel"
+  },
+  "labels": {
+    "Create Template": "Creëer Sjabloon"
+  },
+  "tooltips": {
+    "footer": "Gebruik {pageNumber} om het paginanummer af te drukken.",
+    "variables": "Kopieer en plak de benodigde aanduiding naar koptekst, hoofdtekst of voettekst."
+  },
+  "options": {
+    "pageOrientation": {
+      "Portrait": "Portret",
+      "Landscape": "Landschap"
+    },
+    "placeholders": {
+      "today": "Vandaag (date)",
+      "now": "Nu (datum-tijd)",
+      "pagebreak": "Pagina-einde"
+    },
+    "fontFace": {
+      "pdfasymbol": "PDFA-symbool",
+      "symbol": "Symbool"
+    },
+    "pageFormat": {
+      "Custom": "Aangepast"
+    }
+  }
+}

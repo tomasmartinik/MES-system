@@ -1,0 +1,15 @@
+{
+    "aclDependencies": {
+        "Lead.options.source": {
+            "scope": "Opportunity",
+            "field": "leadSource"
+        },
+        "Account.options.industry": {
+            "scope": "Lead",
+            "field": "industry"
+        },
+        "Meeting": {
+            "scope": "Call"
+        }
+    }
+}

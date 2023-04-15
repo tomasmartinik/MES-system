@@ -1,0 +1,22 @@
+{
+    "fields": {
+        "entityType": {
+            "type": "varchar",
+            "index": true,
+            "maxLength": 100
+        },
+        "fieldName": {
+            "type": "varchar",
+            "maxLength": 100
+        },
+        "value": {
+            "type": "int",
+            "default": 1
+        }
+    },
+    "indexes": {
+        "entityTypeFieldName": {
+            "columns": ["entityType", "fieldName"]
+        }
+    }
+}

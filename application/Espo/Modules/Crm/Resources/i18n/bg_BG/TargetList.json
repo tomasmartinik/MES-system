@@ -1,0 +1,41 @@
+{
+  "fields": {
+    "name": "Име",
+    "description": "Описание",
+    "entryCount": "Брой записи",
+    "campaigns": "Кампании",
+    "endDate": "Крайна дата",
+    "targetLists": "Целеви списъци",
+    "includingActionList": "Включително",
+    "excludingActionList": "С изключение на",
+    "optedOutCount": "Отписали се",
+    "targetStatus": "Целеви статус",
+    "isOptedOut": "Отписал се"
+  },
+  "links": {
+    "accounts": "Клиенти",
+    "contacts": "Контакти",
+    "leads": "Потенциални продажба",
+    "campaigns": "Кампании",
+    "massEmails": "Масови имейли"
+  },
+  "options": {
+    "type": {
+      "Email": "Електронна поща",
+      "Web": "Интернет",
+      "Television": "Телевизия",
+      "Radio": "Радио",
+      "Newsletter": "Имейл бюлетин"
+    },
+    "targetStatus": {
+      "Opted Out": "Отписал се",
+      "Listed": "изброени"
+    }
+  },
+  "labels": {
+    "Create TargetList": "Създаване на целеви списък",
+    "Opted Out": "Отказали се",
+    "Cancel Opt-Out": "Отмяна на отказване",
+    "Opt-Out": "Отписване"
+  }
+}

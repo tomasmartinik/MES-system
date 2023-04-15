@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "name": "Vārds/nosaukums",
+    "status": "Statuss",
+    "isHtml": "Ir HTML",
+    "body": "Pamatteksts",
+    "subject": "Tēma",
+    "attachments": "Pielikumi",
+    "oneOff": "Pa vienam",
+    "category": "Kategorija",
+    "insertField": "Vietrāži"
+  },
+  "labels": {
+    "Create EmailTemplate": "Izveidot e-pasta veidni",
+    "Info": "Informācija",
+    "Available placeholders": "Pieejamie vietturi"
+  },
+  "tooltips": {
+    "oneOff": "Atzīmējiet, ja šo veidni izmantosiet tikai vienu reizi. Piem., masveida e-pastam."
+  },
+  "presetFilters": {
+    "actual": "Faktiskais"
+  },
+  "placeholderTexts": {
+    "optOutLink": "atrakstīšanās saite",
+    "today": "Šodienas datums",
+    "now": "Pašreizējais laiks un datums",
+    "currentYear": "Esošais gads",
+    "optOutUrl": "Saites URL, kas paredzēta atteikšanās saitei"
+  },
+  "messages": {
+    "infoText": "Pieejamās vietzīmes:\n\nTālrunis URL norakstīšanās saitei;\n\n{optOutLink} &#8211; norakstīšanās saite."
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "name": "Naam",
+    "username": "Gebruikersnaam",
+    "password": "Wachtwoord",
+    "port": "Poort",
+    "monitoredFolders": "Gecontroleerde mappen",
+    "fetchSince": "Opgehaald sinds",
+    "emailAddress": "E-mailadres",
+    "sentFolder": "Verzonden map",
+    "storeSentEmails": "Opslaan verzonden E-mails",
+    "keepFetchedEmailsUnread": "Laat opgehaalde E-mails als ongelezen staan",
+    "emailFolder": "Zet in map",
+    "useSmtp": "Gebruik SMTP",
+    "smtpHost": "SMTP host",
+    "smtpPort": "SMTP poort",
+    "smtpSecurity": "SMTP beveiliging",
+    "smtpUsername": "SMTP gebruikersnaam",
+    "smtpPassword": "SMTP wachtwoord",
+    "useImap": "Ophalen van e-mails",
+    "smtpAuthMechanism": "SMTP Auth Mechanisme",
+    "security": "Beveiliging"
+  },
+  "options": {
+    "status": {
+      "Active": "Actief",
+      "Inactive": "Inactief"
+    },
+    "smtpAuthMechanism": {
+      "plain": "Plat",
+      "login": "Login"
+    }
+  },
+  "labels": {
+    "Create EmailAccount": "Creëer E-mail Account",
+    "Main": "Hoofd",
+    "Test Connection": "Test verbinding",
+    "Send Test Email": "Verzend test e-mail"
+  },
+  "messages": {
+    "couldNotConnectToImap": "Kan geen verbinding maken met IMAP server",
+    "connectionIsOk": "Verbinding is Ok"
+  },
+  "links": {
+    "emails": "E-mails"
+  },
+  "tooltips": {
+    "monitoredFolders": "Meerdere mappen moeten gescheiden worden door een komma.\n\nU kunt een 'Verzonden' map toevoegen om e-mails te synchroniseren die zijn verzonden vanuit een externe e-mail cliënt.",
+    "storeSentEmails": "Verzonden E-mails worden opgeslagen op de IMAP server. E-mailadres veld moet overeenkomen met het E-mailadres waarvan verzonden wordt.",
+    "useSmtp": "De mogelijkheid om e-mails te verzenden.",
+    "emailAddress": "Het gebruikersrecord (toegewezen gebruiker) moet hetzelfde e-mailadres hebben om dit e-mailaccount te kunnen gebruiken voor verzending."
+  }
+}

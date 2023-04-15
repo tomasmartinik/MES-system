@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "user": "Utilisateur",
+    "ipAddress": "Adresse IP",
+    "lastAccess": "Dernière date d'accès",
+    "createdAt": "Date de connexion"
+  },
+  "massActions": {
+    "setInactive": "Passer en inactif"
+  }
+}

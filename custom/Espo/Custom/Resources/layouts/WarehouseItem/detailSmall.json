@@ -1,0 +1,16 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "components"
+                },
+                {
+                    "name": "quantity"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

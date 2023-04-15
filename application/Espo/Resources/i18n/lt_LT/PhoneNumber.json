@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "type": "Tipas",
+    "optOut": "Atsisakyta",
+    "invalid": "Negaliojantis"
+  },
+  "presetFilters": {
+    "orphan": "Našlaitis"
+  }
+}

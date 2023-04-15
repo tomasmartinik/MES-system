@@ -1,0 +1,47 @@
+{
+  "fields": {
+    "dateFormat": "Format de la date",
+    "timeFormat": "Format de l'heure",
+    "timeZone": "Fuseau horaire",
+    "weekStart": "Premier jour de la semaine",
+    "thousandSeparator": "Séparateur de milliers",
+    "decimalMark": "Symbole décimal",
+    "defaultCurrency": "Devise par défaut",
+    "currencyList": "Liste des devises",
+    "language": "Langage",
+    "smtpServer": "Serveur",
+    "smtpSecurity": "Sécurité",
+    "smtpUsername": "Nom d'utilisateur",
+    "smtpPassword": "Mot de passe",
+    "smtpEmailAddress": "Adresse email",
+    "exportDelimiter": "Délimitant pour l'export",
+    "signature": "Signature email",
+    "dashboardTabList": "Liste des onglets",
+    "tabList": "Liste des onglets",
+    "defaultReminders": "Notifications par défaut",
+    "theme": "Thème",
+    "useCustomTabList": "Liste d'onglets personnalisé",
+    "followCreatedEntityTypeList": "Suivre automatiquement les éléments créés parmi les Fonctionnalités sélectionnées",
+    "emailUseExternalClient": "Utiliser un client de messagerie externe",
+    "scopeColorsDisabled": "Désactiver les couleurs de la portée",
+    "tabColorsDisabled": "Désactiver les couleurs des onglets",
+    "assignmentNotificationsIgnoreEntityTypeList": "Notifications d'affectation dans l'application",
+    "assignmentEmailNotificationsIgnoreEntityTypeList": "Notifications d'attribution de courrier électronique"
+  },
+  "options": {
+    "weekStart": {
+      "0": "Dimanche",
+      "1": "Lundi"
+    }
+  },
+  "labels": {
+    "User Interface": "Interface utilisateurs",
+    "Misc": "Divers",
+    "Reset Dashboard to Default": "Réinitialiser le tableau de bord par défaut"
+  },
+  "tooltips": {
+    "autoFollowEntityTypeList": "Suivre automatiquement TOUS les nouveaux éléments parmi la sélection de Type de Fonctionnalités, quelqu'en soit le créateur. Les voir dans le Flux et recevoir des notifications pour TOUS les éléments du système.",
+    "followCreatedEntities": "Lors de la création de nouveaux enregistrements, ils seront automatiquement suivis même s'ils sont attribués à un autre utilisateur.",
+    "followCreatedEntityTypeList": "Vous suivrez automatiquement les éléments que vous créerez s'ils font partie de votre sélection de Fonctionnalités, même s’ils sont attribués à un autre utilisateur."
+  }
+}

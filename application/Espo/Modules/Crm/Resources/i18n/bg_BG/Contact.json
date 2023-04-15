@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "name": "Име",
+    "emailAddress": "Електронна поща",
+    "accountRole": "Заглавие",
+    "account": "Клиент",
+    "accounts": "Клиенти",
+    "phoneNumber": "Телефон",
+    "accountType": "Тип на профила",
+    "doNotCall": "Не звъни",
+    "address": "Адрес",
+    "opportunityRole": "Роля в сделка",
+    "description": "Описание",
+    "campaign": "Кампания",
+    "targetLists": "Целеви списъци",
+    "targetList": "Целева Списък",
+    "portalUser": "Потребител на портал",
+    "originalLead": "Оригинална потенциална продажба",
+    "acceptanceStatus": "Статус за приемане",
+    "accountIsInactive": "Неактивен клиент",
+    "acceptanceStatusMeetings": "Статус на приемане (Срещи)",
+    "acceptanceStatusCalls": "Статус на приемане (Разговори)",
+    "title": "Роля при клиент",
+    "hasPortalUser": "Притежава акаунт в портала"
+  },
+  "links": {
+    "opportunities": "Сделки",
+    "cases": "Тикети",
+    "targetLists": "Целеви списъци",
+    "campaignLogRecords": "Логове от кампания",
+    "campaign": "Кампания",
+    "account": "Клиент (Основен)",
+    "accounts": "Клиенти",
+    "casesPrimary": "Тикети (Основни)",
+    "portalUser": "Потребител в портал",
+    "originalLead": "Оригинална потенциална продажба",
+    "documents": "Документи",
+    "tasksPrimary": "Задачи (разширена)",
+    "opportunitiesPrimary": "Възможности (Основно)"
+  },
+  "labels": {
+    "Create Contact": "Създаване на контакт"
+  },
+  "options": {
+    "opportunityRole": {
+      "Decision Maker": "Вземащ решения",
+      "Evaluator": "Оценител",
+      "Influencer": "Инфлуенсър"
+    }
+  },
+  "presetFilters": {
+    "portalUsers": "Потребители на портала",
+    "notPortalUsers": "Не потребители на портала",
+    "accountActive": "Активен"
+  }
+}

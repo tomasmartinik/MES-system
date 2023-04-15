@@ -1,0 +1,70 @@
+{
+  "labels": {
+    "Converted To": "Конвертирана в",
+    "Create Lead": "Създаване на Потенциална продажба",
+    "Convert": "Конвертиране",
+    "convert": "конвертиране"
+  },
+  "fields": {
+    "name": "Име",
+    "emailAddress": "Електронна поща",
+    "title": "Заглавие",
+    "website": "Уебсайт",
+    "phoneNumber": "Телефон",
+    "accountName": "Име на клиента",
+    "doNotCall": "Не звъни",
+    "address": "Адрес",
+    "status": "Статус",
+    "source": "Източник",
+    "opportunityAmount": "Сума на сделката",
+    "opportunityAmountConverted": "Сума на сделката (изчислена)",
+    "description": "Описание",
+    "createdAccount": "Клиент",
+    "createdContact": "Контакт",
+    "createdOpportunity": "Сделка",
+    "campaign": "Кампания",
+    "targetLists": "Целеви списъци",
+    "targetList": "Целева списък",
+    "industry": "Промишленост",
+    "acceptanceStatus": "Статус за приемане",
+    "opportunityAmountCurrency": "Валута на сумата в сделката",
+    "acceptanceStatusMeetings": "Статус на приемане (Срещи)",
+    "acceptanceStatusCalls": "Статус на приемане (Разговори)",
+    "convertedAt": "Конвертирана на"
+  },
+  "links": {
+    "targetLists": "Целеви списъци",
+    "campaignLogRecords": "Логове на кампанията",
+    "campaign": "Кампания",
+    "createdAccount": "Клиент",
+    "createdContact": "Контакт",
+    "createdOpportunity": "Сделка",
+    "cases": "Тикети",
+    "documents": "Документи"
+  },
+  "options": {
+    "status": {
+      "New": "Нова",
+      "Assigned": "Назначена",
+      "In Process": "В процес",
+      "Converted": "Конвертирана",
+      "Recycled": "Рециклирана",
+      "Dead": "Изоставена"
+    },
+    "source": {
+      "Call": "Обадете се",
+      "Email": "Електронна поща",
+      "Existing Customer": "Съществуващ клиент",
+      "Partner": "Партньор",
+      "Public Relations": "Връзки с обществеността",
+      "Web Site": "Уеб сайт",
+      "Campaign": "Кампания",
+      "Other": "Друг"
+    }
+  },
+  "presetFilters": {
+    "active": "Активен",
+    "actual": "Актуален",
+    "converted": "Конвертиран"
+  }
+}

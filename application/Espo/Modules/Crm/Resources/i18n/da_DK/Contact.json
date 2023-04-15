@@ -1,0 +1,51 @@
+{
+  "fields": {
+    "name": "Navn",
+    "accountRole": "Titel",
+    "account": "Konto",
+    "accounts": "Konti",
+    "phoneNumber": "Telefon",
+    "accountType": "Kontotype",
+    "doNotCall": "Ring Ikke",
+    "address": "Adresse",
+    "opportunityRole": "Mulighed Rolle",
+    "description": "Beskrivelse",
+    "campaign": "Kampagne",
+    "targetLists": "Kontaktlister",
+    "targetList": "Kontaktliste",
+    "portalUser": "Portalbruger",
+    "originalLead": "Oprindelig Lead",
+    "accountIsInactive": "Konto inaktiv",
+    "acceptanceStatusMeetings": "Accept status (Møder)",
+    "acceptanceStatusCalls": "Accpet status (Opkald)",
+    "title": "Primær brugertitel"
+  },
+  "links": {
+    "opportunities": "Muligheder",
+    "cases": "Sager",
+    "targetLists": "Kontaktlister",
+    "campaignLogRecords": "Kampagne-log",
+    "campaign": "Kampagne",
+    "account": "Konto (Primær)",
+    "accounts": "Konti",
+    "casesPrimary": "Sager (Primære)",
+    "portalUser": "Portalbruger",
+    "originalLead": "Oprindelig Lead",
+    "documents": "Dokumenter",
+    "tasksPrimary": "Opgaver (udvidede)"
+  },
+  "labels": {
+    "Create Contact": "Opret Kontakt"
+  },
+  "options": {
+    "opportunityRole": {
+      "Decision Maker": "Beslutningstager",
+      "Influencer": "Har Indflydelse"
+    }
+  },
+  "presetFilters": {
+    "portalUsers": "Portalbrugere",
+    "notPortalUsers": "Ikke Portalbrugere",
+    "accountActive": "Aktiv"
+  }
+}

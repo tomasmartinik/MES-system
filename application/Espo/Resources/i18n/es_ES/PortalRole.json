@@ -1,0 +1,19 @@
+{
+  "links": {
+    "users": "Usuarios"
+  },
+  "labels": {
+    "Access": "Acceder",
+    "Create PortalRole": "Crear rol del portal",
+    "Scope Level": "Nivel de acceso a entidades",
+    "Field Level": "Nivel de acceso a campos"
+  },
+  "fields": {
+    "exportPermission": "Permisos de exportación",
+    "massUpdatePermission": "Permiso de actualización masiva"
+  },
+  "tooltips": {
+    "exportPermission": "Define si los usuarios del portal tienen la capacidad de exportar registros.",
+    "massUpdatePermission": "Define si los usuarios del portal tienen la capacidad de realizar una actualización masiva de registros."
+  }
+}

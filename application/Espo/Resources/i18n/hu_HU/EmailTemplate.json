@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "name": "Név",
+    "status": "Állapot",
+    "isHtml": "Html",
+    "body": "Test",
+    "subject": "Tantárgy",
+    "attachments": "Mellékletek",
+    "oneOff": "Egyszeri"
+  },
+  "labels": {
+    "Create EmailTemplate": "E-mail sablon létrehozása",
+    "Available placeholders": "Rendelkezésre álló helyőrzők"
+  },
+  "tooltips": {
+    "oneOff": "Ellenőrizze, hogy ezt a sablont csak egyszer használja. Például. Mass Email számára."
+  },
+  "presetFilters": {
+    "actual": "Tényleges"
+  },
+  "placeholderTexts": {
+    "optOutLink": "leiratkozási link"
+  }
+}

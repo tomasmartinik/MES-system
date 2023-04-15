@@ -1,0 +1,14 @@
+{
+  "labels": {
+    "Create EmailTemplateCategory": "Creëer Categorie",
+    "Manage Categories": "Beheer categorieën",
+    "EmailTemplates": "E-mail sjablonen"
+  },
+  "fields": {
+    "order": "Sortering",
+    "childList": "Sublijst"
+  },
+  "links": {
+    "emailTemplates": "E-mail sjablonen"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "fields": {
+    "name": "Име",
+    "number": "Номер",
+    "status": "Статус",
+    "account": "Сметка",
+    "contact": "Контакт",
+    "contacts": "Контакти",
+    "priority": "Приоритет",
+    "type": "Тип",
+    "description": "Описание",
+    "lead": "Потенциална продажба",
+    "attachments": "Прикачени файлове",
+    "inboundEmail": "Групов имейл акаунт"
+  },
+  "links": {
+    "account": "Клиент",
+    "contact": "Контакт (Основен)",
+    "Contacts": "Контакти",
+    "meetings": "Срещи",
+    "calls": "Обаждания",
+    "tasks": "Задачи",
+    "emails": "Имейли",
+    "articles": "Статии от базата знания",
+    "lead": "Потенциална продажба",
+    "attachments": "Прикачени файлове",
+    "inboundEmail": "Групов имейл акаунт"
+  },
+  "options": {
+    "status": {
+      "New": "Нов",
+      "Assigned": "Назначен",
+      "Pending": "Отворен",
+      "Closed": "Затворен",
+      "Rejected": "Отхвърлен",
+      "Duplicate": "Дублиран"
+    },
+    "priority": {
+      "Low": "Нисък",
+      "Normal": "Нормален",
+      "High": "Висок",
+      "Urgent": "Спешен"
+    },
+    "type": {
+      "Question": "Въпрос",
+      "Incident": "Инцидент",
+      "Problem": "Проблем"
+    }
+  },
+  "labels": {
+    "Create Case": "Създаване на тикет",
+    "Close": "Затваряне",
+    "Reject": "Отхвърляне",
+    "Closed": "Затворен",
+    "Rejected": "Отхвърлен"
+  },
+  "presetFilters": {
+    "open": "Отворени",
+    "closed": "Затворени"
+  }
+}

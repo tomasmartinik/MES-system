@@ -1,0 +1,105 @@
+{
+    "recordViews":{
+        "detail":"views/inbound-email/record/detail",
+        "edit":"views/inbound-email/record/edit",
+        "list":"views/inbound-email/record/list"
+    },
+    "inlineEditDisabled": true,
+    "formDependency": {
+        "reply": {
+            "map": {
+                "true" : [
+                    {
+                        "action": "show",
+                        "fields": ["replyEmailTemplate", "replyFromAddress", "replyFromName"]
+                    }, {
+                        "action": "setRequired",
+                        "fields": ["replyEmailTemplate"]
+                    }
+                ]
+            },
+            "default": [
+                {
+                    "action": "hide",
+                    "fields": ["replyEmailTemplate", "replyFromAddress", "replyFromName"]
+                }, {
+                    "action": "setNotRequired",
+                    "fields": ["replyEmailTemplate"]
+                }
+            ]
+        }
+    },
+    "dynamicLogic": {
+        "fields": {
+            "smtpUsername": {
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "and",
+                            "value": [
+                                {
+                                    "type": "isTrue",
+                                    "attribute": "useImap"
+                                },
+                                {
+                                    "type": "isTrue",
+                                    "attribute": "smtpAuth"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "fetchSince": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                },
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "fetchData"
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "useImap"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "searchPanelDisabled": true,
+    "relationshipPanels": {
+        "filters": {
+            "select": false,
+            "rowActionsView": "views/record/row-actions/relationship-edit-and-remove",
+            "unlinkDisabled": true
+        },
+        "emails": {
+            "select": false,
+            "create": false,
+            "rowActionsView": "views/record/row-actions/remove-only",
+            "unlinkDisabled": true
+        }
+    },
+    "defaultSidePanelFieldLists": {
+        "detail": [
+        ],
+        "detailSmall": [
+        ],
+        "edit": [
+        ],
+        "editSmall": [
+        ]
+    }
+}

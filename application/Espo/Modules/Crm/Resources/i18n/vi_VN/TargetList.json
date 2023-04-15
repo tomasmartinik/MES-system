@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "name": "Tên",
+    "description": "Mô tả",
+    "endDate": "Ngày kết thúc",
+    "targetLists": "Danh sách mục tiêu"
+  },
+  "links": {
+    "accounts": "Tài khoản",
+    "leads": "Lead",
+    "campaigns": "Chiến dịch"
+  },
+  "options": {
+    "type": {
+      "Web": "Trang web",
+      "Television": "Truyền hình",
+      "Newsletter": "Thư"
+    }
+  },
+  "labels": {
+    "Create TargetList": "Tạo danh sách mục tiêu"
+  }
+}

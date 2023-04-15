@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "number": "Nummer",
+    "data": "Gegevens",
+    "target": "Doel",
+    "leadCapture": "Leads verwerven",
+    "createdAt": "Ingevoerd op",
+    "isCreated": "Lead gecreëerd"
+  },
+  "links": {
+    "leadCapture": "Leads verwerven",
+    "target": "Doel"
+  }
+}

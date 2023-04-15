@@ -1,0 +1,51 @@
+{
+  "fields": {
+    "name": "Tên",
+    "emailAddress": "Địa chỉ Email",
+    "status": "Trạng thái",
+    "assignToUser": "Chỉ định",
+    "host": "Máy chủ",
+    "username": "Tên đăng nhập",
+    "password": "Mật khẩu",
+    "port": "Cổng",
+    "monitoredFolders": "Thư mục được theo dõi",
+    "trashFolder": "Thùng rác",
+    "createCase": "Tạo trường hợp",
+    "reply": "Trả lời",
+    "caseDistribution": "Trường hợp phân phối",
+    "replyEmailTemplate": "Mẫu email trả lời",
+    "replyFromAddress": "Địa chỉ email trả lời",
+    "replyToAddress": "Trả lời sang mail",
+    "replyFromName": "Tên người gửi",
+    "addAllTeamUsers": "Cho tất cả thành viên trong nhóm",
+    "team": "Nhóm",
+    "teams": "Nhóm",
+    "smtpHost": "Máy chủ SMTP",
+    "smtpPort": "Cổng SMTP",
+    "smtpUsername": "Tên đăng nhập SMTP",
+    "smtpPassword": "Mật khẩu SMTP"
+  },
+  "tooltips": {
+    "createCase": "Tự động tạo trường hợp khi có email gửi đến."
+  },
+  "links": {
+    "filters": "Bộ lọc"
+  },
+  "options": {
+    "status": {
+      "Active": "Đang hoạt động",
+      "Inactive": "Chưa hoạt động"
+    },
+    "caseDistribution": {
+      "": "Trống"
+    }
+  },
+  "labels": {
+    "Create InboundEmail": "Tạo email đến",
+    "Actions": "Hoạt động",
+    "Main": "Chính"
+  },
+  "messages": {
+    "couldNotConnectToImap": "Không thể kết nối với máy chủ IMAP"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "fields": {
+    "name": "Nome",
+    "amount": "Importo",
+    "probability": "Probabilità, %",
+    "leadSource": "Sorgente Lead",
+    "doNotCall": "Non chiamare",
+    "closeDate": "Data di chiusura",
+    "contacts": "Contatti",
+    "description": "Descrizione",
+    "amountConverted": "Importo (convertito)",
+    "amountWeightedConverted": "Importo ponderato",
+    "campaign": "Campagna",
+    "originalLead": "Lead originale",
+    "amountCurrency": "Valuta dell'importo",
+    "contactRole": "Ruolo contatto",
+    "lastStage": "Ultimo Stadio",
+    "contact": "Contatto (Primario)"
+  },
+  "links": {
+    "contacts": "Contatti",
+    "documents": "Documenti",
+    "campaign": "Campagna",
+    "originalLead": "Lead originale",
+    "contact": "Contatto (Primario)"
+  },
+  "options": {
+    "stage": {
+      "Prospecting": "Prospezione",
+      "Qualification": "Qualifica",
+      "Needs Analysis": "Necessita di analisi",
+      "Value Proposition": "Proposta di valore",
+      "Id. Decision Makers": "Id. responsabile",
+      "Perception Analysis": "Percezione dell'Analisi",
+      "Proposal/Price Quote": "Proposta / preventivo",
+      "Negotiation/Review": "Negoziazione/revisione",
+      "Closed Won": "Chiuso Positivamente",
+      "Closed Lost": "Chiuso Negativamente",
+      "Proposal": "Proposta",
+      "Negotiation": "Negoziazione"
+    }
+  },
+  "labels": {
+    "Create Opportunity": "Crea Opportunità"
+  },
+  "presetFilters": {
+    "open": "Aperto",
+    "won": "Vinto",
+    "lost": "Perso"
+  }
+}

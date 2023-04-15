@@ -1,0 +1,156 @@
+{
+    "controller": "controllers/record",
+    "searchPanelDisabled": true,
+    "recordViews": {
+        "detail": "views/lead-capture/record/detail",
+        "list": "views/lead-capture/record/list"
+    },
+    "dynamicLogic": {
+        "fields": {
+            "targetList": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "subscribeToTargetList"
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "subscribeToTargetList"
+                        }
+                    ]
+                }
+            },
+            "subscribeContactToTargetList": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "subscribeToTargetList"
+                        }
+                    ]
+                }
+            },
+            "optInConfirmationLifetime": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "optInConfirmation"
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "optInConfirmation"
+                        }
+                    ]
+                }
+            },
+            "optInConfirmationSuccessMessage": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "optInConfirmation"
+                        }
+                    ]
+                }
+            },
+            "createLeadBeforeOptInConfirmation": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "optInConfirmation"
+                        }
+                    ]
+                }
+            },
+            "smtpAccount": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "optInConfirmation"
+                        }
+                    ]
+                }
+            },
+            "skipOptInConfirmationIfSubscribed": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "and",
+                            "value": [
+                                {
+                                    "type": "isTrue",
+                                    "attribute": "optInConfirmation"
+                                },
+                                {
+                                    "type": "isNotEmpty",
+                                    "attribute": "targetListId",
+                                    "data": {
+                                        "field": "targetList"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "optInConfirmationEmailTemplate": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "optInConfirmation"
+                        }
+                    ]
+                },
+                "required": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "optInConfirmation"
+                        }
+                    ]
+                }
+            },
+            "apiKey": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "id"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "sidePanels": {
+        "detail": [
+            {
+                "name": "request",
+                "label": "Request",
+                "isForm": true,
+                "view": "views/lead-capture/record/panels/request"
+            }
+        ]
+    },
+    "relationshipPanels": {
+        "logRecords": {
+            "rowActionsView": "views/record/row-actions/view-and-remove",
+            "layout": "listForLeadCapture",
+            "select": false,
+            "create": false
+        }
+    }
+}

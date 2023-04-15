@@ -1,0 +1,19 @@
+{
+    "fields": {
+        "equipmentDefinitionList": "Definice vybavení",
+        "equipmentClassesPropertiesElements": "Vlastnost třídy vybavení",
+        "value": "Hodnota",
+        "equipmentClassesPropertiesElementses": "Vlastnost třídy vybavení",
+        "equipmentClasses": "Třída vybavení"
+    },
+    "links": {
+        "equipmentDefinitionList": "Definice vybavení",
+        "equipmentClassesPropertiesElements": "Vlastnost třídy vybavení",
+        "equipmentClassesPropertiesElementses": "Vlastnost třídy vybavení",
+        "equipmentClasses": "Třída vybavení"
+    },
+    "labels": {
+        "Create EqipmentDefinitionsPropertiesFromClasses": "Vytvořit Záznam vlastnosti",
+        "Create EquipmentDefinitionsPropertiesFromClasses": "Vytvořit Záznam vlastností definic vybavení"
+    }
+}

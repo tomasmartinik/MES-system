@@ -1,0 +1,10 @@
+{
+    "fields": {
+        "orderses": "Orderses",
+        "orders": "Orders"
+    },
+    "links": {
+        "orderses": "Orderses",
+        "orders": "Orders"
+    }
+}

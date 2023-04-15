@@ -1,0 +1,83 @@
+{
+  "fields": {
+    "name": "Naam",
+    "emailAddress": "E-mailadres",
+    "assignToUser": "Toewijzen aan gebruiker",
+    "username": "Gebruikersnaam",
+    "password": "Wachtwoord",
+    "port": "Poort",
+    "monitoredFolders": "Gecontroleerde mappen",
+    "trashFolder": "Prullenbak map",
+    "createCase": "Creëer Ticket",
+    "reply": "Automatisch beantwoorden",
+    "caseDistribution": "Ticket verdeling",
+    "replyEmailTemplate": "Antwoord e-mail sjabloon",
+    "replyFromAddress": "Antwoord Van adres",
+    "replyToAddress": "Antwoord Aan adres",
+    "replyFromName": "Antwoord Van naam",
+    "targetUserPosition": "Functie van gebruiker",
+    "fetchSince": "Opgehaald sinds",
+    "addAllTeamUsers": "Voor alle groep gebruikers",
+    "team": "Doelgroep",
+    "teams": "Groepen",
+    "sentFolder": "Verzonden map",
+    "storeSentEmails": "Verzonden e-mails opslaan",
+    "useSmtp": "Gebruik SMTP",
+    "smtpHost": "SMTP-host",
+    "smtpPort": "SMTP-poort",
+    "smtpSecurity": "SMTP-beveiliging",
+    "smtpUsername": "SMTP-gebruikersnaam",
+    "smtpPassword": "SMTP-wachtwoord",
+    "fromName": "Van naam",
+    "smtpIsShared": "SMTP is gedeeld",
+    "smtpIsForMassEmail": "SMTP voor verzamel e-mail",
+    "useImap": "Ophalen van e-mails",
+    "keepFetchedEmailsUnread": "Laat opgehaalde E-mails als ongelezen staan",
+    "smtpAuthMechanism": "SMTP Auth Mechanisme",
+    "security": "Beveiliging"
+  },
+  "tooltips": {
+    "reply": "E-mail afzenders melden dat hun e-mails zijn ontvangen.\n\nEr wordt gedurende een bepaalde periode slechts één e-mail naar een bepaalde ontvanger gestuurd om looping te voorkomen.",
+    "createCase": "Maak automatisch een ticket van inkomende e-mails aan.",
+    "replyToAddress": "Geef het e-mailadres van deze mailbox op om reacties hierheen te laten komen.",
+    "caseDistribution": "Hoe tickets zullen worden toegewezen. Direct toegewezen aan de gebruiker of in de groep.",
+    "assignToUser": "Gebruikers e-mails/tickets zullen worden toegewezen aan.",
+    "team": "Groep e-mails/tickets zullen worden gerelateerd aan.",
+    "teams": "E-mails van groepen worden toegewezen aan.",
+    "addAllTeamUsers": "E-mails worden weergegeven in de Inbox van alle gebruikers van opgegeven groepen.",
+    "targetUserPosition": "Definieer de positie van de gebruikers waarover de tickets zullen worden verdeeld.",
+    "monitoredFolders": "Meerdere mappen moeten gescheiden worden door een komma.",
+    "smtpIsShared": "Indien ingeschakeld, kunnen gebruikers E-mails verzenden met behulp van deze SMTP. De beschikbaarheid wordt bepaald door functies via de toestemming van de groep e-mailaccounts.",
+    "smtpIsForMassEmail": "Indien ingeschakeld, is SMTP beschikbaar voor verzamel e-mail.",
+    "storeSentEmails": "Verzonden e-mails worden opgeslagen op de IMAP-server.",
+    "useSmtp": "De mogelijkheid om e-mails te verzenden."
+  },
+  "options": {
+    "status": {
+      "Active": "Actief",
+      "Inactive": "Inactief"
+    },
+    "caseDistribution": {
+      "": "Geen",
+      "Direct-Assignment": "Direct toewijzen",
+      "Round-Robin": "Willekeurig",
+      "Least-Busy": "Minst bezet"
+    },
+    "smtpAuthMechanism": {
+      "plain": "Plat",
+      "login": "Login"
+    }
+  },
+  "labels": {
+    "Create InboundEmail": "Creëer E-mail Account",
+    "Actions": "Acties",
+    "Main": "Hoofd"
+  },
+  "messages": {
+    "couldNotConnectToImap": "Kan geen verbinding maken met IMAP server"
+  },
+  "links": {
+    "emails": "E-mails",
+    "assignToUser": "Toewijzen aan gebruiker"
+  }
+}

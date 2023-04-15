@@ -1,0 +1,453 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true,
+            "pattern": "$noBadCharacters"
+        },
+        "amount": {
+            "type": "currency",
+            "required": true,
+            "min": 0,
+            "audited": true
+        },
+        "amountConverted": {
+            "type": "currencyConverted",
+            "readOnly": true
+        },
+        "amountWeightedConverted": {
+            "type": "float",
+            "readOnly": true,
+            "notStorable": true,
+            "select": {
+                "select": "DIV:(MUL:(amount, probability, amountCurrencyRate.rate), 100)",
+                "leftJoins": [
+                    [
+                        "Currency",
+                        "amountCurrencyRate",
+                        {"amountCurrencyRate.id:": "amountCurrency"}
+                    ]
+                ]
+            },
+            "where": {
+                "=": {
+                    "whereClause": {
+                        "DIV:(MUL:(amount, probability, amountCurrencyRate.rate), 100)=": "{value}"
+                    },
+                    "leftJoins": [
+                        [
+                            "Currency",
+                            "amountCurrencyRate",
+                            {"amountCurrencyRate.id:": "amountCurrency"}
+                        ]
+                    ]
+                },
+                "<": {
+                    "whereClause": {
+                        "DIV:(MUL:(amount, probability, amountCurrencyRate.rate), 100)<": "{value}"
+                    },
+                    "leftJoins": [
+                        [
+                            "Currency",
+                            "amountCurrencyRate",
+                            {"amountCurrencyRate.id:": "amountCurrency"}
+                        ]
+                    ]
+                },
+                ">": {
+                    "whereClause": {
+                        "DIV:(MUL:(amount, probability, amountCurrencyRate.rate), 100)>": "{value}"
+                    },
+                    "leftJoins": [
+                        [
+                            "Currency",
+                            "amountCurrencyRate",
+                            {"amountCurrencyRate.id:": "amountCurrency"}
+                        ]
+                    ]
+                },
+                "<=": {
+                    "whereClause": {
+                        "DIV:(MUL:(amount, probability, amountCurrencyRate.rate), 100)<=": "{value}"
+                    },
+                    "leftJoins": [
+                        [
+                            "Currency",
+                            "amountCurrencyRate",
+                            {"amountCurrencyRate.id:": "amountCurrency"}
+                        ]
+                    ]
+                },
+                ">=": {
+                    "whereClause": {
+                        "DIV:(MUL:(amount, probability, amountCurrencyRate.rate), 100)>=": "{value}"
+                    },
+                    "leftJoins": [
+                        [
+                            "Currency",
+                            "amountCurrencyRate",
+                            {"amountCurrencyRate.id:": "amountCurrency"}
+                        ]
+                    ]
+                },
+                "<>": {
+                    "whereClause": {
+                        "DIV:(MUL:(amount, probability, amountCurrencyRate.rate), 100)!=": "{value}"
+                    },
+                    "leftJoins": [
+                        [
+                            "Currency",
+                            "amountCurrencyRate",
+                            {"amountCurrencyRate.id:": "amountCurrency"}
+                        ]
+                    ]
+                },
+                "IS NULL": {
+                    "whereClause": {
+                       "IS_NULL:(amount)": true
+                    },
+                    "leftJoins": [
+                        [
+                            "Currency",
+                            "amountCurrencyRate",
+                            {"amountCurrencyRate.id:": "amountCurrency"}
+                        ]
+                    ]
+                },
+                "IS NOT NULL": {
+                    "whereClause": {
+                       "IS_NOT_NULL:(amount)": true
+                    },
+                    "leftJoins": [
+                        [
+                            "Currency",
+                            "amountCurrencyRate",
+                            {"amountCurrencyRate.id:": "amountCurrency"}
+                        ]
+                    ]
+                }
+            },
+            "order": {
+                "order": [
+                    ["DIV:(MUL:(amount, probability, amountCurrencyRate.rate), 100)", "{direction}"]
+                ],
+                "leftJoins": [
+                    [
+                        "Currency",
+                        "amountCurrencyRate",
+                        {"amountCurrencyRate.id:": "amountCurrency"}
+                    ]
+                ]
+            },
+            "view": "views/fields/currency-converted"
+        },
+        "account": {
+            "type": "link"
+        },
+        "contacts": {
+            "type": "linkMultiple",
+            "view": "crm:views/opportunity/fields/contacts",
+            "columns": {
+                "role": "opportunityRole"
+            },
+            "additionalAttributeList": ["columns"],
+            "primaryLink": "contact",
+            "orderBy": "name",
+            "detailLayoutIncompatibleFieldList": ["contact"]
+        },
+        "contact": {
+            "type": "link"
+        },
+        "stage": {
+            "type": "enum",
+            "options": ["Prospecting", "Qualification", "Proposal", "Negotiation", "Closed Won", "Closed Lost"],
+            "view": "crm:views/opportunity/fields/stage",
+            "default": "Prospecting",
+            "audited": true,
+            "probabilityMap": {
+                "Prospecting": 10,
+                "Qualification": 20,
+                "Proposal": 50,
+                "Negotiation": 80,
+                "Closed Won": 100,
+                "Closed Lost": 0
+            },
+            "style": {
+                "Closed Won": "success",
+                "Closed Lost": "danger"
+            },
+            "fieldManagerAdditionalParamList": [
+                {
+                    "name": "probabilityMap",
+                    "view": "crm:views/opportunity/admin/field-manager/fields/probability-map"
+                }
+            ]
+        },
+        "lastStage": {
+            "type": "enum",
+            "view": "crm:views/opportunity/fields/last-stage",
+            "customizationOptionsDisabled": true,
+            "customizationDefaultDisabled": true
+        },
+        "probability": {
+            "type": "int",
+            "required": true,
+            "min": 0,
+            "max": 100
+        },
+        "leadSource": {
+            "type": "enum",
+            "view": "crm:views/opportunity/fields/lead-source",
+            "customizationOptionsDisabled": true,
+            "optionsPath": "entityDefs.Lead.fields.source.options",
+            "translation": "Lead.options.source"
+        },
+        "closeDate": {
+            "type": "date",
+            "required": true,
+            "audited": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "campaign": {
+            "type": "link"
+        },
+        "originalLead": {
+            "type": "linkOne",
+            "readOnly": true,
+            "view": "views/fields/link-one"
+        },
+        "contactRole": {
+            "type": "enum",
+            "notStorable": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutAvailabilityList": ["listForContact"],
+            "customizationDefaultDisabled": true,
+            "customizationRequiredDisabled": true,
+            "customizationIsSortedDisabled": true,
+            "customizationAuditedDisabled": true,
+            "customizationReadOnlyDisabled": true,
+            "where": {
+                "=": {
+                    "leftJoins": ["contacts"],
+                    "whereClause": {
+                        "contactsMiddle.role": "{value}"
+                    },
+                    "distinct": true
+                },
+                "<>": {
+                    "whereClause": {
+                        "id!=s": {
+                            "from": "ContactOpportunity",
+                            "select": ["opportunityId"],
+                            "whereClause": {
+                                "deleted": 0,
+                                "role": "{value}"
+                            }
+                        }
+                    }
+                },
+                "IN": {
+                    "leftJoins": ["contacts"],
+                    "whereClause": {
+                        "contactsMiddle.role": "{value}"
+                    },
+                    "distinct": true
+                },
+                "NOT IN": {
+                    "whereClause": {
+                        "id!=s": {
+                            "from": "ContactOpportunity",
+                            "select": ["opportunityId"],
+                            "whereClause": {
+                                "deleted": 0,
+                                "role": "{value}"
+                            }
+                        }
+                    }
+                },
+                "LIKE": {
+                    "leftJoins": ["contacts"],
+                    "whereClause": {
+                        "contactsMiddle.role*": "{value}"
+                    },
+                    "distinct": true
+                },
+                "IS NULL": {
+                    "leftJoins": ["contacts"],
+                    "whereClause": {
+                        "contactsMiddle.role": null
+                    },
+                    "distinct": true
+                },
+                "IS NOT NULL": {
+                    "whereClause": {
+                        "id!=s": {
+                            "from": "ContactOpportunity",
+                            "select": ["opportunityId"],
+                            "whereClause": {
+                                "deleted": 0,
+                                "role": null
+                            }
+                        }
+                    }
+                }
+            },
+            "view": "crm:views/opportunity/fields/contact-role",
+            "customizationOptionsDisabled": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user",
+            "fieldManagerParamList": []
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user",
+            "fieldManagerParamList": []
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": false,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "account": {
+            "type": "belongsTo",
+            "entity": "Account",
+            "foreign": "opportunities"
+        },
+        "contacts": {
+            "type": "hasMany",
+            "entity": "Contact",
+            "foreign": "opportunities",
+            "additionalColumns": {
+                "role": {
+                    "type": "varchar",
+                    "len": 50
+                }
+            },
+            "columnAttributeMap": {
+                "role": "contactRole"
+            }
+        },
+        "contact": {
+            "type": "belongsTo",
+            "entity": "Contact",
+            "foreign": "opportunitiesPrimary"
+        },
+        "meetings": {
+            "type": "hasChildren",
+            "entity": "Meeting",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true,
+            "audited": true
+        },
+        "calls": {
+            "type": "hasChildren",
+            "entity": "Call",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true,
+            "audited": true
+        },
+        "tasks": {
+            "type": "hasChildren",
+            "entity": "Task",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true,
+            "audited": true
+        },
+        "emails": {
+            "type": "hasChildren",
+            "entity": "Email",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        },
+        "documents": {
+            "type": "hasMany",
+            "entity": "Document",
+            "foreign": "opportunities",
+            "audited": true
+        },
+        "campaign": {
+            "type": "belongsTo",
+            "entity": "Campaign",
+            "foreign": "opportunities"
+        },
+        "originalLead": {
+            "type": "hasOne",
+            "entity": "Lead",
+            "foreign": "createdOpportunity"
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "stage": {
+            "columns": ["stage", "deleted"]
+        },
+        "lastStage": {
+            "columns": ["lastStage"]
+        },
+        "assignedUser": {
+            "columns": ["assignedUserId", "deleted"]
+        },
+        "createdAt": {
+            "columns": ["createdAt", "deleted"]
+        },
+        "createdAtStage": {
+            "columns": ["createdAt", "stage"]
+        },
+        "createdAtId": {
+            "unique": true,
+            "columns": ["createdAt", "id"]
+        },
+        "assignedUserStage": {
+            "columns": ["assignedUserId", "stage"]
+        }
+    }
+}

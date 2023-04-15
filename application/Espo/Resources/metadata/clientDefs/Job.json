@@ -1,0 +1,9 @@
+{
+    "modalViews": {
+        "detail": "views/admin/job/modals/detail"
+    },
+    "recordViews": {
+        "list": "views/admin/job/record/list",
+        "detailQuick": "views/admin/job/record/detail-small"
+    }
+}

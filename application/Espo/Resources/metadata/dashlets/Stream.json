@@ -1,0 +1,45 @@
+{
+    "options": {
+        "fields": {
+            "title": {
+                "type": "varchar",
+                "required": true,
+                "trim": true
+            },
+            "autorefreshInterval": {
+                "type": "enumFloat",
+                "options": [0, 0.5, 1, 2, 5, 10]
+            },
+            "displayRecords": {
+                "type": "enumInt",
+                "options": [3, 4, 5, 7, 10, 15, 20]
+            },
+            "skipOwn": {
+                "type": "bool",
+                "tooltip": true
+            }
+        },
+        "defaults": {
+            "displayRecords": 10,
+            "autorefreshInterval": 0.5,
+            "skipOwn": false
+        },
+        "layout": [
+            {
+                "rows": [
+                    [
+                        {"name": "title"}
+                    ],
+                    [
+                        {"name": "displayRecords"},
+                        {"name": "autorefreshInterval"}
+                    ],
+                    [
+                        {"name": "skipOwn"},
+                        false
+                    ]
+                ]
+            }
+        ]
+    }
+}

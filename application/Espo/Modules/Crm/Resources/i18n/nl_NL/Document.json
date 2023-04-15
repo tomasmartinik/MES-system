@@ -1,0 +1,36 @@
+{
+  "labels": {
+    "Create Document": "Creëer Document"
+  },
+  "fields": {
+    "name": "Naam",
+    "file": "Bestand",
+    "publishDate": "Publicatiedatum",
+    "expirationDate": "Vervaldatum",
+    "description": "Beschrijving",
+    "accounts": "Relaties",
+    "folder": "Map"
+  },
+  "links": {
+    "accounts": "Relaties",
+    "opportunities": "Kansen",
+    "folder": "Map",
+    "contacts": "Contacten"
+  },
+  "options": {
+    "status": {
+      "Active": "Actief",
+      "Draft": "Concept",
+      "Expired": "Vervallen",
+      "Canceled": "Geannuleerd"
+    },
+    "type": {
+      "": "Geen",
+      "License Agreement": "Licentie Overeenkomst"
+    }
+  },
+  "presetFilters": {
+    "active": "Actief",
+    "draft": "Concept"
+  }
+}

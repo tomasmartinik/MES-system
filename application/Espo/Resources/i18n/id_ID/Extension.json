@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "name": "Nama",
+    "version": "Versi",
+    "description": "Deskripsi",
+    "isInstalled": "Terpasang"
+  },
+  "labels": {
+    "Install": "Memasang"
+  },
+  "messages": {
+    "uninstalled": "Ekstensi {name} telah dihapus"
+  }
+}

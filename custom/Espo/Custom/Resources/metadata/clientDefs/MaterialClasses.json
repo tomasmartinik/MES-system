@@ -1,0 +1,9 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "far fa-circle",
+    "kanbanViewMode": false,
+    "color": null
+}

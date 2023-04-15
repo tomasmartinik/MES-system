@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "name": "Tên",
+    "roles": "Vai trò"
+  },
+  "links": {
+    "users": "Người dùng",
+    "notes": "Ghi chú",
+    "roles": "Vai trò"
+  },
+  "labels": {
+    "Create Team": "Tạo nhóm"
+  }
+}

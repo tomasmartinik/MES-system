@@ -1,0 +1,14 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "relationshipPanels": {
+        "personnelDefinitionsPropertiesFromClasses": {
+            "select": false,
+            "create": false,
+            "view": "custom:views/record/panels/entityDefinitionsPropertiesFromClasseses-panel"
+        }
+    },
+    "iconClass": "fas fa-user"
+}

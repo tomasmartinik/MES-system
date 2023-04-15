@@ -1,0 +1,73 @@
+{
+  "labels": {
+    "Fields": "Pola",
+    "Relationships": "Relacje",
+    "Schedule": "Harmonogram",
+    "Log": "Dziennik",
+    "Formula": "Formuła",
+    "Layouts": "Układy"
+  },
+  "fields": {
+    "name": "Nazwa",
+    "type": "Typ",
+    "label": "Etykieta",
+    "linkType": "Typ linku",
+    "entityForeign": "Encja obca",
+    "linkForeign": "Link obcy",
+    "labelForeign": "Etykieta obca",
+    "sortBy": "Domyślna kolejność (pole)",
+    "sortDirection": "Domyślna kolejność (kierunek)",
+    "relationName": "Nazwa tabeli łączącej",
+    "linkMultipleField": "Połącz kilka pól",
+    "disabled": "Wyłączony",
+    "textFilterFields": "Pole filtrowania tekstowego",
+    "audited": "Audytowane",
+    "auditedForeign": "Zagranicznie audytowane",
+    "statusField": "Status pola",
+    "beforeSaveCustomScript": "Przed zapisaniem skryptu niestandardowego",
+    "color": "Kolor",
+    "kanbanViewMode": "Widok Kanban",
+    "kanbanStatusIgnoreList": "Ignorowane grupy w widoku Kanban",
+    "iconClass": "Ikona",
+    "fullTextSearch": "Wyszukiwanie pełnotekstowe",
+    "countDisabled": "Wyłącz liczbę rekordów",
+    "parentEntityTypeList": "Nadrzędne rodzaje jednostek",
+    "foreignLinkEntityTypeList": "Linki zagraniczne"
+  },
+  "options": {
+    "type": {
+      "": "Brak",
+      "Person": "Osoba",
+      "CategoryTree": "Drzewo kategorii",
+      "Event": "Wydarzenie",
+      "BasePlus": "Baza Plus",
+      "Company": "Firma"
+    },
+    "linkType": {
+      "oneToMany": "Jeden-do-wielu",
+      "oneToOneRight": "Jeden-do-jednego Prawo",
+      "oneToOneLeft": "Jeden-do-jednego Lewo"
+    },
+    "sortDirection": {
+      "asc": "Rosnąco",
+      "desc": "Malejąco"
+    }
+  },
+  "messages": {
+    "entityCreated": "Jednostka została utworzona",
+    "linkAlreadyExists": "Konflikt nazw linku.",
+    "linkConflict": "Konflikt nazw: pole ze wskazaną nazwą już istnieje.",
+    "confirmRemove": "Czy na pewno chcesz usunąć typ jednostki z systemu?"
+  },
+  "tooltips": {
+    "statusField": "Aktualizacje tego pola są rejestrowane w strumieniu.",
+    "textFilterFields": "Pola używane przez wyszukiwarkę tekstową.",
+    "stream": "Czy jednostka ma strumień.",
+    "disabled": "Sprawdź czy nie potrzebujesz tego modułu w swoim systemie.",
+    "linkAudited": "Utworzenie powiązanego rekordu i połączenie z istniejącym rekordem zostanie zarejestrowane w strumieniu.",
+    "linkMultipleField": "Pole Link Multiple zapewnia wygodny sposób edycji relacji. Nie używaj go, jeśli możesz mieć dużą liczbę powiązanych rekordów.",
+    "entityType": "Base Plus - posiada Aktywności, Historie i Zadania.\n\nWydarzenie - dostępne w panelu Kalendarz i Działania.",
+    "fullTextSearch": "Wymagane jest przeładowanie całej aplikacji.",
+    "countDisabled": "Całkowita liczba nie będzie wyświetlana w widoku listy. Może skrócić czas ładowania, gdy tabela bazy danych jest duża."
+  }
+}

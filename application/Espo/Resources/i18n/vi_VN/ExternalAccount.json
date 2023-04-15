@@ -1,0 +1,8 @@
+{
+  "labels": {
+    "Connect": "Kết nối",
+    "Connected": "Đã kết nối",
+    "Disconnect": "Ngắt kết nối",
+    "Disconnected": "Đã ngắt kết nối"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "fields": {
+    "skipNotifications": "Salta Notifiche"
+  },
+  "labels": {
+    "Create EmailFolder": "Crea Cartella",
+    "Manage Folders": "Gestione cartelle"
+  }
+}

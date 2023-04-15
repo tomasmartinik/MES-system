@@ -1,0 +1,10 @@
+[
+    {
+        "label": "",
+        "rows":[
+            [{"name":"name"}, {"name":"entryCount"}],
+            [false, {"name":"optedOutCount"}],
+            [{"name":"description", "fullWidth": true}]
+        ]
+    }
+]

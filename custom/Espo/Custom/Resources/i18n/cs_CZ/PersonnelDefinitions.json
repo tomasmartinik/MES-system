@@ -1,0 +1,18 @@
+{
+    "labels": {
+        "Create PersonnelDefinitions": "Vytvořit Definice personálu"
+    },
+    "fields": {
+        "personnelDefinitionsPropertiesFromClasses": "Vlastnosti",
+        "personnelClasses": "Třídy personálu",
+        "name": "Jméno",
+        "processSegmentPersonnelItems": "Položky personálu segmentu procesu",
+        "productSegmentPersonnelItems": "Product Segment Personnel Items"
+    },
+    "links": {
+        "personnelDefinitionsPropertiesFromClasses": "Vlastnosti",
+        "personnelClasses": "Třídy personálu",
+        "processSegmentPersonnelItems": "Položky personálu segmentu procesu",
+        "productSegmentPersonnelItems": "Product Segment Personnel Items"
+    }
+}

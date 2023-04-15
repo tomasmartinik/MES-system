@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "user": "Gebruiker",
+    "action": "Actie",
+    "createdAt": "Datum",
+    "target": "Doel",
+    "targetType": "Doel type",
+    "authToken": "Auth sleutel",
+    "ipAddress": "IP adres",
+    "authLogRecord": "Auth log record",
+    "userType": "Type gebruiker"
+  },
+  "links": {
+    "authToken": "Auth sleutel",
+    "user": "Gebruiker",
+    "target": "Doel",
+    "authLogRecord": "Auth log record"
+  },
+  "presetFilters": {
+    "onlyMy": "Alleen mijn"
+  },
+  "options": {
+    "action": {
+      "read": "Lees",
+      "delete": "Verwijder",
+      "create": "Creëer"
+    }
+  }
+}

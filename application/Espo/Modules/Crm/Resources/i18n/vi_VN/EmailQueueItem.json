@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "name": "Tên",
+    "status": "Tình trạng",
+    "sentAt": "Ngày gửi",
+    "emailAddress": "Địa chỉ email"
+  },
+  "links": {
+    "target": " "
+  },
+  "options": {
+    "status": {
+      "Pending": "Đang chờ",
+      "Sent": "Gửi",
+      "Failed": "Đã bị lỗi",
+      "Sending": "Đang gửi"
+    }
+  },
+  "presetFilters": {
+    "pending": "Đang chờ",
+    "sent": "Gửi",
+    "failed": "Bị lỗi"
+  }
+}

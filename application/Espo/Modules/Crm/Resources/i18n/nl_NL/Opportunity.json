@@ -1,0 +1,52 @@
+{
+  "fields": {
+    "name": "Naam",
+    "account": "Relatie",
+    "stage": "Fase",
+    "amount": "Bedrag",
+    "probability": "Scoringskans, %",
+    "leadSource": "Lead bron",
+    "doNotCall": "Niet Bellen",
+    "closeDate": "Datum gesloten",
+    "contacts": "Contacten",
+    "description": "Beschrijving",
+    "amountConverted": "Bedrag (geconverteerd)",
+    "amountWeightedConverted": "Gewogen bedrag",
+    "campaign": "Campagne",
+    "originalLead": "Oorspronkelijke lead",
+    "amountCurrency": "Bedrag valuta",
+    "contactRole": "Contact functie",
+    "lastStage": "Laatste fase",
+    "contact": "Contact (Primair)"
+  },
+  "links": {
+    "contacts": "Contacten",
+    "documents": "Documenten",
+    "campaign": "Campagne",
+    "originalLead": "Oorspronkelijke lead",
+    "contact": "Contact (Primair)"
+  },
+  "options": {
+    "stage": {
+      "Prospecting": "Prospectie",
+      "Qualification": "Kwalificatie",
+      "Needs Analysis": "Analyse behoefte",
+      "Value Proposition": "Waarde voorstel",
+      "Id. Decision Makers": "Id. Beslissers",
+      "Perception Analysis": "Perceptie analyse",
+      "Proposal/Price Quote": "Voorstel/Offerte",
+      "Negotiation/Review": "Onderhandeling/Beoordeling",
+      "Closed Won": "Gesloten gewonnen",
+      "Closed Lost": "Gesloten verloren",
+      "Proposal": "Voorstel",
+      "Negotiation": "Onderhandeling"
+    }
+  },
+  "labels": {
+    "Create Opportunity": "Creëer Kans"
+  },
+  "presetFilters": {
+    "won": "Gewonnen",
+    "lost": "Verloren"
+  }
+}

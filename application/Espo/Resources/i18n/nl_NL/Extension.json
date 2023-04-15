@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "name": "Naam",
+    "version": "Versie",
+    "description": "Beschrijving",
+    "isInstalled": "Geïnstalleerd",
+    "checkVersionUrl": "Een URL voor het controleren van nieuwe versies"
+  },
+  "labels": {
+    "Uninstall": "Deinstalleren",
+    "Install": "Installeren"
+  },
+  "messages": {
+    "uninstalled": "Extensie {name} is gedeïnstalleerd"
+  }
+}

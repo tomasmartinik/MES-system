@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "enabled": "Aktivert",
+    "clientId": "Klient-ID",
+    "clientSecret": "Klienthemmelighet",
+    "redirectUri": "Videresendings-URI",
+    "apiKey": "API-nøkkel"
+  },
+  "messages": {
+    "selectIntegration": "Velg en integrasjon fra menyen.",
+    "noIntegrations": "Ingen integrasjoner er tilgjengelig."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "labels": {
+    "Converted To": "Convertido Para",
+    "Create Lead": "Criar Lead",
+    "Convert": "Converter",
+    "convert": "converter"
+  },
+  "fields": {
+    "name": "Nome",
+    "emailAddress": "E-mail",
+    "title": "Cargo",
+    "phoneNumber": "Telefone",
+    "accountName": "Conta",
+    "doNotCall": "Não Ligar",
+    "address": "Endereço",
+    "source": "Origem",
+    "opportunityAmount": "Valor da Oportunidade",
+    "opportunityAmountConverted": "Valor da Oportunidade (convertido)",
+    "description": "Descrição",
+    "createdAccount": "Conta",
+    "createdContact": "Contato",
+    "createdOpportunity": "Oportunidade",
+    "campaign": "Campanha",
+    "targetLists": "Listas de Alvo",
+    "targetList": "Lista Alvo",
+    "industry": "Ramo de Atividade",
+    "acceptanceStatus": "Status de Aceitação",
+    "opportunityAmountCurrency": "Moeda do Valor da Oportunidade",
+    "acceptanceStatusCalls": "Status de Aceitação (Ligações)",
+    "convertedAt": "Convertido Em"
+  },
+  "links": {
+    "targetLists": "Lista de Alvos",
+    "campaignLogRecords": "Logs das Campanhas",
+    "campaign": "Campanha",
+    "createdAccount": "Conta",
+    "createdContact": "Contato",
+    "createdOpportunity": "Oportunidade",
+    "cases": "Casos",
+    "documents": "Documentos"
+  },
+  "options": {
+    "status": {
+      "New": "Novo",
+      "Assigned": "Atribuído",
+      "In Process": "Em Processo",
+      "Converted": "Convertido",
+      "Recycled": "Reciclado",
+      "Dead": "Morto"
+    },
+    "source": {
+      "Call": "Ligação",
+      "Email": "E-mail",
+      "Existing Customer": "Cliente Existente",
+      "Partner": "Parceiro",
+      "Public Relations": "Relacionamento",
+      "Web Site": "Website",
+      "Campaign": "Campanha",
+      "Other": "Outro"
+    }
+  },
+  "presetFilters": {
+    "active": "Ativo",
+    "actual": "Atual",
+    "converted": "Convertido"
+  }
+}

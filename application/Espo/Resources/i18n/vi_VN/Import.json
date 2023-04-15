@@ -1,0 +1,68 @@
+{
+  "labels": {
+    "Revert Import": "Khôi phục Import",
+    "Return to Import": "Quay lại trang nhập dữ liệu",
+    "Run Import": "Chạy nhập dữ liệu",
+    "Back": "Trở lại",
+    "Field Mapping": "Ánh xạ các trường",
+    "Default Values": "Giá trị mặc định",
+    "Add Field": "Thêm trường",
+    "Created": "Đã tạo",
+    "Updated": "Đã cập nhật",
+    "Result": "Kết quả",
+    "Show records": "Hiển thị các trường",
+    "Remove Duplicates": "Lọc dữ liệu trùng",
+    "importedCount": "Đã nhập (số lượng)",
+    "duplicateCount": "Đếm dữ liệu trùng",
+    "updatedCount": "Đã cập nhật (số lượng)",
+    "Create Only": "Chỉ tạo",
+    "Create and Update": "Tạo & cập nhật",
+    "Update Only": "Chỉ cập nhật",
+    "Update by": "Cập nhật bởi",
+    "File (CSV)": "Tập tin (đinh dạng CSV)",
+    "First Row Value": "Dữ liệu hàng đầu tiên",
+    "Skip": "Bỏ qua",
+    "Header Row Value": "Dữ liệu đầu",
+    "Field": "Trường",
+    "What to Import?": "Cần nhập những gì?",
+    "Entity Type": "Loại Entity",
+    "What to do?": "Cần làm gì",
+    "Properties": "Thông tin chi tiết",
+    "Header Row": "Hàng đầu",
+    "Person Name Format": "Định dạng tên người dùng",
+    "Date Format": "Định dạng ngày",
+    "Time Format": "Định dạng thời gian",
+    "Currency": "Tiền tệ",
+    "Preview": "Xem trước",
+    "Next": "Kế tiếp",
+    "Step 1": "Bước 1",
+    "Step 2": "Bước 2",
+    "Double Quote": "Trích dẫn kép",
+    "Single Quote": "Trích dẫn đơn lẻ",
+    "Imported": "Đã nhập dữ liệu",
+    "Duplicates": "Nhân bản",
+    "Timezone": "Múi giờ",
+    "New Import": "Nhập dữ liệu mới",
+    "Import Results": "Quy định nhập dữ liệu",
+    "Silent Mode": "Chế độ im lặng"
+  },
+  "messages": {
+    "utf8": "Được mã hóa UTF-8",
+    "duplicatesRemoved": "Đã lọc trùng"
+  },
+  "fields": {
+    "file": "Tập tin",
+    "entityType": "Loại Entity",
+    "imported": "Thông tin đã được nhập",
+    "duplicates": "Trường trùng lặp",
+    "updated": "Đã nhập nhật trường",
+    "status": "Tình trạng"
+  },
+  "options": {
+    "status": {
+      "Failed": "Lỗi",
+      "In Process": "Đang thực hiện",
+      "Complete": "Hoàn thành"
+    }
+  }
+}

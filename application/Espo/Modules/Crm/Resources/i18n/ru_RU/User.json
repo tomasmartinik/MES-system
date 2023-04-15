@@ -1,0 +1,10 @@
+{
+  "links": {
+    "targetLists": "Списки целей"
+  },
+  "fields": {
+    "acceptanceStatus": "Статус принятия",
+    "acceptanceStatusMeetings": "Статус принятия (Встречи)",
+    "acceptanceStatusCalls": "Статус принятия (Звонки)"
+  }
+}

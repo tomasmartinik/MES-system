@@ -1,0 +1,20 @@
+{
+  "modes": {
+    "month": "Tháng",
+    "week": "Tuần",
+    "agendaWeek": "Tuần",
+    "day": "Ngày",
+    "agendaDay": "Ngày",
+    "timeline": "Dòng thời gian"
+  },
+  "labels": {
+    "Create": "Tạo",
+    "Shared": "Đã chia sẻ",
+    "Add User": "Thêm người dùng",
+    "current": "hiện tại",
+    "time": "thời gian",
+    "User List": "Danh sách người dùng",
+    "Manage Users": "Quản lý người dung",
+    "View Calendar": "Xem lịch"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "_delimiter_": {
+        "disabled": true
+    },
+    "processSegmentMaterialItems": {
+        "index": 0
+    },
+    "processSegmentEquipmentItems": {
+        "index": 1
+    },
+    "processSegmentPersonnelItems": {
+        "index": 2
+    }
+}

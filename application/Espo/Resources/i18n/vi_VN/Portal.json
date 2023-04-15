@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "name": "Tên",
+    "portalRoles": "Quyền",
+    "isActive": "Được kích hoạt",
+    "isDefault": "Mặc định",
+    "quickCreateList": "Danh sách tạo nhanh",
+    "theme": "Chủ đề",
+    "language": "Ngôn ngữ",
+    "dashboardLayout": "Bố cục trang tổng quan",
+    "dateFormat": "Định dạng ngày",
+    "timeFormat": "Định dạng giờ",
+    "timeZone": "Múi giờ",
+    "weekStart": "Ngày đầu tiên của tuần",
+    "defaultCurrency": "Tiền tệ mặc định",
+    "customUrl": "Tùy chỉnh URL"
+  },
+  "links": {
+    "users": "Người dùng",
+    "portalRoles": "Quyền",
+    "notes": "Ghi chú"
+  },
+  "labels": {
+    "Create Portal": "Tạo Portal",
+    "User Interface": "Giao diện người dùng",
+    "General": "Tổng quan",
+    "Settings": "Cài đặt"
+  }
+}

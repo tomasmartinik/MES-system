@@ -1,0 +1,55 @@
+{
+    "fields": {
+        "name": {
+            "maxLength": 150,
+            "required": true,
+            "type": "varchar",
+            "trim": true,
+            "pattern": "$noBadCharacters"
+        },
+        "data": {
+            "type": "jsonObject"
+        },
+        "fieldData": {
+            "type": "jsonObject"
+        },
+        "exportPermission": {
+            "type": "enum",
+            "options": ["not-set", "yes", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList"
+        },
+        "massUpdatePermission": {
+            "type": "enum",
+            "options": ["not-set", "yes", "no"],
+            "default": "not-set",
+            "tooltip": true,
+            "translation": "Role.options.levelList"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        }
+    },
+    "links": {
+        "users": {
+            "type": "hasMany",
+            "entity": "User",
+            "foreign": "portalRoles"
+        },
+        "portals": {
+            "type": "hasMany",
+            "entity": "Portal",
+            "foreign": "portalRoles"
+        }
+    },
+    "collection": {
+        "orderBy": "name",
+        "order": "asc"
+    }
+}

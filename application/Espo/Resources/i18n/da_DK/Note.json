@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "attachments": "Vedhæftninger",
+    "targetType": "Mål",
+    "users": "Brugere",
+    "portals": "Portaler",
+    "isGlobal": "Er global",
+    "isInternal": "Er interne (For interne brugere)",
+    "related": "relateret",
+    "createdByGender": "Oprettet efter køn",
+    "number": "Nummer"
+  },
+  "filters": {
+    "all": "Alle",
+    "posts": "Poster",
+    "updates": "Opdateringer"
+  },
+  "messages": {
+    "writeMessage": "Skriv din meddelelse her"
+  },
+  "options": {
+    "targetType": {
+      "self": "til mig selv",
+      "users": "til bestemt(e) bruger(e)",
+      "teams": "til bestemt(e) team(s)",
+      "all": "til alle interne brugere",
+      "portals": "til portalbrugere"
+    }
+  },
+  "links": {
+    "superParent": "Super henvisning",
+    "related": "Relateret"
+  }
+}

@@ -1,0 +1,176 @@
+{
+    "mandatory": {
+        "scopeLevel": {
+            "Note": {
+                "read": "own",
+                "edit": "own",
+                "delete": "own",
+                "create": "yes"
+            },
+            "Portal": {
+                "read": "all",
+                "edit": "no",
+                "delete": "no",
+                "create": "no"
+            },
+            "Attachment": {
+                "read": "own",
+                "edit": "own",
+                "delete": "own",
+                "create": "yes"
+            },
+            "EmailAccount": {
+                "read": "own",
+                "edit": "own",
+                "delete": "own",
+                "create": "yes"
+            },
+            "EmailFilter": {
+                "read": "own",
+                "edit": "own",
+                "delete": "own",
+                "create": "yes"
+            },
+            "EmailFolder": {
+                "read": "own",
+                "edit": "own",
+                "delete": "own",
+                "create": "yes"
+            },
+            "Preferences": {
+                "read": "own",
+                "edit": "own",
+                "delete": "no",
+                "create": "no"
+            },
+            "Notification": {
+                "read": "own",
+                "edit": "no",
+                "delete": "own",
+                "create": "no"
+            },
+            "ActionHistoryRecord": {
+                "read": "own"
+            },
+            "Role": false,
+            "PortalRole": false,
+            "ImportError": "Import"
+        },
+        "fieldLevel": {
+        },
+        "scopeFieldLevel": {
+            "EmailAccount": {
+                "assignedUser": {
+                    "read": "yes",
+                    "edit": "no"
+                }
+            },
+            "EmailFolder": {
+                "assignedUser": {
+                    "read": "yes",
+                    "edit": "no"
+                }
+            },
+            "Email": {
+                "inboundEmails": false,
+                "emailAccounts": false
+            },
+            "User": {
+                "dashboardTemplate": false,
+                "password": false,
+                "passwordConfirm": false,
+                "auth2FA": false,
+                "authMethod": false,
+                "apiKey": false,
+                "secretKey": false,
+                "token": false
+            },
+            "ActionHistoryRecord": {
+                "authToken": false,
+                "authLogRecord": false
+            }
+        }
+    },
+    "strictDefault": {
+        "scopeLevel": {
+            "User": {
+                "read": "own",
+                "edit": "no"
+            },
+            "Team": {
+                "read": "team"
+            },
+            "Import": false,
+            "Webhook": false
+        },
+        "fieldLevel": {
+        },
+        "scopeFieldLevel": {
+            "User": {
+                "gender": false
+            }
+        }
+    },
+    "adminMandatory": {
+        "scopeLevel": {
+            "User": {
+                "create": "yes",
+                "read": "all",
+                "edit": "all",
+                "delete": "all"
+            },
+            "Team": {
+                "create": "yes",
+                "read": "all",
+                "edit": "all",
+                "delete": "all"
+            },
+            "Job": {
+                "create": "no",
+                "read": "all",
+                "edit": "no",
+                "delete": "all"
+            },
+            "Extension": {
+                "create": "no",
+                "read": "all",
+                "edit": "no",
+                "delete": "all"
+            }
+        }
+    },
+    "valuePermissionList": [
+        "assignmentPermission",
+        "userPermission",
+        "portalPermission",
+        "groupEmailAccountPermission",
+        "exportPermission",
+        "massUpdatePermission",
+        "followerManagementPermission",
+        "dataPrivacyPermission"
+    ],
+    "valuePermissionHighestLevels": {
+        "assignmentPermission": "all",
+        "userPermission": "all",
+        "portalPermission": "yes",
+        "groupEmailAccountPermission": "all",
+        "exportPermission": "yes",
+        "massUpdatePermission": "yes",
+        "followerManagementPermission": "all",
+        "dataPrivacyPermission": "yes"
+    },
+    "permissionsStrictDefaults": {
+        "assignmentPermission": "no",
+        "userPermission": "no",
+        "portalPermission": "no",
+        "groupEmailAccountPermission": "no",
+        "exportPermission": "no",
+        "massUpdatePermission": "no",
+        "followerManagementPermission": "no",
+        "dataPrivacyPermission": "no"
+    },
+    "scopeLevelTypesStrictDefaults": {
+        "boolean": false,
+        "record": false
+    }
+}

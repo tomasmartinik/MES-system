@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "name": "Nome",
+    "number": "Número",
+    "account": "Conta",
+    "contact": "Contato",
+    "contacts": "Contatos",
+    "priority": "Prioridade",
+    "type": "Tipo",
+    "description": "Descrição",
+    "attachments": "Anexos",
+    "inboundEmail": "Conta de email do grupo"
+  },
+  "links": {
+    "account": "Conta",
+    "contact": "Contato (Primário)",
+    "Contacts": "Contatos",
+    "meetings": "Reuniões",
+    "calls": "Ligações",
+    "tasks": "Tarefas",
+    "articles": "Artigos da Base de Conhecimento",
+    "attachments": "Anexos",
+    "inboundEmail": "Conta de email do grupo"
+  },
+  "options": {
+    "status": {
+      "New": "Novo",
+      "Assigned": "Designado",
+      "Pending": "Pendente",
+      "Closed": "Fechado",
+      "Rejected": "Rejeitado",
+      "Duplicate": "Duplicado"
+    },
+    "priority": {
+      "Low": "Baixa",
+      "High": "Alta",
+      "Urgent": "Urgente"
+    },
+    "type": {
+      "Question": "Questão",
+      "Incident": "Incidente",
+      "Problem": "Problema"
+    }
+  },
+  "labels": {
+    "Create Case": "Criar Atendimento",
+    "Close": "Fechar",
+    "Reject": "Rejeitar",
+    "Closed": "Fechado",
+    "Rejected": "Rejeitado"
+  },
+  "presetFilters": {
+    "open": "Aberto",
+    "closed": "Fechado"
+  }
+}

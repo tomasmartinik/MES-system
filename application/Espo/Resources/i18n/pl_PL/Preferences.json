@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "dateFormat": "Format daty",
+    "timeFormat": "Format Czasu",
+    "timeZone": "Strefa Czasowa",
+    "weekStart": "Pierwszy dzień tygodnia",
+    "thousandSeparator": "Separator Dziesiętny",
+    "decimalMark": "Znak rozdzielenia",
+    "defaultCurrency": "Domyślna waluta",
+    "currencyList": "Domyślana Lista",
+    "language": "Język",
+    "smtpSecurity": "Zabezpieczenia",
+    "smtpUsername": "Użytkownik",
+    "emailAddress": "E-mail",
+    "smtpPassword": "Hasło",
+    "smtpEmailAddress": "E-mail Adres",
+    "exportDelimiter": "Znak rodzielenia eksportu",
+    "signature": "Sygnatura",
+    "dashboardTabList": "Lista zakładek",
+    "tabList": "Lista zakładek",
+    "defaultReminders": "Domyślne powiadomienia",
+    "theme": "Motyw",
+    "receiveAssignmentEmailNotifications": "Prześlij wiadomość po przypisaniu",
+    "receiveMentionEmailNotifications": "Powiadomienia e-mail o wzmiankach w postach",
+    "receiveStreamEmailNotifications": "Powiadomienia e-mail o wpisach i aktualizacjach statusu",
+    "dashboardLayout": "Styl Głównego Panelu",
+    "emailReplyForceHtml": "Odpowiadanie na e-maile w HTML",
+    "autoFollowEntityTypeList": "Automatycznie obserwuj",
+    "emailReplyToAllByDefault": "Domyślnie odpowiadaj wszystkim",
+    "doNotFillAssignedUserIfNotRequired": "Nie wypełniaj wstępnie przypisanego użytkownika podczas tworzenia rekordu",
+    "followEntityOnStreamPost": "Automatycznie obserwuj rekord po opublikowaniu w strumieniu",
+    "followCreatedEntities": "Automatycznie obserwuj utworzone rekordy",
+    "followCreatedEntityTypeList": "Automatyczne obserwuj utworzone rekordy określonych typów jednostek",
+    "emailUseExternalClient": "Użyj zewnętrznego klienta pocztowego",
+    "scopeColorsDisabled": "Wyłącz kolory ikonek",
+    "tabColorsDisabled": "Wyłącz kolory w menu",
+    "assignmentNotificationsIgnoreEntityTypeList": "Powiadomienia w aplikacji",
+    "assignmentEmailNotificationsIgnoreEntityTypeList": "Powiadomienia e-mailem"
+  },
+  "options": {
+    "weekStart": {
+      "0": "Niedziela",
+      "1": "Poniedziałek"
+    }
+  },
+  "labels": {
+    "Notifications": "powiadomienia",
+    "User Interface": "Interfejs Użytkownika",
+    "Misc": "Różne",
+    "Locale": "Lokalizacja",
+    "Reset Dashboard to Default": "Zresetuj pulpit do ustawień domyślnych"
+  },
+  "tooltips": {
+    "autoFollowEntityTypeList": "Automatycznie śledź WSZYSTKIE nowe rekordy (utworzone przez dowolnego użytkownika) wybranych typów jednostek, aby móc przeglądać informacje w strumieniu i otrzymywać powiadomienia o wszystkich rekordach w systemie.",
+    "doNotFillAssignedUserIfNotRequired": "Podczas tworzenia rekordu przypisany użytkownik nie zostanie wypełniony własnym użytkownikiem, chyba że pole jest wymagane.",
+    "followCreatedEntities": "Podczas tworzenia nowych rekordów będą one automatycznie obserwowane, nawet jeśli zostaną przypisane do innego użytkownika.",
+    "followCreatedEntityTypeList": "Podczas tworzenia nowych rekordów wybranych opcji będą one automatycznie obserwowane, nawet jeśli zostaną przypisane do innego użytkownika."
+  }
+}

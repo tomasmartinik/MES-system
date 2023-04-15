@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "name": "Nom",
+    "portalRoles": "Rôles",
+    "isActive": "Actif",
+    "isDefault": "Par défaut",
+    "tabList": "Liste des onglets",
+    "quickCreateList": "Liste de création rapide",
+    "theme": "Thème",
+    "language": "Langue",
+    "dashboardLayout": "Organisation Dashboard",
+    "dateFormat": "Format date",
+    "timeFormat": "Format heure",
+    "timeZone": "Fuseau",
+    "weekStart": "Premier jour de la semaine",
+    "defaultCurrency": "Devise par défaut",
+    "customUrl": "Lien personnalisé",
+    "layoutSet": "Agencements des champs"
+  },
+  "links": {
+    "users": "Utilisateurs",
+    "portalRoles": "Rôles",
+    "layoutSet": "Agencements des champs"
+  },
+  "labels": {
+    "Create Portal": "Créer un Portail",
+    "User Interface": "Interface utilisateur",
+    "General": "Général",
+    "Settings": "Paramètres"
+  }
+}

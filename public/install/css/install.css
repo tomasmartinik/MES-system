@@ -1,0 +1,165 @@
+
+
+body > .content {
+    padding-left: 0 !important;
+}
+
+.license-field {
+	width: 100%;
+}
+
+.point-lbl {
+	cursor: pointer;
+}
+
+.subpanel {
+	text-align: left ;
+}
+
+.install-body {
+	padding-top: 30px;
+}
+.btn-panel {
+	margin-top: 20px;
+}
+.panel-title {
+	text-align: center;
+	margin-left: 16.6667%;
+}
+
+.devices {
+	width: 50%;
+	height: 50%;
+}
+
+.panel-body {
+	min-height: 400px;
+}
+
+.panel-body .panel-body {
+	min-height: 50px;
+}
+
+.host-name-c {
+	width: 65%;
+	float: left;
+}
+
+.port-c {
+	width: 30%;
+	float: right;
+}
+
+.label-description {
+	line-height: 24px;
+	height: 33px;
+	display: table-cell;
+	vertical-align: middle;
+	padding: 14px 0 5px;
+}
+.semicolon-sign-c {
+	text-align: center;
+	width: 4%;
+	float: left;
+}
+
+.semicolon-sign {
+	margin-top: 5px;
+}
+
+.version {
+	font-size: 90%;
+	color: #999;
+}
+
+.cron-help {
+	margin-top: 40px;
+	color: var(--state-danger-text);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cron-help pre {
+	margin-top: 15px;
+    padding-top: 15px;
+    padding-bottom: 0;
+    text-align: left;
+}
+
+.cron-help p {
+	color: var(--text-color);
+}
+
+.table {
+  border-bottom: 1px solid var(--default-border-color);
+}
+
+.setup-confirmation {
+	padding: 8px;
+}
+
+.setup-confirmation .table > thead > tr > th, .setup-confirmation table td:first-child {
+	padding-left: 3%;
+}
+.setup-confirmation .cell-website {
+	margin-right: 10px;
+}
+
+.loading-panel {
+    padding: 0 14px 10px 0;
+    margin-top: -29px;
+}
+
+.space {
+    padding: 14px;
+}
+
+span.remark {
+	color: #a94442;
+	font-weight: 600;
+}
+
+span.ok {
+	color: #87c956;
+}
+
+.more-information {
+	line-height: 1.5;
+	margin-top: 40px;
+	text-align: left;
+}
+
+.likes {
+    margin: 20px 0;
+    padding: 10px;
+    text-align: center;
+    color: var(--state-success-text);
+    font-weight: 600;
+}
+
+.likes p {
+	font-size: 15px;
+}
+
+.main-header.panel-heading {
+    background-color: var(--navbar-inverse-bg) !important;
+    padding: 0 2px;
+}
+
+header.step-header {
+    padding: 10px 14px;
+}
+
+header.step-header h4 {
+    margin-top: 0;
+}
+
+.panel .modal-footer {
+    background-color: var(--panel-bg) !important;
+}
+
+#license-agree {
+    margin-right: 5px;
+    margin-top: -1px;
+}

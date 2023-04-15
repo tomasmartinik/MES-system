@@ -1,0 +1,11 @@
+{
+  "layouts": {
+    "detailConvert": "Konvertuoti potencialų klienta",
+    "listForAccount": "Sąrašas (paskyrai)",
+    "listForContact": "Sąrašas (kontaktams)"
+  },
+  "templates": {
+    "invitation": "Pakvietimas",
+    "reminder": "Priminimas"
+  }
+}

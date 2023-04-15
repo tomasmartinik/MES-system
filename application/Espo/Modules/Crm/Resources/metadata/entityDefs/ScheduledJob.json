@@ -1,0 +1,13 @@
+{
+    "jobSchedulingMap": {
+        "ProcessMassEmail": "15 * * * *",
+        "ControlKnowledgeBaseArticleStatus": "10 1 * * *"
+    },
+    "jobs": {
+        "SubmitPopupReminders": {
+            "name": "Submit Popup Reminders",
+            "isSystem": true,
+            "scheduling": "* * * * *"
+        }
+    }
+}

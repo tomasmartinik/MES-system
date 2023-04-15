@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "executeTime": "Udfør når",
+    "attempts": "Forsøg tilbage",
+    "failedAttempts": "Fejlede forsøg",
+    "methodName": "Metode",
+    "scheduledJob": "Planlagt job",
+    "method": "Metode",
+    "scheduledJobJob": "Planlagt job navn",
+    "executedAt": "Udført",
+    "startedAt": "Startet",
+    "targetType": "Mål type",
+    "targetId": "Mål ID",
+    "number": "Nummer",
+    "queue": "Kø"
+  },
+  "options": {
+    "status": {
+      "Pending": "Afventer",
+      "Success": "Succes",
+      "Running": "Kører",
+      "Failed": "Fejlet"
+    }
+  }
+}

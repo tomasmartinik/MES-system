@@ -1,0 +1,22 @@
+[
+    {
+        "rows": [
+            [
+                {"name": "name"}, {"name": "role"}
+            ],
+            [
+                {"name": "parent"}, {"name": "related"}
+            ],
+            [
+                {"name": "type"}, {"name": "field"}
+            ],
+            [
+                {"name": "size"}, {"name": "isBeingUploaded"}
+            ],
+            [
+                {"name": "storage"}, {"name": "sourceId"}
+            ]
+        ]
+    }
+
+]

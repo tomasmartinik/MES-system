@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "personnelClasses": "Třída",
+        "personnelDefinitions": "Definice",
+        "productSegmentses": "Product Segmentses",
+        "quantity": "Množství"
+    },
+    "links": {
+        "personnelClasses": "Třída",
+        "personnelDefinitions": "Definice",
+        "productSegmentses": "Product Segmentses"
+    },
+    "labels": {
+        "Create ProductSegmentPersonnelItem": "Create Položka personálu (Segment produktu)"
+    }
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "equipmentDefinitionList"
+                },
+                {
+                    "name": "equipmentClassesPropertiesElements"
+                }
+            ],
+            [
+                {
+                    "name": "value"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    },
+    {
+        "rows": [
+            [
+                {
+                    "name": "equipmentClasses"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

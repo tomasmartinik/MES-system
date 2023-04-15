@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "name": "Име",
+    "status": "Статус",
+    "target": "Цел",
+    "sentAt": "Дата на изпращане",
+    "attemptCount": "Опити",
+    "emailAddress": "Имейл адрес",
+    "massEmail": "Масов имейл",
+    "isTest": "Е тестов"
+  },
+  "links": {
+    "target": "Цел",
+    "massEmail": "Масов имейл"
+  },
+  "options": {
+    "status": {
+      "Pending": "Предстоящ",
+      "Sent": "Изпратен",
+      "Failed": "Провален",
+      "Sending": "Изпращане"
+    }
+  },
+  "presetFilters": {
+    "pending": "Предстоящ",
+    "sent": "Изпратен",
+    "failed": "Провален"
+  }
+}

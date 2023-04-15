@@ -1,0 +1,15 @@
+{
+    "labels": {
+        "Create Components": "Vytvořit Komponent"
+    },
+    "fields": {
+        "productItem": "Položky produktu",
+        "products": "Products",
+        "warehouseItem": "Položky skladu"
+    },
+    "links": {
+        "productItem": "Položky produktu",
+        "products": "Products",
+        "warehouseItem": "Položky skladu"
+    }
+}

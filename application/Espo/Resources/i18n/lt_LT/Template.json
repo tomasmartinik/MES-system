@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "name": "Vardas",
+    "body": "Laiško tekstas",
+    "entityType": "Vedinio tipas",
+    "header": "Antraštė",
+    "footer": "Poraštė",
+    "leftMargin": "Kairė paraštė",
+    "topMargin": "Viršutinė paraštė",
+    "rightMargin": "Dešinė paraštė",
+    "bottomMargin": "Apatinė paraštė",
+    "printFooter": "Spausdinti poraštę",
+    "footerPosition": "Poraštės pozicija",
+    "variables": "Galimi sandoriai",
+    "pageOrientation": "Lapo padėtis",
+    "pageFormat": "Lapo formatas",
+    "fontFace": "Šriftas",
+    "pageWidth": "Puslapio plotis (mm)",
+    "pageHeight": "Puslapio aukštis (mm)",
+    "headerPosition": "Antraštės padėtis",
+    "printHeader": "Spausdinti antraštę",
+    "title": "Pavadinimas"
+  },
+  "labels": {
+    "Create Template": "Sukurti šabloną"
+  },
+  "tooltips": {
+    "footer": "Naudokite {page Number}, jei norite spausdinti puslapio numerį.",
+    "variables": "Kopijavimui reikia įterpti žymeklį į antraštę, kūną arba poraštę."
+  },
+  "options": {
+    "pageOrientation": {
+      "Portrait": "Stačias",
+      "Landscape": "Gulščias"
+    },
+    "placeholders": {
+      "today": "Šiandien (data)",
+      "now": "Dabar (data-laikas)",
+      "pagebreak": "Puslapio pertrauka"
+    },
+    "fontFace": {
+      "aefurat": "Aefuratas",
+      "dejavuserif": "DejaVu Serifas",
+      "freemono": "\"FreeMono\"",
+      "freeserif": "\"FreeSerif\"",
+      "kozgopromedium": "\"Kozgo Pro Medium\"",
+      "kozminproregular": "\"Kozmin Pro Regular\"",
+      "pdfasymbol": "PDFA simbolis",
+      "symbol": "Simbolis",
+      "times": "Laikai"
+    },
+    "pageFormat": {
+      "Custom": "Pasirinktinis"
+    }
+  }
+}

@@ -1,0 +1,91 @@
+{
+    "params": [
+        {
+            "name": "required",
+            "type": "bool",
+            "default": false
+        },
+        {
+            "name": "options",
+            "type": "array",
+            "view": "views/admin/field-manager/fields/options",
+            "tooltip": "optionsArray"
+        },
+        {
+            "name": "translation",
+            "type": "varchar",
+            "hidden": true
+        },
+        {
+            "name": "allowCustomOptions",
+            "type": "bool",
+            "hidden": true
+        },
+        {
+            "name": "noEmptyString",
+            "type": "bool",
+            "default": true
+        },
+        {
+            "name": "displayAsList",
+            "type": "bool",
+            "tooltip": true
+        },
+        {
+            "name": "maxCount",
+            "type": "int",
+            "min": 1,
+            "tooltip": true
+        },
+        {
+            "name": "pattern",
+            "type": "varchar",
+            "tooltip": true,
+            "view": "views/admin/field-manager/fields/pattern"
+        },
+        {
+            "name": "audited",
+            "type": "bool"
+        },
+        {
+            "name": "readOnly",
+            "type": "bool"
+        },
+        {
+            "name": "optionsPath",
+            "type": "varchar",
+            "hidden": true
+        }
+    ],
+    "validationList": [
+        "array",
+        "arrayOfString",
+        "valid",
+        "required",
+        "maxCount",
+        "maxLength",
+        "pattern",
+        "noEmptyString"
+    ],
+    "mandatoryValidationList": [
+        "array",
+        "arrayOfString",
+        "valid",
+        "maxLength"
+    ],
+    "filter": true,
+    "notCreatable": false,
+    "notSortable": true,
+    "fieldDefs": {
+        "type": "jsonArray",
+        "storeArrayValues": true
+    },
+    "translatedOptions": true,
+    "dynamicLogicOptions": true,
+    "personalData": true,
+    "massUpdateActionList": [
+        "update",
+        "add",
+        "remove"
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "fields": {
+        "materialClasses": "Třídy materiálu",
+        "materialDefinitionsPropertiesFromClasseses": "Vlastnosti",
+        "materialLots": "Dávka materiálu",
+        "productSegments": "Segmenty produktů",
+        "processSegmentMaterialItems": "Položka materiálu segmentu procesu",
+        "productSegmentMaterialItems": "Product Segment Material Items"
+    },
+    "links": {
+        "materialClasses": "Třídy materiálu",
+        "materialDefinitionsPropertiesFromClasseses": "Vlastnosti",
+        "materialLots": "Dávka materiálu",
+        "productSegments": "Segmenty produktů",
+        "processSegmentMaterialItems": "Položka materiálu segmentu procesu",
+        "productSegmentMaterialItems": "Product Segment Material Items"
+    },
+    "labels": {
+        "Create MaterialDefinitions": "Create Definice materiálu"
+    }
+}

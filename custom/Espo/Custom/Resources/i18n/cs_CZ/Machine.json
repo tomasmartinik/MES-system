@@ -1,0 +1,14 @@
+{
+    "labels": {
+        "Create Machine": "Vytvořit Výrobní zařízení"
+    },
+    "fields": {
+        "test": "Test"
+    },
+    "options": {
+        "test": {
+            "1": "1",
+            "2": "2"
+        }
+    }
+}

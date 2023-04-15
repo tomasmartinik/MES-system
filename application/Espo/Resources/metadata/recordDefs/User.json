@@ -1,0 +1,13 @@
+{
+    "massActions": {
+        "update": {
+            "implementationClassName": "Espo\\Classes\\MassAction\\User\\MassUpdate"
+        },
+        "delete": {
+            "implementationClassName": "Espo\\Classes\\MassAction\\User\\MassDelete"
+        }
+    },
+    "readLoaderClassNameList": [
+        "Espo\\Classes\\FieldProcessing\\User\\LastAccessLoader"
+    ]
+}

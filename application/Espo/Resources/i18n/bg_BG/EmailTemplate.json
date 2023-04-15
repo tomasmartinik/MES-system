@@ -1,0 +1,33 @@
+{
+  "fields": {
+    "name": "Име",
+    "status": "Статус",
+    "isHtml": "Имейлът е HTML",
+    "body": "Съдържание",
+    "subject": "Заглавие",
+    "attachments": "Прикачени файлове",
+    "oneOff": "Еднократно",
+    "category": "Категория"
+  },
+  "labels": {
+    "Create EmailTemplate": "Създаване на Шаблон за имейл",
+    "Info": "Информация",
+    "Available placeholders": "Налични placeholders"
+  },
+  "tooltips": {
+    "oneOff": "Отбележете, ако този шаблон ще се използва само веднъж. Например за масов имейл в имейл кампания."
+  },
+  "presetFilters": {
+    "actual": "Актуален"
+  },
+  "placeholderTexts": {
+    "optOutLink": "URL за отписване",
+    "today": "Днешната дата",
+    "now": "Текуща дата и време",
+    "currentYear": "Текуща година",
+    "optOutUrl": "URL за отписване"
+  },
+  "messages": {
+    "infoText": "Налични заместители:\n\n{optOutUrl} &#8211; URL линк за отписване;\n\n{optOutLink} &#8211; линк за отписване."
+  }
+}

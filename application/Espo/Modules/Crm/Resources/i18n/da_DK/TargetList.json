@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "name": "Navn",
+    "description": "Beskrivelse",
+    "entryCount": "Antal Enheder",
+    "campaigns": "Kampagner",
+    "endDate": "Slutdato",
+    "targetLists": "Kontaktliste",
+    "includingActionList": "Inkluder",
+    "excludingActionList": "Ekskluder",
+    "optedOutCount": "Antal fravalgte",
+    "targetStatus": "Mål status",
+    "isOptedOut": "er fravalgte"
+  },
+  "links": {
+    "accounts": "Konti",
+    "contacts": "Kontakter",
+    "campaigns": "Kampagner",
+    "massEmails": "Masse-Emails"
+  },
+  "options": {
+    "type": {
+      "Television": "TV",
+      "Newsletter": "Nyhedsbrev"
+    },
+    "targetStatus": {
+      "Opted Out": "Fravalgt",
+      "Listed": "Listet"
+    }
+  },
+  "labels": {
+    "Create TargetList": "Opret Kontaktliste",
+    "Opted Out": "Afmeldt",
+    "Cancel Opt-Out": "Fortryd Afmelding",
+    "Opt-Out": "Afmeld"
+  }
+}

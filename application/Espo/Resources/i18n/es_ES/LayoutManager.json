@@ -1,0 +1,36 @@
+{
+  "fields": {
+    "width": "Ancho (%)",
+    "link": "Enlace",
+    "notSortable": "No ordenable",
+    "align": "Alinear",
+    "panelName": "Nombre del Panel",
+    "style": "Estilo",
+    "sticked": "Pegado",
+    "isLarge": "Tamaño de fuente grande",
+    "dynamicLogicVisible": "Condiciones que hacen visible el panel",
+    "hidden": "Oculto"
+  },
+  "options": {
+    "align": {
+      "left": "Izquierda",
+      "right": "Derecha"
+    },
+    "style": {
+      "default": "Borrador",
+      "success": "Exito",
+      "danger": "Peligro",
+      "info": "Información",
+      "warning": "Advertencia",
+      "primary": "Principal"
+    }
+  },
+  "labels": {
+    "New panel": "Nuevo panel",
+    "Layout": "Diseño"
+  },
+  "tooltips": {
+    "link": "Si se marca, se mostrará un valor de campo como un enlace que apunta a la vista detallada del registro. Por lo general, se usa para los campos *Name*.",
+    "hiddenPanel": "Necesita hacer clic en \"mostrar más\" para ver el panel."
+  }
+}

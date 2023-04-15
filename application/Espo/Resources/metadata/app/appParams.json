@@ -1,0 +1,5 @@
+{
+    "templateEntityTypeList": {
+        "className": "Espo\\Classes\\AppParams\\TemplateEntityTypeList"
+    }
+}

@@ -1,0 +1,70 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "maxLength": 100,
+            "trim": true,
+            "pattern": "$noBadCharacters"
+        },
+        "roles": {
+            "type": "linkMultiple",
+            "tooltip": true
+        },
+        "positionList": {
+            "type": "array",
+            "displayAsList": true,
+            "tooltip": true
+        },
+        "userRole": {
+            "type": "varchar",
+            "notStorable": true,
+            "disabled": true
+        },
+        "layoutSet": {
+            "type": "link",
+            "tooltip": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        }
+    },
+    "links": {
+        "users": {
+            "type": "hasMany",
+            "entity": "User",
+            "foreign": "teams",
+            "columnAttributeMap": {
+                "role": "userRole"
+            }
+        },
+        "roles": {
+            "type": "hasMany",
+            "entity": "Role",
+            "foreign": "teams"
+        },
+        "notes": {
+            "type": "hasMany",
+            "entity": "Note",
+            "foreign": "teams"
+        },
+        "inboundEmails": {
+            "type": "hasMany",
+            "entity": "InboundEmail",
+            "foreign": "teams"
+        },
+        "layoutSet": {
+            "type": "belongsTo",
+            "entity": "LayoutSet",
+            "foreign": "teams"
+        }
+    },
+    "collection": {
+        "orderBy": "name",
+        "order": "asc"
+    }
+}

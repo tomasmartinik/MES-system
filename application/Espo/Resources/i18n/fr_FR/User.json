@@ -1,0 +1,119 @@
+{
+  "fields": {
+    "name": "Nom",
+    "userName": "Nom d'utilisateur",
+    "title": "Titre",
+    "isAdmin": "Est administrateur",
+    "defaultTeam": "Équipe par défaut",
+    "phoneNumber": "Téléphone",
+    "roles": "Rôles",
+    "portals": "Portails",
+    "portalRoles": "Rôles de Portail",
+    "password": "Mot de passe",
+    "currentPassword": "Mot de passe actuel",
+    "passwordConfirm": "Confirmer le mot de passe",
+    "newPassword": "Nouveau mot de passe",
+    "newPasswordConfirm": "Confirmer le nouveau mot de passe",
+    "isActive": "Est actif",
+    "isPortalUser": "Utilisateur de Portail",
+    "accounts": "Comptes",
+    "account": "Compte (principal)",
+    "sendAccessInfo": "Envoyer un email avec ses accès à l'utilisateur",
+    "portal": "Portail",
+    "isSuperAdmin": "Est super admin",
+    "lastAccess": "Dernier accès",
+    "apiKey": "clé API",
+    "secretKey": "Clef secrète",
+    "authMethod": "Méthode d'authentification",
+    "yourPassword": "Votre mot de passe actuel",
+    "dashboardTemplate": "Modèle de tableau de bord",
+    "auth2FAEnable": "Activer l'authentification à 2 facteurs",
+    "auth2FAMethod": "Méthode 2FA"
+  },
+  "links": {
+    "teams": "Équipes",
+    "roles": "Rôles",
+    "portals": "Portails",
+    "portalRoles": "Rôles Portail",
+    "accounts": "Comptes",
+    "account": "Compte (principal)",
+    "defaultTeam": "Équipe par défaut",
+    "dashboardTemplate": "Modèle de tableau de bord"
+  },
+  "labels": {
+    "Create User": "Créer un utilisateur",
+    "Generate": "Générer",
+    "Access": "Accès",
+    "Preferences": "Préférences",
+    "Change Password": "Changer le mot de passe",
+    "Teams and Access Control": "Équipes et permissions",
+    "Forgot Password?": "Mot de passe oublié?",
+    "Password Change Request": "Changement de mot de passe",
+    "Email Address": "Adresse email",
+    "External Accounts": "Comptes externes",
+    "Email Accounts": "Comptes email",
+    "Portal": "Portail",
+    "Create Portal User": "Créer un utilisateur de Portail",
+    "Generate New API Key": "Générer une nouvelle clé API",
+    "Generate New Password": "Générer un nouveau mot de passe",
+    "Back to login form": "Retour au formulaire de connexion",
+    "Requirements": "Exigences",
+    "Security": "Sécurité",
+    "Reset 2FA": "Réinitialiser 2FA"
+  },
+  "tooltips": {
+    "defaultTeam": "Toutes les données créées par cet utilisateur seront liés à cette équipe par défaut.",
+    "userName": "Lettres a-z, nombres 0-9 et underscores autorisés.",
+    "isAdmin": "Un administrateur accède à tout.",
+    "isActive": "Si décoché, alors l'utilisateur ne pourra plus se connecter.",
+    "teams": "Les équipes auxquelles l'utilisateur appartient. Permissions héritées de celles de l'équipe.",
+    "roles": "Rôles d'accès supplémentaires. Utilisez-les si l'utilisateur ne fait pas partie d'une équipe ou si vous avez besoin d'étendre le niveau des permissions uniquement pour cet utilisateur.",
+    "portalRoles": "Rôles de Portail additionnels",
+    "portals": "Portails auxquels cet utilisateur a accès"
+  },
+  "messages": {
+    "passwordWillBeSent": "Les identifiants (y compris le mot de passe) seront envoyés à l'adresse email de l'utilisateur.",
+    "passwordChanged": "Le mot de passe a été modifié",
+    "userCantBeEmpty": "Le nom d'utilisateur ne peut être laissé vide",
+    "wrongUsernamePasword": "Mauvaise combinaison nom d'utilisateur/mot de passe",
+    "emailAddressCantBeEmpty": "L'adresse email ne peut être laissée vide",
+    "userNameEmailAddressNotFound": "Cette combinaison utilisateur/adresse email n'a pas été retrouvée.",
+    "forbidden": "Erreur, veuillez réessayer plus tard.",
+    "uniqueLinkHasBeenSent": "Un lien unique et temporaire a été envoyé à votre adresse email.",
+    "passwordChangedByRequest": "Le mot de passe a été modifié.",
+    "userNameExists": "Ce nom d'utilisateur existe déjà",
+    "setupSmtpBefore": "Vous devez configurer [Paramètres SMTP]({url}) pour que le système puisse envoyer un mot de passe par courrier électronique.",
+    "passwordStrengthLength": "Doit comporter au moins {longueur} caractères.",
+    "passwordStrengthLetterCount": "Doit contenir au moins {count} lettre (s).",
+    "passwordStrengthNumberCount": "Doit contenir au moins {count} digit (s).",
+    "passwordStrengthBothCases": "Doit contenir des lettres des majuscules et des minuscules.",
+    "wrongCode": "Mauvais code",
+    "codeIsRequired": "Le code est requis",
+    "enterTotpCode": "Entrez un code de votre application d'authentification.",
+    "verifyTotpCode": "Scannez le code QR avec votre application d'authentificateur mobile. Si vous rencontrez des problèmes de numérisation, vous pouvez entrer le secret manuellement. Après cela, vous verrez un code à 6 chiffres dans votre application. Entrez ce code dans le champ ci-dessous.",
+    "generateAndSendNewPassword": "Un nouveau mot de passe sera généré et envoyé à l'adresse électronique de l'utilisateur.",
+    "security2FaResetConfimation": "Êtes-vous sûr de vouloir réinitialiser les paramètres 2FA actuels?",
+    "ldapUserInEspoNotFound": "Utilisateur introuvable dans EspoCRM. Veuillez contacter votre administrateur pour en créer un.",
+    "auth2FARequiredHeader": "Authentification à deux facteurs exigée",
+    "auth2FARequired": "Activez l'authentification à deux facteurs. Utilisez une application d'authentification dans votre mobile (comme Google Authentificator)."
+  },
+  "boolFilters": {
+    "onlyMyTeam": "De mon équipe"
+  },
+  "presetFilters": {
+    "active": "Actif",
+    "activePortal": "Portail actif",
+    "activeApi": "API active"
+  },
+  "options": {
+    "type": {
+      "regular": "Ordinaire",
+      "portal": "Portail",
+      "system": "Système",
+      "super-admin": "Super-admin"
+    },
+    "authMethod": {
+      "ApiKey": "clé API"
+    }
+  }
+}

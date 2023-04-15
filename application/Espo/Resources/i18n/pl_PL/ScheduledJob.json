@@ -1,0 +1,35 @@
+{
+  "fields": {
+    "name": "Nazwa",
+    "job": "Zadanie",
+    "scheduling": "Planowanie"
+  },
+  "labels": {
+    "Create ScheduledJob": "Utwórz zaplanowane działania",
+    "As often as possible": "Tak często jak to możliwe"
+  },
+  "options": {
+    "job": {
+      "Cleanup": "Wyczyść",
+      "CheckInboundEmails": "Sprawdź pocztę przychodzącą",
+      "CheckEmailAccounts": "Sprawdź osobiste konta pocztowe",
+      "SendEmailReminders": "Wyślij przypomnienia",
+      "AuthTokenControl": "Kontrola tokenu uwierzytelniającego",
+      "SendEmailNotifications": "Wysyłaj powiadomienia e-mail",
+      "CheckNewVersion": "Sprawdź nową wersję",
+      "ProcessWebhookQueue": "Kolejka Webhook procesów"
+    },
+    "cronSetup": {
+      "linux": "Uwaga: Dodaj tą linię do pliku crontab, aby uruchomić zaplanowane zadania Espo:",
+      "mac": "Uwaga: Dodaj tą linię do pliku crontab, aby uruchomić zaplanowane zadania Espo:",
+      "windows": "Uwaga: Utwórz plik wsadowy z następujących poleceń, aby uruchomić zaplanowane zadania Espo w systemie Windows:"
+    },
+    "status": {
+      "Active": "Aktywny",
+      "Inactive": "Nie Aktywny"
+    }
+  },
+  "tooltips": {
+    "scheduling": "Notacja Crontab. Określa częstotliwość wykonywania zadań.\n\n`* / 5 * * * *` - co 5 minut\n\n`0 * / 2 * * *` - co 2 godziny\n\n`30 1 * * *` - o 01:30 raz dziennie\n\n`0 0 1 * *` - pierwszego dnia miesiąca"
+  }
+}

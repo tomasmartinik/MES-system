@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "name": "Nombre",
+    "parent": "Padre",
+    "status": "Estado",
+    "dateStart": "Fecha de comienzo",
+    "dateEnd": "Fecha de finalización",
+    "duration": "Duración",
+    "description": "Descripción",
+    "users": "Usuarios",
+    "contacts": "Contactos",
+    "leads": "Posibles clientes",
+    "reminders": "Recordatorios",
+    "account": "Cuenta",
+    "acceptanceStatus": "Estado de aceptación",
+    "dateStartDate": "Fecha de inicio (todo el día)",
+    "dateEndDate": "Fecha de finalización (todo el día)",
+    "isAllDay": "Es todo el día",
+    "Acceptance": "Aceptación"
+  },
+  "options": {
+    "status": {
+      "Planned": "Planeadas",
+      "Held": "Celebradas",
+      "Not Held": "Sin celebrar"
+    },
+    "acceptanceStatus": {
+      "None": "Ninguno",
+      "Accepted": "Aceptado",
+      "Declined": "Rechazado",
+      "Tentative": "Tentativa"
+    }
+  },
+  "massActions": {
+    "setHeld": "Marcar como celebrada",
+    "setNotHeld": "Marcar como No celebrada"
+  },
+  "labels": {
+    "Create Meeting": "Crear reunión",
+    "Set Held": "Marcar como celebrada",
+    "Set Not Held": "Marcar como No celebrada",
+    "Send Invitations": "Enviar Invitaciones",
+    "on time": "a tiempo",
+    "before": "antes",
+    "All-Day": "Todo el día"
+  },
+  "presetFilters": {
+    "planned": "Planeadas",
+    "held": "Celebradas",
+    "todays": "De hoy"
+  },
+  "messages": {
+    "nothingHasBeenSent": "No se ha enviado nada",
+    "selectAcceptanceStatus": "Establece tu estado de aceptación."
+  }
+}

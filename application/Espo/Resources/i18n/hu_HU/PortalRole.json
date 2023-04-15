@@ -1,0 +1,14 @@
+{
+  "links": {
+    "users": "felhasználók"
+  },
+  "labels": {
+    "Access": "Hozzáférés",
+    "Create PortalRole": "Portál szerep létrehozása",
+    "Scope Level": "Teljesítményszint",
+    "Field Level": "Térségi szint"
+  },
+  "fields": {
+    "exportPermission": "Exportengedély"
+  }
+}

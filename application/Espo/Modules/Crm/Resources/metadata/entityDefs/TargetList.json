@@ -1,0 +1,209 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true,
+            "pattern": "$noBadCharacters"
+        },
+        "entryCount": {
+            "type": "int",
+            "readOnly": true,
+            "notStorable": true,
+            "layoutFiltersDisabled": true,
+            "layoutMassUpdateDisabled": true
+        },
+        "optedOutCount": {
+            "type": "int",
+            "readOnly": true,
+            "notStorable": true,
+            "layoutListDisabled": true,
+            "layoutFiltersDisabled": true,
+            "layoutMassUpdateDisabled": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user",
+            "fieldManagerParamList": []
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user",
+            "fieldManagerParamList": []
+        },
+        "assignedUser": {
+            "type": "link",
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "includingActionList": {
+            "type": "multiEnum",
+            "view": "crm:views/target-list/fields/including-action-list",
+            "layoutDetailDisabled": true,
+            "layoutFiltersDisabled": true,
+            "layoutLinkDisabled": true,
+            "notStorable": true,
+            "disabled": true
+        },
+        "excludingActionList": {
+            "type": "multiEnum",
+            "view": "crm:views/target-list/fields/including-action-list",
+            "layoutDetailDisabled": true,
+            "layoutFiltersDisabled": true,
+            "layoutLinkDisabled": true,
+            "notStorable": true,
+            "disabled": true
+        },
+        "targetStatus": {
+            "type": "enum",
+            "options": ["Listed", "Opted Out"],
+            "notStorable": true,
+            "readOnly": true,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutFiltersDisabled": true,
+            "exportDisabled": true,
+            "importDisabled": true,
+            "view": "crm:views/target-list/fields/target-status"
+        },
+        "isOptedOut": {
+            "type": "bool",
+            "notStorable": true,
+            "readOnly": true,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutFiltersDisabled": true,
+            "exportDisabled": true,
+            "importDisabled": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "campaigns": {
+            "type": "hasMany",
+            "entity": "Campaign",
+            "foreign": "targetLists",
+            "layoutRelationshipsDisabled": true
+        },
+        "massEmails": {
+            "type": "hasMany",
+            "entity": "MassEmail",
+            "foreign": "targetLists",
+            "layoutRelationshipsDisabled": true
+        },
+        "campaignsExcluding": {
+            "type": "hasMany",
+            "entity": "Campaign",
+            "foreign": "excludingTargetLists",
+            "layoutRelationshipsDisabled": true
+        },
+        "massEmailsExcluding": {
+            "type": "hasMany",
+            "entity": "MassEmail",
+            "foreign": "excludingTargetLists",
+            "layoutRelationshipsDisabled": true
+        },
+        "accounts": {
+            "type": "hasMany",
+            "entity": "Account",
+            "foreign": "targetLists",
+            "additionalColumns": {
+                "optedOut": {
+                    "type": "bool"
+                }
+            },
+            "columnAttributeMap": {
+                "optedOut": "isOptedOut"
+            }
+        },
+        "contacts": {
+            "type": "hasMany",
+            "entity": "Contact",
+            "foreign": "targetLists",
+            "additionalColumns": {
+                "optedOut": {
+                    "type": "bool"
+                }
+            },
+            "columnAttributeMap": {
+                "optedOut": "isOptedOut"
+            }
+        },
+        "leads": {
+            "type": "hasMany",
+            "entity": "Lead",
+            "foreign": "targetLists",
+            "additionalColumns": {
+                "optedOut": {
+                    "type": "bool"
+                }
+            },
+            "columnAttributeMap": {
+                "optedOut": "isOptedOut"
+            }
+        },
+        "users": {
+            "type": "hasMany",
+            "entity": "User",
+            "foreign": "targetLists",
+            "additionalColumns": {
+                "optedOut": {
+                    "type": "bool"
+                }
+            },
+            "columnAttributeMap": {
+                "optedOut": "isOptedOut"
+            }
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc"
+    },
+    "indexes": {
+        "createdAt": {
+            "columns": ["createdAt", "deleted"]
+        }
+    }
+}

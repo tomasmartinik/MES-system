@@ -1,0 +1,136 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "view": "views/admin/job/fields/name"
+        },
+        "status": {
+            "type": "enum",
+            "options": ["Pending", "Ready", "Running", "Success", "Failed"],
+            "default": "Pending",
+            "style": {
+                "Success": "success",
+                "Failed": "danger",
+                "Running": "warning",
+                "Ready": "warning"
+            },
+            "maxLength": 16
+        },
+        "executeTime": {
+            "type": "datetime",
+            "required": true,
+            "hasSeconds": true
+        },
+        "number": {
+            "type": "int",
+            "index": true,
+            "readOnly": true,
+            "view": "views/fields/autoincrement",
+            "dbType": "bigint",
+            "unique": true,
+            "autoincrement": true
+        },
+        "className": {
+            "type": "varchar",
+            "required": true,
+            "maxLength": 255
+        },
+        "serviceName": {
+            "type": "varchar",
+            "required": true,
+            "maxLength": 100
+        },
+        "methodName": {
+            "type": "varchar",
+            "maxLength": 100
+        },
+        "job": {
+            "type": "varchar",
+            "view": "views/scheduled-job/fields/job"
+        },
+        "data": {
+            "type": "jsonObject"
+        },
+        "scheduledJob": {
+            "type": "link"
+        },
+        "scheduledJobJob": {
+            "type": "foreign",
+            "link": "scheduledJob",
+            "field": "job"
+        },
+        "queue": {
+            "type": "varchar",
+            "maxLength": 36,
+            "default": null
+        },
+        "group": {
+            "type": "varchar",
+            "maxLength": 128,
+            "default": null
+        },
+        "targetGroup": {
+            "type": "varchar",
+            "maxLength": 128,
+            "default": null
+        },
+        "startedAt": {
+            "type": "datetime",
+            "hasSeconds": true
+        },
+        "executedAt": {
+            "type": "datetime",
+            "hasSeconds": true
+        },
+        "pid": {
+            "type": "int"
+        },
+        "attempts": {
+            "type": "int"
+        },
+        "targetId": {
+            "type": "varchar",
+            "maxLength": 48
+        },
+        "targetType": {
+            "type": "varchar",
+            "maxLength": 64
+        },
+        "failedAttempts": {
+            "type": "int"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "hasSeconds": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "hasSeconds": true
+        }
+    },
+    "links": {
+        "scheduledJob": {
+            "type": "belongsTo",
+            "entity": "ScheduledJob"
+        }
+    },
+    "collection": {
+        "orderBy": "number",
+        "order": "desc",
+        "textFilterFields": ["id", "name", "methodName", "serviceName"]
+    },
+    "indexes": {
+        "executeTime": {
+            "columns": ["status", "executeTime"]
+        },
+        "status": {
+            "columns": ["status", "deleted"]
+        },
+        "statusScheduledJobId": {
+            "columns": ["status", "scheduledJobId"]
+        }
+    }
+}

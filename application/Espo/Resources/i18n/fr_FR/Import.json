@@ -1,0 +1,90 @@
+{
+  "labels": {
+    "Revert Import": "Annuler l'import",
+    "Return to Import": "Retourner à l'import",
+    "Run Import": "Démarrer l'import",
+    "Back": "Retour",
+    "Field Mapping": "Correspondance des champs",
+    "Default Values": "Valeurs par défaut",
+    "Add Field": "Ajouter un champ",
+    "Created": "Créé",
+    "Updated": "Mis à jour",
+    "Result": "Résultat",
+    "Show records": "Montrer les enregistrements",
+    "Remove Duplicates": "Supprimer les doublons",
+    "importedCount": "Importés (compte)",
+    "duplicateCount": "Doublons (compte)",
+    "updatedCount": "Mis à jour (compte)",
+    "Create Only": "Créer uniquement",
+    "Create and Update": "Créer et modifier",
+    "Update Only": "Modifier uniquement",
+    "Update by": "Modifié par",
+    "Set as Not Duplicate": "Marquer comme distincts",
+    "File (CSV)": "Fichier (CSV)",
+    "First Row Value": "Valeur de la première ligne",
+    "Skip": "Ignorer",
+    "Header Row Value": "Valeur de la ligne d'entête",
+    "Field": "Champs",
+    "What to Import?": "Importer quoi ?",
+    "Entity Type": "Type de Fonctionnalité",
+    "What to do?": "Faire quoi ?",
+    "Properties": "Propriétés",
+    "Header Row": "Ligne d’entête ",
+    "Person Name Format": "Format du nom des personnes",
+    "John Smith": "Jean Dupont",
+    "Smith John": "Dupont Jean",
+    "Smith, John": "Dupont, Jean",
+    "Field Delimiter": "Délimiteur de champs",
+    "Date Format": "Format des dates",
+    "Decimal Mark": "Séparateur de décimales",
+    "Text Qualifier": "Marqueurs de texte",
+    "Time Format": "Format de l'heure",
+    "Currency": "Devise",
+    "Preview": "Prévisualiser",
+    "Next": "Suivant",
+    "Step 1": "Étape 1",
+    "Step 2": "Étape 2",
+    "Double Quote": "Guillemet",
+    "Single Quote": "Apostrophe",
+    "Imported": "Importé",
+    "Duplicates": "Doublons",
+    "Remove Import Log": "Supprimer le journal d'importation",
+    "New Import": "Nouvelle importation",
+    "Import Results": "Résultats d'importation",
+    "Silent Mode": "Mode silencieux",
+    "Run Manually": "Déclencher manuellement"
+  },
+  "messages": {
+    "utf8": "Devrait être en UTF-8",
+    "duplicatesRemoved": "Doublons supprimés",
+    "revert": "Cela supprimera définitivement tous les enregistrements importés.",
+    "removeDuplicates": "Cela supprimera définitivement tous les enregistrements importés qui ont été reconnus comme des doublons.",
+    "confirmRevert": "Cela supprimera définitivement tous les enregistrements importés. Êtes-vous sûr?",
+    "confirmRemoveDuplicates": "Cela supprimera définitivement tous les enregistrements importés qui ont été reconnus comme des doublons. Êtes-vous sûr?",
+    "removeImportLog": "Cela supprimera le journal d'importation. Tous les enregistrements importés seront conservés. Utilisez-le si vous êtes sûr que l'importation est correcte."
+  },
+  "fields": {
+    "file": "Fichier",
+    "entityType": "Type de Fonctionnalité",
+    "imported": "Enregistrements importés",
+    "duplicates": "Enregistrements doublons",
+    "updated": "Enregistrements mis à jour"
+  },
+  "options": {
+    "personNameFormat": {
+      "f l": "Prénom Nom",
+      "l f": "Nom Prénom",
+      "f m l": "Prénom Nom de jeune fille Nom de famille",
+      "l f m": "Nom de famille Nom de jeune fille Prénom",
+      "l, f": "Nom, Prénom"
+    },
+    "status": {
+      "Standby": "Pause",
+      "Pending": "Attente"
+    }
+  },
+  "strings": {
+    "commandToRun": "Ligne de commande à opérer (depuis l'interface",
+    "saveAsDefault": "Enregistrer comme élément par défaut"
+  }
+}

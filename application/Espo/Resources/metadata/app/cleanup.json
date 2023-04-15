@@ -1,0 +1,22 @@
+{
+    "reminders": {
+        "className": "Espo\\Classes\\Cleanup\\Reminders",
+        "order": 10
+    },
+    "webhookQueue": {
+        "className": "Espo\\Classes\\Cleanup\\WebhookQueue",
+        "order": 11
+    },
+    "twoFactorCodes": {
+        "className": "Espo\\Classes\\Cleanup\\TwoFactorCodes"
+    },
+    "massActions": {
+        "className": "Espo\\Classes\\Cleanup\\MassActions"
+    },
+    "exports": {
+        "className": "Espo\\Classes\\Cleanup\\Exports"
+    },
+    "passwordChangeRequests": {
+        "className": "Espo\\Classes\\Cleanup\\PasswordChangeRequests"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "name": "Navn",
+    "description": "Beskrivelse",
+    "isInstalled": "Installeret",
+    "checkVersionUrl": "et URL som tjekker for nye versioner"
+  },
+  "labels": {
+    "Uninstall": "Afinstaller",
+    "Install": "Installer"
+  },
+  "messages": {
+    "uninstalled": "Udvidelse {name} er blevet afinstalleret"
+  }
+}

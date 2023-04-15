@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "user": "Vartotojas",
+    "ipAddress": "IP Adresss",
+    "lastAccess": "Paskutinio prisijungimo data",
+    "createdAt": "Prisijungimo data",
+    "isActive": "Yra Aktyvus",
+    "portal": "Portalas"
+  },
+  "links": {
+    "actionHistoryRecords": "Veiksmų istorija"
+  },
+  "presetFilters": {
+    "active": "Aktyvus",
+    "inactive": "Neaktyvus"
+  },
+  "labels": {
+    "Set Inactive": "Nustatyti Neaktyviu"
+  },
+  "massActions": {
+    "setInactive": "Nustatyti kaip neaktyvų"
+  }
+}

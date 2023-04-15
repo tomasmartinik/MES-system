@@ -1,0 +1,16 @@
+{
+    "labels": {
+        "Create OrderItem": "Vytvořit Položka objednávky"
+    },
+    "fields": {
+        "orders": "Objednávky",
+        "products": "Produkty",
+        "quantity": "Množství",
+        "productDefinitions": "Produkt"
+    },
+    "links": {
+        "orders": "Objednávky",
+        "products": "Produkty",
+        "productDefinitions": "Produkt"
+    }
+}

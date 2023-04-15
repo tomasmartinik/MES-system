@@ -1,0 +1,35 @@
+{
+  "fields": {
+    "name": "Nama",
+    "username": "Nama pengguna",
+    "password": "Kata sandi",
+    "monitoredFolders": "Folder yang dipantau",
+    "fetchSince": "Ambil Sejak",
+    "emailAddress": "Alamat email",
+    "sentFolder": "Folder terkirim",
+    "storeSentEmails": "Simpan email terkirim",
+    "keepFetchedEmailsUnread": "Fetched email tetap sebagai belum dibaca"
+  },
+  "links": {
+    "filters": "filter"
+  },
+  "options": {
+    "status": {
+      "Active": "Aktif",
+      "Inactive": "non-aktif"
+    }
+  },
+  "labels": {
+    "Create EmailAccount": "Buat Akun Email",
+    "Main": "Utama",
+    "Test Connection": "Tes koneksi"
+  },
+  "messages": {
+    "couldNotConnectToImap": "tidak bisa terhubung ke server IMAP",
+    "connectionIsOk": "Koneksi Ok"
+  },
+  "tooltips": {
+    "monitoredFolders": "Anda dapat menambahkan folder 'Sent' untuk menyinkronkan email yang dikirim dari klien email eksternal.",
+    "storeSentEmails": "email yang dikirim akan disimpan di server IMAP. Alamat email harus banyak alamat email ini sedang dikirim dari."
+  }
+}

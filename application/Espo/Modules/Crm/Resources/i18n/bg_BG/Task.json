@@ -1,0 +1,55 @@
+{
+  "fields": {
+    "name": "Име",
+    "parent": "Родител",
+    "status": "Статус",
+    "dateStart": "Начална дата",
+    "dateEnd": "Дата до",
+    "dateStartDate": "Начална дата (цял ден)",
+    "dateEndDate": "Крайна дата (цял ден)",
+    "priority": "Приоритет",
+    "description": "Описание",
+    "isOverdue": "Е просрочена",
+    "account": "Клиент",
+    "dateCompleted": "Дата на завършване",
+    "attachments": "Прикачени файлове",
+    "reminders": "Напомняния",
+    "contact": "Контакт"
+  },
+  "links": {
+    "attachments": "Прикачени файлове",
+    "account": "Клиент",
+    "contact": "Контакт",
+    "email": "Имейл"
+  },
+  "options": {
+    "status": {
+      "Not Started": "Не е стартирана",
+      "Started": "Започната",
+      "Completed": "Завършен",
+      "Canceled": "Отменена",
+      "Deferred": "Отложена"
+    },
+    "priority": {
+      "Low": "Нисък",
+      "Normal": "Нормален",
+      "High": "Висок",
+      "Urgent": "Спешен"
+    }
+  },
+  "labels": {
+    "Create Task": "Създаване на задача",
+    "Complete": "Завършване",
+    "overdue": "просрочена"
+  },
+  "presetFilters": {
+    "actual": "Актуални",
+    "completed": "Завършени",
+    "todays": "Днешните",
+    "overdue": "Просрочени",
+    "deferred": "Разсрочено"
+  },
+  "nameOptions": {
+    "replyToEmail": "Отговор до имейл"
+  }
+}

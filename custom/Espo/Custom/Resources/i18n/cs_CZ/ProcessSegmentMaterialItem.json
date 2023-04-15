@@ -1,0 +1,16 @@
+{
+    "labels": {
+        "Create ProcessSegmentMaterialItem": "Vytvořit Položka materiálu segmentu procesu"
+    },
+    "fields": {
+        "quantity": "Množství",
+        "materialClasses": "Třída",
+        "materialDefinitions": "Definice materiálu",
+        "processSegments": "Segment procesu"
+    },
+    "links": {
+        "materialClasses": "Třída",
+        "materialDefinitions": "Definice materiálu",
+        "processSegments": "Segment procesu"
+    }
+}

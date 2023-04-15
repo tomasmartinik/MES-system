@@ -1,0 +1,55 @@
+{
+  "fields": {
+    "name": "Naam",
+    "emailAddress": "E-mail",
+    "accountRole": "Titel",
+    "account": "Relatie",
+    "accounts": "Relaties",
+    "phoneNumber": "Telefoon",
+    "accountType": "Relatie Type",
+    "doNotCall": "Niet Bellen",
+    "address": "Adres",
+    "opportunityRole": "Kans functie",
+    "description": "Beschrijving",
+    "campaign": "Campagne",
+    "targetLists": "Doellijsten",
+    "targetList": "Doellijst",
+    "portalUser": "Portaalgebruiker",
+    "originalLead": "Oorspronkelijke lead",
+    "acceptanceStatus": "Acceptatiestatus",
+    "accountIsInactive": "Relatie inactief",
+    "acceptanceStatusMeetings": "Acceptatiestatus (vergaderingen)",
+    "acceptanceStatusCalls": "Acceptatiestatus (oproepen)",
+    "title": "Relatie titel",
+    "hasPortalUser": "Heeft portaal toegang"
+  },
+  "links": {
+    "opportunities": "Kansen",
+    "cases": "Tickets",
+    "targetLists": "Doellijsten",
+    "campaignLogRecords": "Campagne log",
+    "campaign": "Campagne",
+    "account": "Relatie (Primair)",
+    "accounts": "Relaties",
+    "casesPrimary": "Tickets (Primair)",
+    "portalUser": "Portaalgebruiker",
+    "originalLead": "Oorspronkelijke lead",
+    "documents": "Documenten",
+    "tasksPrimary": "Taken (uitgebreid)",
+    "opportunitiesPrimary": "Kansen (Primair)"
+  },
+  "labels": {
+    "Create Contact": "Creëer Contact"
+  },
+  "options": {
+    "opportunityRole": {
+      "Decision Maker": "Beslisser",
+      "Influencer": "Beïnvloeder"
+    }
+  },
+  "presetFilters": {
+    "portalUsers": "Portaalgebruikers",
+    "notPortalUsers": "Geen portaalgebruikers",
+    "accountActive": "Actief"
+  }
+}

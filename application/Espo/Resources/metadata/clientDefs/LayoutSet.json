@@ -1,0 +1,15 @@
+{
+    "controller": "controllers/layout-set",
+    "recordViews": {
+        "list": "views/layout-set/record/list"
+    },
+    "searchPanelDisabled": true,
+    "duplicateDisabled": true,
+    "relationshipPanels": {
+        "teams": {
+            "createDisabled": true,
+            "viewDisabled": true,
+            "rowActionsView": "views/record/row-actions/relationship-unlink-only"
+        }
+    }
+}

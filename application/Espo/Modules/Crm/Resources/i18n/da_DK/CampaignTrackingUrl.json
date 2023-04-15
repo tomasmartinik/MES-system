@@ -1,0 +1,12 @@
+{
+  "fields": {
+    "urlToUse": "Kode til indsættelse i stedet for URL",
+    "campaign": "Kampagne"
+  },
+  "links": {
+    "campaign": "Kampagne"
+  },
+  "labels": {
+    "Create CampaignTrackingUrl": "Opret Tracking URL"
+  }
+}

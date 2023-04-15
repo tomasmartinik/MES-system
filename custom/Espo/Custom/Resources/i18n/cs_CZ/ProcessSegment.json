@@ -1,0 +1,15 @@
+{
+    "labels": {
+        "Create ProcessSegment": "Vytvořit Segment procesu"
+    },
+    "fields": {
+        "processSegmentEquipmentItems": "Vybavení",
+        "processSegmentMaterialItems": "Materiál",
+        "processSegmentPersonnelItems": "Personál"
+    },
+    "links": {
+        "processSegmentEquipmentItems": "Vybavení",
+        "processSegmentMaterialItems": "Materiál",
+        "processSegmentPersonnelItems": "Personál"
+    }
+}

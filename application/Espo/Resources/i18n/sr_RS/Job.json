@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "executeTime": "Izvrši u",
+    "attempts": "Preostali pokušaji",
+    "failedAttempts": "Neuspelih pokušaja",
+    "serviceName": "Usluga",
+    "methodName": "Metod",
+    "scheduledJob": "Zakazani poslovi",
+    "data": "Podaci",
+    "method": "Metod"
+  },
+  "options": {
+    "status": {
+      "Pending": "Čeka",
+      "Success": "Uspešno",
+      "Running": "Izvršavanje",
+      "Failed": "Neuspešno"
+    }
+  }
+}

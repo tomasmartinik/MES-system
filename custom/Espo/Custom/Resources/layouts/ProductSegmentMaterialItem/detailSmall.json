@@ -1,0 +1,24 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "materialClasses"
+                },
+                {
+                    "name": "materialDefinitions"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "quantity"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

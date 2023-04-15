@@ -1,0 +1,78 @@
+{
+  "fields": {
+    "name": "Navn",
+    "emailAddress": "Epostadresse",
+    "assignToUser": "Tildel til bruker",
+    "host": "Tjener",
+    "username": "Brukernavn",
+    "password": "Passord",
+    "monitoredFolders": "Overvåkede mapper",
+    "trashFolder": "Søppelkurv-mappe",
+    "createCase": "Opprett sak",
+    "reply": "Automatisk svar",
+    "caseDistribution": "Distribusjon av sak",
+    "replyEmailTemplate": "Epostmal for svar",
+    "replyFromAddress": "Svar fra adresse",
+    "replyToAddress": "Svar til adresse",
+    "replyFromName": "Svar fra navn",
+    "targetUserPosition": "Målbrukerens posisjon",
+    "fetchSince": "Hent fra dato",
+    "addAllTeamUsers": "For alle gruppens brukere",
+    "team": "Målgruppe",
+    "teams": "Grupper",
+    "sentFolder": "Sendt-mappe",
+    "storeSentEmails": "Lager sendte eposter",
+    "useSmtp": "Bruk SMTP",
+    "smtpHost": "SMTP-tjener",
+    "smtpPort": "SMTP-tjener",
+    "smtpAuth": "SMTP-autentisering",
+    "smtpSecurity": "SMTP-sikkerhet",
+    "smtpUsername": "SMTP-brukernavn",
+    "smtpPassword": "SMTP-passord",
+    "fromName": "Fra-navn",
+    "useImap": "Hent E-post",
+    "keepFetchedEmailsUnread": "Vis hentede eposter som ulest",
+    "smtpAuthMechanism": "SMTP-Autentisering Metode",
+    "security": "Sikkerhet"
+  },
+  "tooltips": {
+    "reply": "Varsle senderen når eposten er mottatt.\n\nFor å unngå 'looping' vil det kun sendes <em>en</em> epost til mottageren innen en gitt tidsperiode.",
+    "createCase": "Opprett sak automatisk for inngående eposter.",
+    "replyToAddress": "Spesifiser epostadressen til denne postkassen for at svar skal bli sendt hit.",
+    "caseDistribution": "Hvordan saker vil bli tildelt – direkte til en bruker eller til gruppen.",
+    "assignToUser": "Brukere som sakene tildeles til.",
+    "team": "Gruppes som sakene tildeles til.",
+    "teams": "Grupper som eposter tildeles til.",
+    "addAllTeamUsers": "Eposter vil vises i innboksen til alle brukere i de valgte gruppene.",
+    "useSmtp": "Muligheten for å sende E-post"
+  },
+  "links": {
+    "filters": "Filtre",
+    "emails": "Eposter",
+    "assignToUser": "Tildel til bruker"
+  },
+  "options": {
+    "status": {
+      "Active": "Aktive",
+      "Inactive": "Inaktive"
+    },
+    "caseDistribution": {
+      "": "Ingen",
+      "Direct-Assignment": "Direktetildeling",
+      "Least-Busy": "Minst opptatte"
+    },
+    "smtpAuthMechanism": {
+      "plain": "Klartekst",
+      "login": "Logg inn"
+    }
+  },
+  "labels": {
+    "Create InboundEmail": "Opprett epostkonto",
+    "IMAP": "IMAP-innstillinger",
+    "Actions": "Handlinger",
+    "Main": "Hovedinnstillinger"
+  },
+  "messages": {
+    "couldNotConnectToImap": "Kunne ikke koble til IMAP-tjeneren"
+  }
+}

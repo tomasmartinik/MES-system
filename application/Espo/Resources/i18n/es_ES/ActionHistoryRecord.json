@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "user": "Usuario",
+    "action": "Acción",
+    "createdAt": "Fecha",
+    "target": "Entidad objetivo",
+    "targetType": "Tipo de objetivo",
+    "authToken": "Token de autenticación",
+    "ipAddress": "Dirección IP",
+    "authLogRecord": "Entrada del registro de autenticación",
+    "userType": "Tipo de usuario"
+  },
+  "links": {
+    "authToken": "Token de autenticación",
+    "user": "Usuario",
+    "target": "Objetivo",
+    "authLogRecord": "Entrada del registro de autenticación"
+  },
+  "presetFilters": {
+    "onlyMy": "Solo míos"
+  },
+  "options": {
+    "action": {
+      "read": "Leer",
+      "update": "Guardar",
+      "delete": "Eliminar",
+      "create": "Crear"
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "fields": {
+    "name": "Nom",
+    "status": "Statut",
+    "dateStart": "Date de début",
+    "dateEnd": "Date de fin",
+    "duration": "Durée",
+    "users": "Utilisateurs",
+    "leads": "Prospects",
+    "reminders": "Notifications",
+    "account": "Compte",
+    "dateStartDate": "Date de début (toute la journée)",
+    "dateEndDate": "Date de fin (toute la journée)",
+    "isAllDay": "Est toute la journée",
+    "Acceptance": "Acceptation"
+  },
+  "options": {
+    "status": {
+      "Planned": "Prévu",
+      "Held": "Effectué",
+      "Not Held": "Non effectué"
+    },
+    "acceptanceStatus": {
+      "None": "Aucun",
+      "Accepted": "Accepté",
+      "Declined": "Décliné"
+    }
+  },
+  "massActions": {
+    "setHeld": "Définir comme effectué",
+    "setNotHeld": "Définir comme non effectué"
+  },
+  "labels": {
+    "Create Meeting": "Créer un Rendez-vous",
+    "Set Held": "Définir comme effectué",
+    "Set Not Held": "Définir comme non effectué",
+    "Send Invitations": "Envoyer des Invitations",
+    "on time": "à l'heure",
+    "before": "en avance",
+    "All-Day": "Toute la journée"
+  },
+  "presetFilters": {
+    "planned": "Prévu",
+    "held": "Effectué",
+    "todays": "Aujourd'hui"
+  },
+  "messages": {
+    "nothingHasBeenSent": "Aucun envoi effectué",
+    "selectAcceptanceStatus": "Définissez votre statut d'acceptation."
+  }
+}

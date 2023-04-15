@@ -1,0 +1,20 @@
+[
+    {
+        "rows": [
+            [
+                {"name": "name"},
+                false,
+                false
+            ]
+        ]
+    },
+    {
+        "rows": [
+            [
+                {"name": "exportPermission"},
+                {"name": "massUpdatePermission"},
+                false
+            ]
+        ]
+    }
+]

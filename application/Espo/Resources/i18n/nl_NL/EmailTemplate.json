@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "name": "Naam",
+    "body": "Inhoud",
+    "subject": "Onderwerp",
+    "attachments": "Bijlagen",
+    "oneOff": "Eenmalig",
+    "category": "Categorie",
+    "insertField": "Positiehouders"
+  },
+  "labels": {
+    "Create EmailTemplate": "Creëer E-mail Template",
+    "Available placeholders": "Beschikbare aanduidingen"
+  },
+  "tooltips": {
+    "oneOff": "Controleer of u deze sjabloon maar één keer gaat gebruiken. Bijv. voor verzamel e-mail."
+  },
+  "presetFilters": {
+    "actual": "Actueel"
+  },
+  "placeholderTexts": {
+    "optOutLink": "een afmeldlink",
+    "today": "Datum van vandaag",
+    "now": "Huidige datum en tijd",
+    "currentYear": "Huidig jaar",
+    "optOutUrl": "URL voor een afmeldlink"
+  },
+  "messages": {
+    "infoText": "Beschikbare plaatshouders:\n\n{optOutUrl} &#8211; URL voor een afmeldlink;\n\n{optOutLink} &#8211; een afmeldlink."
+  }
+}

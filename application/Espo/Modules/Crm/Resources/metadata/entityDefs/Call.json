@@ -1,0 +1,391 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true,
+            "pattern": "$noBadCharacters"
+        },
+        "status": {
+            "type": "enum",
+            "options": ["Planned", "Held", "Not Held"],
+            "default": "Planned",
+            "style": {
+                "Held": "success"
+            },
+            "audited": true
+        },
+        "dateStart": {
+            "type": "datetime",
+            "required": true,
+            "default": "javascript: return this.dateTime.getNow(15);",
+            "audited": true
+        },
+        "dateEnd": {
+            "type": "datetime",
+            "required": true,
+            "view": "crm:views/call/fields/date-end",
+            "after": "dateStart"
+        },
+        "duration": {
+            "type": "duration",
+            "start": "dateStart",
+            "end": "dateEnd",
+            "options": [300, 600, 900, 1800, 2700, 3600, 7200],
+            "default": 300,
+            "notStorable": true,
+            "select": {
+                "select": "TIMESTAMPDIFF_SECOND:(dateStart, dateEnd)"
+            },
+            "order": {
+                "order": [
+                    ["TIMESTAMPDIFF_SECOND:(dateStart, dateEnd)", "{direction}"]
+                ]
+            }
+        },
+        "reminders": {
+            "type": "jsonArray",
+            "notStorable": true,
+            "view": "crm:views/meeting/fields/reminders",
+            "layoutListDisabled": true
+        },
+        "direction": {
+            "type": "enum",
+            "options": ["Outbound", "Inbound"],
+            "default": "Outbound"
+        },
+        "description": {
+            "type": "text"
+        },
+        "parent": {
+            "type": "linkParent",
+            "entityList": ["Account", "Lead", "Contact", "Opportunity", "Case"]
+        },
+        "account": {
+            "type": "link",
+            "readOnly": true
+        },
+        "acceptanceStatus": {
+            "type": "enum",
+            "notStorable": true,
+            "options": ["None", "Accepted", "Tentative", "Declined"],
+            "style": {
+                "Accepted": "success",
+                "Declined": "danger",
+                "Tentative": "warning"
+            },
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "exportDisabled": true,
+            "customizationDefaultDisabled": true,
+            "customizationRequiredDisabled": true,
+            "customizationIsSortedDisabled": true,
+            "customizationReadOnlyDisabled": true,
+            "customizationAuditedDisabled": true,
+            "where": {
+                "=": {
+                    "whereClause": {
+                        "OR": {
+                            "contactsMiddle.status": "{value}",
+                            "leadsMiddle.status": "{value}",
+                            "usersMiddle.status": "{value}"
+                        }
+                    },
+                    "leftJoins": ["users", "contacts", "leads"],
+                    "distinct": true
+                },
+                "<>": {
+                    "whereClause": [
+                        {
+                            "id!=s": {
+                                "from": "CallContact",
+                                "select": ["callId"],
+                                "whereClause": {
+                                    "deleted": 0,
+                                    "status": "{value}"
+                                }
+                            }
+                        },
+                        {
+                            "id!=s": {
+                                "from": "CallLead",
+                                "select": ["callId"],
+                                "whereClause": {
+                                    "deleted": 0,
+                                    "status": "{value}"
+                                }
+                            }
+                        },
+                        {
+                            "id!=s": {
+                                "from": "CallUser",
+                                "select": ["callId"],
+                                "whereClause": {
+                                    "deleted": 0,
+                                    "status": "{value}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "IN": {
+                    "leftJoins": ["users", "leads", "contacts"],
+                    "whereClause": {
+                        "OR": {
+                            "contactsMiddle.status": "{value}",
+                            "leadsMiddle.status": "{value}",
+                            "usersMiddle.status": "{value}"
+                        }
+                    },
+                    "distinct": true
+                },
+                "NOT IN": {
+                    "whereClause": [
+                        {
+                            "id!=s": {
+                                "from": "CallContact",
+                                "select": ["callId"],
+                                "whereClause": {
+                                    "deleted": 0,
+                                    "status": "{value}"
+                                }
+                            }
+                        },
+                        {
+                            "id!=s": {
+                                "from": "CallLead",
+                                "select": ["callId"],
+                                "whereClause": {
+                                    "deleted": 0,
+                                    "status": "{value}"
+                                }
+                            }
+                        },
+                        {
+                            "id!=s": {
+                                "from": "CallUser",
+                                "select": ["callId"],
+                                "whereClause": {
+                                    "deleted": 0,
+                                    "status": "{value}"
+                                }
+                            }
+                        }
+                    ]
+                },
+                "IS NULL": {
+                    "leftJoins": ["users", "contacts", "leads"],
+                    "whereClause": {
+                        "contactsMiddle.status": null,
+                        "leadsMiddle.status": null,
+                        "usersMiddle.status": null
+                    },
+                    "distinct": true
+                },
+                "IS NOT NULL": {
+                    "whereClause": [
+                        {
+                            "id!=s": {
+                                "from": "CallContact",
+                                "select": ["callId"],
+                                "whereClause": {
+                                    "deleted": 0,
+                                    "status": null
+                                }
+                            }
+                        },
+                        {
+                            "id!=s": {
+                                "from": "CallLead",
+                                "select": ["callId"],
+                                "whereClause": {
+                                    "deleted": 0,
+                                    "status": null
+                                }
+                            }
+                        },
+                        {
+                            "id!=s": {
+                                "from": "CallUser",
+                                "select": ["callId"],
+                                "whereClause": {
+                                    "deleted": 0,
+                                    "status": null
+                                }
+                            }
+                        }
+                    ]
+                }
+            },
+            "view": "crm:views/meeting/fields/acceptance-status"
+        },
+        "users": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutListDisabled": true,
+            "view": "crm:views/meeting/fields/users",
+            "columns": {
+                "status": "acceptanceStatus"
+            },
+            "additionalAttributeList": ["columns"],
+            "orderBy": "name"
+        },
+        "contacts": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutListDisabled": true,
+            "view": "crm:views/call/fields/contacts",
+            "columns": {
+                "status": "acceptanceStatus"
+            },
+            "additionalAttributeList": ["columns"],
+            "orderBy": "name"
+        },
+        "leads": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutListDisabled": true,
+            "view": "crm:views/call/fields/leads",
+            "columns": {
+                "status": "acceptanceStatus"
+            },
+            "additionalAttributeList": ["columns"],
+            "orderBy": "name"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user",
+            "fieldManagerParamList": []
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user",
+            "fieldManagerParamList": []
+        },
+        "phoneNumbersMap": {
+            "type": "jsonObject",
+            "notStorable": true,
+            "disabled": true
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true,
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        }
+    },
+    "links": {
+        "account": {
+            "type": "belongsTo",
+            "entity": "Account"
+        },
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "users": {
+            "type": "hasMany",
+            "entity": "User",
+            "foreign": "calls",
+            "additionalColumns": {
+                "status": {
+                    "type": "varchar",
+                    "len": "36",
+                    "default": "None"
+                }
+            },
+            "columnAttributeMap": {
+                "status": "acceptanceStatus"
+            }
+        },
+        "contacts": {
+            "type": "hasMany",
+            "entity": "Contact",
+            "foreign": "calls",
+            "additionalColumns": {
+                "status": {
+                    "type": "varchar",
+                    "len": "36",
+                    "default": "None"
+                }
+            },
+            "columnAttributeMap": {
+                "status": "acceptanceStatus"
+            }
+        },
+        "leads": {
+            "type": "hasMany",
+            "entity": "Lead",
+            "foreign": "calls",
+            "additionalColumns": {
+                "status": {
+                    "type": "varchar",
+                    "len": "36",
+                    "default": "None"
+                }
+            },
+            "columnAttributeMap": {
+                "status": "acceptanceStatus"
+            }
+        },
+        "parent": {
+            "type": "belongsToParent",
+            "foreign": "calls"
+        }
+    },
+    "collection": {
+        "orderBy": "dateStart",
+        "order": "desc"
+    },
+    "indexes": {
+        "dateStartStatus": {
+            "columns": ["dateStart", "status"]
+        },
+        "dateStart": {
+            "columns": ["dateStart", "deleted"]
+        },
+        "status": {
+            "columns": ["status", "deleted"]
+        },
+        "assignedUser": {
+            "columns": ["assignedUserId", "deleted"]
+        },
+        "assignedUserStatus": {
+            "columns": ["assignedUserId", "status"]
+        }
+    }
+}

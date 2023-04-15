@@ -1,0 +1,41 @@
+{
+  "labels": {
+    "Create Document": "Opprett dokument",
+    "Details": "Detaljer"
+  },
+  "fields": {
+    "name": "Navn",
+    "file": "Fil",
+    "publishDate": "Publiseringsdato",
+    "expirationDate": "Utløpsdato",
+    "description": "Beskrivelse",
+    "accounts": "Kontoer",
+    "folder": "Mappe"
+  },
+  "links": {
+    "accounts": "Kontoer",
+    "opportunities": "Muligheter",
+    "folder": "Mappe",
+    "leads": "Ledetråder",
+    "contacts": "Kontakter"
+  },
+  "options": {
+    "status": {
+      "Active": "Aktiv",
+      "Draft": "Utkast",
+      "Expired": "Utgått",
+      "Canceled": "Kansellert"
+    },
+    "type": {
+      "": "Ingen",
+      "Contract": "Kontrakt",
+      "NDA": "Hemmeligholdsavtale (NDA)",
+      "EULA": "Sluttbrukeravtale (EULA)",
+      "License Agreement": "Lisensavtale"
+    }
+  },
+  "presetFilters": {
+    "active": "Aktiv",
+    "draft": "Utkast"
+  }
+}

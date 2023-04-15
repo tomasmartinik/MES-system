@@ -1,0 +1,36 @@
+{
+  "fields": {
+    "name": "Nombre",
+    "logo": "Logotipo",
+    "companyLogo": "Logotipo",
+    "isActive": "Está activo",
+    "isDefault": "Portal por defecto",
+    "tabList": "Lista de pestañas",
+    "quickCreateList": "Lista de creación rápida",
+    "theme": "Tema",
+    "language": "Idioma",
+    "dashboardLayout": "Diseño del escritorio",
+    "dateFormat": "Formato de fecha",
+    "timeFormat": "Formato de hora",
+    "timeZone": "Zona horaria",
+    "weekStart": "Primer día de la semana",
+    "defaultCurrency": "Moneda por defecto",
+    "customUrl": "URL personalizada",
+    "customId": "ID personalizado",
+    "layoutSet": "Conjunto de diseño"
+  },
+  "links": {
+    "users": "Usuarios",
+    "notes": "Notas",
+    "layoutSet": "Conjunto de diseño"
+  },
+  "tooltips": {
+    "portalRoles": "Los roles del portal indicados se aplicarán a todos los usuarios de este portal.",
+    "layoutSet": "Proporciona la capacidad de tener diseños que difieran de los estándar."
+  },
+  "labels": {
+    "Create Portal": "Crear portal",
+    "User Interface": "Interfaz del Usuario",
+    "Settings": "Ajustes"
+  }
+}

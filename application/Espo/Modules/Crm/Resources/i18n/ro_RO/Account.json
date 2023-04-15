@@ -1,0 +1,51 @@
+{
+  "fields": {
+    "name": "Nume",
+    "website": "Site Web",
+    "phoneNumber": "Telefon",
+    "billingAddress": "Adresa de Facturare",
+    "shippingAddress": "Adresa de Transport",
+    "description": "Descriere",
+    "sicCode": "Cod Sic",
+    "industry": "Industrie",
+    "type": "Tip",
+    "contactRole": "Rol"
+  },
+  "links": {
+    "contacts": "Contacte",
+    "opportunities": "Oportunitati",
+    "cases": "Cazuri"
+  },
+  "options": {
+    "type": {
+      "Customer": "Client",
+      "Investor": "Investitor",
+      "Partner": "Partener"
+    },
+    "industry": {
+      "Education": "Educatie",
+      "Electronics": "Electronice",
+      "Finance": "Finante",
+      "Insurance": "Asigurari",
+      "Technology": "Tehnologie",
+      "Telecommunications": "Telecomunicații",
+      "Television": "Televiziune",
+      "Transportation": "Transport",
+      "Venture Capital": "Capital de risc",
+      "Testing, Inspection & Certification": "Testare, Inspecție & Certificări",
+      "Wholesale": "Angro",
+      "Water": "Apă",
+      "Travel": "Călătorit"
+    }
+  },
+  "labels": {
+    "Create Account": "Creare cont",
+    "Copy Billing": "Copiați facturarea",
+    "Set Primary": "Setați primar"
+  },
+  "presetFilters": {
+    "customers": "Clienți",
+    "partners": "Parteneri",
+    "recentlyCreated": "Create recent"
+  }
+}

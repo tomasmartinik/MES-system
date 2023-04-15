@@ -1,0 +1,135 @@
+{
+  "labels": {
+    "Dynamic Logic": "Lógica dinámica",
+    "Name": "Nombre",
+    "Label": "Etiqueta",
+    "Type": "Tipo"
+  },
+  "options": {
+    "dateTimeDefault": {
+      "": "Nada",
+      "javascript: return this.dateTime.getNow(1);": "Ahora",
+      "javascript: return this.dateTime.getNow(5);": "Ahora (5m)",
+      "javascript: return this.dateTime.getNow(15);": "Ahora (15m)",
+      "javascript: return this.dateTime.getNow(30);": "Ahora (30m)",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(1, 'hours', 15);": "+1 hora",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(2, 'hours', 15);": "+2 horas",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(3, 'hours', 15);": "+3 horas",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(4, 'hours', 15);": "+4 horas",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(5, 'hours', 15);": "+5 horas",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(6, 'hours', 15);": "+6 horas",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(7, 'hours', 15);": "+7 horas",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(8, 'hours', 15);": "+8 horas",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(9, 'hours', 15);": "+9 horas",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(10, 'hours', 15);": "+10 horas",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(11, 'hours', 15);": "+11 horas",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(12, 'hours', 15);": "+12 horas",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(1, 'days', 15);": "+1 día",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(2, 'days', 15);": "+2 días",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(3, 'days', 15);": "+3 días",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(4, 'days', 15);": "+4 días",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(5, 'days', 15);": "+5 días",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(6, 'days', 15);": "+6 días",
+      "javascript: return this.dateTime.getDateTimeShiftedFromNow(1, 'week', 15);": "+1 semana"
+    },
+    "dateDefault": {
+      "": "Nada",
+      "javascript: return this.dateTime.getToday();": "Hoy",
+      "javascript: return this.dateTime.getDateShiftedFromToday(1, 'days');": "+1 días",
+      "javascript: return this.dateTime.getDateShiftedFromToday(2, 'days');": "+2 días",
+      "javascript: return this.dateTime.getDateShiftedFromToday(3, 'days');": "+3 días",
+      "javascript: return this.dateTime.getDateShiftedFromToday(4, 'days');": "+4 días",
+      "javascript: return this.dateTime.getDateShiftedFromToday(5, 'days');": "+5 días",
+      "javascript: return this.dateTime.getDateShiftedFromToday(6, 'days');": "+6 días",
+      "javascript: return this.dateTime.getDateShiftedFromToday(7, 'days');": "+7 días",
+      "javascript: return this.dateTime.getDateShiftedFromToday(8, 'days');": "+8 días",
+      "javascript: return this.dateTime.getDateShiftedFromToday(9, 'days');": "+9 días",
+      "javascript: return this.dateTime.getDateShiftedFromToday(10, 'days');": "+10 días",
+      "javascript: return this.dateTime.getDateShiftedFromToday(1, 'weeks');": "+1 semana",
+      "javascript: return this.dateTime.getDateShiftedFromToday(2, 'weeks');": "+2 semanas",
+      "javascript: return this.dateTime.getDateShiftedFromToday(3, 'weeks');": "+3 semanas",
+      "javascript: return this.dateTime.getDateShiftedFromToday(1, 'months');": "+1 mes",
+      "javascript: return this.dateTime.getDateShiftedFromToday(2, 'months');": "+2 meses",
+      "javascript: return this.dateTime.getDateShiftedFromToday(3, 'months');": "+3 meses",
+      "javascript: return this.dateTime.getDateShiftedFromToday(4, 'months');": "+4 meses",
+      "javascript: return this.dateTime.getDateShiftedFromToday(5, 'months');": "+5 meses",
+      "javascript: return this.dateTime.getDateShiftedFromToday(6, 'months');": "+6 meses",
+      "javascript: return this.dateTime.getDateShiftedFromToday(7, 'months');": "+7 meses",
+      "javascript: return this.dateTime.getDateShiftedFromToday(8, 'months');": "+8 meses",
+      "javascript: return this.dateTime.getDateShiftedFromToday(9, 'months');": "+9 meses",
+      "javascript: return this.dateTime.getDateShiftedFromToday(10, 'months');": "+10 meses",
+      "javascript: return this.dateTime.getDateShiftedFromToday(11, 'months');": "+11 meses",
+      "javascript: return this.dateTime.getDateShiftedFromToday(1, 'year');": "+1 año"
+    },
+    "barcodeType": {
+      "QRcode": "Código QR"
+    }
+  },
+  "tooltips": {
+    "audited": "Las actualizaciones se registrarán en la historia.",
+    "required": "El campo será obligatorio. No se puede dejar vacío.",
+    "default": "El valor se establecerá de forma predeterminada al guardar.",
+    "min": "Valor mínimo aceptado.",
+    "max": "Valor máximo aceptado.",
+    "seeMoreDisabled": "Si no se marca, los textos largos se cortarán.",
+    "lengthOfCut": "Que largo tendrán los textos antes de ser cortados.",
+    "maxLength": "Longitud máxima aceptable del texto.",
+    "before": "El valor de fecha debe ser anterior al valor de fecha del campo especificado.",
+    "after": "El valor de fecha debe ser posterior al valor de fecha del campo especificado.",
+    "readOnly": "El usuario no puede especificar el valor del campo. Pero se puede calcular por fórmula.",
+    "maxFileSize": "Si está vacío o es 0, entonces no limitar",
+    "fileAccept": "Qué tipos de archivos aceptar. Es posible agregar elementos personalizados.",
+    "barcodeLastChar": "Para el tipo EAN-13."
+  },
+  "fieldParts": {
+    "address": {
+      "street": "Calle",
+      "city": "Ciudad",
+      "state": "Estado",
+      "country": "País",
+      "postalCode": "Código Postal",
+      "map": "Mapa"
+    },
+    "personName": {
+      "salutation": "Saludo",
+      "first": "Nombre",
+      "last": "Apellido",
+      "middle": "Medio"
+    },
+    "currency": {
+      "converted": "(Convertido)",
+      "currency": "(Moneda)"
+    },
+    "datetimeOptional": {
+      "date": "Fecha"
+    }
+  },
+  "fieldInfo": {
+    "varchar": "Un texto de una sola línea.",
+    "enum": "En la casilla de selección, solo se puede seleccionar un valor.",
+    "text": "Un texto de varias líneas con soporte de rebajas.",
+    "date": "Fecha sin hora.",
+    "datetime": "Fecha y hora",
+    "currency": "Un valor de moneda. Un número flotante con un código de moneda.",
+    "int": "Un número entero.",
+    "float": "Un número con una parte decimal.",
+    "bool": "Una casilla de verificación. Dos valores posibles: verdadero y falso.",
+    "multiEnum": "Se puede seleccionar una lista de valores, múltiples valores. La lista está ordenada.",
+    "checklist": "Una lista de casillas de verificación.",
+    "array": "Una lista de valores, similar al campo Multi-Enum.",
+    "address": "Una dirección con calle, ciudad, estado, código postal y país.",
+    "url": "Para almacenar enlaces.",
+    "wysiwyg": "Un texto con soporte HTML.",
+    "file": "Para cargar archivos.",
+    "image": "Para cargar imágenes.",
+    "attachmentMultiple": "Permite cargar varios archivos.",
+    "number": "Un número de tipo de cadena que se incrementa automáticamente con un posible prefijo y una longitud específica.",
+    "autoincrement": "Un número entero generado de solo lectura que se incrementa automáticamente.",
+    "barcode": "Un código de barras. Puede imprimirse en PDF.",
+    "email": "Un conjunto de direcciones de correo electrónico con sus parámetros: inhabilitado, no válido, principal.",
+    "phone": "Un conjunto de números de teléfono con sus parámetros: tipo, inhabilitado, no válido, principal.",
+    "foreign": "Un campo de un registro relacionado. Solo lectura.",
+    "link": "Un registro relacionado a través de la relación Pertenece a (varios a uno o uno a uno).",
+    "linkParent": "Un registro relacionado a través de la relación Pertenece a los padres. Puede ser de diferentes tipos de entidad."
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "name": "Naam",
+    "description": "Beschrijving",
+    "entryCount": "Invoer aantal",
+    "campaigns": "Campagnes",
+    "endDate": "Eind datum",
+    "targetLists": "Doellijsten",
+    "includingActionList": "Inclusief",
+    "excludingActionList": "Exclusief",
+    "optedOutCount": "Afgemeld aantal",
+    "targetStatus": "Doel status",
+    "isOptedOut": "Is afgemeld"
+  },
+  "links": {
+    "accounts": "Relaties",
+    "contacts": "Contacten",
+    "campaigns": "Campagnes",
+    "massEmails": "Verzamel e-mails"
+  },
+  "options": {
+    "type": {
+      "Email": "E-mail",
+      "Television": "Televisie",
+      "Newsletter": "Nieuwsbrief"
+    },
+    "targetStatus": {
+      "Opted Out": "Afgemeld",
+      "Listed": "Vermeld"
+    }
+  },
+  "labels": {
+    "Create TargetList": "Creëer Doellijst",
+    "Opted Out": "Afgemeld",
+    "Cancel Opt-Out": "Annuleer afmelding",
+    "Opt-Out": "Afmelden"
+  }
+}

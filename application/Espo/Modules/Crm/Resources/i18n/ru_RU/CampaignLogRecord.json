@@ -1,0 +1,44 @@
+{
+  "fields": {
+    "action": "Действие",
+    "actionDate": "Дата",
+    "data": "Данные",
+    "campaign": "Кампания",
+    "parent": "Цель",
+    "object": "Объект",
+    "application": "Приложение",
+    "queueItem": "Элемент очереди",
+    "stringData": "Строка данных",
+    "stringAdditionalData": "Строка дополнительных данных",
+    "isTest": "Тестовый"
+  },
+  "links": {
+    "queueItem": "Элемент очереди",
+    "parent": "Источник",
+    "object": "Объект",
+    "campaign": "Кампания"
+  },
+  "options": {
+    "action": {
+      "Sent": "Отправлено",
+      "Opened": "Открыто",
+      "Opted Out": "Отписалось",
+      "Bounced": "Возвратов писем",
+      "Clicked": "Нажать (кликнуть)",
+      "Lead Created": "Лидов создано",
+      "Opted In": "Подписан"
+    }
+  },
+  "labels": {
+    "All": "Все"
+  },
+  "presetFilters": {
+    "sent": "Отправлено",
+    "opened": "Открыто",
+    "optedOut": "Отписалось",
+    "bounced": "Возвратов писем",
+    "clicked": "Проследовало по ссылке",
+    "leadCreated": "Лидов создано",
+    "optedIn": "Подписан"
+  }
+}

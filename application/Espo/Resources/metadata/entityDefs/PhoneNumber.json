@@ -1,0 +1,34 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "maxLength": 36,
+            "index": true
+        },
+        "type": {
+            "type": "enum"
+        },
+        "numeric": {
+            "type": "varchar",
+            "maxLength": 36,
+            "index": true
+        },
+        "invalid": {
+            "type": "bool"
+        },
+        "optOut": {
+            "type": "bool"
+        },
+        "primary": {
+            "type": "bool",
+            "notStorable": true
+        }
+    },
+    "links": {
+    },
+    "collection": {
+        "orderBy": "name",
+        "order": "asc"
+    }
+}

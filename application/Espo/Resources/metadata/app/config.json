@@ -1,0 +1,23 @@
+{
+    "entityTypeListParamList": [
+        "tabList",
+        "quickCreateList",
+        "globalSearchEntityList",
+        "assignmentEmailNotificationsEntityList",
+        "assignmentNotificationsEntityList",
+        "calendarEntityList",
+        "streamEmailNotificationsEntityList",
+        "activitiesEntityList",
+        "historyEntityList",
+        "streamEmailNotificationsTypeList",
+        "emailKeepParentTeamsEntityList"
+    ],
+    "params": {
+        "awsS3Storage": {
+            "level": "system"
+        },
+        "smsProvider": {
+            "level": "admin"
+        }
+    }
+}

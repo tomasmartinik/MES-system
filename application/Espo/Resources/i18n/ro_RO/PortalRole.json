@@ -1,0 +1,14 @@
+{
+  "links": {
+    "users": "Utilizatori"
+  },
+  "labels": {
+    "Access": "Acces",
+    "Create PortalRole": "Creați Rolul Portalului",
+    "Scope Level": "Nivel Domeniu",
+    "Field Level": "Nivel câmp"
+  },
+  "fields": {
+    "exportPermission": "Permisiune de exportare"
+  }
+}

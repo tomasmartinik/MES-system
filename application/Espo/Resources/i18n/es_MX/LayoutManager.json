@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "width": "Ancho (%)",
+    "link": "Enlace",
+    "notSortable": "No ordenable",
+    "align": "Alinear",
+    "panelName": "Nombre del Panel",
+    "style": "Estilo",
+    "sticked": "Pegado",
+    "isLarge": "Tamaño de fuente grande",
+    "dynamicLogicVisible": "Condiciones que hacen visible el panel"
+  },
+  "options": {
+    "align": {
+      "left": "Izquierda",
+      "right": "Derecha"
+    },
+    "style": {
+      "success": "Correcto",
+      "danger": "Peligro",
+      "warning": "Precaución",
+      "primary": "Primario"
+    }
+  },
+  "labels": {
+    "New panel": "Nuevo panel",
+    "Layout": "Formato"
+  }
+}

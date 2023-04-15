@@ -1,0 +1,26 @@
+[
+    {
+        "label": "Configuration",
+        "rows": [
+            [{"name": "outboundEmailFromAddress"}, {"name": "outboundEmailIsShared"}],
+            [{"name": "outboundEmailFromName"}, {"name": "outboundEmailBccAddress"}],
+            [false, {"name": "emailAddressLookupEntityTypeList"}]
+        ]
+    },
+    {
+        "label": "SMTP",
+        "rows": [
+            [{"name": "smtpServer"}, {"name": "smtpPort"}],
+            [{"name": "smtpAuth"}, {"name": "smtpSecurity"}],
+            [{"name": "smtpUsername"}, {"name": "testSend", "customLabel": null, "view": "views/outbound-email/fields/test-send"}],
+            [{"name": "smtpPassword"}, false]
+        ]
+    },
+    {
+        "label": "Mass Email",
+        "rows": [
+            [{"name": "massEmailMaxPerHourCount"}, {"name": "massEmailDisableMandatoryOptOutLink"}],
+            [{"name": "massEmailOpenTracking"}, {"name": "massEmailVerp"}]
+        ]
+    }
+]

@@ -1,0 +1,40 @@
+{
+  "fields": {
+    "name": "Tên",
+    "roles": "Vai trò",
+    "portalPermission": "Phân quyền cổng thông tin",
+    "exportPermission": "Quyền xuất dữ liệu"
+  },
+  "links": {
+    "users": "Người dùng",
+    "teams": "Nhóm"
+  },
+  "labels": {
+    "Access": "Truy cập",
+    "Create Role": "Tạo vai trò"
+  },
+  "options": {
+    "accessList": {
+      "not-set": "chưa đặt",
+      "enabled": "kích hoạt",
+      "disabled": "tắt"
+    },
+    "levelList": {
+      "all": "tất cả",
+      "team": "nhóm",
+      "account": "tài khoản",
+      "contact": "liên hệ",
+      "own": "sở hữu",
+      "no": "không",
+      "yes": "đồng ý",
+      "not-set": "chưa đặt"
+    }
+  },
+  "actions": {
+    "read": "Đọc",
+    "edit": "Sửa",
+    "delete": "Xóa",
+    "stream": "Thông tin cập nhật",
+    "create": "Tạo"
+  }
+}

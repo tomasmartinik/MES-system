@@ -1,0 +1,69 @@
+{
+  "fields": {
+    "name": "Nom",
+    "website": "Site internet",
+    "phoneNumber": "Téléphone",
+    "billingAddress": "Adresse de facturation",
+    "shippingAddress": "Adresse de livraison",
+    "industry": "Industrie",
+    "contactRole": "Titre",
+    "campaign": "Campagne",
+    "targetLists": "Listes de cibles",
+    "targetList": "Liste de cibles"
+  },
+  "links": {
+    "opportunities": "Opportunités",
+    "cases": "Tickets",
+    "meetingsPrimary": "Rendez-vous (étendus)",
+    "callsPrimary": "Appels (étendus)",
+    "tasksPrimary": "Tâches (étendues)",
+    "emailsPrimary": "Emails (étendus)",
+    "targetLists": "Listes de cibles",
+    "campaignLogRecords": "Log de campagne",
+    "campaign": "Campagne",
+    "portalUsers": "Utilisateurs Portail"
+  },
+  "options": {
+    "type": {
+      "Customer": "Client",
+      "Investor": "Investisseur",
+      "Partner": "Partenaire",
+      "Reseller": "Revendeur"
+    },
+    "industry": {
+      "Advertising": "Publicité",
+      "Apparel & Accessories": "Mode et accessoires",
+      "Automotive": "Auto",
+      "Banking": "Banque",
+      "Biotechnology": "Biotechnologie",
+      "Building Materials & Equipment": "Matériaux de construction & équipements",
+      "Chemical": "Chimie",
+      "Computer": "Informatique",
+      "Electronics": "Électronique",
+      "Energy": "Énergie",
+      "Entertainment & Leisure": "Divertissement et loisirs",
+      "Food & Beverage": "Alimentation",
+      "Grocery": "Épicerie",
+      "Healthcare": "Santé",
+      "Insurance": "Assurance",
+      "Legal": "Droit",
+      "Manufacturing": "Industrie",
+      "Publishing": "Publication",
+      "Real Estate": "Immobilier",
+      "Software": "Logiciel",
+      "Technology": "Technologie",
+      "Telecommunications": "Télécommunications",
+      "Television": "Télévision",
+      "Transportation": "Transport",
+      "Venture Capital": "Investissement"
+    }
+  },
+  "labels": {
+    "Create Account": "Créer un compte",
+    "Copy Billing": "Copie de facturation"
+  },
+  "presetFilters": {
+    "customers": "Clients",
+    "partners": "Partenaires"
+  }
+}

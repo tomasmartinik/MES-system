@@ -1,0 +1,1 @@
+"Můžete změnit Vaše heslo pomocí tohoto odkazu <a href="{{link}}">{{link}}</a>, tato url adresa z bezpečnostních důvodů brzy vyprší.

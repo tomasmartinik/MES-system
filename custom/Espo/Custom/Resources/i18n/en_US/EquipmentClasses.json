@@ -1,0 +1,27 @@
+{
+    "fields": {
+        "equipmentDefinitionLists": "Definice vybavení",
+        "equipmentClassListsRight": "Equipment Class Lists Right",
+        "equipmentClassListsLeft": "Equipment Class Lists Left",
+        "equipmentDefinitionLists1": "Definice vybavení",
+        "equipmentClassesPropertiesElementses": "Equipment Classes Properties Elementses",
+        "equipmentDefinitionsPropertiesFromClasses": "Záznam vlastností definic vybavení",
+        "productSegments": "Segmenty produktu",
+        "processSegmentEquipmentItems": "Položka vybavení segmentu procesu",
+        "productSegmentEquipmentItems": "Product Segment Equipment Items"
+    },
+    "links": {
+        "equipmentDefinitionLists": "Definice vybavení",
+        "equipmentClassListsRight": "Equipment Class Lists Right",
+        "equipmentClassListsLeft": "Equipment Class Lists Left",
+        "equipmentDefinitionLists1": "Definice vybavení",
+        "equipmentClassesPropertiesElementses": "Equipment Classes Properties Elementses",
+        "equipmentDefinitionsPropertiesFromClasses": "Záznam vlastností definic vybavení",
+        "productSegments": "Segmenty produktu",
+        "processSegmentEquipmentItems": "Položka vybavení segmentu procesu",
+        "productSegmentEquipmentItems": "Product Segment Equipment Items"
+    },
+    "labels": {
+        "Create EquipmentClassList": "Create Třída vybavení"
+    }
+}

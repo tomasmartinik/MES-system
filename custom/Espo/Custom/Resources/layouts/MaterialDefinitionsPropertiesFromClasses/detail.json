@@ -1,0 +1,28 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "materialDefinitions"
+                },
+                {
+                    "name": "materialProperties"
+                }
+            ],
+            [
+                {
+                    "name": "value"
+                },
+                false
+            ],
+            [
+                {
+                    "name": "materialClasses"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

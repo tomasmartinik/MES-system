@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "name": "Navn",
+    "body": "Indhold",
+    "entityType": "Entitetstype",
+    "leftMargin": "Venstre Margin",
+    "rightMargin": "Højre Margin",
+    "bottomMargin": "Bund Margin",
+    "printFooter": "Udskriv Footer",
+    "pageOrientation": "Side orientering",
+    "pageFormat": "Papir format",
+    "fontFace": "Skrifttype",
+    "pageWidth": "Sidebredde (mm)",
+    "pageHeight": "Sidehøjde (mm)"
+  },
+  "labels": {
+    "Create Template": "Opret Skabelon"
+  },
+  "tooltips": {
+    "footer": "Brug {pageNumber} til at printe sidetal."
+  },
+  "options": {
+    "pageOrientation": {
+      "Portrait": "Portræt",
+      "Landscape": "Landskab"
+    },
+    "placeholders": {
+      "today": "Dags dato",
+      "now": "Nu (tidspunkt)"
+    },
+    "fontFace": {
+      "cid0kr": "\nCID-0 kr"
+    },
+    "pageFormat": {
+      "Custom": "Brugerdefinerede"
+    }
+  }
+}

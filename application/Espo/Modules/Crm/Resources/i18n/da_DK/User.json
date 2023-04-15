@@ -1,0 +1,9 @@
+{
+  "links": {
+    "targetLists": "Kontaktlister"
+  },
+  "fields": {
+    "acceptanceStatusMeetings": "Accept satus (Møde)",
+    "acceptanceStatusCalls": "Accept status (Opkald)"
+  }
+}

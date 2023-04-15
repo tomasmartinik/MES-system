@@ -1,0 +1,61 @@
+{
+    "view":"crm:views/dashlets/sales-pipeline",
+    "aclScope": "Opportunity",
+    "options": {
+        "view": "crm:views/dashlets/options/sales-pipeline",
+        "fields": {
+            "title": {
+                "type": "varchar",
+                "required": true
+            },
+            "dateFrom": {
+                "type": "date",
+                "required": true
+            },
+            "dateTo": {
+                "type": "date",
+                "required": true
+            },
+            "dateFilter": {
+                "type": "enum",
+                "options": ["currentYear", "currentQuarter", "currentMonth", "currentFiscalYear", "currentFiscalQuarter", "ever", "between"],
+                "default": "currentYear",
+                "translation": "Global.options.dateSearchRanges"
+            },
+            "useLastStage": {
+                "type": "bool"
+            },
+            "team": {
+                "type": "link",
+                "entity": "Team",
+                "view": "crm:views/dashlets/options/sales-pipeline/fields/team"
+            }
+        },
+        "layout": [
+            {
+                "rows": [
+                    [
+                        {"name": "title", "span": 2}
+                    ],
+                    [
+                        {"name": "dateFilter"},
+                        {"name": "useLastStage"}
+                    ],
+                    [
+                        {"name": "dateFrom"},
+                        {"name": "dateTo"}
+                    ],
+                    [
+                        {"name": "team"},
+                        false
+                    ]
+                ]
+            }
+        ],
+        "defaults": {
+            "dateFilter": "currentYear",
+            "teamId": null,
+            "teamName": null
+        }
+    }
+}

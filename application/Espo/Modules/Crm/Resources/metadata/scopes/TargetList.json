@@ -1,0 +1,18 @@
+{
+    "entity": true,
+    "layouts": true,
+    "tab": true,
+    "acl": true,
+    "module": "Crm",
+    "customizable": true,
+    "stream": false,
+    "importable": false,
+    "notifications": true,
+    "object": true,
+    "targetLinkList": [
+        "accounts",
+        "contacts",
+        "leads",
+        "users"
+    ]
+}

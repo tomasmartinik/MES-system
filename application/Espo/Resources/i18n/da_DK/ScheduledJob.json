@@ -1,0 +1,33 @@
+{
+  "fields": {
+    "name": "Navn",
+    "scheduling": "Planlæg"
+  },
+  "labels": {
+    "Create ScheduledJob": "Opret Planlagt Job"
+  },
+  "options": {
+    "job": {
+      "Cleanup": "Ryd op",
+      "CheckInboundEmails": "Tjek Gruppe Emailkonti",
+      "CheckEmailAccounts": "Tjek Personlige Emailkonti",
+      "SendEmailReminders": "Send Emailpåmindelse",
+      "AuthTokenControl": "Auth Token kontrol",
+      "SendEmailNotifications": "Send Email Notifikationer",
+      "CheckNewVersion": "Tjek for ny version"
+    },
+    "cronSetup": {
+      "linux": "Kommentar: Tilføj denne linje i crontabfilen for at køre Espo-Planlagte Jobs:",
+      "mac": "Kommentar: Tilføj denne linje i crontabfilen for at køre Espo-Planlagte Jobs:",
+      "windows": "Kommentar: Opret en batchfil med følgende kommando for at køre Espo-Planlagte Jobs v.hj.a. Windows Opgavestyring.",
+      "default": "Kommentar: Tilføj denne kommando til Cron Job (Opgavestyring):"
+    },
+    "status": {
+      "Active": "Aktiv",
+      "Inactive": "Inaktiv"
+    }
+  },
+  "tooltips": {
+    "scheduling": "Definerer hvornår og hvor ofte et cronjob kører.\n\n`*/5 * * * *` - hver 5 minutter\n\n`0 */2 * * *` - hver 2 timer\n\n`30 1 * * *` - kl. 01:30 en gang om dagen\n\n`0 0 1 * *` - den første dag i måneden"
+  }
+}

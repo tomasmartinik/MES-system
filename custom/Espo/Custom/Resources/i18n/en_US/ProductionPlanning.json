@@ -1,0 +1,14 @@
+{
+    "fields": {
+        "priority": "Priorita (1-10)",
+        "orderNumber": "Číslo objednávky",
+        "productionPlanningItems": "Položky plánování výroby",
+        "startDate": "Datum přesunu do výroby"
+    },
+    "links": {
+        "productionPlanningItems": "Položky plánování výroby"
+    },
+    "labels": {
+        "Create ProductionPlanning": "Vytvořit Plánování výroby"
+    }
+}

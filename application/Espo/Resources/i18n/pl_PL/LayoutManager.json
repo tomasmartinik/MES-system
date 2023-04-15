@@ -1,0 +1,35 @@
+{
+  "fields": {
+    "width": "Szerokość (%)",
+    "notSortable": "Niesortowalne",
+    "align": "Wyrównanie",
+    "panelName": "Nazwa panelu",
+    "style": "Styl",
+    "sticked": "Przypięty",
+    "isLarge": "Duży rozmiar czcionki",
+    "dynamicLogicVisible": "Warunki powodujące widoczność panelu",
+    "hidden": "Ukryty"
+  },
+  "options": {
+    "align": {
+      "left": "Lewy",
+      "right": "Prawy"
+    },
+    "style": {
+      "default": "Domyślny",
+      "success": "Powodzenie",
+      "danger": "Niebezpieczeństwo",
+      "info": "Informacje",
+      "warning": "Ostrzeżenie",
+      "primary": "Główny"
+    }
+  },
+  "labels": {
+    "New panel": "Nowy panel",
+    "Layout": "Układ"
+  },
+  "tooltips": {
+    "link": "Jeśli zaznaczone, wartość pola zostanie wyświetlona jako łącze wskazujące na szczegółowy widok rekordu. Zwykle jest używany dla pól *Imię*.",
+    "hiddenPanel": "Aby zobaczyć panel, należy kliknąć 'pokaż więcej'."
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "fields": {
+    "name": "Название",
+    "body": "Тело",
+    "entityType": "Тип объекта",
+    "header": "Шапка",
+    "footer": "Подвал",
+    "leftMargin": "Левый отступ",
+    "topMargin": "Верхний отступ",
+    "rightMargin": "Правый отступ",
+    "bottomMargin": "Нижний отступ",
+    "printFooter": "Отображать колонтитул?",
+    "footerPosition": "Положение колонтитула",
+    "variables": "Доступные заполнители",
+    "pageOrientation": "Ориентация страницы",
+    "pageFormat": "Формат бумаги",
+    "fontFace": "Шрифт",
+    "pageWidth": "Ширина страницы (мм)",
+    "pageHeight": "Высота страницы (мм)",
+    "headerPosition": "Положение заголовка"
+  },
+  "labels": {
+    "Create Template": "Создать шаблон"
+  },
+  "tooltips": {
+    "footer": "Используйте {pageNumber} для отображения номера страницы.",
+    "variables": "Копировать-вставить нужный заполнитель для заголовка, тела или нижнего колонтитула."
+  },
+  "options": {
+    "pageOrientation": {
+      "Portrait": "Книжная",
+      "Landscape": "Альбомная"
+    },
+    "placeholders": {
+      "today": "Сегодня (дата)",
+      "now": "Теперь (дата-время)",
+      "pagebreak": "Разрыв страницы"
+    },
+    "fontFace": {
+      "aealarabiya": "арабоязычный",
+      "aefurat": "Aefurat шрифт",
+      "courier": "Courier шрифт курьер",
+      "dejavusans": "DejaVu Sans шрифты",
+      "dejavusanscondensed": "DejaVu Sans Condensed- шрифт",
+      "dejavusansextralight": "DejaVu Sans ExtraLight - шрифт",
+      "dejavusansmono": "DejaVu Sans Mono - шрифт",
+      "dejavuserif": "DejaVu Serif - шрифт",
+      "freemono": "FreeMono - шрифт",
+      "freesans": "FreeSans- шрифт",
+      "freeserif": "FreeSerif шрифт",
+      "helvetica": "Helvetica - шрифт",
+      "hysmyeongjostdmedium": "Hysmyeongjostd Medium - шрифт",
+      "kozgopromedium": "Kozgo Pro Medium - шрифт",
+      "kozminproregular": "Kozmin Pro Regular - шрифт",
+      "symbol": "Символ",
+      "times": "Время",
+      "dejavuserifcondensed": "DejaVu Serif Condensed - шрифт"
+    },
+    "pageFormat": {
+      "Custom": "Пользовательский"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "name": "Nom",
+    "entryCount": "Compteur d'entrées",
+    "campaigns": "Campagnes",
+    "endDate": "Date de fin",
+    "targetLists": "Listes de cibles",
+    "optedOutCount": "Décompté",
+    "targetStatus": "Statut cible",
+    "isOptedOut": "Est exclu"
+  },
+  "links": {
+    "accounts": "Comptes",
+    "leads": "Prospects",
+    "campaigns": "Campagnes",
+    "massEmails": "Emails groupés"
+  },
+  "options": {
+    "type": {
+      "Television": "Télévision"
+    },
+    "targetStatus": {
+      "Opted Out": "Choisi de se retirer",
+      "Listed": "Listé"
+    }
+  },
+  "labels": {
+    "Create TargetList": "Créer une liste de cibles",
+    "Opted Out": "Désinscrit"
+  }
+}

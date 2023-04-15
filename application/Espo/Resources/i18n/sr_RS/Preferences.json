@@ -1,0 +1,43 @@
+{
+  "fields": {
+    "dateFormat": "Format datuma",
+    "timeFormat": "Format vremena",
+    "timeZone": "Vremenska zona",
+    "weekStart": "Prvi dan nedelje",
+    "thousandSeparator": "Oznaka hiljada",
+    "decimalMark": "Decimalna oznaka",
+    "defaultCurrency": "Uobičajena valuta",
+    "currencyList": "Spisak valuta",
+    "language": "Jezik",
+    "smtpAuth": "Autorizacija",
+    "smtpSecurity": "Bezbednost",
+    "smtpUsername": "Korisničko ime",
+    "emailAddress": "Adresa e-pošte",
+    "smtpPassword": "Lozinka",
+    "smtpEmailAddress": "Adresa e-pošte",
+    "exportDelimiter": "Graničnik izvoza",
+    "signature": "E-poruke potpis",
+    "dashboardTabList": "Lista kartica",
+    "tabList": "Lista kartica",
+    "defaultReminders": "Podsetnici podrazumevani",
+    "theme": "Tema",
+    "useCustomTabList": "Prilagođena Lista kartica",
+    "receiveAssignmentEmailNotifications": "E-mail obaveštenja prilikom dodeljivanja",
+    "receiveMentionEmailNotifications": "Email obaveštenja o pominjanju u postovima",
+    "receiveStreamEmailNotifications": "E-mail obaveštenja o poruka i ažuriranju statusa",
+    "dashboardLayout": "Raspored za Kontrolna tabla",
+    "emailReplyForceHtml": "E-mail odgovor u HTML"
+  },
+  "options": {
+    "weekStart": {
+      "0": "nedelja",
+      "1": "ponedeljak"
+    }
+  },
+  "labels": {
+    "Notifications": "Obaveštenja",
+    "User Interface": "Korisnički interfejs",
+    "Misc": "Ostalo",
+    "Locale": "Lokalno"
+  }
+}

@@ -1,0 +1,43 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {
+                    "name":"name"
+                },
+                {
+                    "name":"entityType"
+                }
+            ],
+            [{"name":"variables","fullWidth":true, "view": "Template.Fields.Variables"}],
+            [{"name":"body","fullWidth":true}]
+        ]
+    },
+    {
+        "label": "",
+        "rows": [
+            [{"name":"pageOrientation"}, {"name":"pageFormat"}],
+            [{"name":"pageWidth"}, {"name":"pageHeight"}],
+            [{"name":"fontFace"}, false]
+        ]
+    },
+    {
+        "label": "",
+        "rows": [
+            [false, {"name":"topMargin"}, false],
+            [{"name":"leftMargin"}, false, {"name":"rightMargin"}],
+            [false, {"name":"bottomMargin"}, false]
+        ]
+    },
+    {
+        "label": "",
+        "rows": [
+            [{"name": "title"}, false],
+            [{"name":"printHeader"}, {"name":"headerPosition"}],
+            [{"name":"header","fullWidth":true}],
+            [{"name":"printFooter"}, {"name":"footerPosition"}],
+            [{"name":"footer","fullWidth":true}]
+        ]
+    }
+]

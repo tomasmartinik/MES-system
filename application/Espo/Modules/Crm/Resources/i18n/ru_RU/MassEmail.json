@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "name": "Название",
+    "status": "Статус",
+    "storeSentEmails": "Сохранять отправленные эл. письма",
+    "startAt": "Дата начала",
+    "fromAddress": "Адрес отправителя",
+    "fromName": "Имя отправителя",
+    "replyToAddress": "Обратный адрес",
+    "replyToName": "Имя для обратного адреса",
+    "campaign": "Кампания",
+    "emailTemplate": "Шаблон эл. письма",
+    "inboundEmail": "Учетная запись эл. почты",
+    "targetLists": "Списки целей",
+    "excludingTargetLists": "Исключая списки целей",
+    "optOutEntirely": "Отписать навсегда",
+    "smtpAccount": "SMTP-аккаунт"
+  },
+  "links": {
+    "targetLists": "Списки целей",
+    "excludingTargetLists": "Исключая списки целей",
+    "queueItems": "Элементы очереди эл. почты",
+    "campaign": "Кампания",
+    "emailTemplate": "Шаблон эл. письма",
+    "inboundEmail": "Учетная запись эл. почты"
+  },
+  "options": {
+    "status": {
+      "Draft": "Черновик",
+      "Pending": "В ожидании",
+      "In Process": "В процессе",
+      "Complete": "Завершена",
+      "Canceled": "Отменена",
+      "Failed": "Сбой"
+    }
+  },
+  "labels": {
+    "Create MassEmail": "Создать массовую рассылку эл. писем",
+    "Send Test": "Отправить тестовое эл. письмо",
+    "System SMTP": "Системный SMTP",
+    "system": "система",
+    "group": "группа"
+  },
+  "messages": {
+    "selectAtLeastOneTarget": "Выберите хотя бы одну цель",
+    "testSent": "Должно отправиться тестовое эл. письмо"
+  },
+  "tooltips": {
+    "optOutEntirely": "Адреса эл. почты получателей, которые отписались будут помечены как отписавшиеся и больше не будут получать массовые рассылки эл. писем.",
+    "targetLists": "Цели которые должны получить сообщения.",
+    "excludingTargetLists": "Цели которые не должны получить сообщения.",
+    "storeSentEmails": "Эл. письма будут храниться в CRM."
+  },
+  "presetFilters": {
+    "actual": "Актуальные",
+    "complete": "Завершенные"
+  }
+}

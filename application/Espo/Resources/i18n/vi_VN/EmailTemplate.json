@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "name": "Tên",
+    "status": "Tình trạng",
+    "isHtml": "Chỉ Html",
+    "body": "Nội dung",
+    "subject": "Chủ đề",
+    "attachments": "Đính kèm",
+    "category": "Chuyên mục"
+  },
+  "labels": {
+    "Create EmailTemplate": "Tạo mẫu email",
+    "Info": "Thông tin"
+  },
+  "presetFilters": {
+    "actual": "Hiện thời"
+  },
+  "placeholderTexts": {
+    "today": "Ngày hôm nay",
+    "currentYear": "Năm hiện tại"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "enabled": "Bekapcsolt",
+    "clientId": "Ügyfélazonosító",
+    "clientSecret": "Ügyfél titka",
+    "redirectUri": "Átirányítási URI",
+    "apiKey": "API kulcs"
+  },
+  "messages": {
+    "selectIntegration": "Válasszon ki egy integrációt a menüből.",
+    "noIntegrations": "Nincs integráció."
+  },
+  "titles": {
+    "GoogleMaps": "Google térkép"
+  }
+}

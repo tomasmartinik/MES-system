@@ -1,0 +1,44 @@
+{
+  "fields": {
+    "name": "Nom",
+    "account": "Compte",
+    "stage": "Etape",
+    "amount": "Montant",
+    "probability": "Probabilité, %",
+    "leadSource": "Source du prospect",
+    "doNotCall": "Ne pas appeler",
+    "closeDate": "Date de fermeture",
+    "amountConverted": "Montant (converti)",
+    "amountWeightedConverted": "Montant pondéré",
+    "campaign": "Campagne",
+    "lastStage": "Dernière étape",
+    "contact": "Contact (Parent)"
+  },
+  "links": {
+    "campaign": "Campagne",
+    "contact": "Contact (Parent)"
+  },
+  "options": {
+    "stage": {
+      "Prospecting": "Prospection",
+      "Needs Analysis": "Analyse des besoins",
+      "Value Proposition": "Valeur de la proposition",
+      "Id. Decision Makers": "Id. Decisionnaire",
+      "Perception Analysis": "Analyse de la perception",
+      "Proposal/Price Quote": "Proposition/devis",
+      "Negotiation/Review": "Négociation/évaluation",
+      "Closed Won": "Conclusion gagnante",
+      "Closed Lost": "Conclusion perdante",
+      "Proposal": "Proposition",
+      "Negotiation": "Négociation"
+    }
+  },
+  "labels": {
+    "Create Opportunity": "Créer une opportunité"
+  },
+  "presetFilters": {
+    "open": "Ouvert",
+    "won": "Gagné",
+    "lost": "Perdu"
+  }
+}

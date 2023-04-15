@@ -1,0 +1,36 @@
+{
+  "fields": {
+    "name": "名称",
+    "body": "正文",
+    "entityType": "功能类型",
+    "header": "标题",
+    "footer": "页脚",
+    "leftMargin": "左边距",
+    "topMargin": "上边距",
+    "rightMargin": "右边距",
+    "bottomMargin": "下边距",
+    "printFooter": "打印页脚",
+    "footerPosition": "页脚位置",
+    "variables": "可用占位符",
+    "pageOrientation": "页面方向",
+    "pageFormat": "页面格式",
+    "fontFace": "字体"
+  },
+  "labels": {
+    "Create Template": "创建模板"
+  },
+  "tooltips": {
+    "footer": "使用{pageNumber}打印页码。",
+    "variables": "复制粘贴所需的占位符到标题，正文或页脚。"
+  },
+  "options": {
+    "pageOrientation": {
+      "Portrait": "人物",
+      "Landscape": "风景"
+    },
+    "placeholders": {
+      "today": "今天（日期）",
+      "now": "现在（日期时间）"
+    }
+  }
+}

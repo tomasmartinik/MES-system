@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "action": "Ação",
+    "actionDate": "Data",
+    "data": "Dados",
+    "campaign": "Campanha",
+    "parent": "Alvo",
+    "object": "Objeto",
+    "application": "Aplicação",
+    "stringData": "Dados String",
+    "stringAdditionalData": "Dados Adicionais String",
+    "isTest": "É Teste"
+  },
+  "links": {
+    "object": "Assunto",
+    "campaign": "Campanha"
+  },
+  "options": {
+    "action": {
+      "Sent": "Enviado",
+      "Opened": "Aberto",
+      "Opted Out": "Cancelado",
+      "Clicked": "Clicado",
+      "Lead Created": "Lead Criado"
+    }
+  },
+  "labels": {
+    "All": "Tudo"
+  },
+  "presetFilters": {
+    "sent": "Enviado",
+    "opened": "Aberto",
+    "optedOut": "Cancelado",
+    "clicked": "Clicado",
+    "leadCreated": "Lead criado"
+  }
+}

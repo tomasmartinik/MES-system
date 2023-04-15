@@ -1,0 +1,8 @@
+{
+    "cssList": [
+        "__APPEND__",
+        "client/custom/css/fekt.css"
+    ],
+    "favicon": "client/custom/img/fekt.ico",
+    "favicon196": "client/custom/img/fekt.ico"
+}

@@ -1,0 +1,21 @@
+{
+    "labels": {
+        "Create MaterialProperties": "Vytvořit Vlastnost třídy materiálu"
+    },
+    "fields": {
+        "materialClasses": "Třídy materiálu",
+        "materialDefinitionsPropertiesFromClasses": "Vlastnosti",
+        "valueType": "Typ"
+    },
+    "links": {
+        "materialClasses": "Třídy materiálu",
+        "materialDefinitionsPropertiesFromClasses": "Vlastnosti"
+    },
+    "options": {
+        "valueType": {
+            "String": "String",
+            "Float": "Float",
+            "Int": "Int"
+        }
+    }
+}

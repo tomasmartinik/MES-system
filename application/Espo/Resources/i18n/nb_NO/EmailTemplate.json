@@ -1,0 +1,23 @@
+{
+  "fields": {
+    "name": "Navn",
+    "isHtml": "Er HTML",
+    "body": "Brødtekst",
+    "subject": "Emne",
+    "attachments": "Vedlegg",
+    "oneOff": "Bruk en gang"
+  },
+  "labels": {
+    "Create EmailTemplate": "Ny epostmal",
+    "Available placeholders": "Tiljengelige Stedfortredere"
+  },
+  "tooltips": {
+    "oneOff": "Velg denne hvis du kun skal bruke malen en gang, f.eks. til masseutsendt epost."
+  },
+  "presetFilters": {
+    "actual": "Reell"
+  },
+  "placeholderTexts": {
+    "currentYear": "Gjeldende År"
+  }
+}

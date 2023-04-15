@@ -1,0 +1,10 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [{"name":"name"}],
+            [{"name":"entityType"}, false],
+            [{"name":"body"}]
+        ]
+    }
+]

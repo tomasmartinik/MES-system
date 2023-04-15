@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "status": "Статус",
+    "executeTime": "Выполнено в",
+    "attempts": "Осталось попыток",
+    "failedAttempts": "Неудачных попыток",
+    "serviceName": "Сервис",
+    "methodName": "Метод",
+    "scheduledJob": "Задание планировщика",
+    "data": "Данные",
+    "method": "Метод",
+    "scheduledJobJob": "Название задания",
+    "executedAt": "Выполнено в",
+    "startedAt": "Началось в",
+    "targetType": "Тип цели",
+    "targetId": "ID цели",
+    "number": "Номер",
+    "queue": "Очередь",
+    "job": "Задание"
+  },
+  "options": {
+    "status": {
+      "Pending": "В ожидании",
+      "Success": "Успех",
+      "Running": "Выполняется",
+      "Failed": "Сбой"
+    }
+  }
+}

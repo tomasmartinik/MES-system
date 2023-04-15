@@ -1,0 +1,38 @@
+{
+  "fields": {
+    "name": "Nombre",
+    "status": "Estátus",
+    "job": "Trabajo",
+    "scheduling": "Agendar"
+  },
+  "links": {
+    "log": "Historial"
+  },
+  "labels": {
+    "Create ScheduledJob": "Crear Tarea Agendada"
+  },
+  "options": {
+    "job": {
+      "Cleanup": "Limpiar",
+      "CheckInboundEmails": "Comprobar Correos Entrantes",
+      "CheckEmailAccounts": "Compruebe cuentas de correo personales",
+      "SendEmailReminders": "Enviar Recordatorios por Correo",
+      "AuthTokenControl": "Control de la Clave de Autorización",
+      "SendEmailNotifications": "Enviar Notificaciones por Correo",
+      "CheckNewVersion": "Verificar Nueva Versión"
+    },
+    "cronSetup": {
+      "linux": "<b>Nota</b>: Agregue esta línea al archivo crontab de su servidor para que ejecute los trabajos agendados de EspoCRM:",
+      "mac": "<b>Nota</b>: Agregue esta línea al archivo crontab de su servidor para que ejecute los trabajos agendados de EspoCRM:",
+      "windows": "<b>Nota</b>: Genere un archivo por lotes con los siguientes comandos para ejecutar trabajos programados de EspoCRM mediante el Programador de Tareas de Windows:",
+      "default": "Nota: Agregue este comando a su CronJob (Tarea Agendada):"
+    },
+    "status": {
+      "Active": "Activo",
+      "Inactive": "Inactivo"
+    }
+  },
+  "tooltips": {
+    "scheduling": "Notación CRONTAB.  Indica la frecuencia de ejecución.\n\n`*/5 * * * *` - cada 5 minutos\n\n`0 */2 * * *` - cada 2 horas\n\n`30 1 * * *` - a la 01:30 diariamente\n\n`0 0 1 * *` - el primer día del mes"
+  }
+}

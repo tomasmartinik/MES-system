@@ -1,0 +1,67 @@
+{
+    "params": [
+        {
+            "name": "required",
+            "type": "bool",
+            "default": false
+        },
+        {
+            "name": "options",
+            "type": "array",
+            "view": "views/admin/field-manager/fields/options",
+            "noEmptyString": true,
+            "required": true,
+            "tooltip": true
+        },
+        {
+            "name": "isSorted",
+            "type": "bool"
+        },
+        {
+            "name": "translation",
+            "type": "varchar",
+            "hidden": true
+        },
+        {
+            "name": "maxCount",
+            "type": "int",
+            "min": 1,
+            "tooltip": true
+        },
+        {
+            "name": "audited",
+            "type": "bool"
+        },
+        {
+            "name": "readOnly",
+            "type": "bool"
+        },
+        {
+            "name": "optionsPath",
+            "type": "varchar",
+            "hidden": true
+        }
+    ],
+    "validationList": [
+        "array",
+        "arrayOfString",
+        "valid",
+        "required",
+        "maxCount"
+    ],
+    "mandatoryValidationList": [
+        "array",
+        "arrayOfString",
+        "valid"
+    ],
+    "filter": true,
+    "notCreatable": false,
+    "notSortable": true,
+    "fieldDefs": {
+        "type": "jsonArray",
+        "storeArrayValues": true
+    },
+    "translatedOptions": true,
+    "dynamicLogicOptions": true,
+    "personalData": true
+}

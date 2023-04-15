@@ -1,0 +1,18 @@
+[
+    {
+        "rows": [
+            [
+                {"name": "name"},
+                false
+            ],
+            [
+                {"name": "roles"},
+                {"name": "positionList"}
+            ],
+            [
+                {"name": "layoutSet"},
+                false
+            ]
+        ]
+    }
+]

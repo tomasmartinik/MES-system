@@ -1,0 +1,77 @@
+{
+    "view":"views/dashlets/emails",
+    "aclScope": "Email",
+    "entityType": "Email",
+    "options": {
+        "fields": {
+            "title": {
+                "type": "varchar",
+                "required": true,
+                "trim": true
+            },
+            "autorefreshInterval": {
+                "type": "enumFloat",
+                "options": [0, 0.5, 1, 2, 5, 10]
+            },
+            "displayRecords": {
+                "type": "enumInt",
+                "options": [3, 4, 5, 7, 10, 15, 20, 30]
+            }
+        },
+        "defaults": {
+            "orderBy": "dateSent",
+            "order": "desc",
+            "displayRecords": 5,
+            "expandedLayout": {
+                "rows": [
+                    [
+                        {
+                            "name": "subject",
+                            "link": true
+                        }
+                    ],
+                    [
+                        {
+                            "name": "dateSent",
+                            "view": "views/fields/datetime-short"
+                        },
+                        {
+                            "name": "personStringData",
+                            "view": "views/email/fields/person-string-data-for-expanded"
+                        }
+                    ]
+                ]
+            },
+            "searchData": {
+                "bool": {
+                    "onlyMy": true
+                },
+                "advanced": [
+                    {
+                        "attribute": "folderId",
+                        "type": "inFolder",
+                        "value": "inbox"
+                    }
+                ]
+            }
+        },
+        "layout": [
+            {
+                "rows": [
+                    [
+                        {"name": "title"}
+                    ],
+                    [
+                        {"name": "displayRecords"},
+                        {"name": "autorefreshInterval"}
+                    ]
+                ]
+            }
+        ]
+    },
+    "accessDataList": [
+        {
+            "inPortalDisabled": true
+        }
+    ]
+}

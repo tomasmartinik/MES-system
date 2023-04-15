@@ -1,0 +1,55 @@
+{
+  "fields": {
+    "name": "Nom",
+    "roles": "Rôles",
+    "assignmentPermission": "Assignation de permissions",
+    "userPermission": "Permission utilisateur",
+    "portalPermission": "Permission portail",
+    "groupEmailAccountPermission": "Autorisation de compte de messagerie de groupe",
+    "exportPermission": "Permission d'exportation",
+    "dataPrivacyPermission": "Permission de confidentialité des données",
+    "massUpdatePermission": "Autorisation de mise à jour en masse"
+  },
+  "links": {
+    "users": "Utilisateurs",
+    "teams": "Équipes"
+  },
+  "tooltips": {
+    "assignmentPermission": "Permet de restreindre la capacité pour les utilisateurs d'attribuer des enregistrements aux autres utilisateurs.\n\ntous - aucune restriction\n\néquipe - peuvent assigner aux utilisateurs de l'équipe\n\nnon - seulement à soi",
+    "groupEmailAccountPermission": "Définit un accès aux comptes de messagerie du groupe, une possibilité d'envoyer des courriels à partir du groupe SMTP.",
+    "dataPrivacyPermission": "Permet d'afficher et d'effacer des données personnelles.",
+    "exportPermission": "Définit si les utilisateurs ont la possibilité d'exporter des enregistrements.",
+    "massUpdatePermission": "Définit si les utilisateurs ont la possibilité d'effectuer une mise à jour en masse des enregistrements."
+  },
+  "labels": {
+    "Access": "Accès",
+    "Create Role": "Créer un rôle"
+  },
+  "options": {
+    "accessList": {
+      "not-set": "non-défini",
+      "enabled": "activé",
+      "disabled": "désactivé"
+    },
+    "levelList": {
+      "all": "tous",
+      "team": "équipe",
+      "account": "Compte",
+      "contact": "Contact",
+      "own": "soi",
+      "no": "non",
+      "yes": "oui",
+      "not-set": "non défini"
+    }
+  },
+  "actions": {
+    "read": "Voir",
+    "edit": "Modifier",
+    "delete": "Supprimer",
+    "stream": "Flux",
+    "create": "Créer"
+  },
+  "messages": {
+    "changesAfterClearCache": "Veuillez vider le cache pour que les changements soient pris en compte."
+  }
+}

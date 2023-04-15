@@ -1,0 +1,48 @@
+{
+    "params": [
+        {
+            "name": "required",
+            "type": "bool",
+            "default": false
+        },
+        {
+            "name": "audited",
+            "type": "bool"
+        }
+    ],
+    "actualFields": [
+        "isOptedOut",
+        "",
+        "data"
+    ],
+    "notActualFields": [],
+    "fields": {
+        "isOptedOut": {
+            "type": "bool",
+            "notStorable": true,
+            "layoutDetailDisabled": true,
+            "layoutDefaultSidePanelDisabled": true,
+            "mergeDisabled": true,
+            "customizationDefaultDisabled": true,
+            "customizationReadOnlyDisabled": true
+        }
+    },
+    "validationList": [
+        "required",
+        "emailAddress",
+        "maxLength"
+    ],
+    "mandatoryValidationList": [
+        "emailAddress",
+        "maxLength"
+    ],
+    "notCreatable": true,
+    "filter": true,
+    "fieldDefs": {
+        "notStorable": true
+    },
+    "textFilter": true,
+    "personalData": true,
+    "valueFactoryClassName": "Espo\\Core\\Field\\EmailAddress\\EmailAddressGroupFactory",
+    "attributeExtractorClassName": "Espo\\Core\\Field\\EmailAddress\\EmailAddressGroupAttributeExtractor"
+}

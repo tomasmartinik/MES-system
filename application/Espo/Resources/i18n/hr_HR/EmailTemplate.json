@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "name": "Ime",
+    "isHtml": "Je HTML",
+    "body": "Sadržaj",
+    "subject": "Predmet",
+    "attachments": "Prilozi",
+    "insertField": "Ubaci polje",
+    "oneOff": "Jednokratno",
+    "category": "Kategorija"
+  },
+  "labels": {
+    "Create EmailTemplate": "Kreiraj šablonu e-pošte",
+    "Available placeholders": "Dostupni placeholderi"
+  },
+  "tooltips": {
+    "oneOff": "Označite ako namjeravate da koristite ovu šablonu samo jednom. Npr. masovna poruka."
+  },
+  "presetFilters": {
+    "actual": "Trenutni"
+  },
+  "messages": {
+    "infoText": "Dostupni placeholderi:\n{optOutUrl} &#8211; URL za poveznicu odjave s liste;\n{optOutLink} &#8211; poveznica za odjavu s liste."
+  },
+  "placeholderTexts": {
+    "optOutUrl": "URL za poveznicu odjave s liste",
+    "optOutLink": "poveznica za odjavu s liste"
+  }
+}

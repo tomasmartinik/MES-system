@@ -1,0 +1,35 @@
+{
+  "fields": {
+    "name": "نام",
+    "status": "وضعیت",
+    "job": "کار",
+    "scheduling": "برنامه ریزی"
+  },
+  "links": {
+    "log": "لاگ"
+  },
+  "labels": {
+    "Create ScheduledJob": "ایجاد کار برنامه ریزی شده"
+  },
+  "options": {
+    "job": {
+      "Cleanup": "پاک کردن",
+      "CheckInboundEmails": "حساب های ایمیل گروهی را بررسی کنید",
+      "CheckEmailAccounts": "بررسی حسابهای ایمیل شخصی",
+      "SendEmailReminders": "ارسال ایمیل یادآوری",
+      "CheckNewVersion": "بررسی برای ورژن جدید"
+    },
+    "cronSetup": {
+      "linux": "توجه: این خط را به فایل crontab اضافه کنید تا EspoCRM Scheduled Jobs را اجرا کنید:",
+      "mac": "توجه: این خط را به فایل crontab اضافه کنید تا EspoCRM Scheduled Jobs را اجرا کنید:",
+      "windows": "نکته: یک فایل دسته ای با دستورات زیر برای اجرای برنامه های EspoCRM Scheduled با استفاده از وظایف برنامه ریزی شده ویندوز ایجاد کنید:"
+    },
+    "status": {
+      "Active": "فعال",
+      "Inactive": "غیرفعال"
+    }
+  },
+  "tooltips": {
+    "scheduling": "نماد Crontab تعریف فرکانس کارهای اجرا می شود.\n\n* / 5 * * * * - هر 5 دقیقه\n\n0 * / 2 * * * - هر 2 ساعت\n\n30 1 * * * - در 01:30 یک بار در روز\n\n0 0 1 * * - در اولین روز ماه"
+  }
+}

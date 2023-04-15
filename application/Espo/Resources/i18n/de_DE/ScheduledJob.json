@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "scheduling": "Planung"
+  },
+  "links": {
+    "log": "Protokoll"
+  },
+  "labels": {
+    "Create ScheduledJob": "Geplante Aufgabe erstellen",
+    "As often as possible": "So oft wie möglich"
+  },
+  "options": {
+    "job": {
+      "Cleanup": "Aufräumen",
+      "CheckInboundEmails": "Gruppen E-Mail Konten überprüfen",
+      "CheckEmailAccounts": "Persönliche E-Mail Konten prüfen",
+      "SendEmailReminders": "E-Mail Erinnerungen senden",
+      "AuthTokenControl": "Auth Token-Überwachung",
+      "SendEmailNotifications": "E-Mail-Benachrichtigungen senden",
+      "CheckNewVersion": "Nach neuer Version suchen",
+      "ProcessWebhookQueue": "Webhook-Warteschlange verarbeiten\n"
+    },
+    "cronSetup": {
+      "linux": "Hinweis: Fügen Sie diese Zeile zu Ihrer Crontab Datei hinzu, um geplante Aufgaben durchführen zu können:",
+      "mac": "Hinweis: Fügen Sie diese Zeile zu Ihrer Crontab Datei hinzu, um geplante Aufgaben durchführen zu können:",
+      "windows": "Hinweis: Erstellen Sie eine Stapeldatei mit den folgenden Kommandos um geplante Aufgaben mit dem Windows Aufgabenplaner durchzuführen:",
+      "default": "Hinweis: fügen Sie dieses Kommando zum CronJob hinzu (Geplante Aufgaben):"
+    },
+    "status": {
+      "Active": "Aktiv",
+      "Inactive": "Inaktiv"
+    }
+  },
+  "tooltips": {
+    "scheduling": "Crontab-Notation. Definiert die Häufigkeit der Jobläufe.\n\n`*/5 * * * *` - alle 5 Minuten\n\n`0 */2 * * *` - alle 2 Stunden\n\n`30 1 * * *` - einmal täglich um 01:30\n\n`0 0 1 1 * *` - am ersten Tag des Monats"
+  }
+}

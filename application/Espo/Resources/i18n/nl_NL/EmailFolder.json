@@ -1,0 +1,10 @@
+{
+  "fields": {
+    "skipNotifications": "Meldingen overslaan"
+  },
+  "labels": {
+    "Create EmailFolder": "Creëer Map",
+    "Manage Folders": "Beheer mappen",
+    "Emails": "E-mails"
+  }
+}

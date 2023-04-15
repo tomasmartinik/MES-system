@@ -1,0 +1,10 @@
+{
+  "links": {
+    "meetings": "Срещи",
+    "calls": "Разговори",
+    "tasks": "Задачи"
+  },
+  "labels": {
+    "Create {entityType}": "Създаване на {entityTypeTranslated}"
+  }
+}

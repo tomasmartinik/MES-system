@@ -1,0 +1,14 @@
+{
+  "labels": {
+    "Create EmailTemplateCategory": "Създаване на Категория",
+    "Manage Categories": "Управление на категории",
+    "EmailTemplates": "Шаблони за имейл"
+  },
+  "fields": {
+    "order": "Подредба",
+    "childList": "Дъщерни записи"
+  },
+  "links": {
+    "emailTemplates": "Шаблони за имейл"
+  }
+}

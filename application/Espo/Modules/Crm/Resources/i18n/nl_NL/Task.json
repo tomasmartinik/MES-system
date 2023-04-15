@@ -1,0 +1,51 @@
+{
+  "fields": {
+    "name": "Naam",
+    "parent": "Behorende bij",
+    "dateStart": "Start Datum",
+    "dateEnd": "Voltooi datum",
+    "dateStartDate": "Startdatum (de hele dag)",
+    "dateEndDate": "Datum einde (hele dag)",
+    "priority": "Prioriteit",
+    "description": "Beschrijving",
+    "isOverdue": "Verstreken",
+    "account": "Relatie",
+    "dateCompleted": "Datum voltooid",
+    "attachments": "Bijlagen",
+    "reminders": "Herinneringen"
+  },
+  "links": {
+    "attachments": "Bijlagen",
+    "account": "Relatie",
+    "email": "E-mail"
+  },
+  "options": {
+    "status": {
+      "Not Started": "Niet Gestart",
+      "Started": "Gestart",
+      "Completed": "Voltooid",
+      "Canceled": "Geannuleerd",
+      "Deferred": "Uitgesteld"
+    },
+    "priority": {
+      "Low": "Laag",
+      "Normal": "Normaal",
+      "High": "Hoog"
+    }
+  },
+  "labels": {
+    "Create Task": "Creëer Taak",
+    "Complete": "Voltooi",
+    "overdue": "verstreken"
+  },
+  "presetFilters": {
+    "actual": "Actueel",
+    "completed": "Voltooid",
+    "todays": "Vandaag",
+    "overdue": "Verstreken",
+    "deferred": "Uitgestelde"
+  },
+  "nameOptions": {
+    "replyToEmail": "E-mail beantwoorden"
+  }
+}

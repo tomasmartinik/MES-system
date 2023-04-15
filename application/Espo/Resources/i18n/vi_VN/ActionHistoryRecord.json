@@ -1,0 +1,21 @@
+{
+  "fields": {
+    "user": "Người dùng",
+    "action": "Hành động",
+    "createdAt": "Ngày"
+  },
+  "links": {
+    "user": "Người dùng"
+  },
+  "presetFilters": {
+    "onlyMy": "Chỉ mình tôi"
+  },
+  "options": {
+    "action": {
+      "read": "Đọc",
+      "update": "Cập nhật",
+      "delete": "Xóa",
+      "create": "Tạo"
+    }
+  }
+}

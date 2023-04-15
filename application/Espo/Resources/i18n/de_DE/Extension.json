@@ -1,0 +1,14 @@
+{
+  "fields": {
+    "description": "Beschreibung",
+    "isInstalled": "Installiert",
+    "checkVersionUrl": "Eine URL zum Überprüfen neuer Versionen"
+  },
+  "labels": {
+    "Uninstall": "Deinstallieren",
+    "Install": "Installieren"
+  },
+  "messages": {
+    "uninstalled": "Erweiterung {name} wurde deinstalliert"
+  }
+}

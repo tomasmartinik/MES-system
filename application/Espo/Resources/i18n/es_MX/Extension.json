@@ -1,0 +1,15 @@
+{
+  "fields": {
+    "name": "Nombre",
+    "description": "Descripción",
+    "isInstalled": "Instalado",
+    "checkVersionUrl": "URL para buscar nuevas versiones "
+  },
+  "labels": {
+    "Uninstall": "Desinstalar",
+    "Install": "Instalar"
+  },
+  "messages": {
+    "uninstalled": "La extension {name} ha sido desinstalada"
+  }
+}

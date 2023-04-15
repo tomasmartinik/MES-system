@@ -1,0 +1,33 @@
+{
+  "fields": {
+    "name": "Navn",
+    "portalRoles": "Roller",
+    "isActive": "Er Aktiv",
+    "isDefault": "Er Standard",
+    "tabList": "Menuvalg",
+    "quickCreateList": "Opret Liste Hurtigt",
+    "theme": "Tema",
+    "language": "Sprog",
+    "dateFormat": "Datoformat",
+    "timeFormat": "Tidsformat",
+    "timeZone": "Tidszone",
+    "weekStart": "Første Dag i Ugen",
+    "defaultCurrency": "Standardvaluta",
+    "customUrl": "Brugerdefineret URL",
+    "customId": "Brugerdefineret ID"
+  },
+  "links": {
+    "users": "Brugere",
+    "portalRoles": "Roller",
+    "notes": "Notater"
+  },
+  "tooltips": {
+    "portalRoles": "Specificerede Portalroller som tildeles alle brugere af denne portal"
+  },
+  "labels": {
+    "Create Portal": "Opret Portal",
+    "User Interface": "Brugergrænseflade",
+    "General": "Almindelig",
+    "Settings": "Indstillinger"
+  }
+}

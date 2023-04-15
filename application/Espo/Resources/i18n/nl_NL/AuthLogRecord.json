@@ -1,0 +1,36 @@
+{
+  "fields": {
+    "username": "Gebruikersnaam",
+    "ipAddress": "IP adres",
+    "requestTime": "Verzoektijd",
+    "createdAt": "Gevraagd om",
+    "isDenied": "Is geweigerd",
+    "denialReason": "Reden weigering",
+    "portal": "Portaal",
+    "user": "Gebruiker",
+    "authToken": "Auth sleutel aangemaakt",
+    "requestUrl": "Verzoek om URL",
+    "requestMethod": "Verzoek methode",
+    "authTokenIsActive": "Auth sleutel is actief",
+    "authenticationMethod": "Authenticatie methode"
+  },
+  "links": {
+    "authToken": "Auth sleutel aangemaakt",
+    "user": "Gebruiker",
+    "portal": "Portaal",
+    "actionHistoryRecords": "Actiegeschiedenis"
+  },
+  "presetFilters": {
+    "denied": "Geweigerd",
+    "accepted": "Geaccepteerd"
+  },
+  "options": {
+    "denialReason": {
+      "CREDENTIALS": "Ongeldige inloggegevens",
+      "INACTIVE_USER": "Inactieve gebruiker",
+      "IS_PORTAL_USER": "Portaalgebruiker",
+      "IS_NOT_PORTAL_USER": "Geen portaalgebruiker",
+      "USER_IS_NOT_IN_PORTAL": "Gebruiker is niet gerelateerd aan de portaal"
+    }
+  }
+}

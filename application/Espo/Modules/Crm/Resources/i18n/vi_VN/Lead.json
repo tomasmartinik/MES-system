@@ -1,0 +1,58 @@
+{
+  "labels": {
+    "Converted To": "Đã chuyển đổi sang",
+    "Create Lead": "Tạo chỉ dẫn",
+    "Convert": "Chuyển đổi",
+    "convert": "chuyển đổi"
+  },
+  "fields": {
+    "name": "Tên",
+    "title": "Tiêu đề",
+    "phoneNumber": "Điện thoại",
+    "accountName": "Tên tài khoản",
+    "doNotCall": "Không gọi",
+    "address": "Địa chỉ",
+    "status": "Trạng thái",
+    "source": "Nguồn",
+    "opportunityAmount": "Trị giá",
+    "description": "Mô tả",
+    "createdAccount": "Tài khoản",
+    "createdContact": "Liên hệ",
+    "createdOpportunity": "Cơ hội",
+    "campaign": "Chiến dịch",
+    "targetLists": "Danh sách mục tiêu",
+    "targetList": "Danh sách mục tiêu",
+    "industry": "Chuyên ngành"
+  },
+  "links": {
+    "targetLists": "Danh sách mục tiêu",
+    "campaignLogRecords": "Nhật ký chiến dịch",
+    "campaign": "Chiến dịch",
+    "createdAccount": "Tài khoản",
+    "createdContact": "Danh bạ",
+    "documents": "Tài liệu"
+  },
+  "options": {
+    "status": {
+      "New": "Mới",
+      "Assigned": "Chỉ định",
+      "In Process": "Đang tiến hành",
+      "Converted": "Đã chuyển đổi",
+      "Recycled": "Thùng rác",
+      "Dead": "Chết"
+    },
+    "source": {
+      "Call": "Gọi",
+      "Existing Customer": "Khách hàng hiện có",
+      "Partner": "Đối tác",
+      "Public Relations": "Khách hàng công khai",
+      "Campaign": "Chiến dịch",
+      "Other": "Khác"
+    }
+  },
+  "presetFilters": {
+    "active": "Đang hoạt động",
+    "actual": "Hiện thời",
+    "converted": "Đã chuyển đổi"
+  }
+}

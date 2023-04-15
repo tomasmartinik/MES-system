@@ -1,0 +1,38 @@
+{
+  "labels": {
+    "Create Document": "Buat Dokumen",
+    "Details": "rincian"
+  },
+  "fields": {
+    "name": "Nama",
+    "file": "Berkas",
+    "type": "Mengetik",
+    "publishDate": "mempublikasikan Tanggal",
+    "expirationDate": "Tanggal kadaluarsa",
+    "description": "Deskripsi",
+    "accounts": "Akun",
+    "folder": "Direktori"
+  },
+  "links": {
+    "accounts": "Akun",
+    "opportunities": "peluang",
+    "folder": "Direktori"
+  },
+  "options": {
+    "status": {
+      "Active": "Aktif",
+      "Draft": "Konsep",
+      "Expired": "kedaluwarsa",
+      "Canceled": "Dibatalkan"
+    },
+    "type": {
+      "": "tak satupun",
+      "Contract": "Kontrak",
+      "License Agreement": "Perjanjian lisensi"
+    }
+  },
+  "presetFilters": {
+    "active": "Aktif",
+    "draft": "Konsep"
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "fields": {
+        "processSegmentEquipmentItems": "Vybavení",
+        "processSegmentMaterialItems": "Materiál",
+        "processSegmentPersonnelItems": "Personál"
+    },
+    "links": {
+        "processSegmentEquipmentItems": "Vybavení",
+        "processSegmentMaterialItems": "Materiál",
+        "processSegmentPersonnelItems": "Personál"
+    },
+    "labels": {
+        "Create ProcessSegment": "Create Segment procesu"
+    }
+}

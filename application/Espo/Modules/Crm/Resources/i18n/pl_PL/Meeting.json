@@ -1,0 +1,55 @@
+{
+  "fields": {
+    "name": "Nazwa",
+    "parent": "Rodzic",
+    "dateStart": "Data rozpoczęcia",
+    "dateEnd": "Data zakończenia",
+    "duration": "Czas",
+    "description": "Opis",
+    "users": "Użytkownik",
+    "contacts": "Kontakty",
+    "leads": "Potencjalne Kontakty",
+    "reminders": "Przypomnienia",
+    "account": "Klient",
+    "acceptanceStatus": "Status akceptacji",
+    "dateStartDate": "Data rozpoczęcia (cały dzień)",
+    "dateEndDate": "Data zakończenia (cały dzień)",
+    "isAllDay": "Cały dzień",
+    "Acceptance": "Akceptacja"
+  },
+  "options": {
+    "status": {
+      "Planned": "Planowane",
+      "Held": "Odbyło się",
+      "Not Held": "Nie odbyło się"
+    },
+    "acceptanceStatus": {
+      "None": "Brak",
+      "Accepted": "Zaakceptowany",
+      "Declined": "Odrzucony",
+      "Tentative": "Niepewny"
+    }
+  },
+  "massActions": {
+    "setHeld": "Odbyło się",
+    "setNotHeld": "Nie odbyło się"
+  },
+  "labels": {
+    "Create Meeting": "Utwórz Spotkanie",
+    "Set Held": "Odbyło się",
+    "Set Not Held": "Nie odbyło się",
+    "Send Invitations": "Wyślij Powiadomienie",
+    "on time": "na czas",
+    "before": "przed",
+    "All-Day": "Cały dzień"
+  },
+  "presetFilters": {
+    "planned": "Planowane",
+    "held": "Odbyło się",
+    "todays": "Dzisiaj"
+  },
+  "messages": {
+    "nothingHasBeenSent": "Nic nie zostało wysłane",
+    "selectAcceptanceStatus": "Ustaw swój status akceptacji."
+  }
+}

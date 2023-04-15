@@ -1,0 +1,45 @@
+{
+  "fields": {
+    "campaign": "Kampagne",
+    "isActive": "Ist aktiv",
+    "subscribeToTargetList": "Zielliste abonnieren",
+    "subscribeContactToTargetList": "Abonnieren Kontakt, falls vorhanden",
+    "targetList": "Kontaktliste",
+    "fieldList": "Nutzlastfelder",
+    "optInConfirmation": "Doppel-Opt-In",
+    "optInConfirmationEmailTemplate": "E-Mail-Vorlage zur Opt-In-Bestätigung",
+    "optInConfirmationLifetime": "Opt-In-Bestätigung Lebensdauer (Stunden)",
+    "optInConfirmationSuccessMessage": "Text, der nach der Opt-In-Bestätigung angezeigt werden soll",
+    "leadSource": "Quelle",
+    "targetTeam": "Zielteam",
+    "exampleRequestMethod": "Methode",
+    "exampleRequestPayload": "Nutzlast",
+    "createLeadBeforeOptInConfirmation": "Lead vor Bestätigung erstellen",
+    "duplicateCheck": "Dublettenprüfung",
+    "skipOptInConfirmationIfSubscribed": "Bestätigung überspringen, wenn Lead bereits in der Zielliste ist",
+    "smtpAccount": "SMTP-Konto",
+    "inboundEmail": "Gruppen-E-Mail-Konto"
+  },
+  "links": {
+    "targetList": "Kontaktliste",
+    "campaign": "Kampagne",
+    "optInConfirmationEmailTemplate": "E-Mail-Vorlage zur Opt-In-Bestätigung",
+    "targetTeam": "Zielteam",
+    "logRecords": "Protokoll",
+    "inboundEmail": "Gruppen-E-Mail-Konto"
+  },
+  "labels": {
+    "Create LeadCapture": "Einstiegspunkt erstellen",
+    "Generate New API Key": "Eines neuen API Key generieren",
+    "Request": "Anforderung",
+    "Confirm Opt-In": "Opt-In bestätigen"
+  },
+  "messages": {
+    "generateApiKey": "Eines neuen API Key erstellen",
+    "optInConfirmationExpired": "Opt-in-Bestätigungslink ist abgelaufen.",
+    "optInIsConfirmed": "Die Bestätigung ist bestätigt."
+  },
+  "tooltips": {
+    "optInConfirmationSuccessMessage": "Markdown ist unterstützt."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "messages": {
+    "infoMention": "Napisz **@nazwaużytkownika** żeby o nim wspomnieć we wpisie.",
+    "infoSyntax": "Dostępna składnia markdown"
+  },
+  "syntaxItems": {
+    "code": "kod",
+    "multilineCode": "kod wielowierszowy",
+    "strongText": "wytłuszczony tekst",
+    "emphasizedText": "wyróżniony tekst",
+    "deletedText": "przekreślony tekst",
+    "blockquote": "cytat"
+  }
+}

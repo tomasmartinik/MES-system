@@ -1,0 +1,19 @@
+{
+    "labels": {
+        "Create PersonnelClasses": "Vytvořit Třída personálu"
+    },
+    "fields": {
+        "personnelProperties": "Vlastnosti tříd personálu",
+        "personnelDefinitions": "Definice personálu",
+        "personnelDefinitionsPropertiesFromClasses": "Záznam vlastností",
+        "processSegmentPersonnelItems": "Položka personálu segmentu procesu",
+        "productSegmentPersonnelItems": "Product Segment Personnel Items"
+    },
+    "links": {
+        "personnelProperties": "Vlastnosti tříd personálu",
+        "personnelDefinitions": "Definice personálu",
+        "personnelDefinitionsPropertiesFromClasses": "Záznam vlastností",
+        "processSegmentPersonnelItems": "Položka personálu segmentu procesu",
+        "productSegmentPersonnelItems": "Product Segment Personnel Items"
+    }
+}

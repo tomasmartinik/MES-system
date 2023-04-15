@@ -1,0 +1,18 @@
+{
+    "fields": {
+        "materialClasses": "Třída",
+        "materialDefinitions": "Definice",
+        "quantity": "Množství",
+        "productSegmentses": "Product Segmentses",
+        "productSegments": "Product Segments"
+    },
+    "links": {
+        "materialClasses": "Třída",
+        "materialDefinitions": "Definice",
+        "productSegmentses": "Product Segmentses",
+        "productSegments": "Product Segments"
+    },
+    "labels": {
+        "Create ProductSegmentMaterialItem": "Create Položka materiálu"
+    }
+}

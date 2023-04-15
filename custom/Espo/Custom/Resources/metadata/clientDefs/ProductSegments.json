@@ -1,0 +1,59 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "fas fa-network-wired",
+    "kanbanViewMode": false,
+    "color": null,
+    "dynamicLogic": {
+        "fields": {
+            "productDefinitions": {
+                "visible": null,
+                "invalid": null
+            },
+            "materialClasses": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "classOnly"
+                        }
+                    ]
+                }
+            },
+            "materialDefinitions": {
+                "invalid": null,
+                "visible": null,
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "classOnly"
+                        }
+                    ]
+                }
+            },
+            "equipmentClasses": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "classOnlyEquipment"
+                        }
+                    ]
+                }
+            },
+            "equipmentDefinitions": {
+                "readOnly": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "classOnlyEquipment"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

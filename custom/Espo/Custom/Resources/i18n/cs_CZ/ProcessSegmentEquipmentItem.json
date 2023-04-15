@@ -1,0 +1,16 @@
+{
+    "labels": {
+        "Create ProcessSegmentEquipmentItem": "Vytvořit Položka vybavení segmentu procesu"
+    },
+    "fields": {
+        "equipmentClasses": "Třída vybavení",
+        "equipmentDefinitions": "Definice vybavení",
+        "quantity": "Množství",
+        "processSegments": "Segmenty procesu"
+    },
+    "links": {
+        "equipmentClasses": "Třída vybavení",
+        "equipmentDefinitions": "Definice vybavení",
+        "processSegments": "Segmenty procesu"
+    }
+}

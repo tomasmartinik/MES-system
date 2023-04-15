@@ -1,0 +1,24 @@
+{
+   "recordViews":{
+      "edit": "views/preferences/record/edit"
+   },
+   "views":{
+      "edit": "views/preferences/edit"
+   },
+   "acl": "acl/preferences",
+   "aclPortal": "acl-portal/preferences",
+    "dynamicLogic": {
+        "fields": {
+            "assignmentEmailNotificationsIgnoreEntityTypeList": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isTrue",
+                            "attribute": "receiveAssignmentEmailNotifications"
+                        }
+                    ]
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+  "fields": {
+    "name": "Име",
+    "parent": "Родител",
+    "status": "Статус",
+    "dateStart": "Начална дата",
+    "dateEnd": "Крайна дата",
+    "duration": "Продължителност",
+    "description": "Описание",
+    "users": "Потребители",
+    "contacts": "Контакти",
+    "leads": "Потенциални продажби",
+    "reminders": "Напомняния",
+    "account": "Клиент",
+    "acceptanceStatus": "Статус за приемане",
+    "dateStartDate": "Начална дата (цял ден)",
+    "dateEndDate": "Крайна дата (цял ден)",
+    "isAllDay": "Цял ден",
+    "Acceptance": "Приемане",
+    "sourceEmail": "Източник на имейла"
+  },
+  "options": {
+    "status": {
+      "Planned": "Планирана",
+      "Held": "Състояла се",
+      "Not Held": "Несъстояла се"
+    },
+    "acceptanceStatus": {
+      "None": "Нито един",
+      "Accepted": "Приета",
+      "Declined": "Отхвърлена",
+      "Tentative": "Несигурна"
+    }
+  },
+  "massActions": {
+    "setHeld": "Задай като състояла се",
+    "setNotHeld": "Задай като несъстояла се"
+  },
+  "labels": {
+    "Create Meeting": "Създаване на среща",
+    "Set Held": "Задай като състояла се",
+    "Set Not Held": "Задай като състояла се",
+    "Send Invitations": "Изпращането на покани",
+    "on time": "на време",
+    "before": "преди",
+    "All-Day": "Цял ден"
+  },
+  "presetFilters": {
+    "planned": "Планирани",
+    "held": "Състояли се",
+    "todays": "Днешните"
+  },
+  "messages": {
+    "nothingHasBeenSent": "Нищо не беше изпратено",
+    "selectAcceptanceStatus": "Задайте състоянието на приемане."
+  }
+}

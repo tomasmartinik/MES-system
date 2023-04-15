@@ -1,0 +1,25 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar"
+        },
+        "layoutSet": {
+            "type": "link"
+        },
+        "data": {
+            "type": "text"
+        }
+    },
+    "links": {
+        "layoutSet": {
+            "type": "belongsTo",
+            "entity": "LayoutSet",
+            "foreign": "layoutRecords"
+        }
+    },
+    "indexes": {
+        "nameLayoutSetId": {
+            "columns": ["name", "layoutSetId"]
+        }
+    }
+}

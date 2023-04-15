@@ -1,0 +1,30 @@
+{
+  "fields": {
+    "user": "Потребител",
+    "action": "Действие",
+    "createdAt": "Дата",
+    "target": "Цел",
+    "targetType": "Тип обект",
+    "authToken": "Токен за автентификация",
+    "ipAddress": "IP адрес",
+    "authLogRecord": "История на влизанията",
+    "userType": "Тип потребител"
+  },
+  "links": {
+    "authToken": "Токен за автентификация",
+    "user": "Потребител",
+    "target": "Цел",
+    "authLogRecord": "История на влизанията"
+  },
+  "presetFilters": {
+    "onlyMy": "Само мои"
+  },
+  "options": {
+    "action": {
+      "read": "Прочете",
+      "update": "Редактира",
+      "delete": "Изтри",
+      "create": "Създаде"
+    }
+  }
+}

@@ -1,0 +1,4 @@
+[2023-04-11 10:07:05] DEBUG: API (2002) SQLSTATE[HY000] [2002] An established connection was aborted by the software in your host machine; GET /I18n; Route pattern: /I18n; Route params: Array (     [controller] => I18n )  [] []
+[2023-04-11 10:07:05] DEBUG: API (2002) SQLSTATE[HY000] [2002] An established connection was aborted by the software in your host machine; GET /Settings; Route pattern: /Settings; Route params: Array (     [controller] => Settings )  [] []
+[2023-04-11 10:07:05] ERROR: (2002) SQLSTATE[HY000] [2002] An established connection was aborted by the software in your host machine; GET /I18n; line: 97, file: C:\xampp\htdocs\espocrm\application\Espo\ORM\PDO\DefaultPDOProvider.php [] []
+[2023-04-11 10:07:05] ERROR: (2002) SQLSTATE[HY000] [2002] An established connection was aborted by the software in your host machine; GET /Settings; line: 97, file: C:\xampp\htdocs\espocrm\application\Espo\ORM\PDO\DefaultPDOProvider.php [] []

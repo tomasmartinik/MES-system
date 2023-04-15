@@ -1,0 +1,16 @@
+{
+    "fields": {
+        "quantity": "Množství",
+        "personnelClasses": "Třída personálu",
+        "personnelDefinitions": "Definice personálu",
+        "processSegments": "Segment Procesu"
+    },
+    "links": {
+        "personnelClasses": "Třída personálu",
+        "personnelDefinitions": "Definice personálu",
+        "processSegments": "Segment Procesu"
+    },
+    "labels": {
+        "Create ProcessSegmentPersonnelItem": "Create Položka personálu segmentu procesu"
+    }
+}

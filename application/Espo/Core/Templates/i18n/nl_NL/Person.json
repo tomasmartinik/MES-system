@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "address": "Adres"
+  },
+  "links": {
+    "meetings": "Vergaderingen",
+    "calls": "Gesprekken",
+    "tasks": "Taken"
+  },
+  "labels": {
+    "Create {entityType}": "Creëer {entityTypeTranslated}"
+  }
+}

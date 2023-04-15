@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "enabled": "Aktiv",
+    "clientId": "Klient ID",
+    "clientSecret": "Hemmelig Klient",
+    "redirectUri": "Omdiriger URL",
+    "apiKey": "API Nøgle"
+  },
+  "messages": {
+    "selectIntegration": "Vælg en integration fra menu",
+    "noIntegrations": "Ingen integration til rådighed"
+  }
+}

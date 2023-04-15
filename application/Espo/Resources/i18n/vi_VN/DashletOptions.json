@@ -1,0 +1,24 @@
+{
+  "fields": {
+    "title": "Tiêu đề",
+    "dateFrom": "Từ ngày",
+    "dateTo": "Đến ngày",
+    "autorefreshInterval": "Thời gian tự động tải lại",
+    "displayRecords": "Số dòng hiển thị",
+    "isDoubleHeight": "Cao 2x",
+    "enabledScopeList": "Những gì sẽ được hiển thị",
+    "users": "Người dùng",
+    "entityType": "Loại Entity ",
+    "expandedLayout": "Bố cục"
+  },
+  "options": {
+    "mode": {
+      "agendaWeek": "Tuần (agenda)",
+      "basicWeek": "Tuần",
+      "month": "Tháng",
+      "basicDay": "Ngày",
+      "agendaDay": "Ngày (agenda)",
+      "timeline": "Dòng thời gian"
+    }
+  }
+}

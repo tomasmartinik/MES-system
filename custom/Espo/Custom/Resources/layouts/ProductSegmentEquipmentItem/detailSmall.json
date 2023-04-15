@@ -1,0 +1,24 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "equipmentClasses"
+                },
+                {
+                    "name": "equipmentDefinitions"
+                }
+            ],
+            [
+                {
+                    "name": "description"
+                },
+                {
+                    "name": "quantity"
+                }
+            ]
+        ],
+        "style": "default",
+        "label": ""
+    }
+]

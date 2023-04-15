@@ -1,0 +1,16 @@
+{
+    "labels": {
+        "Create MaterialDefinitionsPropertiesFromClasses": "Vytvořit Záznam vlastností definic materiálu"
+    },
+    "fields": {
+        "materialDefinitions": "Definice materiálu",
+        "materialProperties": "Vlastnost materiálu",
+        "value": "Hodnota",
+        "materialClasses": "Třída materiálu"
+    },
+    "links": {
+        "materialDefinitions": "Definice materiálu",
+        "materialProperties": "Vlastnost materiálu",
+        "materialClasses": "Třída materiálu"
+    }
+}

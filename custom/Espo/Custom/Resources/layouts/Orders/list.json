@@ -1,0 +1,19 @@
+[
+    {
+        "name": "number",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "customerName"
+    },
+    {
+        "name": "priority"
+    },
+    {
+        "name": "createdAt"
+    },
+    {
+        "name": "status"
+    }
+]

@@ -1,0 +1,57 @@
+{
+  "fields": {
+    "name": "Nome",
+    "roles": "Ruoli",
+    "assignmentPermission": "Assegnazione permessi",
+    "userPermission": "Autorizzazioni utente",
+    "portalPermission": "Autorizzazione portale",
+    "groupEmailAccountPermission": "Permesso account email di gruppo",
+    "exportPermission": "Esporta permessi",
+    "dataPrivacyPermission": "Autorizzazione privacy dati",
+    "massUpdatePermission": "Autorizzazione per l'aggiornamento di massa",
+    "followerManagementPermission": "Permessi di Gestione dei Seguaci"
+  },
+  "links": {
+    "users": "Utenti"
+  },
+  "tooltips": {
+    "assignmentPermission": "Permette di limitare la possibilità di assegnare record ed inviare messaggi ad altri utenti \n\ntutto - nessuna restrizione\n\nteam - può assegnare e postare solo al proprio team\n\nno - può assegnare e postare solo a sé stesso",
+    "userPermission": "Permette di limitare agli utenti la possibilità di visualizzare le attività, il calendario ed il flusso attività, di altri utenti\n\ntutto - tutto visualizzabile\n\nteam - visualizzabili le sole attività del proprio team\n\nno - nulla di visualizzabile",
+    "portalPermission": "Definisce un accesso alle informazioni del portale, capacità di pubblicare messaggi agli utenti del portale.",
+    "groupEmailAccountPermission": "Definisce un accesso agli account di posta elettronica di gruppo, una possibilità di inviare e-mail dal gruppo SMTP.",
+    "dataPrivacyPermission": "Consente di visualizzare e cancellare i dati personali.",
+    "exportPermission": "Definisce se gli utenti hanno la possibilità di esportare record.",
+    "massUpdatePermission": "Definisce se gli utenti hanno la possibilità di eseguire aggiornamenti di massa dei record.",
+    "followerManagementPermission": "Permette di gestire i seguaci dei record."
+  },
+  "labels": {
+    "Access": "Accesso",
+    "Create Role": "Crea Ruolo",
+    "Scope Level": "Livello ambito",
+    "Field Level": "Livello di campo"
+  },
+  "options": {
+    "accessList": {
+      "not-set": "Non impostato",
+      "enabled": "abilitato",
+      "disabled": "Disabilitato"
+    },
+    "levelList": {
+      "all": "Tutti",
+      "contact": "Contatto",
+      "own": "proprio",
+      "yes": "Si",
+      "not-set": "Non impostato"
+    }
+  },
+  "actions": {
+    "read": "Visualizzazione",
+    "edit": "Modifica",
+    "delete": "Elimina",
+    "stream": "Flusso attività",
+    "create": "Crea"
+  },
+  "messages": {
+    "changesAfterClearCache": "Verranno applicate tutte le modifiche del controllo di accesso dopo la cancellazione della cache."
+  }
+}

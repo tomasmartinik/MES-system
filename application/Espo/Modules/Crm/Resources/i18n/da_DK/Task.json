@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "name": "Navn",
+    "parent": "Henviser til",
+    "dateStart": "Startdato",
+    "dateEnd": "Tidsfrist",
+    "dateStartDate": "Startdato (Hele dagen)",
+    "dateEndDate": "Slutdato (Hele dagen)",
+    "priority": "Prioritet",
+    "description": "Beskrivelse",
+    "isOverdue": "Er Overskredet",
+    "account": "Konto",
+    "dateCompleted": "Afsluttet Dato",
+    "attachments": "Vedhæftede",
+    "reminders": "Underretninger",
+    "contact": "Kontakt"
+  },
+  "links": {
+    "attachments": "Vedhæftede",
+    "account": "Konto",
+    "contact": "Kontakt"
+  },
+  "options": {
+    "status": {
+      "Not Started": "Ikke Startet",
+      "Started": "Startet",
+      "Completed": "Afsluttet",
+      "Canceled": "Afbrudt",
+      "Deferred": "Udsat"
+    },
+    "priority": {
+      "Low": "Lav",
+      "High": "Høj",
+      "Urgent": "Vigtig"
+    }
+  },
+  "labels": {
+    "Create Task": "Opret Opgave",
+    "Complete": "Afslut"
+  },
+  "presetFilters": {
+    "actual": "Aktuel",
+    "completed": "Afsluttet",
+    "todays": "Dagens",
+    "overdue": "Overskredet",
+    "deferred": "Udsat"
+  }
+}

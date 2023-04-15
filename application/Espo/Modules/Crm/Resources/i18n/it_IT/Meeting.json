@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "name": "Nome",
+    "parent": "Genitore",
+    "status": "Stato",
+    "dateStart": "Data inizio",
+    "dateEnd": "Data termine",
+    "duration": "Durata",
+    "description": "Descrizione",
+    "users": "Utenti",
+    "contacts": "Contatti",
+    "leads": "Iniziative",
+    "reminders": "Promemoria",
+    "acceptanceStatus": "Stato accettazione",
+    "dateStartDate": "Data inizio (tutto il giorno)",
+    "dateEndDate": "Data fine (tutto il giorno)",
+    "isAllDay": "È tutto il giorno",
+    "Acceptance": "Accettazione"
+  },
+  "options": {
+    "status": {
+      "Planned": "Pianificato",
+      "Held": "Effettuata",
+      "Not Held": "Non Effettuata"
+    },
+    "acceptanceStatus": {
+      "None": "Nessuno",
+      "Accepted": "Accettato",
+      "Declined": "Declinato",
+      "Tentative": "Tentativo"
+    }
+  },
+  "massActions": {
+    "setHeld": "Effettuata",
+    "setNotHeld": "Non Effettuata"
+  },
+  "labels": {
+    "Create Meeting": "Crea Riunione",
+    "Set Held": "Effettuata",
+    "Set Not Held": "Non Effettuata",
+    "Send Invitations": "Inviare inviti",
+    "on time": "Puntuale",
+    "before": "prima",
+    "All-Day": "Tutto il giorno\n"
+  },
+  "presetFilters": {
+    "planned": "Pianificato",
+    "held": "Effettuata",
+    "todays": "Di oggi"
+  },
+  "messages": {
+    "nothingHasBeenSent": "Nulla è stato inviato",
+    "selectAcceptanceStatus": "Imposta il tuo stato di accettazione.",
+    "sendInvitationsConfirmation": "Invia email di invito ai partecipanti?"
+  }
+}

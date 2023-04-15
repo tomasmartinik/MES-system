@@ -1,0 +1,13 @@
+{
+  "fields": {
+    "enabled": "Povolený",
+    "clientId": "ID klienta",
+    "clientSecret": "Bezpečnostná fráza klienta",
+    "redirectUri": "URI na presmerovanie",
+    "apiKey": "API kľúč"
+  },
+  "messages": {
+    "selectIntegration": "Vyberte integráciu z ponuky",
+    "noIntegrations": "Žiadne integrácie nie sú dostupné."
+  }
+}

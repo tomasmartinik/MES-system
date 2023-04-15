@@ -1,0 +1,178 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true,
+            "pattern": "$noBadCharacters"
+        },
+        "emailAddress": {
+            "type": "varchar",
+            "required": true,
+            "maxLength": 100,
+            "trim": true,
+            "tooltip": true,
+            "view": "views/email-account/fields/email-address"
+        },
+        "status": {
+            "type": "enum",
+            "options": ["Active", "Inactive"],
+            "default": "Active"
+        },
+        "host": {
+            "type": "varchar",
+            "trim": true
+        },
+        "port": {
+            "type": "int",
+            "min": 0,
+            "max": 65535,
+            "default": 993
+        },
+        "security": {
+            "type": "enum",
+            "default": "SSL",
+            "options": ["", "SSL", "TLS"]
+        },
+        "username": {
+            "type": "varchar",
+            "trim": true
+        },
+        "password": {
+            "type": "password"
+        },
+        "monitoredFolders": {
+            "type": "array",
+            "default": ["INBOX"],
+            "view": "views/email-account/fields/folders",
+            "displayAsList": true,
+            "noEmptyString": true,
+            "duplicateIgnore": true
+        },
+        "sentFolder": {
+            "type": "varchar",
+            "view": "views/email-account/fields/folder",
+            "duplicateIgnore": true
+        },
+        "storeSentEmails": {
+            "type": "bool",
+            "tooltip": true
+        },
+        "keepFetchedEmailsUnread": {
+            "type": "bool"
+        },
+        "fetchSince": {
+            "type": "date"
+        },
+        "fetchData": {
+            "type": "jsonObject",
+            "readOnly": true,
+            "duplicateIgnore": true
+        },
+        "emailFolder": {
+            "type": "link",
+            "view": "views/email-account/fields/email-folder",
+            "duplicateIgnore": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "assignedUser": {
+            "type": "link",
+            "required": true,
+            "view": "views/fields/assigned-user"
+        },
+        "useImap": {
+            "type": "bool",
+            "default": true
+        },
+        "useSmtp": {
+            "type": "bool",
+            "tooltip": true
+        },
+        "smtpHost": {
+            "type": "varchar",
+            "trim": true
+        },
+        "smtpPort": {
+            "type": "int",
+            "min": 0,
+            "max": 65535,
+            "default": 587
+        },
+        "smtpAuth": {
+            "type": "bool",
+            "default": true
+        },
+        "smtpSecurity": {
+            "type": "enum",
+            "default": "TLS",
+            "options": ["", "SSL", "TLS"]
+        },
+        "smtpUsername": {
+            "type": "varchar",
+            "trim": true
+        },
+        "smtpPassword": {
+            "type": "password"
+        },
+        "smtpAuthMechanism": {
+            "type": "enum",
+            "options": ["login", "crammd5", "plain"],
+            "default": "login"
+        },
+        "imapHandler": {
+            "type": "varchar",
+            "readOnly": true
+        },
+        "smtpHandler": {
+            "type": "varchar",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        }
+    },
+    "links": {
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "filters": {
+            "type": "hasChildren",
+            "foreign": "parent",
+            "entity": "EmailFilter"
+        },
+        "emails": {
+            "type": "hasMany",
+            "entity": "Email",
+            "foreign": "emailAccounts"
+        },
+        "emailFolder": {
+            "type": "belongsTo",
+            "entity": "EmailFolder"
+        }
+    },
+    "collection": {
+        "orderBy": "name",
+        "order": "asc"
+    }
+}

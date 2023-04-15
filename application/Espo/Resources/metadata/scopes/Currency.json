@@ -1,0 +1,10 @@
+{
+	"entity": true,
+	"layouts": false,
+	"tab": false,
+	"acl": true,
+	"aclActionList": ["read", "edit"],
+	"aclLevelList": ["yes", "no"],
+	"aclHighestLevel": "yes",
+	"customizable": false
+}

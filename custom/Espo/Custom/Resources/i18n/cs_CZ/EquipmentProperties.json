@@ -1,0 +1,26 @@
+{
+    "labels": {
+        "Create EquipmentClassesPropertiesElements": "Vytvořit Vlastnost třídy vybavení"
+    },
+    "fields": {
+        "valueType": "Typ",
+        "equipmentClassLists": "Equipment Class Lists",
+        "eqipmentDefinitionsPropertiesFromClasses": "Eqipment Definitions Properties From Classes",
+        "eqipmentDefinitionsPropertiesFromClasseses": "Vlastnosti",
+        "equipmentClassList": "Třída vybavení"
+    },
+    "options": {
+        "valueType": {
+            "String": "String",
+            "Url": "Url",
+            "Int": "Int",
+            "Float": "Float"
+        }
+    },
+    "links": {
+        "equipmentClassLists": "Equipment Class Lists",
+        "eqipmentDefinitionsPropertiesFromClasses": "Eqipment Definitions Properties From Classes",
+        "eqipmentDefinitionsPropertiesFromClasseses": "Vlastnosti",
+        "equipmentClassList": "Třída vybavení"
+    }
+}

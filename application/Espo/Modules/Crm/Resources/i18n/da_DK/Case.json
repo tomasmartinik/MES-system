@@ -1,0 +1,54 @@
+{
+  "fields": {
+    "name": "Navn",
+    "number": "Nummer",
+    "account": "Konto",
+    "contact": "Kontakt",
+    "contacts": "Kontakter",
+    "priority": "Prioritet",
+    "description": "Beskrivelse",
+    "attachments": "Vedhæftede filer",
+    "inboundEmail": "Gruppe email konto"
+  },
+  "links": {
+    "account": "Konto",
+    "contact": "Kontakt (Primær)",
+    "Contacts": "Kontakter",
+    "meetings": "Møder",
+    "calls": "Opkald",
+    "tasks": "Opgaver",
+    "articles": "Vidensbase Artikler",
+    "attachments": "Vedhæftede filer",
+    "inboundEmail": "Gruppe email konto"
+  },
+  "options": {
+    "status": {
+      "New": "Ny",
+      "Assigned": "Tildelt",
+      "Pending": "Venter",
+      "Closed": "Lukket",
+      "Rejected": "Afvist",
+      "Duplicate": "Dublet"
+    },
+    "priority": {
+      "Low": "Lav",
+      "High": "Høj",
+      "Urgent": "Vigtig"
+    },
+    "type": {
+      "Question": "Spørgsmål",
+      "Incident": "Hændelse"
+    }
+  },
+  "labels": {
+    "Create Case": "Opret Sag",
+    "Close": "Luk",
+    "Reject": "Afvis",
+    "Closed": "Lukket",
+    "Rejected": "Afvist"
+  },
+  "presetFilters": {
+    "open": "Åben",
+    "closed": "Lukket"
+  }
+}

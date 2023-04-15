@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "name": "Nome",
+    "status": "Stato",
+    "sentAt": "Data invio",
+    "attemptCount": "Prove",
+    "emailAddress": "Indirizzo email",
+    "massEmail": "Email massiva",
+    "isTest": "E' un test"
+  },
+  "links": {
+    "massEmail": "Email massiva"
+  },
+  "options": {
+    "status": {
+      "Pending": "In attesa",
+      "Sent": "Inviato",
+      "Failed": "Fallito",
+      "Sending": "Invio"
+    }
+  },
+  "presetFilters": {
+    "pending": "In attesa",
+    "sent": "Inviato",
+    "failed": "Fallito"
+  }
+}

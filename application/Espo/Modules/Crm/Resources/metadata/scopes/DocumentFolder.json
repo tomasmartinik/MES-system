@@ -1,0 +1,14 @@
+{
+    "entity": true,
+    "layouts": false,
+    "tab": false,
+    "acl": "recordAllTeamNo",
+    "aclPortal": "recordAllNo",
+    "aclPortalActionList": ["read"],
+    "module": "Crm",
+    "customizable": true,
+    "importable": false,
+    "type": "CategoryTree",
+    "stream": false,
+    "notifications": false
+}

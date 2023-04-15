@@ -1,0 +1,22 @@
+{
+  "fields": {
+    "executeTime": "Wykonaj o",
+    "attempts": "Pozostałe próby",
+    "scheduledJob": "Zaplanowane zadanie",
+    "method": "Metoda (przestarzała)",
+    "scheduledJobJob": "Nazwa zaplanowanego zadania",
+    "executedAt": "Wykonano",
+    "startedAt": "Rozpoczęto",
+    "targetType": "Typ celu",
+    "targetId": "ID celu",
+    "number": "Numer",
+    "queue": "Kolejka",
+    "job": "Praca"
+  },
+  "options": {
+    "status": {
+      "Pending": "Oczekiwanie",
+      "Success": "Sukces"
+    }
+  }
+}

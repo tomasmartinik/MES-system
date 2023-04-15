@@ -1,0 +1,27 @@
+{
+  "fields": {
+    "status": "Statut",
+    "executeTime": "Exécuté à",
+    "attempts": "Tentatives restantes",
+    "failedAttempts": "Tentatives échouées",
+    "methodName": "Méthode",
+    "scheduledJob": "Tâche planifiée",
+    "data": "Données",
+    "method": "Méthode",
+    "scheduledJobJob": "Nom du travail planifié",
+    "executedAt": "Exécuté à",
+    "startedAt": "Commencé à",
+    "targetType": "Type de cible",
+    "targetId": "ID cible",
+    "number": "Nombre",
+    "job": "Emploi"
+  },
+  "options": {
+    "status": {
+      "Pending": "En attente",
+      "Success": "Succès",
+      "Running": "En cours",
+      "Failed": "Échec"
+    }
+  }
+}

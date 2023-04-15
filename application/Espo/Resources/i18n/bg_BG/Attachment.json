@@ -1,0 +1,27 @@
+{
+  "insertFromSourceLabels": {
+    "Document": "Качете документа"
+  },
+  "fields": {
+    "role": "Роля",
+    "related": "Свързани",
+    "file": "Файл",
+    "type": "Тип",
+    "field": "Поле",
+    "sourceId": "Източник ID",
+    "storage": "Съхранение",
+    "size": "Размер (байта)"
+  },
+  "options": {
+    "role": {
+      "Attachment": "Прикачен файл",
+      "Inline Attachment": "Прикачен файл",
+      "Import File": "Импортиране на файл",
+      "Export File": "Експортиране на файл",
+      "Mass Pdf": "Масово експортиране на PDf"
+    }
+  },
+  "presetFilters": {
+    "orphan": "Изоставени файлове"
+  }
+}

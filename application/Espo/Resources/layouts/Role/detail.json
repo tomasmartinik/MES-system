@@ -1,0 +1,30 @@
+[
+    {
+        "rows": [
+            [
+                {"name": "name"},
+                false,
+                false
+            ]
+        ]
+    },
+    {
+        "rows": [
+            [
+                {"name": "exportPermission"},
+                {"name": "userPermission"},
+                {"name": "assignmentPermission"}
+            ],
+            [
+                {"name": "portalPermission"},
+                {"name": "groupEmailAccountPermission"},
+                {"name": "dataPrivacyPermission"}
+            ],
+            [
+                {"name": "massUpdatePermission"},
+                {"name": "followerManagementPermission"},
+                false
+            ]
+        ]
+    }
+]

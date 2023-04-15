@@ -1,0 +1,89 @@
+{
+    "fields": {
+        "userName": {
+            "nonAdminReadOnly": true
+        },
+        "apiKey": {
+            "onlyAdmin": true,
+            "readOnly": true,
+            "nonAdminReadOnly": true
+        },
+        "password": {
+            "internal": true,
+            "nonAdminReadOnly": true
+        },
+        "passwordConfirm": {
+            "internal": true,
+            "nonAdminReadOnly": true
+        },
+        "authLogRecordId": {
+            "internal": true
+        },
+        "authMethod": {
+            "onlyAdmin": true
+        },
+        "secretKey": {
+            "readOnly": true,
+            "onlyAdmin": true
+        },
+        "isActive": {
+            "nonAdminReadOnly": true
+        },
+        "emailAddress": {
+            "nonAdminReadOnly": true
+        },
+        "teams": {
+            "nonAdminReadOnly": true
+        },
+        "roles": {
+            "nonAdminReadOnly": true
+        },
+        "portals": {
+            "nonAdminReadOnly": true
+        },
+        "portalRoles": {
+            "nonAdminReadOnly": true
+        },
+        "contact": {
+            "nonAdminReadOnly": true
+        },
+        "accounts": {
+            "nonAdminReadOnly": true
+        },
+        "type": {
+            "nonAdminReadOnly": true
+        },
+        "auth2FA": {
+            "onlyAdmin": true
+        },
+        "userData": {
+            "internal": true
+        }
+    },
+    "links": {
+        "teams": {
+            "nonAdminReadOnly": true
+        },
+        "roles": {
+            "onlyAdmin": true
+        },
+        "portalRoles": {
+            "onlyAdmin": true
+        },
+        "accounts": {
+            "onlyAdmin": true
+        },
+        "defaultTeam": {
+            "onlyAdmin": true
+        },
+        "dashboardTemplate": {
+            "onlyAdmin": true
+        },
+        "preferences": {
+            "onlyAdmin": true
+        },
+        "userData": {
+            "internal": true
+        }
+    }
+}

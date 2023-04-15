@@ -1,0 +1,722 @@
+{
+    "fields": {
+        "name": {
+            "type": "personName",
+            "isPersonalData": true
+        },
+        "salutationName": {
+            "type": "enum",
+            "options": ["", "Mr.", "Ms.", "Mrs.", "Dr."]
+        },
+        "firstName": {
+            "type": "varchar",
+            "maxLength": 100,
+            "default":"",
+            "trim": true
+        },
+        "lastName": {
+            "type": "varchar",
+            "maxLength": 100,
+            "required": true,
+            "default":"",
+            "trim": true
+        },
+        "accountAnyId": {
+            "notStorable": true,
+            "customizationDisabled": true,
+            "disabled": true,
+            "type": "varchar",
+            "where": {
+                "=": {
+                    "whereClause": {
+                        "id=s": {
+                            "from": "AccountContact",
+                            "select": ["contactId"],
+                            "whereClause": {
+                                "deleted": 0,
+                                "accountId": "{value}"
+                            }
+                        }
+                    }
+                },
+                "<>": {
+                    "whereClause": {
+                        "id!=s": {
+                            "from": "AccountContact",
+                            "select": ["contactId"],
+                            "whereClause": {
+                                "deleted": 0,
+                                "accountId": "{value}"
+                            }
+                        }
+                    }
+                },
+                "IN": {
+                    "whereClause": {
+                        "id=s": {
+                            "from": "AccountContact",
+                            "select": ["contactId"],
+                            "whereClause": {
+                                "deleted": 0,
+                                "accountId": "{value}"
+                            }
+                        }
+                    }
+                },
+                "NOT IN": {
+                    "whereClause": {
+                        "id!=s": {
+                            "from": "AccountContact",
+                            "select": ["contactId"],
+                            "whereClause": {
+                                "deleted": 0,
+                                "accountId": "{value}"
+                            }
+                        }
+                    }
+                },
+                "IS NULL": {
+                    "whereClause": {
+                        "accountId": null
+                    }
+                },
+                "IS NOT NULL": {
+                    "whereClause": {
+                        "accountId!=": null
+                    }
+                }
+            }
+        },
+        "title": {
+            "type": "varchar",
+            "maxLength": 100,
+            "view": "crm:views/contact/fields/title",
+            "directUpdateDisabled": true,
+            "notStorable": true,
+            "select": {
+                "select": "accountContactPrimary.role",
+                "leftJoins": [
+                    [
+                        "AccountContact",
+                        "accountContactPrimary",
+                        {
+                            "contact.id:": "accountContactPrimary.contactId",
+                            "contact.accountId:": "accountContactPrimary.accountId",
+                            "accountContactPrimary.deleted": false
+                        }
+                    ]
+                ]
+            },
+            "order": {
+                "order": [
+                    ["accountContactPrimary.role", "{direction}"]
+                ],
+                "leftJoins": [
+                    [
+                        "AccountContact",
+                        "accountContactPrimary",
+                        {
+                            "contact.id:": "accountContactPrimary.contactId",
+                            "contact.accountId:": "accountContactPrimary.accountId",
+                            "accountContactPrimary.deleted": false
+                        }
+                    ]
+                ]
+            },
+            "where": {
+                "LIKE": {
+                    "leftJoins": ["accounts"],
+                    "whereClause": {
+                        "accountsMiddle.role*": "{value}"
+                    },
+                    "distinct": true
+                },
+                "NOT LIKE": {
+                    "leftJoins": ["accounts"],
+                    "whereClause": {
+                        "accountsMiddle.role!*": "{value}"
+                    },
+                    "distinct": true
+                },
+                "=": {
+                    "leftJoins": ["accounts"],
+                    "whereClause": {
+                        "accountsMiddle.role": "{value}"
+                    },
+                    "distinct": true
+                },
+                "<>": {
+                    "leftJoins": ["accounts"],
+                    "whereClause": {
+                        "accountsMiddle.role!=": "{value}"
+                    },
+                    "distinct": true
+                },
+                "IS NULL": {
+                    "leftJoins": ["accounts"],
+                    "whereClause": {
+                        "accountsMiddle.role=": null
+                    },
+                    "distinct": true
+                },
+                "IS NOT NULL": {
+                    "leftJoins": ["accounts"],
+                    "whereClause": {
+                        "accountsMiddle.role!=": null
+                    },
+                    "distinct": true
+                }
+            },
+            "trim": true,
+            "customizationOptionsDisabled": true,
+            "textFilterDisabled": true
+        },
+        "description": {
+            "type": "text"
+        },
+        "emailAddress": {
+            "type": "email",
+            "isPersonalData": true
+        },
+        "phoneNumber": {
+            "type": "phone",
+            "typeList": ["Mobile", "Office", "Home", "Fax", "Other"],
+            "defaultType": "Mobile",
+            "isPersonalData": true
+        },
+        "doNotCall": {
+            "type": "bool"
+        },
+        "address": {
+            "type": "address",
+            "isPersonalData": true
+        },
+        "addressStreet": {
+            "type": "text",
+            "maxLength": 255,
+            "dbType": "varchar"
+        },
+        "addressCity": {
+            "type": "varchar",
+            "trim": true
+        },
+        "addressState": {
+            "type": "varchar",
+            "trim": true
+        },
+        "addressCountry": {
+            "type": "varchar",
+            "trim": true
+        },
+        "addressPostalCode": {
+            "type": "varchar",
+            "trim": true
+        },
+        "account": {
+            "type": "link",
+            "view": "crm:views/contact/fields/account"
+        },
+        "accounts": {
+            "type": "linkMultiple",
+            "view": "crm:views/contact/fields/accounts",
+            "columns": {
+                "role": "contactRole",
+                "isInactive": "contactIsInactive"
+            },
+            "additionalAttributeList": ["columns"],
+            "orderBy": "name",
+            "detailLayoutIncompatibleFieldList": ["account"]
+        },
+        "accountRole": {
+            "type": "varchar",
+            "notStorable": true,
+            "directUpdateDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutFiltersDisabled": true,
+            "layoutAvailabilityList": ["listForAccount"],
+            "exportDisabled": true,
+            "importDisabled": true,
+            "view": "crm:views/contact/fields/account-role",
+            "customizationOptionsDisabled": true,
+            "textFilterDisabled": true
+        },
+        "accountIsInactive": {
+            "type": "bool",
+            "notStorable": true,
+            "mergeDisabled": true,
+            "select": {
+                "select": "accountContactPrimary.isInactive",
+                "leftJoins": [
+                    [
+                        "AccountContact",
+                        "accountContactPrimary",
+                        {
+                            "contact.id:": "accountContactPrimary.contactId",
+                            "contact.accountId:": "accountContactPrimary.accountId",
+                            "accountContactPrimary.deleted": false
+                        }
+                    ]
+                ]
+            },
+            "order": {
+                "order": [
+                    ["accountContactPrimary.isInactive", "{direction}"]
+                ],
+                "leftJoins": [
+                    [
+                        "AccountContact",
+                        "accountContactPrimary",
+                        {
+                            "contact.id:": "accountContactPrimary.contactId",
+                            "contact.accountId:": "accountContactPrimary.accountId",
+                            "accountContactPrimary.deleted": false
+                        }
+                    ]
+                ]
+            },
+            "where": {
+                "= TRUE": {
+                    "leftJoins": [
+                        [
+                            "AccountContact",
+                            "accountContactFilterIsInactive",
+                            {
+                                "accountContactFilterIsInactive.contactId:": "id",
+                                "accountContactFilterIsInactive.accountId:": "accountId",
+                                "accountContactFilterIsInactive.deleted": false
+                            }
+                        ]
+                    ],
+                    "whereClause": {
+                        "accountContactFilterIsInactive.isInactive": true
+                    }
+                },
+                "= FALSE": {
+                    "leftJoins": [
+                        [
+                            "AccountContact",
+                            "accountContactFilterIsInactive",
+                            {
+                                "accountContactFilterIsInactive.contactId:": "id",
+                                "accountContactFilterIsInactive.accountId:": "accountId",
+                                "accountContactFilterIsInactive.deleted": false
+                            }
+                        ]
+                    ],
+                    "whereClause": {
+                        "OR": [
+                            {
+                                "accountContactFilterIsInactive.isInactive!=": true
+                            },
+                            {
+                                "accountContactFilterIsInactive.isInactive=": null
+                            }
+                        ]
+                    }
+                }
+            },
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true
+        },
+        "accountType": {
+            "type": "foreign",
+            "link": "account",
+            "field": "type",
+            "readOnly": true,
+            "view": "views/fields/foreign-enum"
+        },
+        "opportunityRole": {
+            "type": "enum",
+            "notStorable": true,
+            "options": ["", "Decision Maker", "Evaluator", "Influencer"],
+            "layoutMassUpdateDisabled": true,
+            "layoutListDisabled": true,
+            "layoutDetailDisabled": true,
+            "customizationRequiredDisabled": true,
+            "customizationIsSortedDisabled": true,
+            "customizationAuditedDisabled": true,
+            "customizationReadOnlyDisabled": true,
+            "where": {
+                "=": {
+                    "whereClause": {
+                        "opportunitiesMiddle.role": "{value}"
+                    },
+                    "leftJoins": ["opportunities"],
+                    "distinct": true
+                },
+                "<>": {
+                    "whereClause": {
+                        "id!=s": {
+                            "from": "ContactOpportunity",
+                            "select": ["contactId"],
+                            "whereClause": {
+                                "deleted": false,
+                                "role": "{value}"
+                            }
+                        }
+                    }
+                },
+                "IN": {
+                    "leftJoins": ["opportunities"],
+                    "whereClause": {
+                        "opportunitiesMiddle.role": "{value}"
+                    },
+                    "distinct": true
+                },
+                "NOT IN": {
+                    "whereClause": {
+                        "id!=s": {
+                            "from": "ContactOpportunity",
+                            "select": ["contactId"],
+                            "whereClause": {
+                                "deleted": false,
+                                "role": "{value}"
+                            }
+                        }
+                    }
+                },
+                "LIKE": {
+                    "leftJoins": ["opportunities"],
+                    "whereClause": {
+                        "opportunitiesMiddle.role*": "{value}"
+                    },
+                    "distinct": true
+                },
+                "NOT LIKE": {
+                    "leftJoins": ["opportunities"],
+                    "whereClause": {
+                        "opportunitiesMiddle.role!*": "{value}"
+                    },
+                    "distinct": true
+                },
+                "IS NULL": {
+                    "leftJoins": ["opportunities"],
+                    "whereClause": {
+                        "opportunitiesMiddle.role": null
+                    },
+                    "distinct": true
+                },
+                "IS NOT NULL": {
+                    "whereClause": {
+                        "id!=s": {
+                            "from": "ContactOpportunity",
+                            "select": ["contactId"],
+                            "whereClause": {
+                                "deleted": false,
+                                "role": null
+                            }
+                        }
+                    }
+                }
+            },
+            "view": "crm:views/contact/fields/opportunity-role"
+        },
+        "acceptanceStatus": {
+            "type": "varchar",
+            "notStorable": true,
+            "exportDisabled": true,
+            "disabled": true,
+            "fieldManagerParamList": []
+        },
+        "acceptanceStatusMeetings": {
+            "type": "enum",
+            "notStorable": true,
+            "directUpdateDisabled": true,
+            "layoutAvailabilityList": ["filters"],
+            "importDisabled": true,
+            "exportDisabled": true,
+            "view": "crm:views/lead/fields/acceptance-status",
+            "link": "meetings",
+            "column": "status",
+            "fieldManagerParamList": []
+        },
+        "acceptanceStatusCalls": {
+            "type": "enum",
+            "notStorable": true,
+            "directUpdateDisabled": true,
+            "layoutAvailabilityList": ["filters"],
+            "importDisabled": true,
+            "exportDisabled": true,
+            "view": "crm:views/lead/fields/acceptance-status",
+            "link": "calls",
+            "column": "status",
+            "fieldManagerParamList": []
+        },
+        "campaign": {
+            "type": "link",
+            "layoutListDisabled": true
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true,
+            "fieldManagerParamList": [
+                "useNumericFormat"
+            ]
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user",
+            "fieldManagerParamList": []
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true,
+            "view": "views/fields/user",
+            "fieldManagerParamList": []
+        },
+        "assignedUser": {
+            "type": "link",
+            "view": "views/fields/assigned-user"
+        },
+        "teams": {
+            "type": "linkMultiple",
+            "view": "views/fields/teams"
+        },
+        "targetLists": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutListDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "importDisabled": true,
+            "noLoad": true
+        },
+        "targetList": {
+            "type": "link",
+            "notStorable": true,
+            "layoutDetailDisabled": true,
+            "layoutListDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "layoutFiltersDisabled": true,
+            "exportDisabled": true,
+            "entity": "TargetList",
+            "directAccessDisabled": true
+        },
+        "portalUser": {
+            "type": "linkOne",
+            "readOnly": true,
+            "notStorable": true,
+            "view": "views/fields/link-one"
+        },
+        "hasPortalUser": {
+            "type": "bool",
+            "notStorable": true,
+            "readOnly": true,
+            "mergeDisabled": true,
+            "customizationDefaultDisabled": true,
+            "customizationReadOnlyDisabled": true,
+            "foreignAccessDisabled": true,
+            "select": {
+                "select": "IS_NOT_NULL:(portalUser.id)",
+                "leftJoins": [["portalUser", "portalUser"]]
+            },
+            "where": {
+                "= TRUE": {
+                    "whereClause": {
+                        "portalUser.id!=": null
+                    },
+                    "leftJoins": [["portalUser", "portalUser"]]
+                },
+                "= FALSE": {
+                    "whereClause": {
+                        "portalUser.id=": null
+                    },
+                    "leftJoins": [["portalUser", "portalUser"]]
+                }
+            },
+            "order": {
+                "order": [
+                    ["portalUser.id", "{direction}"]
+                ],
+                "leftJoins": [["portalUser", "portalUser"]],
+                "additionalSelect": ["portalUser.id"]
+            }
+        },
+        "originalLead": {
+            "type": "linkOne",
+            "readOnly": true,
+            "view": "views/fields/link-one"
+        },
+        "targetListIsOptedOut": {
+            "type": "bool",
+            "notStorable": true,
+            "readOnly": true,
+            "disabled": true
+        }
+    },
+    "links": {
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "assignedUser": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam",
+            "layoutRelationshipsDisabled": true
+        },
+        "account": {
+            "type": "belongsTo",
+            "entity": "Account"
+        },
+        "accounts": {
+            "type": "hasMany",
+            "entity": "Account",
+            "foreign": "contacts",
+            "additionalColumns": {
+                "role": {
+                    "type": "varchar",
+                    "len": 100
+                },
+                "isInactive": {
+                    "type": "bool",
+                    "default": false
+                }
+            },
+            "additionalAttributeList": ["columns"],
+            "layoutRelationshipsDisabled": true,
+            "columnAttributeMap": {
+                "role": "accountRole",
+                "isInactive": "accountIsInactive"
+            }
+        },
+        "opportunities": {
+            "type": "hasMany",
+            "entity": "Opportunity",
+            "foreign": "contacts",
+            "columnAttributeMap": {
+                "role": "opportunityRole"
+            }
+        },
+        "opportunitiesPrimary": {
+            "type": "hasMany",
+            "entity": "Opportunity",
+            "foreign": "contact",
+            "layoutRelationshipsDisabled": true
+        },
+        "casesPrimary": {
+            "type": "hasMany",
+            "entity": "Case",
+            "foreign": "contact",
+            "layoutRelationshipsDisabled": true
+        },
+        "cases": {
+            "type": "hasMany",
+            "entity": "Case",
+            "foreign": "contacts"
+        },
+        "meetings": {
+            "type": "hasMany",
+            "entity": "Meeting",
+            "foreign": "contacts",
+            "layoutRelationshipsDisabled": true,
+            "audited": true,
+            "columnAttributeMap": {
+                "status": "acceptanceStatus"
+            }
+        },
+        "calls": {
+            "type": "hasMany",
+            "entity": "Call",
+            "foreign": "contacts",
+            "layoutRelationshipsDisabled": true,
+            "audited": true,
+            "columnAttributeMap": {
+                "status": "acceptanceStatus"
+            }
+        },
+        "tasks": {
+            "type": "hasChildren",
+            "entity": "Task",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true,
+            "audited": true
+        },
+        "emails": {
+            "type": "hasChildren",
+            "entity": "Email",
+            "foreign": "parent",
+            "layoutRelationshipsDisabled": true
+        },
+        "campaign": {
+            "type": "belongsTo",
+            "entity": "Campaign",
+            "foreign": "contacts"
+        },
+        "campaignLogRecords": {
+            "type": "hasChildren",
+            "entity": "CampaignLogRecord",
+            "foreign": "parent"
+        },
+        "targetLists": {
+            "type": "hasMany",
+            "entity": "TargetList",
+            "foreign": "contacts",
+            "columnAttributeMap": {
+                "optedOut": "targetListIsOptedOut"
+            }
+        },
+        "portalUser": {
+            "type": "hasOne",
+            "entity": "User",
+            "foreign": "contact"
+        },
+        "originalLead": {
+            "type": "hasOne",
+            "entity": "Lead",
+            "foreign": "createdContact"
+        },
+        "documents": {
+            "type": "hasMany",
+            "entity": "Document",
+            "foreign": "contacts",
+            "audited": true
+        },
+        "tasksPrimary": {
+            "type": "hasMany",
+            "entity": "Task",
+            "foreign": "contact",
+            "layoutRelationshipsDisabled": true
+        }
+    },
+    "collection": {
+        "orderBy": "createdAt",
+        "order": "desc",
+        "textFilterFields": ["name", "emailAddress"]
+    },
+    "indexes": {
+        "createdAt": {
+            "columns": ["createdAt", "deleted"]
+        },
+        "createdAtId": {
+            "unique": true,
+            "columns": ["createdAt", "id"]
+        },
+        "firstName": {
+            "columns": ["firstName", "deleted"]
+        },
+        "name": {
+            "columns": ["firstName", "lastName"]
+        },
+        "assignedUser": {
+            "columns": ["assignedUserId", "deleted"]
+        }
+    }
+}

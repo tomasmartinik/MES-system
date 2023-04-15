@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "productSegments": "Segmenty produktu",
+        "orderItems": "Položka objednávky"
+    },
+    "links": {
+        "productSegments": "Segmenty produktu",
+        "orderItems": "Položka objednávky"
+    },
+    "labels": {
+        "Create ProductDefinitions": "Create Definice produktu"
+    }
+}

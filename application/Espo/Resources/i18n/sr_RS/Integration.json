@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "enabled": "Omogućeno",
+    "clientId": "ID klijenta",
+    "clientSecret": "Klijent tajna",
+    "redirectUri": "Preusmeravanje URI",
+    "apiKey": "API ključ"
+  },
+  "messages": {
+    "selectIntegration": "Izaberite neku integraciju iz menija.",
+    "noIntegrations": "Nema integracija je na raspolaganju."
+  },
+  "titles": {
+    "GoogleMaps": "Google mape"
+  }
+}

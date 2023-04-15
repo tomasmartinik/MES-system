@@ -1,0 +1,43 @@
+{
+  "fields": {
+    "name": "Navn",
+    "host": "Vært",
+    "username": "Brugernavn",
+    "password": "Kodeord",
+    "monitoredFolders": "Overvågede Mapper",
+    "fetchSince": "Hent Siden",
+    "emailAddress": "Emailadresse",
+    "sentFolder": "Sendt Mappe",
+    "storeSentEmails": "Gem Sendte Emails",
+    "keepFetchedEmailsUnread": "Behold Hentede Emails som Ulæste",
+    "emailFolder": "Læg i Mappe",
+    "useSmtp": "Brug SMTP",
+    "smtpSecurity": "SMTP Sikkerhed",
+    "smtpUsername": "SMTP Brugernavn",
+    "smtpPassword": "SMTP Kodeord",
+    "useImap": "Hent Emails"
+  },
+  "links": {
+    "filters": "Filtre"
+  },
+  "options": {
+    "status": {
+      "Active": "Aktiv",
+      "Inactive": "Inaktiv"
+    }
+  },
+  "labels": {
+    "Create EmailAccount": "Opret Emailkonto",
+    "Main": "Konto",
+    "Test Connection": "Test Forbindelse",
+    "Send Test Email": "Send Testemail"
+  },
+  "messages": {
+    "couldNotConnectToImap": "Kunne ikke forbinde til IMAP server",
+    "connectionIsOk": "Forbindelse OK"
+  },
+  "tooltips": {
+    "monitoredFolders": "Du kan tilføje en 'Sendt' mappe for at synkronisere emails sendt fra en ekstern emailklient.",
+    "storeSentEmails": "Sendte emails bliver lagret på IMAP serveren. Emailadressefeltet skal matche adressen emails vil blive sendt fra."
+  }
+}

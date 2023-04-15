@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "status": "Statusas",
+    "executeTime": "Vykdyti",
+    "attempts": "Liko bandymų",
+    "failedAttempts": "Nepavykę bandymai",
+    "serviceName": "Paslauga",
+    "methodName": "Metodas",
+    "scheduledJob": "Suplanuoti darbai",
+    "data": "Duomenys",
+    "method": "Metodas (nebetinkamas)",
+    "scheduledJobJob": "Numatytas darbo pavadinimas",
+    "executedAt": "Vykdoma adresu",
+    "startedAt": "Pradėta nuo",
+    "targetType": "Tikslinis tipas",
+    "targetId": "Tikslinis ID",
+    "number": "Numeris",
+    "queue": "Eilė",
+    "job": "Darbas",
+    "group": "Grupė",
+    "className": "Klasės pavadinimas",
+    "targetGroup": "Tikslinė grupė"
+  },
+  "options": {
+    "status": {
+      "Pending": "Vykdoma",
+      "Success": "Pavyko",
+      "Running": "Vykdoma",
+      "Failed": "Nepavyko"
+    }
+  }
+}

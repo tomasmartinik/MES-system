@@ -1,0 +1,17 @@
+{
+  "fields": {
+    "executeTime": "mengeksekusi Pada",
+    "serviceName": "Layanan",
+    "methodName": "metode",
+    "scheduledJob": "Pekerjaan Terjadwal",
+    "method": "metode"
+  },
+  "options": {
+    "status": {
+      "Pending": "Tunda",
+      "Success": "Berhasil",
+      "Running": "Berjalan",
+      "Failed": "Gagal"
+    }
+  }
+}

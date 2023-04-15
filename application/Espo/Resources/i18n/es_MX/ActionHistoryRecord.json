@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "user": "Usuario",
+    "action": "Acción",
+    "createdAt": "Fecha",
+    "target": "Interés",
+    "targetType": "Tipo de Interés",
+    "authToken": "Clave de Autorización",
+    "ipAddress": "Dirección IP",
+    "authLogRecord": "Registro en Hist. de Aut."
+  },
+  "links": {
+    "authToken": "Clave de Autorización",
+    "user": "Usuario",
+    "target": "Interés",
+    "authLogRecord": "Registro en Hist. de Aut."
+  },
+  "presetFilters": {
+    "onlyMy": "Sólo para Mi"
+  },
+  "options": {
+    "action": {
+      "read": "Leer",
+      "update": "Actualizar",
+      "delete": "Borrar",
+      "create": "Crear"
+    }
+  }
+}

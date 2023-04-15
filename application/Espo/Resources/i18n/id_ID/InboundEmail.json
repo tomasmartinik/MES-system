@@ -1,0 +1,49 @@
+{
+  "fields": {
+    "name": "Nama",
+    "emailAddress": "Alamat email",
+    "assignToUser": "Tugaskan ke Pengguna",
+    "username": "Nama pengguna",
+    "password": "Kata sandi",
+    "monitoredFolders": "Folder yang dipantau",
+    "replyEmailTemplate": "Template Balas Email",
+    "replyFromAddress": "Balas Dari Alamat",
+    "replyToAddress": "Balas Untuk Alamat",
+    "replyFromName": "Balas Dari Nama",
+    "targetUserPosition": "Target Posisi Pengguna",
+    "fetchSince": "Ambil Sejak",
+    "addAllTeamUsers": "Untuk semua pengguna tim",
+    "team": "Tim"
+  },
+  "tooltips": {
+    "reply": "Beritahu pengirim email bahwa email mereka telah diterima.\n\n Hanya satu email akan dikirim ke penerima tertentu selama beberapa waktu untuk mencegah perulangan.",
+    "createCase": "Secara otomatis membuat kasus dari email yang masuk.",
+    "replyToAddress": "Tentukan alamat email dari kotak surat ini untuk membuat tanggapan datang ke sini.",
+    "caseDistribution": "Bagaimana kasus akan ditugaskan untuk. Ditugaskan langsung ke pengguna atau antar tim.",
+    "assignToUser": "email pengguna / kasus akan ditugaskan untuk.",
+    "team": "email tim / kasus akan terkait dengan.",
+    "addAllTeamUsers": "Email akan muncul di Inbox dari semua pengguna dari tim tertentu.",
+    "targetUserPosition": "Menentukan posisi pengguna yang akan didistribusikan dengan kasus."
+  },
+  "links": {
+    "filters": "filter"
+  },
+  "options": {
+    "status": {
+      "Active": "Aktif",
+      "Inactive": "non-aktif"
+    },
+    "caseDistribution": {
+      "": "tak satupun",
+      "Direct-Assignment": "Tugas Langsung",
+      "Least-Busy": "Setidaknya-Sibuk"
+    }
+  },
+  "labels": {
+    "Create InboundEmail": "Buat Akun Email",
+    "Main": "Utama"
+  },
+  "messages": {
+    "couldNotConnectToImap": "tidak bisa terhubung ke server IMAP"
+  }
+}

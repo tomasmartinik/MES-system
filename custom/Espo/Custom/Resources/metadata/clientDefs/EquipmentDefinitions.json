@@ -1,0 +1,16 @@
+{
+    "controller": "controllers/record",
+    "boolFilterList": [
+        "onlyMy"
+    ],
+    "iconClass": "fas fa-cog",
+    "relationshipPanels": {
+        "eqipmentDefinitionsPropertiesFromClasseses": {
+            "select": false,
+            "create": false,
+            "view": "custom:views/record/panels/entityDefinitionsPropertiesFromClasseses-panel"
+        }
+    },
+    "kanbanViewMode": false,
+    "color": null
+}

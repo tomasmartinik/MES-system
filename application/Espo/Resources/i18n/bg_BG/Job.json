@@ -1,0 +1,31 @@
+{
+  "fields": {
+    "status": "Статус",
+    "executeTime": "Изпълнение в",
+    "attempts": "Налични опити",
+    "failedAttempts": "Неуспешни опити",
+    "serviceName": "Услуга",
+    "methodName": "Метод",
+    "scheduledJob": "Планирана задача",
+    "data": "Данни",
+    "method": "Метод (deprecated)",
+    "scheduledJobJob": "Име на планирана задача",
+    "executedAt": "Изпълнена на",
+    "startedAt": "Започната на",
+    "targetType": "Целеви тип",
+    "number": "Номер",
+    "queue": "Опашка",
+    "job": "Задача",
+    "group": "Група",
+    "className": "Име на клас",
+    "targetGroup": "Целева група"
+  },
+  "options": {
+    "status": {
+      "Pending": "Предстоящо",
+      "Success": "Успешно",
+      "Running": "В действие",
+      "Failed": "Провалено"
+    }
+  }
+}

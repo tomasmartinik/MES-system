@@ -1,0 +1,10 @@
+[
+    {
+        "name": "productDefinitions",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "quantity"
+    }
+]

@@ -1,0 +1,48 @@
+{
+  "fields": {
+    "name": "Naam",
+    "parent": "Behorende bij",
+    "dateStart": "Start Datum",
+    "dateEnd": "Eind Datum",
+    "direction": "Richting",
+    "duration": "Duur",
+    "description": "Beschrijving",
+    "users": "Gebruikers",
+    "contacts": "Contacten",
+    "reminders": "Herinneringen",
+    "account": "Relatie",
+    "acceptanceStatus": "Acceptatiestatus"
+  },
+  "options": {
+    "status": {
+      "Planned": "Gepland",
+      "Held": "Gedaan",
+      "Not Held": "Niet gedaan"
+    },
+    "direction": {
+      "Outbound": "Uitgaand",
+      "Inbound": "Inkomend"
+    },
+    "acceptanceStatus": {
+      "None": "Geen",
+      "Accepted": "Geaccepteerd",
+      "Declined": "Geweigerd",
+      "Tentative": "Voorlopig"
+    }
+  },
+  "massActions": {
+    "setHeld": "Gedaan",
+    "setNotHeld": "Niet gedaan"
+  },
+  "labels": {
+    "Create Call": "Creëer Gesprek",
+    "Set Held": "Gedaan",
+    "Set Not Held": "Niet gedaan",
+    "Send Invitations": "Uitnodiging versturen"
+  },
+  "presetFilters": {
+    "planned": "Gepland",
+    "held": "Gedaan",
+    "todays": "Vandaag"
+  }
+}

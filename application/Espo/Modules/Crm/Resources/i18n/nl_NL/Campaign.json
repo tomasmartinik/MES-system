@@ -1,0 +1,75 @@
+{
+  "fields": {
+    "name": "Naam",
+    "description": "Beschrijving",
+    "startDate": "Start datum",
+    "endDate": "Eind datum",
+    "targetLists": "Doellijsten",
+    "excludingTargetLists": "Doellijsten uitgesloten",
+    "sentCount": "Verzonden",
+    "openedCount": "Geopend",
+    "clickedCount": "Geklikt",
+    "optedOutCount": "Afgemeld",
+    "hardBouncedCount": "Harde bounce",
+    "leadCreatedCount": "Lead gecreëerd",
+    "revenue": "Omzet",
+    "revenueConverted": "Omzet (geconverteerd)",
+    "budgetConverted": "Budget (geconverteerd)",
+    "contactsTemplate": "Contacten-sjabloon",
+    "leadsTemplate": "Leads sjabloon",
+    "accountsTemplate": "Relaties-sjabloon",
+    "usersTemplate": "Gebruikers Sjabloon",
+    "mailMergeOnlyWithAddress": "Records overslaan zonder ingevuld adres",
+    "optedInCount": "Aangemeld",
+    "budgetCurrency": "Budgetvaluta"
+  },
+  "links": {
+    "targetLists": "Doellijsten",
+    "excludingTargetLists": "Doellijsten uitgesloten",
+    "accounts": "Relaties",
+    "contacts": "Contacten",
+    "opportunities": "Kansen",
+    "massEmails": "Verzamel e-mails",
+    "contactsTemplate": "Contacten-sjabloon",
+    "leadsTemplate": "Leads sjabloon",
+    "accountsTemplate": "Relaties-sjabloon",
+    "usersTemplate": "Gebruikers Sjabloon"
+  },
+  "options": {
+    "type": {
+      "Email": "E-mail",
+      "Television": "Televisie",
+      "Newsletter": "Nieuwsbrief",
+      "Mail": "Post"
+    },
+    "status": {
+      "Active": "Actief",
+      "Inactive": "Inactief",
+      "Complete": "Voltooi"
+    }
+  },
+  "labels": {
+    "Create Campaign": "Creëer Campagne",
+    "Target Lists": "Doellijsten",
+    "Statistics": "Statistieken",
+    "Unsubscribe": "Uitschrijven",
+    "Mass Emails": "Verzamel e-mails",
+    "Email Templates": "E-mail sjablonen",
+    "Unsubscribe again": "Weer uitschrijven",
+    "Subscribe again": "Abonneer opnieuw",
+    "Create Target List": "Creëer Doellijst",
+    "Mail Merge": "Mailmerge",
+    "Generate Mail Merge PDF": "Genereer Mail Merge PDF"
+  },
+  "presetFilters": {
+    "active": "Actief"
+  },
+  "messages": {
+    "unsubscribed": "U bent uitgeschreven van onze mailinglijst.",
+    "subscribedAgain": "U bent opnieuw ingeschreven."
+  },
+  "tooltips": {
+    "targetLists": "Doelen die berichten zouden moeten ontvangen.",
+    "excludingTargetLists": "Doelen die geen berichten mogen ontvangen."
+  }
+}

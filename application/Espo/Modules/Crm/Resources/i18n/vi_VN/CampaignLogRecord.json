@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "action": "Hành động",
+    "actionDate": "Ngày",
+    "data": "Dữ liệu",
+    "campaign": "Chiến dịch",
+    "parent": "Đối tượng",
+    "object": "Chủ đề",
+    "application": "Ứng dụng"
+  },
+  "links": {
+    "object": "Chủ đề",
+    "campaign": "Chiến dịch"
+  },
+  "options": {
+    "action": {
+      "Sent": "Gửi",
+      "Opened": "Đã mở",
+      "Clicked": "Đã nhấp chuột",
+      "Lead Created": "Đã tạo khách tiềm năng"
+    }
+  },
+  "labels": {
+    "All": "Tất cả"
+  },
+  "presetFilters": {
+    "sent": "Gửi",
+    "opened": "Đã mở",
+    "clicked": "Đã click",
+    "leadCreated": "Đã tạo khách hàng tiềm năng"
+  }
+}

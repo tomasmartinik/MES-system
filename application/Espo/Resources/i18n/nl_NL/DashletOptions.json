@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "title": "Titel",
+    "dateFrom": "Datum vanaf",
+    "dateTo": "Datum tot",
+    "autorefreshInterval": "Automatisch bijwerken interval",
+    "displayRecords": "Velden weergeven",
+    "isDoubleHeight": "Hoogte 2x",
+    "enabledScopeList": "Wat te tonen",
+    "users": "Gebruikers",
+    "entityType": "Type entiteit",
+    "primaryFilter": "Primair filter",
+    "boolFilterList": "Extra filters",
+    "sortBy": "Sortering (veld)",
+    "sortDirection": "Sortering (richting)",
+    "expandedLayout": "Lay-out",
+    "dateFilter": "Datumfilter",
+    "skipOwn": "Geen eigen records tonen"
+  },
+  "options": {
+    "mode": {
+      "month": "Maand",
+      "basicDay": "Dag",
+      "agendaDay": "Dag (agenda)",
+      "timeline": "Tijdlijn"
+    }
+  },
+  "messages": {
+    "selectEntityType": "Selecteer Entiteit Type in dashlet opties."
+  },
+  "tooltips": {
+    "skipOwn": "Acties van uw gebruikersaccount worden niet weergegeven."
+  }
+}

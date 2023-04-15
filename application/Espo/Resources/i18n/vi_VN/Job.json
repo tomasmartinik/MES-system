@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "status": "Tình trạng",
+    "executeTime": "Thực thi lúc",
+    "serviceName": "Dịch vụ",
+    "methodName": "Phương thức",
+    "scheduledJob": "Bộ định thời công việc",
+    "data": "Dữ liệu",
+    "startedAt": "Bắt đầu lúc",
+    "number": "Số"
+  },
+  "options": {
+    "status": {
+      "Pending": "Đang chờ",
+      "Success": "Thành công",
+      "Running": "Đang chạy",
+      "Failed": "Lỗi"
+    }
+  }
+}

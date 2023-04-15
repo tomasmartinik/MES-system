@@ -1,0 +1,21 @@
+{
+    "scopeNames": {
+        "ProductionPlanning": "Plánování výroby",
+        "Account": "Společnosti",
+        "EquipmentClasses": "Třída vybavení",
+        "EquipmentDefinitions": "Definice vybavení",
+        "EquipmentProperties": "Vlastnost třídy vybavení",
+        "EquipmentDefinitionsPropertiesFromClasses": "Záznam vlastností definic vybavení",
+        "MaterialLots": "Dávka materiálu",
+        "MaterialProperties": "Vlastnost třídy materiálu",
+        "KeyPerformanceIndicator": "KPI"
+    },
+    "scopeNamesPlural": {
+        "EquipmentClasses": "Třídy vybavení",
+        "EquipmentDefinitions": "Definice vybavení",
+        "EquipmentProperties": "Vlastnosti tříd vybavení",
+        "EquipmentDefinitionsPropertiesFromClasses": "Záznamy vlastností definic vybavení",
+        "MaterialLots": "Dávky materiálu",
+        "KeyPerformanceIndicator": "KPI"
+    }
+}

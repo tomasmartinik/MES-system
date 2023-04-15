@@ -1,0 +1,11 @@
+{
+    "fields": {
+        "warehouseItems": "Položky skladu"
+    },
+    "links": {
+        "warehouseItems": "Položky skladu"
+    },
+    "labels": {
+        "Create Warehouse": "Create Sklad"
+    }
+}

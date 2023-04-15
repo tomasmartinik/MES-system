@@ -1,0 +1,62 @@
+{
+    "params": [
+        {
+            "name": "required",
+            "type": "bool",
+            "default": false
+        },
+        {
+            "name": "previewSize",
+            "type": "enum",
+            "default": "small",
+            "options": [
+                "x-small",
+                "small",
+                "medium",
+                "large"
+            ]
+        },
+        {
+            "name": "listPreviewSize",
+            "type": "enum",
+            "options": [
+                "",
+                "small",
+                "medium"
+            ],
+            "translation": "Admin.options.previewSize"
+        },
+        {
+            "name": "maxFileSize",
+            "type": "float",
+            "tooltip": true,
+            "min": 0
+        },
+        {
+            "name": "audited",
+            "type": "bool"
+        }
+    ],
+    "actualFields": [
+        "id"
+    ],
+    "notActualFields": [
+        "name"
+    ],
+    "validationList": [
+        "required",
+        "pattern"
+    ],
+    "mandatoryValidationList": [
+        "pattern"
+    ],
+    "filter": true,
+    "linkDefs": {
+        "type": "belongsTo",
+        "entity": "Attachment",
+        "skipOrmDefs": true,
+        "disabled": true
+    },
+    "personalData": true,
+    "duplicatorClassName": "Espo\\Classes\\FieldDuplicators\\File"
+}

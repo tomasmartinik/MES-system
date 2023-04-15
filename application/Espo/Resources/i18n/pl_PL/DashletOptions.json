@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "title": "Tytuł",
+    "dateFrom": "Data rozpoczęcia",
+    "dateTo": "Data zakończenia",
+    "autorefreshInterval": "Okres auto-odświeżenia",
+    "displayRecords": "Pokaż rekordy",
+    "isDoubleHeight": "Wysokość 2x",
+    "mode": "Tryb",
+    "enabledScopeList": "Co wyświetlić",
+    "users": "Użytkownicy",
+    "entityType": "Typ modułu",
+    "primaryFilter": "Główny filter",
+    "boolFilterList": "Dodatkowe filtry",
+    "sortBy": "Zamówienie (pole)",
+    "sortDirection": "Zamówienie (kierunek)",
+    "expandedLayout": "Układ",
+    "dateFilter": "Filtr daty",
+    "skipOwn": "Nie pokazuj własnych rekordów"
+  },
+  "options": {
+    "mode": {
+      "agendaWeek": "Tydzień (agenda)",
+      "basicWeek": "Tydzień",
+      "month": "Miesiąc",
+      "basicDay": "Dzień",
+      "agendaDay": "Dzień (agenda)",
+      "timeline": "Oś czasu"
+    }
+  },
+  "messages": {
+    "selectEntityType": "Wybierz typ jednostki w opcjach dashletu."
+  },
+  "tooltips": {
+    "skipOwn": "Działania wykonane przez Twoje konto użytkownika nie będą wyświetlane."
+  }
+}

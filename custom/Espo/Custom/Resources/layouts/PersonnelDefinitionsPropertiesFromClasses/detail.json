@@ -1,0 +1,22 @@
+[
+    {
+        "rows": [
+            [
+                {
+                    "name": "personnelDefinitions"
+                },
+                {
+                    "name": "personnelProperties"
+                }
+            ],
+            [
+                {
+                    "name": "value"
+                },
+                false
+            ]
+        ],
+        "style": "default",
+        "label": "Overview"
+    }
+]

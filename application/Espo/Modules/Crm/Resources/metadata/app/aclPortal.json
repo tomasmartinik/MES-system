@@ -1,0 +1,40 @@
+{
+    "mandatory": {
+        "scopeLevel": {
+            "MassEmail": "Campaign",
+            "CampaignLogRecord": "Campaign",
+            "CampaignTrackingUrl": "Campaign",
+            "EmailQueueItem": false
+        }
+    },
+    "strictDefault": {
+        "scopeFieldLevel": {
+            "KnowledgeBaseArticle": {
+                "portals": false,
+                "order": false,
+                "status": false,
+                "assignedUser": false
+            },
+            "Call": {
+                "users": {
+                    "read": "yes",
+                    "edit": "no"
+                },
+                "leads": false
+            },
+            "Meeting": {
+                "users": {
+                    "read": "yes",
+                    "edit": "no"
+                },
+                "leads": false
+            },
+            "Case": {
+                "status": {
+                    "read": "yes",
+                    "edit": "no"
+                }
+            }
+        }
+    }
+}

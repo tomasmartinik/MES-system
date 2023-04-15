@@ -1,0 +1,161 @@
+{
+    "controller":"controllers/email",
+    "acl":"acl/email",
+    "model":"models/email",
+    "views":{
+        "list":"views/email/list",
+        "detail":"views/email/detail"
+    },
+    "recordViews":{
+        "list":"views/email/record/list",
+        "detail":"views/email/record/detail",
+        "edit":"views/email/record/edit",
+        "editQuick":"views/email/record/edit-quick",
+        "detailQuick":"views/email/record/detail-quick",
+        "compose":"views/email/record/compose",
+        "listRelated":"views/email/record/list-related"
+    },
+    "modalViews":{
+        "detail":"views/email/modals/detail",
+        "compose":"views/modals/compose-email"
+    },
+    "quickCreateModalType":"compose",
+    "defaultSidePanelView": "views/email/record/panels/default-side",
+    "sidePanels": {
+        "detail": [
+            {
+                "name": "event",
+                "label": "Event",
+                "view": "views/email/record/panels/event",
+                "isForm": true,
+                "hidden": true
+            }
+        ]
+    },
+    "menu":{
+        "list":{
+            "buttons":[
+                {
+                    "label": "Compose",
+                    "action": "composeEmail",
+                    "style": "danger",
+                    "acl": "create",
+                    "className": "btn-s-wide",
+                    "title": "Ctrl+Space"
+                }
+            ],
+            "dropdown":[
+                {
+                    "label":"Archive Email",
+                    "link":"#Email/create",
+                    "acl":"create"
+                },
+                false,
+                {
+                    "label":"Email Templates",
+                    "link":"#EmailTemplate",
+                    "acl":"read",
+                    "aclScope":"EmailTemplate"
+                },
+                {
+                    "label":"Folders",
+                    "link":"#EmailFolder",
+                    "configCheck": "!emailFoldersDisabled",
+                    "accessDataList": [
+                        {
+                            "inPortalDisabled": true
+                        }
+                    ]
+                },
+                {
+                    "label":"Filters",
+                    "link":"#EmailFilter",
+                    "accessDataList": [
+                        {
+                            "inPortalDisabled": true
+                        }
+                    ]
+                }
+            ]
+        },
+        "detail":{
+            "dropdown":[
+                {
+                    "label":"Reply",
+                    "action":"reply",
+                    "acl":"read"
+                },
+                {
+                    "label":"Reply to All",
+                    "action":"replyToAll",
+                    "acl":"read"
+                },
+                {
+                    "label":"Forward",
+                    "action":"forward",
+                    "acl":"read"
+                }
+            ]
+        }
+    },
+    "dynamicLogic":{
+        "fields": {
+            "replied": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "repliedId",
+                            "data": {
+                                "field": "replied"
+                            }
+                        }
+                    ]
+                }
+            },
+            "replies": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "repliesIds",
+                            "data": {
+                                "field": "replies"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "panels": {
+            "event": {
+                "visible": {
+                    "conditionGroup": [
+                        {
+                            "type": "isNotEmpty",
+                            "attribute": "icsEventDateStart"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "filterList":[
+
+    ],
+    "defaultFilterData":{
+
+    },
+    "boolFilterList":[
+
+    ],
+    "iconClass":"fas fa-envelope",
+    "layoutBottomPanelsDetailDisabled": true,
+    "layoutDetailDisabled": true,
+    "layoutDetailSmallDisabled": true,
+    "layoutSidePanelsDetailSmallDisabled": true,
+    "layoutSidePanelsEditSmallDisabled": true,
+    "layoutMassUpdateDisabled": true
+
+
+}

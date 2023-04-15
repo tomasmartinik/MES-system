@@ -1,0 +1,47 @@
+{
+  "labels": {
+    "Revert Import": "Kembalikan Impor",
+    "Return to Import": "Kembali ke Impor",
+    "Run Import": "Run Impor",
+    "Back": "Kembali",
+    "Add Field": "Tambahkan kolom",
+    "Created": "dibuat",
+    "Updated": "Diperbarui",
+    "Result": "Hasil",
+    "Show records": "Tampilkan catatan",
+    "Remove Duplicates": "Hapus Duplikat",
+    "importedCount": "Impor (count)",
+    "duplicateCount": "Duplikat (count)",
+    "Update by": "Perbarui oleh",
+    "Set as Not Duplicate": "Ditetapkan sebagai Tidak Duplikat",
+    "File (CSV)": "Berkas (CSV)",
+    "First Row Value": "Nilai Row pertama",
+    "Skip": "Lewati",
+    "Field": "Kolom",
+    "What to Import?": "Impor Apa?",
+    "Entity Type": "Tipe entitas",
+    "What to do?": "Apa yang harus dilakukan?",
+    "Properties": "properti",
+    "Person Name Format": "Format Nama Orang",
+    "Field Delimiter": "Pembatas Kolom",
+    "Date Format": "Format tanggal",
+    "Decimal Mark": "Tanda Desimal",
+    "Time Format": "Format waktu",
+    "Currency": "Mata uang",
+    "Next": "Berikutnya",
+    "Step 1": "Langkah 1",
+    "Step 2": "Langkah 2",
+    "Imported": "Impor",
+    "Duplicates": "duplikat"
+  },
+  "messages": {
+    "utf8": "Harus UTF-8 encoded",
+    "duplicatesRemoved": "duplikat dihapus"
+  },
+  "fields": {
+    "entityType": "Jenis entitas",
+    "imported": "Rekaman dimpor",
+    "duplicates": "duplikat Rekaman",
+    "updated": "Rekaman Diperbarui"
+  }
+}

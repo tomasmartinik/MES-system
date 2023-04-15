@@ -1,0 +1,11 @@
+{
+  "links": {
+    "users": "کاربران"
+  },
+  "labels": {
+    "Access": "دسترسی",
+    "Create PortalRole": "ایجاد نقش پورتال",
+    "Scope Level": "سطح دامنه",
+    "Field Level": "سطح فیلد"
+  }
+}

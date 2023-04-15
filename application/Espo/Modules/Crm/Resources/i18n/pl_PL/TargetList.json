@@ -1,0 +1,36 @@
+{
+  "fields": {
+    "name": "Nazwa",
+    "description": "Opis",
+    "entryCount": "Ilość jednostek",
+    "campaigns": "Kampanie",
+    "endDate": "Data zakończenia",
+    "targetLists": "Listy docelowe",
+    "includingActionList": "Włącznie z",
+    "excludingActionList": "Nie licząc",
+    "optedOutCount": "Liczba rezygnacji",
+    "targetStatus": "Stan docelowy",
+    "isOptedOut": "Zrezygnowano"
+  },
+  "links": {
+    "accounts": "Klienci",
+    "contacts": "Kontakty",
+    "campaigns": "Kampanie",
+    "massEmails": "Wiadomości masowe"
+  },
+  "options": {
+    "type": {
+      "Email": "E-mail",
+      "Web": "Strona internetowa",
+      "Television": "Telewizja"
+    },
+    "targetStatus": {
+      "Opted Out": "Wycofał się",
+      "Listed": "Katalogowany"
+    }
+  },
+  "labels": {
+    "Opted Out": "Wypisany",
+    "Opt-Out": "Wypisz się"
+  }
+}

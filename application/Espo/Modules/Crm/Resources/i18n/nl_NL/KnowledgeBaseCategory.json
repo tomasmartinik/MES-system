@@ -1,0 +1,10 @@
+{
+  "labels": {
+    "Create KnowledgeBaseCategory": "Creëer Categorie",
+    "Manage Categories": "Beheer categorieën",
+    "Articles": "Artikelen"
+  },
+  "links": {
+    "articles": "Artikelen"
+  }
+}

@@ -1,0 +1,24 @@
+{
+    "controller": "controllers/record",
+    "views": {
+        "detail": "views/dashboard-template/detail"
+    },
+    "recordViews": {
+        "list": "views/dashboard-template/record/list"
+    },
+    "menu": {
+        "detail": {
+            "buttons": [
+                {
+                    "action": "deployToUsers",
+                    "label": "Deploy to Users"
+                },
+                {
+                    "action": "deployToTeam",
+                    "label": "Deploy to Team"
+                }
+            ]
+        }
+    },
+    "searchPanelDisabled": true
+}

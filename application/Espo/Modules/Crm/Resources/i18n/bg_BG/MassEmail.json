@@ -1,0 +1,58 @@
+{
+  "fields": {
+    "name": "Име",
+    "status": "Статус",
+    "storeSentEmails": "Съхраняване на изпратените имейли",
+    "startAt": "Дата на стартиране",
+    "fromAddress": "От адрес",
+    "fromName": "От име",
+    "replyToAddress": "Адрес за отговор",
+    "replyToName": "Отговор до Наименование",
+    "campaign": "Кампания",
+    "emailTemplate": "Шаблон за имейл",
+    "inboundEmail": "Имейл акаунт",
+    "targetLists": "Целеви списъци",
+    "excludingTargetLists": "С изключение на целевите списъци",
+    "optOutEntirely": "Отказ от Изцяло",
+    "smtpAccount": "SMTP профил"
+  },
+  "links": {
+    "targetLists": "Целеви списъци",
+    "excludingTargetLists": "С изключение на целевите списъци",
+    "queueItems": "Елементи от опашката",
+    "campaign": "Кампания",
+    "emailTemplate": "Шаблон за имейл",
+    "inboundEmail": "Имейл акаунт"
+  },
+  "options": {
+    "status": {
+      "Draft": "Чернова",
+      "Pending": "Предстоящо",
+      "In Process": "В процес",
+      "Complete": "Завършен",
+      "Canceled": "Отменен",
+      "Failed": "Провален"
+    }
+  },
+  "labels": {
+    "Create MassEmail": "Създаване на масов имейл",
+    "Send Test": "Изпрати тестов имейл",
+    "System SMTP": "Системен SMTP",
+    "system": "система",
+    "group": "група"
+  },
+  "messages": {
+    "selectAtLeastOneTarget": "Изберете поне една цел.",
+    "testSent": "Тестовият имейл би трябвало да е изпратен"
+  },
+  "tooltips": {
+    "optOutEntirely": "Имейл адресите на получателите, които са се отказали, ще бъдат маркирани като отписали се и те няма да получават повече имейли.",
+    "targetLists": "Цели, които трябва да получават съобщения.",
+    "excludingTargetLists": "Цели, които не трябва да получават съобщения.",
+    "storeSentEmails": "Имейлите ще бъдат съхранявани в CRM."
+  },
+  "presetFilters": {
+    "actual": "Актуални",
+    "complete": "Завършени"
+  }
+}

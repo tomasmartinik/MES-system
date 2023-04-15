@@ -1,0 +1,28 @@
+{
+  "fields": {
+    "executeTime": "Uitgevoerd op",
+    "attempts": "Pogingen over",
+    "failedAttempts": "Mislukte pogingen",
+    "scheduledJob": "Geplande Opdracht",
+    "method": "Method (verouderd)",
+    "scheduledJobJob": "Naam geplande taak",
+    "executedAt": "Uitgevoerd bij",
+    "startedAt": "Begonnen bij",
+    "targetType": "Doeltype",
+    "targetId": "Doel-ID",
+    "number": "Nummer",
+    "queue": "Wachtrij",
+    "job": "Baan",
+    "group": "Groep",
+    "className": "Class Naam",
+    "targetGroup": "Doelgroep"
+  },
+  "options": {
+    "status": {
+      "Pending": "In behandeling",
+      "Success": "Succesvol",
+      "Running": "Actief",
+      "Failed": "Mislukt"
+    }
+  }
+}

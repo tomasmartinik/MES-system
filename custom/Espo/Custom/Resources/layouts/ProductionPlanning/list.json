@@ -1,0 +1,10 @@
+[
+    {
+        "name": "orderNumber",
+        "link": true,
+        "align": "left"
+    },
+    {
+        "name": "priority"
+    }
+]

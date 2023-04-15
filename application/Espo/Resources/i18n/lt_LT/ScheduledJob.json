@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "name": "Vardas",
+    "status": "Statusas",
+    "job": "Darbas",
+    "scheduling": "Planavimas"
+  },
+  "labels": {
+    "Create ScheduledJob": "Sukurkite numatytą darbą",
+    "As often as possible": "Kuo dažniau"
+  },
+  "options": {
+    "job": {
+      "Cleanup": "Išvalytis",
+      "CheckInboundEmails": "Patikrinkite grupės el. pašto paskyras",
+      "CheckEmailAccounts": "Patikrinkite asmenines el. pašto paskyras",
+      "SendEmailReminders": "Siųsti priminimus el. paštu",
+      "AuthTokenControl": "Autentikavimo žymės kontrolė",
+      "SendEmailNotifications": "Siųsti pranešimus el. paštu",
+      "CheckNewVersion": "Patikrinkite, ar nėra naujos versijos",
+      "ProcessWebhookQueue": "Apdoroti \"Webhook\" eilę"
+    },
+    "cronSetup": {
+      "linux": "Pastaba: įtraukite šią eilutę į crontab failą, kad paleistumėte \"Espo Suplanuoti darbai\":",
+      "mac": "Pastaba: įtraukite šią eilutę į crontab failą, kad paleistumėte \"Espo Suplanuoti darbai\":",
+      "windows": "Pastaba: sukurkite paketinį failą šiomis komandomis, kad paleistumėte \"Espo\" darbus pagal grafiką, naudojant \"Windows\" numatytus uždavinius:",
+      "default": "Pastaba: pridėkite šią komandą į Cron Job (suplanuotą užduotį):"
+    },
+    "status": {
+      "Active": "Aktyvus",
+      "Inactive": "Neaktyvus"
+    }
+  },
+  "tooltips": {
+    "scheduling": "Crontab užrašas. Apibrėžia užduočių vykdymo dažnumą.\n\n`*/5 * * * *` - kas 5 minutes\n\n`0 */2 * * * *` - kas 2 valandas\n\n`30 1 * * * *` - kartą per dieną 01:30 val.\n\n`0 0 0 1 * * *` - pirmąją mėnesio dieną"
+  }
+}

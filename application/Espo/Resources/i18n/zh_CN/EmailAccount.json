@@ -1,0 +1,50 @@
+{
+  "fields": {
+    "name": "名称",
+    "status": "状态",
+    "host": "主机",
+    "username": "用户名",
+    "password": "密码",
+    "port": "端口",
+    "monitoredFolders": "监视的文件夹",
+    "fetchSince": "获取从",
+    "emailAddress": "邮件地址",
+    "sentFolder": "发送文件夹",
+    "storeSentEmails": "存储发送的邮件",
+    "keepFetchedEmailsUnread": "保持获取的邮件为未读",
+    "emailFolder": "放入文件夹",
+    "useSmtp": "使用SMTP",
+    "smtpHost": "SMTP主机",
+    "smtpPort": "SMTP端口",
+    "smtpAuth": "SMTP授权",
+    "smtpSecurity": "SMTP安全协议",
+    "smtpUsername": "SMTP用户名",
+    "smtpPassword": "SMTP密码",
+    "useImap": "获取邮件"
+  },
+  "links": {
+    "filters": "过滤器",
+    "emails": "邮箱"
+  },
+  "options": {
+    "status": {
+      "Active": "启用",
+      "Inactive": "未启用"
+    }
+  },
+  "labels": {
+    "Create EmailAccount": "创建邮件帐户",
+    "Main": "主要",
+    "Test Connection": "测试连接",
+    "Send Test Email": "发送编辑邮件",
+    "SMTP": "简单邮件传输协议"
+  },
+  "messages": {
+    "couldNotConnectToImap": "无法连接到IMAP服务器",
+    "connectionIsOk": "连接正常"
+  },
+  "tooltips": {
+    "monitoredFolders": "多个文件夹用逗号分隔。\n\n添加 ‘Sent’ 文件夹与外部邮件客户端同步已发邮件。",
+    "storeSentEmails": "发送的电子邮件将存储在IMAP服务器上,电子邮件地址字段应该与将要发送的电子邮件地址匹配。"
+  }
+}

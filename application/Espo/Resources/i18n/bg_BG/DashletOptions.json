@@ -1,0 +1,37 @@
+{
+  "fields": {
+    "title": "Заглавие",
+    "dateFrom": "Дата от",
+    "dateTo": "До дата",
+    "autorefreshInterval": "Интервал за автоматично опресняване",
+    "displayRecords": "Показване на записи",
+    "isDoubleHeight": "Височина x2",
+    "mode": "Начин",
+    "enabledScopeList": "Какво да се показва",
+    "users": "Потребители",
+    "entityType": "Тип на обекта",
+    "primaryFilter": "Основен филтър",
+    "boolFilterList": "Допълнителни филтри",
+    "sortBy": "Сортиране (поле)",
+    "sortDirection": "Сортиране (посока)",
+    "expandedLayout": "Оформление",
+    "dateFilter": "Филтър за дата",
+    "skipOwn": "Да не се показват собствени записи"
+  },
+  "options": {
+    "mode": {
+      "agendaWeek": "Седмица (календар)",
+      "basicWeek": "Седмица",
+      "month": "Месец",
+      "basicDay": "Ден",
+      "agendaDay": "Ден (календар)",
+      "timeline": "Хронология"
+    }
+  },
+  "messages": {
+    "selectEntityType": "Изберете типа на обекта в опциите."
+  },
+  "tooltips": {
+    "skipOwn": "Действията, извършени от вашия потребителски акаунт, няма да се показват.\n"
+  }
+}

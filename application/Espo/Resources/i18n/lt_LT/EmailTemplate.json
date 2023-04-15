@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "name": "Vardas",
+    "status": "Statusas",
+    "isHtml": "Html formatas",
+    "body": "Laiško tekstas",
+    "subject": "Tema",
+    "attachments": "Prisegtukai",
+    "oneOff": "Vienkartinis",
+    "category": "Kategorija",
+    "insertField": "Vietos ženklai"
+  },
+  "labels": {
+    "Create EmailTemplate": "Sukurti el. pašto laiško šabloną",
+    "Info": "Informacija",
+    "Available placeholders": "Galimi užpildai"
+  },
+  "tooltips": {
+    "oneOff": "Pažymėkite, jei ketinate naudoti šį šabloną tik vieną kartą. Pavyzdžiui masiniems el. laiškams."
+  },
+  "presetFilters": {
+    "actual": "Esamas"
+  },
+  "placeholderTexts": {
+    "optOutLink": "atsisakyti prenumeratos nuorodą",
+    "today": "Šiandienos data",
+    "now": "Dabartinė data ir laikas",
+    "currentYear": "Einamieji metai",
+    "optOutUrl": "Atsisakymo nuo prenumeratos nuorodos URL"
+  },
+  "messages": {
+    "infoText": "Galimos vietos žymos:\n\n{optOutUrl} &#8211; Atsisakymo nuorodos URL;\n\n{optOutLink} &#8211; prenumeratos atsisakymo nuoroda."
+  }
+}

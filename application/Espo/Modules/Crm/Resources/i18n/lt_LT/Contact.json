@@ -1,0 +1,56 @@
+{
+  "fields": {
+    "name": "Vardas",
+    "emailAddress": "El. paštas",
+    "accountRole": "Pavadinimas",
+    "account": "Įmonė",
+    "accounts": "Įmonės",
+    "phoneNumber": "Telefonas",
+    "accountType": "Įmonės tipas",
+    "doNotCall": "Neskambinti",
+    "address": "Adresas",
+    "opportunityRole": "Galimybės rolė",
+    "description": "Aprašymas",
+    "campaign": "Kampanija",
+    "targetLists": "Adresatų sarašai",
+    "targetList": "Adresatų sarašas",
+    "portalUser": "Portalo vartotojas",
+    "originalLead": "Originalus potencialus klientas",
+    "acceptanceStatus": "Priėmimo statusas",
+    "accountIsInactive": "Įmonė neaktyvi",
+    "acceptanceStatusMeetings": "Priėmimo statusas (susirinkimai)",
+    "acceptanceStatusCalls": "Priėmimo statusas (skambučiai)",
+    "title": "Sąskaitos pavadinimas",
+    "hasPortalUser": "Turi portalo naudotoją"
+  },
+  "links": {
+    "opportunities": "Galimybės",
+    "cases": "Atvejai",
+    "targetLists": "Adresatų sarašai",
+    "campaignLogRecords": "Kampanijos žurnalas",
+    "campaign": "Kampanija",
+    "account": "Kontaktas (pirminis)",
+    "accounts": "Įmonės",
+    "casesPrimary": "Atvejai (pirminiai)",
+    "portalUser": "Portalo vartotojas",
+    "originalLead": "Originalus potencialus klientas",
+    "documents": "Dokumentai",
+    "tasksPrimary": "Užduotys (išplėstos)",
+    "opportunitiesPrimary": "Galimybės (pirminės)"
+  },
+  "labels": {
+    "Create Contact": "Sukurti kontaktą"
+  },
+  "options": {
+    "opportunityRole": {
+      "Decision Maker": "Sprendimus priimantis žmogus",
+      "Evaluator": "Vertintojas",
+      "Influencer": "Darantis įtaką"
+    }
+  },
+  "presetFilters": {
+    "portalUsers": "Portalo vartotojai",
+    "notPortalUsers": "Ne portalo vartotojas",
+    "accountActive": "Aktyvus"
+  }
+}

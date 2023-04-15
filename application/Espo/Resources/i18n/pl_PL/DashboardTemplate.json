@@ -1,0 +1,11 @@
+{
+  "fields": {
+    "layout": "Układ",
+    "append": "Dołącz (nie usuwaj zakładek użytkownika)"
+  },
+  "labels": {
+    "Create DashboardTemplate": "Utwórz szablon",
+    "Deploy to Users": "Wdróż u użytkowników",
+    "Deploy to Team": "Wdróż w zespole"
+  }
+}

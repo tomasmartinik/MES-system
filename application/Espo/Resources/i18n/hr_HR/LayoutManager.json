@@ -1,0 +1,29 @@
+{
+  "fields": {
+    "width": "Širina (%)",
+    "link": "Veza",
+    "notSortable": "Nije sortabilno",
+    "align": "Poravnavanje",
+    "panelName": "Ime panela",
+    "style": "Stil",
+    "sticked": "Ljepljivo",
+    "isLarge": "Velika veličina slova"
+  },
+  "options": {
+    "align": {
+      "left": "Lijevo",
+      "right": "Desno"
+    },
+    "style": {
+      "default": "Podrazumijevano",
+      "success": "Uspješno",
+      "danger": "Opasnost",
+      "warning": "Upozorenje",
+      "primary": "Primarno"
+    }
+  },
+  "labels": {
+    "New panel": "Novi panel",
+    "Layout": "Izgled"
+  }
+}

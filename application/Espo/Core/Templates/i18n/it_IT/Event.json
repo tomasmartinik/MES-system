@@ -1,0 +1,39 @@
+{
+  "fields": {
+    "parent": "Genitore",
+    "dateStart": "Data inizio",
+    "dateEnd": "Data termine",
+    "duration": "Durata",
+    "status": "Stato",
+    "reminders": "Promemoria",
+    "dateStartDate": "Data inizio (tutto il giorno)",
+    "dateEndDate": "Data fine (tutto il giorno)",
+    "isAllDay": "È tutto il giorno"
+  },
+  "links": {
+    "parent": "Genitore"
+  },
+  "options": {
+    "status": {
+      "Planned": "Pianificato",
+      "Held": "Effettuata",
+      "Not Held": "Non Effettuata"
+    }
+  },
+  "labels": {
+    "Create {entityType}": "Crea {entityTypeTranslated}",
+    "Schedule {entityType}": "Pianifica {entityTypeTranslated}",
+    "Log {entityType}": "Registra {entityTypeTranslated}",
+    "Set Held": "Effettuata",
+    "Set Not Held": "Non Effettuata"
+  },
+  "massActions": {
+    "setHeld": "Effettuata",
+    "setNotHeld": "Non Effettuata"
+  },
+  "presetFilters": {
+    "planned": "Pianificato",
+    "held": "Effettuata",
+    "todays": "Di oggi"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "fields": {
+    "from": "Od",
+    "to": "Do",
+    "subject": "Temat",
+    "bodyContains": "Treść zawiera",
+    "action": "Akcja",
+    "isGlobal": "Globalny"
+  },
+  "labels": {
+    "Create EmailFilter": "Utwórz filtr poczty",
+    "Emails": "Wiadomości"
+  },
+  "tooltips": {
+    "from": "Wiadomości zostaną wysłane z podanym adresem. Zostaw pole puste, jeśli niepotrzebne. Możesz użyć maski *.",
+    "to": "Wiadomości zostaną wysłane na podany adres. Zostaw pole puste, jeśli niepotrzebne. Możesz użyć maski *.",
+    "name": "Nazwa tego filtra.",
+    "bodyContains": "Treść wiadomości zawiera dowolne z podanych słów lub zwrotów.",
+    "isGlobal": "Stosuje ten filtr do wszystkich e-maili przychodzących do systemu.",
+    "subject": "Użyj symbolu wieloznacznego *:\n\n  * `text *` - zaczyna się od tekstu,\n  * `* text *` - zawiera tekst,\n  * `* text` - kończy się tekstem."
+  },
+  "options": {
+    "action": {
+      "Skip": "Ignoruj",
+      "Move to Folder": "Upuść w folderze"
+    }
+  }
+}

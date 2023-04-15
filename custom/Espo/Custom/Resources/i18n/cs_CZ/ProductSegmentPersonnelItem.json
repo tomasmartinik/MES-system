@@ -1,0 +1,16 @@
+{
+    "labels": {
+        "Create ProductSegmentPersonnelItem": "Vytvořit Položka personálu (Segment produktu)"
+    },
+    "fields": {
+        "personnelClasses": "Třída",
+        "personnelDefinitions": "Definice",
+        "productSegmentses": "Product Segmentses",
+        "quantity": "Množství"
+    },
+    "links": {
+        "personnelClasses": "Třída",
+        "personnelDefinitions": "Definice",
+        "productSegmentses": "Product Segmentses"
+    }
+}

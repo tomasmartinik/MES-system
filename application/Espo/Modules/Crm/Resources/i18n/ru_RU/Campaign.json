@@ -1,0 +1,88 @@
+{
+  "fields": {
+    "name": "Название",
+    "description": "Описание",
+    "status": "Статус",
+    "type": "Тип",
+    "startDate": "Дата начала",
+    "endDate": "Дата окончания",
+    "targetLists": "Списки целей",
+    "excludingTargetLists": "Исключая списки целей",
+    "sentCount": "Отправлено",
+    "openedCount": "Открыто",
+    "clickedCount": "Проследовало по ссылке",
+    "optedOutCount": "Отписалось",
+    "bouncedCount": "Возвратов писем",
+    "hardBouncedCount": "Жестких возвратов",
+    "softBouncedCount": "Мягких возвратов",
+    "leadCreatedCount": "Кандидатов создано",
+    "revenue": "Доход",
+    "revenueConverted": "Доход (сконвертированный)",
+    "budget": "Бюджет",
+    "budgetConverted": "Бюджет (сконвертированный)",
+    "contactsTemplate": "Шаблон контактов",
+    "leadsTemplate": "Шаблон кандидатов",
+    "accountsTemplate": "Шаблон контрагентов",
+    "usersTemplate": "Шаблон пользователей",
+    "mailMergeOnlyWithAddress": "Пропустить записи без заполненного адреса",
+    "optedInCount": "Подписан",
+    "budgetCurrency": "Валюта бюджета"
+  },
+  "links": {
+    "targetLists": "Списки целей",
+    "excludingTargetLists": "Исключая списки целей",
+    "accounts": "Контрагенты",
+    "contacts": "Контакты",
+    "leads": "Лид (потенциальный клиент)",
+    "opportunities": "Сделки",
+    "campaignLogRecords": "Журнал",
+    "massEmails": "Массовые рассылки эл. писем",
+    "trackingUrls": "Целевые URL-адреса",
+    "contactsTemplate": "Шаблон контактов",
+    "leadsTemplate": "Шаблон кандидатов",
+    "accountsTemplate": "Шаблон контрагентов",
+    "usersTemplate": "Шаблон пользователей"
+  },
+  "options": {
+    "type": {
+      "Email": "Эл. письмо",
+      "Web": "Интернет",
+      "Television": "Телевидение",
+      "Radio": "Радио",
+      "Newsletter": "Информационный бюллетень",
+      "Mail": "Письмо"
+    },
+    "status": {
+      "Planning": "Запланирована",
+      "Active": "Активна",
+      "Inactive": "Не активна",
+      "Complete": "Завершена"
+    }
+  },
+  "labels": {
+    "Create Campaign": "Создать кампанию",
+    "Target Lists": "Списки целей",
+    "Statistics": "Статистика",
+    "hard": "жесткий",
+    "soft": "мягкий",
+    "Unsubscribe": "Отписаться",
+    "Mass Emails": "Массовые рассылки эл. писем",
+    "Email Templates": "Шаблоны эл. писем",
+    "Unsubscribe again": "Отписаться снова",
+    "Subscribe again": "Подписаться снова",
+    "Create Target List": "Создать список целей",
+    "Mail Merge": "Слияние писем",
+    "Generate Mail Merge PDF": "Сгенерировать PDF-слияние"
+  },
+  "presetFilters": {
+    "active": "Активна"
+  },
+  "messages": {
+    "unsubscribed": "Вы были удалены из нашего списка рассылки.",
+    "subscribedAgain": "Вы снова подписаны."
+  },
+  "tooltips": {
+    "targetLists": "Цели которые должны получить сообщения.",
+    "excludingTargetLists": "Цели которые не должны получить сообщения."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "labels": {
+    "Create Lead": "Creëer Lead",
+    "Create Contact": "Creëer Contact",
+    "Create Task": "Creëer Taak",
+    "Create Case": "Creëer Ticket",
+    "Add to Contact": "Toevoegen aan contact",
+    "Add to Lead": "Toevoegen aan lead"
+  },
+  "fields": {
+    "tasks": "Taken"
+  }
+}

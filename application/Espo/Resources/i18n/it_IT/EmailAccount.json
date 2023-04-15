@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "name": "Nome",
+    "status": "Stato",
+    "port": "Porta",
+    "monitoredFolders": "Cartelle Monitorate",
+    "fetchSince": "Recupera da",
+    "emailAddress": "Indirizzo email",
+    "sentFolder": "Cartella Inviate",
+    "storeSentEmails": "Conserva Email Inviate",
+    "keepFetchedEmailsUnread": "Mantieni le email non lette",
+    "emailFolder": "Sposta nella Cartella",
+    "useSmtp": "Usa SMTP",
+    "smtpHost": "Host SMTP",
+    "smtpPort": "Porta SMTP",
+    "smtpAuth": "Autenticazione SMTP",
+    "smtpSecurity": "Sicurezza SMTP",
+    "smtpUsername": "Nome utente SMTP",
+    "smtpPassword": "Password SMTP",
+    "useImap": "Scarica email",
+    "smtpAuthMechanism": "Meccanismo di autenticazione SMTP",
+    "security": "Sicurezza"
+  },
+  "links": {
+    "filters": "Filtri"
+  },
+  "options": {
+    "status": {
+      "Active": "Attivo",
+      "Inactive": "Inattivo"
+    },
+    "smtpAuthMechanism": {
+      "plain": "Semplice",
+      "login": "Accesso"
+    }
+  },
+  "labels": {
+    "Create EmailAccount": "Crea Account email",
+    "Main": "Principale",
+    "Test Connection": "Test della connessione",
+    "Send Test Email": "Invia email di prova"
+  },
+  "messages": {
+    "couldNotConnectToImap": "Impossibile connettersi al server IMAP",
+    "connectionIsOk": "La Connessione è Ok"
+  },
+  "tooltips": {
+    "monitoredFolders": "Cartelle multiple devono essere separate dalla virgola.\n\nÈ possibile aggiungere una cartella \"Inviata\" per sincronizzare le email inviate da un client di posta elettronica esterno.",
+    "storeSentEmails": "Le e-mail inviate verranno archiviate sul server IMAP. Il campo Indirizzo e-mail deve corrispondere all'indirizzo da cui verranno inviate le e-mail.",
+    "useSmtp": "La possibilità di inviare email.",
+    "emailAddress": "Il record utente (utente assegnato) deve avere lo stesso indirizzo email per poter utilizzare questo account di posta elettronica per l'invio."
+  }
+}

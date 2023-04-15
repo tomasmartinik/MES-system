@@ -1,0 +1,50 @@
+{
+  "fields": {
+    "name": "Nazwa",
+    "username": "Nazwa użytkownika",
+    "password": "Hasło",
+    "monitoredFolders": "Monitorowane katalogi",
+    "fetchSince": "Od dnia",
+    "emailAddress": "Adres e-mail",
+    "sentFolder": "Folder wysłanych",
+    "storeSentEmails": "Zapisz wysłane wiadomości",
+    "keepFetchedEmailsUnread": "Pozostaw pobrane wiadomości jako nieprzeczytane",
+    "emailFolder": "Upuść w folderze",
+    "useSmtp": "Użyj SMTP",
+    "smtpHost": "Serwer SMTP",
+    "smtpPort": "Port serwera",
+    "smtpAuth": "Autoryzacja SMTP",
+    "smtpSecurity": "Zabezpieczenia SMTP",
+    "smtpUsername": "Nazwa użytkownika SMTP",
+    "smtpPassword": "Hasło SMTP",
+    "useImap": "Pobierz wiadomości e-mail",
+    "smtpAuthMechanism": "Mechanizm autoryzacji SMTP",
+    "security": "Bezpieczeństwo"
+  },
+  "links": {
+    "filters": "Filtry",
+    "emails": "Wiadomości"
+  },
+  "options": {
+    "status": {
+      "Active": "Aktywne",
+      "Inactive": "Nieaktywny"
+    }
+  },
+  "labels": {
+    "Create EmailAccount": "Utwórz konto pocztowe",
+    "Main": "Główne",
+    "Test Connection": "Test połączenia",
+    "Send Test Email": "Wyślij wiadomość testową"
+  },
+  "messages": {
+    "couldNotConnectToImap": "Nie można połączyć z serwerem IMAP",
+    "connectionIsOk": "Połączenie OK"
+  },
+  "tooltips": {
+    "monitoredFolders": "Wiele folderów należy oddzielić przecinkami.\n\nMożesz dodać folder 'Wysłane' aby synchronizować maile wysyłane z zewnętrznego klienta poczty.",
+    "storeSentEmails": "Wysłane wiadomości będą przechowywane na serwerze IMAP. Adres e-mail powinien być taki jak podany w wiadomości wychodzącej.",
+    "useSmtp": "Możliwość wysyłania maili.",
+    "emailAddress": "Rekord użytkownika (przypisanego użytkownika) powinien mieć ten sam adres e-mail, aby móc używać tego konta e-mail do wysyłania."
+  }
+}

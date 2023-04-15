@@ -1,0 +1,16 @@
+{
+    "listLoaderClassNameList": [
+        "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Meeting\\AcceptanceStatusLoader"
+    ],
+    "readLoaderClassNameList": [
+        "Espo\\Core\\FieldProcessing\\Reminder\\Loader",
+        "Espo\\Modules\\Crm\\Classes\\FieldProcessing\\Call\\PhoneNumberMapLoader"
+    ],
+    "saverClassNameList": [
+        "Espo\\Core\\FieldProcessing\\Reminder\\Saver"
+    ],
+    "beforeUpdateHookClassNameList": [
+        "__APPEND__",
+        "Espo\\Classes\\RecordHooks\\Event\\BeforeUpdatePreserveDuration"
+    ]
+}

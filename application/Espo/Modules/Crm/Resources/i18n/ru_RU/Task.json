@@ -1,0 +1,51 @@
+{
+  "fields": {
+    "name": "Название",
+    "parent": "Источник",
+    "status": "Статус",
+    "dateStart": "Дата начала",
+    "dateEnd": "Дата окончания",
+    "dateStartDate": "Дата начала (весь день)",
+    "dateEndDate": "Дата окончания (весь день)",
+    "priority": "Приоритет",
+    "description": "Описание",
+    "isOverdue": "Просрочена",
+    "account": "Контрагент",
+    "dateCompleted": "Дата завершения",
+    "attachments": "Вложения",
+    "reminders": "Напоминания",
+    "contact": "Контакт"
+  },
+  "links": {
+    "attachments": "Вложения",
+    "account": "Контрагент",
+    "contact": "Контакт"
+  },
+  "options": {
+    "status": {
+      "Not Started": "Не началась",
+      "Started": "Началась",
+      "Completed": "Завершена",
+      "Canceled": "Отменена",
+      "Deferred": "Отложена"
+    },
+    "priority": {
+      "Low": "Низкий",
+      "Normal": "Обычный",
+      "High": "Высокий",
+      "Urgent": "Срочно"
+    }
+  },
+  "labels": {
+    "Create Task": "Создать задачу",
+    "Complete": "Завершить",
+    "overdue": "просроченный"
+  },
+  "presetFilters": {
+    "actual": "Актуальные",
+    "completed": "Завершенные",
+    "todays": "На сегодня",
+    "overdue": "Просроченные",
+    "deferred": "Отложенные"
+  }
+}

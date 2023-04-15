@@ -1,0 +1,16 @@
+{
+  "fields": {
+    "enabled": "Etkinleştirildi ",
+    "clientId": "Müşteri ID",
+    "clientSecret": "Müşteri Özel Anahtarı",
+    "redirectUri": "Yönlendirme URI",
+    "apiKey": "API Anahtarı"
+  },
+  "messages": {
+    "selectIntegration": "Menüden bir entegrasyon seçin",
+    "noIntegrations": "Geçerli entegrasyon yok"
+  },
+  "titles": {
+    "GoogleMaps": "Google Haritalar"
+  }
+}

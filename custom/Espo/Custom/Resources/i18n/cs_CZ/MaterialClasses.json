@@ -1,0 +1,21 @@
+{
+    "labels": {
+        "Create MaterialClasses": "Vytvořit Třída materiálu"
+    },
+    "fields": {
+        "materialProperties": "Vlastnosti tříd materiálu",
+        "materialDefinitions": "Definice materiálu",
+        "productSegments": "Segment produktu",
+        "materialDefinitionsPropertiesFromClasses": "Záznam vlastností",
+        "processSegmentMaterialItems": "Process Segment Material Items",
+        "productSegmentMaterialItems": "Product Segment Material Items"
+    },
+    "links": {
+        "materialProperties": "Vlastnosti tříd materiálu",
+        "materialDefinitions": "Definice materiálu",
+        "productSegments": "Segment produktu",
+        "materialDefinitionsPropertiesFromClasses": "Záznam vlastností",
+        "processSegmentMaterialItems": "Process Segment Material Items",
+        "productSegmentMaterialItems": "Product Segment Material Items"
+    }
+}

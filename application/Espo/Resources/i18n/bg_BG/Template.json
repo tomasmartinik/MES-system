@@ -1,0 +1,50 @@
+{
+  "fields": {
+    "name": "Име",
+    "body": "Съдържание",
+    "entityType": "Тип на обекта",
+    "header": "Хедър",
+    "footer": "Футър",
+    "leftMargin": "Отстояние от ляво",
+    "topMargin": "Отстояние от горе",
+    "rightMargin": "Отстояние от дясно",
+    "bottomMargin": "Отстояние от долу",
+    "printFooter": "Показване на футъра",
+    "footerPosition": "Позиция на футъра",
+    "variables": "Налични placeholders",
+    "pageOrientation": "Ориентация на страницата",
+    "pageFormat": "Хартиен формат",
+    "fontFace": "Шрифт",
+    "pageWidth": "Ширина на страницата (mm)",
+    "pageHeight": "Височина на страницата (mm)",
+    "headerPosition": "Позиция на хедъра",
+    "printHeader": "Принтирай хедъра",
+    "title": "Заглавие"
+  },
+  "labels": {
+    "Create Template": "Създаване на шаблон"
+  },
+  "tooltips": {
+    "footer": "Използвайте {pageNumber} за отпечатване на номера на страницата.",
+    "variables": "Копирайте и поставете необходимия placeholder в хедъра, съдържанието или футъра."
+  },
+  "options": {
+    "pageOrientation": {
+      "Portrait": "Портрет",
+      "Landscape": "Пейзаж"
+    },
+    "placeholders": {
+      "today": "Днес (дата)",
+      "now": "Сега (дата-час)",
+      "pagebreak": "Разделител на страница"
+    },
+    "fontFace": {
+      "cid0cs": "CID-0 CS",
+      "cid0jp": "CID-0 JP",
+      "cid0kr": "CID-0 KR"
+    },
+    "pageFormat": {
+      "Custom": "Персонализиран"
+    }
+  }
+}

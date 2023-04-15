@@ -1,0 +1,51 @@
+{
+  "fields": {
+    "name": "Navn",
+    "account": "Konto",
+    "stage": "Stadie",
+    "amount": "Beløp",
+    "probability": "Sansynlighet, %",
+    "leadSource": "Ledetrådkilde",
+    "doNotCall": "Ikke forstyrr!",
+    "closeDate": "Avslutningsdato",
+    "contacts": "Kontakter",
+    "description": "Beskrivelse",
+    "amountConverted": "Beløp",
+    "amountWeightedConverted": "Vektet beløp",
+    "campaign": "Kampanje",
+    "originalLead": "Original ledetråd",
+    "contactRole": "Kontaktrolle",
+    "contact": "Kontakt (primær)"
+  },
+  "links": {
+    "contacts": "Kontakter",
+    "documents": "Dokumenter",
+    "campaign": "Kampanje",
+    "originalLead": "Original ledetråd",
+    "contact": "Kontakt (primær)"
+  },
+  "options": {
+    "stage": {
+      "Prospecting": "Undersøkes",
+      "Qualification": "Kvalitetskontrolleres",
+      "Needs Analysis": "Trenger analyse",
+      "Value Proposition": "Verdivurdering",
+      "Id. Decision Makers": "Ser etter beslutningstagere",
+      "Perception Analysis": "Undersøker hvordan vi oppfattes",
+      "Proposal/Price Quote": "Prisforslag/-nivå foreslått",
+      "Negotiation/Review": "Forhandler/gjennomgår",
+      "Closed Won": "Vunnet og lukket",
+      "Closed Lost": "Tapt og lukket",
+      "Proposal": "Prisforslag",
+      "Negotiation": "Forhandler"
+    }
+  },
+  "labels": {
+    "Create Opportunity": "Opprett mulighet"
+  },
+  "presetFilters": {
+    "open": "Åpen",
+    "won": "Vunnet",
+    "lost": "Tapt"
+  }
+}

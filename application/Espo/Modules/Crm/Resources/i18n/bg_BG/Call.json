@@ -1,0 +1,50 @@
+{
+  "fields": {
+    "name": "Име",
+    "parent": "Родител",
+    "status": "Статус",
+    "dateStart": "Начална дата",
+    "dateEnd": "Крайна дата",
+    "direction": "Посока",
+    "duration": "Продължителност",
+    "description": "Описание",
+    "users": "Потребители",
+    "contacts": "Контакти",
+    "leads": "Потенциални продажби",
+    "reminders": "Напомняния",
+    "account": "Клиент",
+    "acceptanceStatus": "Статус за приемане"
+  },
+  "options": {
+    "status": {
+      "Planned": "Планирани",
+      "Held": "Състояли се",
+      "Not Held": "Несъстояли се"
+    },
+    "direction": {
+      "Outbound": "Изходящ",
+      "Inbound": "Входящ"
+    },
+    "acceptanceStatus": {
+      "None": "Нито един",
+      "Accepted": "Прието",
+      "Declined": "Пропуснато",
+      "Tentative": "Колеблив"
+    }
+  },
+  "massActions": {
+    "setHeld": "Задай като състоял се",
+    "setNotHeld": "Задай като несъстоял се"
+  },
+  "labels": {
+    "Create Call": "Създаване на Разговор",
+    "Set Held": "Задай като състоял се",
+    "Set Not Held": "Задай като несъстоял се",
+    "Send Invitations": "Изпращането на покани"
+  },
+  "presetFilters": {
+    "planned": "Планирани",
+    "held": "Състояли се",
+    "todays": "Днешните"
+  }
+}

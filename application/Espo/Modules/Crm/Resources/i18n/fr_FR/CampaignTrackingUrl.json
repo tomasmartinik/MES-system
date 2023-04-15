@@ -1,0 +1,19 @@
+{
+  "fields": {
+    "urlToUse": "Code à insérer au lieu de l'URL",
+    "campaign": "Campagne"
+  },
+  "links": {
+    "campaign": "Campagne"
+  },
+  "options": {
+    "action": {
+      "Redirect": "Rediriger",
+      "Show Message": "Afficher le message"
+    }
+  },
+  "tooltips": {
+    "url": "Le destinataire sera redirigé à cet endroit en suivant le lien.",
+    "message": "Le message sera affiché au destinataire après avoir suivi le lien. Markdown est supporté."
+  }
+}

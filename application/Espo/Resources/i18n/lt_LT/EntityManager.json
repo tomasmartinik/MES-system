@@ -1,0 +1,85 @@
+{
+  "labels": {
+    "Fields": "Laukeliai",
+    "Relationships": "Sąsajos",
+    "Schedule": "Tvarkaraštis",
+    "Log": "Žurnalas",
+    "Formula": "Formulė",
+    "Layouts": "Maketai"
+  },
+  "fields": {
+    "name": "Vardas",
+    "type": "Tipas",
+    "labelSingular": "Etiketė vienaskaita",
+    "labelPlural": "Etiketė daugiskaita",
+    "stream": "Srautas",
+    "label": "Etiketė",
+    "linkType": "Nuorodos tipas",
+    "entityForeign": "Išorinis subjektas",
+    "linkForeign": "Išorinis ryšys",
+    "link": "Nuoroda",
+    "labelForeign": "Išorinė etiketė",
+    "sortBy": "Numatytas rikiavimas (laukeliai)",
+    "sortDirection": "Numatytas rikiavimas (kryptis)",
+    "relationName": "Vidurinis lentelės pavadinimas",
+    "linkMultipleField": "Susieti kelis laukelius",
+    "linkMultipleFieldForeign": "Išoriniai ryšiai keli laukai",
+    "disabled": "Išjungtas",
+    "textFilterFields": "Teksto filtro laukai",
+    "audited": "Patikrinta",
+    "auditedForeign": "Patikrinta iš išorės",
+    "statusField": "Būsenos laukelis",
+    "beforeSaveCustomScript": "Prieš išsaugant tinkintą tekstą",
+    "color": "Spalva",
+    "kanbanStatusIgnoreList": "Ignoruojamos grupės Kanbanoje",
+    "iconClass": "Piktograma",
+    "fullTextSearch": "Pilna teksto paieška",
+    "countDisabled": "Išjungti įrašų skaičių",
+    "parentEntityTypeList": "Patronuojančių subjektų tipai",
+    "foreignLinkEntityTypeList": "Išorinės nuorodos",
+    "entity": "Subjektas",
+    "optimisticConcurrencyControl": "Optimistinis lygiagretumo valdymas"
+  },
+  "options": {
+    "type": {
+      "": "Joks",
+      "Base": "Pagrindas",
+      "Person": "Asmuo",
+      "CategoryTree": "Kategorijų medis",
+      "Event": "Įvykis",
+      "BasePlus": "Bazė Plius",
+      "Company": "Įmonė"
+    },
+    "linkType": {
+      "manyToMany": "Daugelis-daugeliui",
+      "oneToMany": "Vienas-daugeliui",
+      "manyToOne": "Daugelis-vienam",
+      "parentToChildren": "Pagrindinis-antriniui",
+      "childrenToParent": "Vaikai-tėvams",
+      "oneToOneRight": "Teisė \"vienas prieš vieną",
+      "oneToOneLeft": "Vienas prie vieno kairėje"
+    },
+    "sortDirection": {
+      "asc": "Didėjančia tvarka",
+      "desc": "Mažėjančia tvarka"
+    }
+  },
+  "messages": {
+    "entityCreated": "Įrašas buvo sukurtas",
+    "linkAlreadyExists": "Sąsajos pavadinimo konfliktas.",
+    "linkConflict": "Vardas konfliktas: nuoroda ar laukas su tuo pačiu pavadinimu jau egzistuoja.",
+    "confirmRemove": "Ar tikrai norite ištrinti subjekto tipą iš sistemos?"
+  },
+  "tooltips": {
+    "statusField": "Šio lauko atnaujinimai įrašomi sraute.",
+    "textFilterFields": "Laukeliai, naudojami teksto paieškoje.",
+    "stream": "Nesvarbu, ar objektas turi srautą",
+    "disabled": "Patikrinkite, ar jums nereikia šio objekto sistemoje.",
+    "linkAudited": "Susijusio įrašo kūrimas ir susiejimas su esamu įrašu bus registruojamas sraute.",
+    "linkMultipleField": "\"Susieti daugelį laukelių\" yra patogus būdas redaguoti sasajas. Nenaudokite to, jei galite turėti daug panašių įrašų.",
+    "entityType": "Bazė plius - rodo \"Veiklos\", \"Istorija\" ir \"Užduotys\" skiltis.\nĮvykis - pasiekiamas skiltyje \"Kalendorius\" ir \"Veiklos\".",
+    "fullTextSearch": "Reikia atlikti rekonstrukciją.",
+    "countDisabled": "Bendras skaičius nebus rodomas sąrašo rodinyje. Gali sutrumpėti krovimo laikas, kai DB lentelė yra didelė.",
+    "optimisticConcurrencyControl": "Užkerta kelią rašymo konfliktams."
+  }
+}

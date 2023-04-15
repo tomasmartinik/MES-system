@@ -1,0 +1,82 @@
+{
+  "fields": {
+    "name": "Nome",
+    "emailAddress": "Endereço de Email",
+    "status": "Estado",
+    "assignToUser": "Atribuir para Usuário",
+    "host": "Servidor",
+    "username": "Nome de Usuário",
+    "password": "Senha",
+    "port": "Porta",
+    "monitoredFolders": "Pastas Monitoradas",
+    "trashFolder": "Pasta de Lixeira",
+    "createCase": "Criar Atendimento",
+    "reply": "Auto-Resposta",
+    "caseDistribution": "Distribuição do Atendimento",
+    "replyEmailTemplate": "Template do E-mail de Resposta",
+    "replyFromAddress": "E-mail de Resposta (From)",
+    "replyToAddress": "Responder para o Endereço",
+    "replyFromName": "Nome de Resposta (FromName)",
+    "targetUserPosition": "Posição do usuário alvo",
+    "fetchSince": "Buscados Desde",
+    "addAllTeamUsers": "Para todos os usuários do time",
+    "team": "Time",
+    "teams": "Times",
+    "sentFolder": "Pasta Enviados",
+    "storeSentEmails": "Guardar Emails Enviados",
+    "useSmtp": "Usar SMTP",
+    "smtpHost": "Servidor SMTP",
+    "smtpPort": "Porta SMTP",
+    "smtpAuth": "Auth SMTP",
+    "smtpSecurity": "Segurança SMTP",
+    "smtpUsername": "Nome de Usuário SMTP",
+    "smtpPassword": "Senha SMTP",
+    "fromName": "De Nome",
+    "smtpIsShared": "SMTP é Compartilhado",
+    "smtpIsForMassEmail": "SMTP é para email em massa",
+    "useImap": "Buscar emails",
+    "keepFetchedEmailsUnread": "Manter Emails Buscados Não Lidos",
+    "smtpAuthMechanism": "Mecanismo de autenticação SMTP",
+    "security": "Segurança"
+  },
+  "tooltips": {
+    "reply": "Notificar rementente que seus e-mails foram recebidos.",
+    "createCase": "Criar automaticamente um atendimento para os e-mais recebidos.",
+    "replyToAddress": "Especifique o endereço de e-mail desta caixa postal para que as respostas cheguem aqui.",
+    "caseDistribution": "Como os atendimentos serão distribuídos. Assinados diretamente ao usuário ou entregues ao time.",
+    "assignToUser": "Usuário responsável pelos e-mails/atendimentos.",
+    "team": "Time que será relacionado aos e-mails/atendimentos.",
+    "teams": "Os emails do Time serão atribuídos.",
+    "addAllTeamUsers": "Os emails aparecerão na caixa de entrada de todos os usuários dos times especificados.",
+    "targetUserPosition": "Define a posição dos usuários para quem serão distribuídos os atendimentos.",
+    "monitoredFolders": "Várias pastas devem ser separadas por vírgula.",
+    "smtpIsShared": "Se marcado, os usuários poderão enviar e-mails usando este SMTP. A disponibilidade é controlada por Regras por meio da permissão Conta de Email do Grupo.",
+    "smtpIsForMassEmail": "Se marcado, o SMTP estará disponível para email em massa.",
+    "storeSentEmails": "Os emails enviados serão armazenados no servidor IMAP.",
+    "useSmtp": "A capacidade de enviar e-mails."
+  },
+  "links": {
+    "filters": "Filtros",
+    "assignToUser": "Atribuir ao Usuário"
+  },
+  "options": {
+    "status": {
+      "Active": "Ativo",
+      "Inactive": "Inativo"
+    },
+    "caseDistribution": {
+      "": "Nenhum",
+      "Direct-Assignment": "Atribuição Direta",
+      "Round-Robin": "Rodízio",
+      "Least-Busy": "Menos Ocupado"
+    }
+  },
+  "labels": {
+    "Create InboundEmail": "Criar E-mail de Entrada",
+    "Actions": "Ações",
+    "Main": "Principal"
+  },
+  "messages": {
+    "couldNotConnectToImap": "Não foi possível conectar ao servidor IMAP"
+  }
+}

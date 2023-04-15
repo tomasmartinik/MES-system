@@ -1,0 +1,14 @@
+{
+  "labels": {
+    "Primary": "Первинне",
+    "Opted Out": "Відмовлено",
+    "Invalid": "Недійсна"
+  },
+  "fields": {
+    "optOut": "Відмовлено",
+    "invalid": "Недійсна"
+  },
+  "presetFilters": {
+    "orphan": "Сироти"
+  }
+}

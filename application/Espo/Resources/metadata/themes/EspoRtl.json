@@ -1,0 +1,13 @@
+{
+    "stylesheet": "client/css/espo/espo-rtl.css",
+    "stylesheetIframe": "client/css/espo/espo-rtl-iframe.css",
+    "params": {
+        "navbar": {
+            "type": "enum",
+            "default": "top",
+            "options": [
+                "top"
+            ]
+        }
+    }
+}

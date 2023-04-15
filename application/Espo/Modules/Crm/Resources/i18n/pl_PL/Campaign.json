@@ -1,0 +1,81 @@
+{
+  "fields": {
+    "name": "Nazwa",
+    "description": "Opis",
+    "type": "Typ",
+    "startDate": "Data rozpoczęcia",
+    "endDate": "Data zakończenia",
+    "targetLists": "Listy docelowe",
+    "sentCount": "Wysłano",
+    "openedCount": "Otwarty",
+    "clickedCount": "Kliknięte",
+    "optedOutCount": "Wypisany",
+    "bouncedCount": "Odrzucone",
+    "hardBouncedCount": "Twarde odrzucenie",
+    "softBouncedCount": "Miękkie odrzucenie",
+    "revenue": "Zwrot",
+    "revenueConverted": "Zwrot (skonwertowany)",
+    "budget": "Budżet",
+    "budgetConverted": "Budżet (skonwertowany)",
+    "contactsTemplate": "Szablon kontaktów",
+    "leadsTemplate": "Szablon leadów",
+    "accountsTemplate": "Szablon klientów",
+    "usersTemplate": "Szablon użytkowników",
+    "mailMergeOnlyWithAddress": "Pomiń rekordy bez uzupełnionego adresu",
+    "optedInCount": "Włączono",
+    "budgetCurrency": "Waluta budżetu"
+  },
+  "links": {
+    "targetLists": "Listy docelowe",
+    "accounts": "Klienci",
+    "contacts": "Kontakty",
+    "leads": "Potencjalne kontakty",
+    "opportunities": "Szanse sprzedaży",
+    "massEmails": "Poczta masowa",
+    "trackingUrls": "Adresy śledzenia",
+    "contactsTemplate": "Szablon kontaktów",
+    "leadsTemplate": "Szablon leadów",
+    "accountsTemplate": "Szablon klientów",
+    "usersTemplate": "Szablon użytkowników"
+  },
+  "options": {
+    "type": {
+      "Email": "E-mail",
+      "Web": "Strona internetowa",
+      "Television": "Telewizja",
+      "Mail": "Wiadomość"
+    },
+    "status": {
+      "Planning": "Planowanie",
+      "Active": "Aktywny",
+      "Inactive": "Nieaktywny",
+      "Complete": "Gotowe"
+    }
+  },
+  "labels": {
+    "Create Campaign": "Utwórz kampanię",
+    "Target Lists": "Listy docelowe",
+    "Statistics": "Statystyki",
+    "hard": "twardy",
+    "soft": "miękki",
+    "Unsubscribe": "Wypisz się",
+    "Mass Emails": "Poczta masowa",
+    "Email Templates": "Szablony wiadomości",
+    "Unsubscribe again": "Odsubskrybuj ponownie",
+    "Subscribe again": "Subskrybuj ponownie",
+    "Create Target List": "Utwórz Listę Docelową",
+    "Mail Merge": "Łączenie maili",
+    "Generate Mail Merge PDF": "Wygeneruj plik PDF korespondencji seryjnej"
+  },
+  "presetFilters": {
+    "active": "Aktywny"
+  },
+  "messages": {
+    "unsubscribed": "Zostałeś wypisany z naszej listy mailingowej.",
+    "subscribedAgain": "Jesteś ponownie subskrybowany."
+  },
+  "tooltips": {
+    "targetLists": "Adresaci, którzy powinni otrzymać wiadomości.",
+    "excludingTargetLists": "Adresaci, którzy nie powinni otrzymać wiadomości."
+  }
+}

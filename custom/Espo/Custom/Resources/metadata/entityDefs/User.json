@@ -1,0 +1,21 @@
+{
+    "fields": {
+        "orders": {
+            "type": "linkMultiple",
+            "layoutDetailDisabled": true,
+            "layoutMassUpdateDisabled": true,
+            "noLoad": true,
+            "importDisabled": true,
+            "isCustom": true
+        }
+    },
+    "links": {
+        "orders": {
+            "type": "hasMany",
+            "foreign": "confirmedBy",
+            "entity": "Orders",
+            "audited": false,
+            "isCustom": true
+        }
+    }
+}

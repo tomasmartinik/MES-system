@@ -1,0 +1,28 @@
+{
+  "fields": {
+    "from": "Da",
+    "to": "A",
+    "subject": "Oggetto",
+    "bodyContains": "Contenuto del Corpo",
+    "action": "Azione",
+    "isGlobal": "Globale",
+    "emailFolder": "Cartella"
+  },
+  "labels": {
+    "Create EmailFilter": "Crea un filtro per le email"
+  },
+  "tooltips": {
+    "from": "Messaggi di posta elettronica inviati dall'indirizzo specificato. Lascia vuoto se non necessario. È possibile utilizzare caratteri jolly *.",
+    "to": "Messaggi di posta elettronica inviati all'indirizzo specificato . Lascia vuoto se non necessario . È possibile utilizzare caratteri jolly *.",
+    "name": "Dai al filtro un nome descrittivo.",
+    "bodyContains": "Il corpo del messaggio contiene una delle parole, o frasi, specificate",
+    "isGlobal": "Applica questo filtro a tutte le email in arrivo al sistema.",
+    "subject": "Usa un wildcard *: \n\n * `testo*` – inizia con testo,\n * `*testo*` – contiene testo,\n * `*testo` – finisce con testo."
+  },
+  "options": {
+    "action": {
+      "Skip": "Ignora",
+      "Move to Folder": "Sposta nella Cartella"
+    }
+  }
+}

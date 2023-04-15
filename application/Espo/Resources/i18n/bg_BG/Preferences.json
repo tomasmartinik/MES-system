@@ -1,0 +1,63 @@
+{
+  "fields": {
+    "dateFormat": "Формат на датата",
+    "timeFormat": "Формат на часа",
+    "timeZone": "Часова зона",
+    "weekStart": "Първи ден от седмицата",
+    "thousandSeparator": "Разделител на хилядни числа",
+    "decimalMark": "Десетичен знак",
+    "defaultCurrency": "Валута по подразбиране",
+    "currencyList": "Списък с валути",
+    "language": "Език по подразбиране",
+    "smtpServer": "Сървър",
+    "smtpPort": "Порт",
+    "smtpAuth": "Удостоверяване",
+    "smtpSecurity": "Сигурност",
+    "smtpUsername": "Потребител",
+    "emailAddress": "Електронна поща",
+    "smtpPassword": "Парола",
+    "smtpEmailAddress": "Имейл адрес",
+    "exportDelimiter": "Разделител за експортиране на данни",
+    "signature": "Имейл подпис",
+    "dashboardTabList": "Списък с менюта",
+    "tabList": "Списък с менюта",
+    "defaultReminders": "Напомняния по подразбиране",
+    "theme": "Графична тема",
+    "useCustomTabList": "Списък с менюта",
+    "receiveAssignmentEmailNotifications": "Известия по имейл при назначаване",
+    "receiveMentionEmailNotifications": "Известия по имейл за споменавания в публикации",
+    "receiveStreamEmailNotifications": "Известия по имейл за публикации и актуализации",
+    "dashboardLayout": "Оформление на началното табло",
+    "emailReplyForceHtml": "Имейл отговор в HTML",
+    "autoFollowEntityTypeList": "Последване на всички записи автоматично",
+    "emailReplyToAllByDefault": "По подразбиране имейл отговор на всички",
+    "doNotFillAssignedUserIfNotRequired": "Да не се попълва предварително назначения потребител при създаването на запис",
+    "followEntityOnStreamPost": "Автоматично последване на запис след публикуване в активността му",
+    "followCreatedEntities": "Автоматично последване на създадените записи",
+    "followCreatedEntityTypeList": "Автоматично последване на създадени записи за конкретни типове обекти",
+    "emailUseExternalClient": "Използва се външен имейл клиент",
+    "scopeColorsDisabled": "Забранете цветовете",
+    "tabColorsDisabled": "Забранете цветове за табовете",
+    "assignmentNotificationsIgnoreEntityTypeList": "Известия за назначения на записи (в приложението)",
+    "assignmentEmailNotificationsIgnoreEntityTypeList": "Известия за назначения на записи (по имейл)"
+  },
+  "options": {
+    "weekStart": {
+      "0": "Неделя",
+      "1": "Понеделник"
+    }
+  },
+  "labels": {
+    "Notifications": "Известия",
+    "User Interface": "Потребителски интерфейс",
+    "Misc": "Разни",
+    "Locale": "Езикови предпочитания",
+    "Reset Dashboard to Default": "Възстановяване на таблото за управление по подразбиране"
+  },
+  "tooltips": {
+    "autoFollowEntityTypeList": "Автоматично следвайте ВСИЧКИ нови записи (създадени от всеки потребител) на избраните типове обекти. За да можете да виждате информация в потока и да получавате известия за всички записи в системата.",
+    "doNotFillAssignedUserIfNotRequired": "При създаване на запис назначеният потребител няма да бъде попълнен със собствен потребител, освен ако полето не е задължително.",
+    "followCreatedEntities": "Когато създавате нови записи, те ще бъдат следвани автоматично, дори ако са назначени на друг потребител.",
+    "followCreatedEntityTypeList": "Когато създавате нови записи за избрани типове обекти, те ще бъдат следвани автоматично, дори ако са назначени на друг потребител."
+  }
+}

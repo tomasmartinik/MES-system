@@ -1,0 +1,14 @@
+{
+    "labels": {
+        "Create ProductionPlanningItem": "Vytvořit Položka plánování výroby"
+    },
+    "fields": {
+        "productionPlanning": "Plánování výroby",
+        "products": "Products",
+        "quantity": "Množství"
+    },
+    "links": {
+        "productionPlanning": "Plánování výroby",
+        "products": "Products"
+    }
+}

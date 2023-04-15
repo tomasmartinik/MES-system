@@ -1,0 +1,79 @@
+{
+  "fields": {
+    "name": "Navn",
+    "description": "Beskrivelse",
+    "startDate": "Startdato",
+    "endDate": "Sluttdato",
+    "targetLists": "Målgruppe",
+    "excludingTargetLists": "Ekskluder følgende målgrupper",
+    "sentCount": "Sendt",
+    "openedCount": "Åpnet",
+    "clickedCount": "Klikket på",
+    "optedOutCount": "Avmeldt",
+    "bouncedCount": "Avslått",
+    "hardBouncedCount": "Tydelig avslått",
+    "softBouncedCount": "Diffust avslått",
+    "leadCreatedCount": "Opprettede ledetråder",
+    "revenue": "Omsetning",
+    "revenueConverted": "Omsetning (konvertert)",
+    "budget": "Budsjett",
+    "budgetConverted": "Budsjett (konvertert)",
+    "contactsTemplate": "Kontakter Mal",
+    "leadsTemplate": "Ledetråd Mal",
+    "usersTemplate": "Brukere mal",
+    "optedInCount": "Påmeldt"
+  },
+  "links": {
+    "targetLists": "Målgrupper",
+    "excludingTargetLists": "Ekskluderte målgrupper",
+    "accounts": "Kontoer",
+    "contacts": "Kontakter",
+    "leads": "Ledetråder",
+    "opportunities": "Muligheter",
+    "campaignLogRecords": "Logg",
+    "massEmails": "Masseutsendte eposter",
+    "trackingUrls": "Sporingslenker",
+    "contactsTemplate": "Kontakter Mal",
+    "leadsTemplate": "Ledetråd Mal",
+    "usersTemplate": "Brukere mal"
+  },
+  "options": {
+    "type": {
+      "Email": "Epost",
+      "Web": "Nettside",
+      "Television": "Fjernsyn",
+      "Newsletter": "Nyhetsbrev",
+      "Mail": "Post"
+    },
+    "status": {
+      "Planning": "Planlegger",
+      "Active": "Aktiv",
+      "Inactive": "Inaktiv",
+      "Complete": "Ferdig"
+    }
+  },
+  "labels": {
+    "Create Campaign": "Opprett kampanje",
+    "Target Lists": "Målgruppe",
+    "Statistics": "Statistikk",
+    "soft": "myk",
+    "Unsubscribe": "Meld meg av",
+    "Mass Emails": "Masseutsendte eposter",
+    "Email Templates": "Epostmaler",
+    "Unsubscribe again": "Avmeld igjen",
+    "Subscribe again": "Påmeld igjen",
+    "Create Target List": "Opprett målgruppe",
+    "Mail Merge": "E-post Sammenfletting"
+  },
+  "presetFilters": {
+    "active": "Aktiv"
+  },
+  "messages": {
+    "unsubscribed": "Du er ikke lenger oppført i vår epostliste.",
+    "subscribedAgain": "Du er påmeldt igjen."
+  },
+  "tooltips": {
+    "targetLists": "Målgruppe(r) som skal motta meldinger.",
+    "excludingTargetLists": "Målgruppe(r) som ikke skal motta meldinger."
+  }
+}

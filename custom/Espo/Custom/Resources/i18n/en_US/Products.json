@@ -1,0 +1,28 @@
+{
+    "fields": {
+        "category": "Kategorie",
+        "weight": "Hmotnost (kg)",
+        "orderses": "Orderses",
+        "orderItem": "Položka objednávky",
+        "components": "Components",
+        "productItem": "Product Item",
+        "productItems": "Položky produktu",
+        "warehouseItem": "Warehouse Item",
+        "productionPlanningItem": "Production Planning Item"
+    },
+    "links": {
+        "orderses": "Orderses",
+        "orderItem": "Položka objednávky",
+        "components": "Components",
+        "productItem": "Product Item",
+        "productItems": "Položky produktu",
+        "warehouseItem": "Warehouse Item",
+        "productionPlanningItem": "Production Planning Item"
+    },
+    "labels": {
+        "Create Products": "Create Produkt"
+    },
+    "options": {
+        "category": []
+    }
+}

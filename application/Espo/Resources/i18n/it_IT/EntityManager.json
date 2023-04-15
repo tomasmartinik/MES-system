@@ -1,0 +1,77 @@
+{
+  "labels": {
+    "Fields": "Campi",
+    "Relationships": "Relazioni",
+    "Schedule": "Programma",
+    "Layouts": "Layout"
+  },
+  "fields": {
+    "name": "Nome",
+    "type": "Tipo",
+    "labelSingular": "Etichetta singola",
+    "labelPlural": "Etichetta multipla",
+    "stream": "Flusso attività",
+    "label": "Etichetta",
+    "entityForeign": "Entità esterna",
+    "linkForeign": "Collegamento Esterno",
+    "labelForeign": "Label  esterna",
+    "sortBy": "Impostazione predefinita (campo)",
+    "sortDirection": "Impostazione predefinita (indirizzo)",
+    "relationName": "Tab Secondo Nome",
+    "linkMultipleField": "Collegamento Multiplo ai Campi",
+    "linkMultipleFieldForeign": "Collegamento Esterno Link Multiplo ai Campi",
+    "disabled": "Disabilitato",
+    "textFilterFields": "Filtro testuale campi",
+    "audited": "Controllato",
+    "auditedForeign": "Controllato esternamente",
+    "statusField": "Campo di stato",
+    "beforeSaveCustomScript": "Prima di salvare lo script personalizzato",
+    "color": "Colore",
+    "kanbanViewMode": "Vista Kanban",
+    "kanbanStatusIgnoreList": "Gruppi ignorati in vista Kanban",
+    "iconClass": "Icona",
+    "fullTextSearch": "Ricerca tutto il testo",
+    "countDisabled": "Disabilita il conteggio dei record",
+    "parentEntityTypeList": "Tipo genitore entità",
+    "entity": "Entità"
+  },
+  "options": {
+    "type": {
+      "": "Nessuno",
+      "Person": "Persone",
+      "CategoryTree": "Albero delle Categorie",
+      "Event": "Evento",
+      "Company": "Compagnia"
+    },
+    "linkType": {
+      "manyToMany": "Molti-a-molti",
+      "oneToMany": "Uno-a-Molti",
+      "manyToOne": "Molti-a-uno",
+      "parentToChildren": "Padre-a-Figlio",
+      "childrenToParent": "Figlio-a-Padre",
+      "oneToOneRight": "Uno-a-uno destra",
+      "oneToOneLeft": "Uno-a-uno sinistra"
+    },
+    "sortDirection": {
+      "asc": "Ascendente",
+      "desc": "Discendente"
+    }
+  },
+  "messages": {
+    "entityCreated": "L'Entità è stata creata",
+    "linkAlreadyExists": "Nome del link in conflitto.",
+    "linkConflict": "Conflitto: link o campo con lo stesso nome già esistente",
+    "confirmRemove": "Sei sicuro di voler rimuovere questo tipo di entita' dal sistema?"
+  },
+  "tooltips": {
+    "statusField": "Gli aggiornamenti a questo campo verranno registrati nel flusso attività.",
+    "textFilterFields": "Campi utilizzati dalla ricerca testuale.",
+    "stream": "Se l'entità ha un flusso attività.",
+    "disabled": "Spunta, se non hai bisogno di questa entità nel tuo sistema.",
+    "linkAudited": "La creazione di record correlati ed il collegamento con il record esistente verranno registrati nelle attività.",
+    "linkMultipleField": "Collegare un campo multiplo è una via pratica per modificare le relazioni. Non utilizzarlo se prevedi un elevato numero di record correlati.",
+    "entityType": "Base Plus - dispone di pannelli Attività, Storia e Compiti.\n\nEvento - disponibile nei pannelli Calendario ed Attività.",
+    "fullTextSearch": "È necessario eseguire la ricostruzione.",
+    "countDisabled": "Il numero totale non verrà visualizzato nella visualizzazione elenco. Può ridurre il tempo di caricamento quando la tabella DB è grande."
+  }
+}

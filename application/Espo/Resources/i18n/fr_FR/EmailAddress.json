@@ -1,0 +1,14 @@
+{
+  "labels": {
+    "Primary": "Primaire",
+    "Opted Out": "Désinscrit",
+    "Invalid": "Invalide"
+  },
+  "fields": {
+    "optOut": "Désinscrit",
+    "invalid": "Invalide"
+  },
+  "presetFilters": {
+    "orphan": "Orphelin"
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "accessInfo": {
+        "scope": "User"
+    },
+    "accessInfoPortal": {
+        "scope": "User"
+    },
+    "assignment": {
+        "scopeListConfigParam": "assignmentEmailNotificationsEntityList"
+    },
+    "mention": {
+        "scope": "Note"
+    },
+    "noteEmailReceived": {
+        "scope": "Note"
+    },
+    "notePost": {
+        "scope": "Note"
+    },
+    "notePostNoParent": {
+        "scope": "Note"
+    },
+    "noteStatus": {
+        "scope": "Note"
+    },
+    "passwordChangeLink": {
+        "scope": "User"
+    },
+    "twoFactorCode": {
+        "scope": "User"
+    }
+}

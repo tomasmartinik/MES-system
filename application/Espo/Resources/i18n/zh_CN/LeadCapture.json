@@ -1,0 +1,34 @@
+{
+  "fields": {
+    "name": "名称",
+    "campaign": "运动",
+    "isActive": "激活",
+    "subscribeToTargetList": "订阅目标列表",
+    "subscribeContactToTargetList": "订阅目标列表",
+    "targetList": "目标列表",
+    "apiKey": "API 密钥",
+    "targetTeam": "目标团队",
+    "exampleRequestMethod": "方法",
+    "exampleRequestUrl": "网址"
+  },
+  "links": {
+    "targetList": "目标列表",
+    "campaign": "运行",
+    "targetTeam": "目标团队",
+    "logRecords": "日志"
+  },
+  "labels": {
+    "Create LeadCapture": "创建入口点",
+    "Generate New API Key": "生成新的 API 密钥",
+    "Request": "请求",
+    "Confirm Opt-In": "确认选择"
+  },
+  "messages": {
+    "generateApiKey": "创建新的API KEY",
+    "optInConfirmationExpired": "选择确认链接已过期",
+    "optInIsConfirmed": "选择确认。"
+  },
+  "tooltips": {
+    "optInConfirmationSuccessMessage": "支持Markdown"
+  }
+}

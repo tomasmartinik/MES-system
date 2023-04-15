@@ -1,0 +1,14 @@
+{
+    "_delimiter_": {
+        "disabled": true
+    },
+    "productSegmentEquipmentItems": {
+        "index": 0
+    },
+    "productSegmentMaterialItems": {
+        "index": 1
+    },
+    "productSegmentPersonnelItems1": {
+        "index": 2
+    }
+}

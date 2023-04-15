@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "post": "Posting",
+    "attachments": "lampiran",
+    "teams": "tim",
+    "users": "pengguna",
+    "portals": "portal"
+  },
+  "filters": {
+    "all": "Semua",
+    "updates": "update"
+  },
+  "messages": {
+    "writeMessage": "Tulis pesan Anda disini"
+  },
+  "options": {
+    "targetType": {
+      "self": "untuk sendiri",
+      "users": "Untuk pengguna tertentu",
+      "teams": "Untuk tim tertentu",
+      "all": "Untuk semua pengguna internal",
+      "portals": "Untuk semua pengguna Portal"
+    }
+  }
+}

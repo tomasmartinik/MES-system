@@ -1,0 +1,8 @@
+{
+    "fields": {
+        "orders": "Potvrzené objendávky"
+    },
+    "links": {
+        "orders": "Potvrzené objendávky"
+    }
+}

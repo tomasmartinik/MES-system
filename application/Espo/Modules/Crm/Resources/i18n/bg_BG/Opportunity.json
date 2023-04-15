@@ -1,0 +1,53 @@
+{
+  "fields": {
+    "name": "Име",
+    "account": "Клиент",
+    "stage": "Фаза",
+    "amount": "Сума",
+    "probability": "Вероятност (%)",
+    "leadSource": "Източник на потенциалната продажба",
+    "doNotCall": "Не звъни",
+    "closeDate": "Дата на затваряне",
+    "contacts": "Контакти",
+    "description": "Описание",
+    "amountConverted": "Сума (изчислена)",
+    "amountWeightedConverted": "Сума (изчислена)",
+    "campaign": "Кампания",
+    "originalLead": "Оригинална потенциална продажба",
+    "amountCurrency": "Валута на сумата",
+    "contactRole": "Роля на контакта",
+    "lastStage": "Последна фаза",
+    "contact": "Контакт (Основен)"
+  },
+  "links": {
+    "contacts": "Контакти",
+    "documents": "Документи",
+    "campaign": "Кампания",
+    "originalLead": "Оригинална потенциална продажба",
+    "contact": "Контакт (Основен)"
+  },
+  "options": {
+    "stage": {
+      "Prospecting": "Проучване",
+      "Qualification": "Квалифициране",
+      "Needs Analysis": "Нужда от анализ",
+      "Value Proposition": "Предложение",
+      "Id. Decision Makers": "Вземане на решение",
+      "Perception Analysis": "Анализ",
+      "Proposal/Price Quote": "Изготвяне на оферта",
+      "Negotiation/Review": "Преговори / Преглед",
+      "Closed Won": "Приключена - спечелена",
+      "Closed Lost": "Приключена - загубена",
+      "Proposal": "Предложение",
+      "Negotiation": "Договаряне"
+    }
+  },
+  "labels": {
+    "Create Opportunity": "Създаване на Сделка"
+  },
+  "presetFilters": {
+    "open": "Отворени",
+    "won": "Спечелени",
+    "lost": "Загубени"
+  }
+}

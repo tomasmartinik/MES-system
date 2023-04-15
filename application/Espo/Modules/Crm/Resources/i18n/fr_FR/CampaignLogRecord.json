@@ -1,0 +1,36 @@
+{
+  "fields": {
+    "data": "Donnée",
+    "campaign": "Campagne",
+    "parent": "Cible",
+    "object": "Objet",
+    "queueItem": "Mettre en file d'attente",
+    "stringData": "Chaîne de texte"
+  },
+  "links": {
+    "queueItem": "Mettre en file d'attente",
+    "object": "Objet"
+  },
+  "options": {
+    "action": {
+      "Sent": "Envoyé",
+      "Opened": "Ouvert",
+      "Opted Out": "Désinscrit",
+      "Bounced": "Renvoyé",
+      "Clicked": "Cliqué",
+      "Lead Created": "Prospect créé",
+      "Opted In": "A opté pour"
+    }
+  },
+  "labels": {
+    "All": "Tous"
+  },
+  "presetFilters": {
+    "sent": "Envoyé",
+    "opened": "Ouvert",
+    "optedOut": "Désinscrit",
+    "clicked": "Cliqué",
+    "leadCreated": "Prospect créé",
+    "optedIn": "A opté pour"
+  }
+}

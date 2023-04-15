@@ -1,0 +1,20 @@
+{
+  "fields": {
+    "name": "Nama",
+    "isHtml": "Apakah Html",
+    "body": "Isi",
+    "subject": "Subyek",
+    "attachments": "lampiran",
+    "insertField": "Insert kolom",
+    "oneOff": "Satu-off"
+  },
+  "labels": {
+    "Create EmailTemplate": "Buat Template Email"
+  },
+  "tooltips": {
+    "oneOff": "Periksa apakah Anda akan menggunakan template ini hanya sekali. Misalnya. untuk Mass Email."
+  },
+  "presetFilters": {
+    "actual": "Aktual"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "fields": {
+    "name": "Tên",
+    "account": "Tài khoản",
+    "stage": "Mức",
+    "amount": "Tổng",
+    "probability": "Xác suất, %",
+    "leadSource": "Nguồn dẫn",
+    "doNotCall": "Không gọi",
+    "closeDate": "Ngày kết thúc",
+    "contacts": "Sổ liên lạc",
+    "description": "Mô tả",
+    "campaign": "Chiến dịch"
+  },
+  "links": {
+    "contacts": "Sổ liên lạc",
+    "documents": "Tài liệu",
+    "campaign": "Chiến dịch"
+  },
+  "options": {
+    "stage": {
+      "Prospecting": "Khảo sát",
+      "Qualification": "Trình độ chuyên môn",
+      "Needs Analysis": "Phân tích nhu cầu",
+      "Value Proposition": "Đề xuất giá trị",
+      "Id. Decision Makers": "Id. Người tạo quyết định",
+      "Perception Analysis": "Phân tích khả năng",
+      "Proposal/Price Quote": "Giá đưa ra/báo giá",
+      "Negotiation/Review": "Đàm phán / đánh giá",
+      "Closed Won": "Chốt đơn",
+      "Closed Lost": "Thua thầu",
+      "Proposal": "Giá đưa ra",
+      "Negotiation": "Đàm phán"
+    }
+  },
+  "labels": {
+    "Create Opportunity": "Tạo cơ hội"
+  },
+  "presetFilters": {
+    "open": "Mở",
+    "won": "Thắng",
+    "lost": "Thất bại"
+  }
+}

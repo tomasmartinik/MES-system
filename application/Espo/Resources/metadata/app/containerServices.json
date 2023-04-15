@@ -1,0 +1,104 @@
+{
+    "authTokenManager": {
+        "className": "Espo\\Core\\Authentication\\AuthToken\\EspoManager"
+    },
+    "schema": {
+        "className": "Espo\\Core\\Utils\\Database\\Schema\\Schema"
+    },
+    "ormMetadataData": {
+        "className": "Espo\\Core\\Utils\\Metadata\\OrmMetadataData"
+    },
+    "classFinder": {
+        "className": "Espo\\Core\\Utils\\ClassFinder"
+    },
+    "fileStorageManager": {
+        "className": "Espo\\Core\\FileStorage\\Manager"
+    },
+    "jobManager": {
+        "className": "Espo\\Core\\Job\\JobManager"
+    },
+    "webSocketSubmission": {
+        "className": "Espo\\Core\\WebSocket\\Submission"
+    },
+    "crypt": {
+        "className": "Espo\\Core\\Utils\\Crypt"
+    },
+    "passwordHash": {
+        "className": "Espo\\Core\\Utils\\PasswordHash"
+    },
+    "number": {
+        "loaderClassName": "Espo\\Core\\Loaders\\NumberUtil"
+    },
+    "selectBuilderFactory": {
+        "className": "Espo\\Core\\Select\\SelectBuilderFactory"
+    },
+    "selectManagerFactory": {
+        "className": "Espo\\Core\\Select\\SelectManagerFactory"
+    },
+    "serviceFactory": {
+        "className": "Espo\\Core\\ServiceFactory"
+    },
+    "recordServiceContainer": {
+        "className": "Espo\\Core\\Record\\ServiceContainer"
+    },
+    "recordHookManager": {
+        "className": "Espo\\Core\\Record\\HookManager"
+    },
+    "templateFileManager": {
+        "className": "Espo\\Core\\Utils\\TemplateFileManager"
+    },
+    "webhookManager": {
+        "className": "Espo\\Core\\Webhook\\Manager"
+    },
+    "scheduledJob": {
+        "className": "Espo\\Core\\Utils\\ScheduledJob"
+    },
+    "hookManager": {
+        "className": "Espo\\Core\\HookManager"
+    },
+    "clientManager": {
+        "className": "Espo\\Core\\Utils\\ClientManager"
+    },
+    "themeManager": {
+        "className": "Espo\\Core\\Utils\\ThemeManager"
+    },
+    "fieldUtil": {
+        "className": "Espo\\Core\\Utils\\FieldUtil"
+    },
+    "fieldManager": {
+        "className": "Espo\\Core\\Utils\\FieldManager"
+    },
+    "fieldManagerUtil": {
+        "className": "Espo\\Core\\Utils\\FieldManagerUtil"
+    },
+    "emailSender": {
+        "className": "Espo\\Core\\Mail\\EmailSender"
+    },
+    "mailSender": {
+        "className": "Espo\\Core\\Mail\\Sender"
+    },
+    "htmlizerFactory": {
+        "className": "Espo\\Core\\Htmlizer\\HtmlizerFactory"
+    },
+    "fieldValidationManager": {
+        "className": "Espo\\Core\\FieldValidation\\FieldValidationManager"
+    },
+    "assignmentCheckerManager": {
+        "className": "Espo\\Core\\Acl\\AssignmentChecker\\AssignmentCheckerManager"
+    },
+    "hasher": {
+        "className": "Espo\\Core\\Utils\\Hasher"
+    },
+    "emailFilterManager": {
+        "className": "Espo\\Core\\Utils\\EmailFilterManager"
+    },
+    "externalAccountClientManager": {
+        "className": "Espo\\Core\\ExternalAccount\\ClientManager"
+    },
+    "formulaManager": {
+        "className": "Espo\\Core\\Formula\\Manager"
+    },
+    "user": {
+        "settable": true
+    }
+}

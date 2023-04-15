@@ -1,0 +1,28 @@
+{
+  "fields": {
+    "width": "Bredde (%)",
+    "notSortable": "Kan ikke sorteres",
+    "align": "Tilpas",
+    "panelName": "Panelnavn",
+    "style": "Stil",
+    "sticked": "Fæstnet",
+    "isLarge": "Stor skriftstørrelse",
+    "dynamicLogicVisible": "Betingelser, som gør panelet synligt"
+  },
+  "options": {
+    "align": {
+      "left": "Venstre",
+      "right": "Højre"
+    },
+    "style": {
+      "default": "Standard",
+      "success": "Succes",
+      "danger": "Fare",
+      "warning": "Advarsel",
+      "primary": "Primær"
+    }
+  },
+  "labels": {
+    "New panel": "Nyt panel"
+  }
+}

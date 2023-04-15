@@ -1,0 +1,13 @@
+{
+    "fields": {
+        "orderses": "Orderses",
+        "orders": "Orders"
+    },
+    "links": {
+        "orderses": "Orderses",
+        "orders": "Orders"
+    },
+    "labels": {
+        "Create Account": "Vytvořit Společnosti"
+    }
+}

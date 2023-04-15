@@ -1,0 +1,42 @@
+{
+  "fields": {
+    "action": "Akcja",
+    "actionDate": "Data",
+    "data": "Dane",
+    "campaign": "Kampania",
+    "parent": "Cel",
+    "object": "Obiekt",
+    "application": "Aplikacja",
+    "queueItem": "Element kolejki",
+    "stringData": "Dane tekstowe",
+    "stringAdditionalData": "Dodatkowe dane tekstowe",
+    "isTest": "Czy Test"
+  },
+  "links": {
+    "queueItem": "Element kolejki",
+    "parent": "Rodzic",
+    "object": "Obiekt",
+    "campaign": "Kampania"
+  },
+  "options": {
+    "action": {
+      "Sent": "Wysłano",
+      "Opened": "Otwarty",
+      "Opted Out": "Wypisany",
+      "Bounced": "Odrzucone",
+      "Clicked": "Kliknięte",
+      "Opted In": "Włączono"
+    }
+  },
+  "labels": {
+    "All": "Wszystko"
+  },
+  "presetFilters": {
+    "sent": "Wysłano",
+    "opened": "Otwarty",
+    "optedOut": "Wypisany",
+    "bounced": "Odrzucone",
+    "clicked": "Kliknięte",
+    "optedIn": "Włączono"
+  }
+}

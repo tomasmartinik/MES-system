@@ -1,0 +1,16 @@
+{
+    "labels": {
+        "Create WarehouseItem": "Vytvořit Položka skladu"
+    },
+    "fields": {
+        "warehouse": "Sklad",
+        "products": "Products",
+        "quantity": "Množství",
+        "components": "Komponenty"
+    },
+    "links": {
+        "warehouse": "Sklad",
+        "products": "Products",
+        "components": "Komponenty"
+    }
+}

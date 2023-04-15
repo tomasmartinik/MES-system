@@ -1,0 +1,57 @@
+{
+  "fields": {
+    "name": "Vardas",
+    "parent": "Pagrindinis",
+    "status": "Statusas",
+    "dateStart": "Pradžios data",
+    "dateEnd": "Pabaigos data",
+    "duration": "Trukmė",
+    "description": "Aprašymas",
+    "users": "Vartotojai",
+    "contacts": "Kontaktai",
+    "leads": "Potencialūs klientai",
+    "reminders": "Priminimai",
+    "account": "Įmonė",
+    "acceptanceStatus": "Priėmimo statusas",
+    "dateStartDate": "Data Pradžia (visą dieną)",
+    "dateEndDate": "Data Pabaiga (visą dieną)",
+    "isAllDay": "Ar visą dieną",
+    "Acceptance": "Priėmimas",
+    "sourceEmail": "Šaltinis El. paštas"
+  },
+  "options": {
+    "status": {
+      "Planned": "Suplanuota",
+      "Held": "Įvykdyta",
+      "Not Held": "Neįvykdyta"
+    },
+    "acceptanceStatus": {
+      "None": "Joks",
+      "Accepted": "Priimta",
+      "Declined": "Atšaukta",
+      "Tentative": "Preliminarus"
+    }
+  },
+  "massActions": {
+    "setHeld": "Pažymėti kaip įvykdytą",
+    "setNotHeld": "Pažymėti kaip neįvykdytą"
+  },
+  "labels": {
+    "Create Meeting": "Sukurti susitikimą",
+    "Set Held": "Pažymėti kaip įvykdytą",
+    "Set Not Held": "Pažymėti kaip neįvykdytą",
+    "Send Invitations": "Siųsti pakvietimus",
+    "on time": "laiku",
+    "before": "prieš",
+    "All-Day": "Visą dieną"
+  },
+  "presetFilters": {
+    "planned": "Suplanuota",
+    "held": "Įvykdyta",
+    "todays": "Šiandienos"
+  },
+  "messages": {
+    "nothingHasBeenSent": "Nieko nebuvo išsiųsta",
+    "selectAcceptanceStatus": "Nustatykite priėmimo būseną."
+  }
+}

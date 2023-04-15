@@ -1,0 +1,59 @@
+{
+  "fields": {
+    "name": "Naam",
+    "roles": "Functies",
+    "assignmentPermission": "Toewijzing rechten",
+    "userPermission": "Gebruikers rechten",
+    "portalPermission": "Portaal rechten",
+    "groupEmailAccountPermission": "Groep e-mailaccount rechten",
+    "exportPermission": "Exporteer rechten",
+    "dataPrivacyPermission": "Data privacy rechten",
+    "massUpdatePermission": "Rechten voor massale update",
+    "followerManagementPermission": "Volgersbeheer Toestemming"
+  },
+  "links": {
+    "users": "Gebruikers",
+    "teams": "Groepen"
+  },
+  "tooltips": {
+    "assignmentPermission": "Maakt het mogelijk om de mogelijkheid voor gebruikers om records en posts aan andere gebruikers toe te wijzen te beperken.\n\nalle - geen beperking\n\ngroep - kan toewijzen aan gebruikers van eigen groepen\n\nnee - kan alleen aan zichzelf toewijzen",
+    "userPermission": "Hiermee kunnen gebruikers de activiteiten van andere gebruikers bekijken.\n\nalle - kan alle bekijken\n\ngroep - kan activiteiten van gebruikers uit eigen groepen bekijken\n\nnee - kan niet bekijken",
+    "portalPermission": "Definieert een toegang tot portaalinformatie, mogelijkheid om berichten naar portaalgebruikers te posten.",
+    "groupEmailAccountPermission": "Definieert een toegang tot groeps E-mail accounts, een mogelijkheid om e-mails te verzenden vanuit groep SMTP.",
+    "dataPrivacyPermission": "Toestaan ​​om persoonlijke gegevens te bekijken en te wissen.",
+    "exportPermission": "Bepaalt of gebruikers de mogelijkheid hebben om records te exporteren.",
+    "massUpdatePermission": "Definieert of gebruikers de mogelijkheid hebben om een grote hoeveelheid records bij te werken.",
+    "followerManagementPermission": "Maakt het mogelijk om volgers van specifieke records te beheren."
+  },
+  "labels": {
+    "Access": "Toegang",
+    "Create Role": "Creëer Functie",
+    "Scope Level": "Toepassingsniveau",
+    "Field Level": "Veldniveau"
+  },
+  "options": {
+    "accessList": {
+      "not-set": "niet-actief",
+      "enabled": "ingeschakeld",
+      "disabled": "uitgeschakeld"
+    },
+    "levelList": {
+      "all": "alle",
+      "team": "groep",
+      "account": "relatie",
+      "own": "eigen",
+      "no": "nee",
+      "yes": "ja",
+      "not-set": "niet-actief"
+    }
+  },
+  "actions": {
+    "read": "Lees",
+    "edit": "Bewerken",
+    "delete": "Verwijder",
+    "create": "Creëer"
+  },
+  "messages": {
+    "changesAfterClearCache": "Alle wijzigingen in een toegangscontrolesysteem worden toegepast nadat de cache is geschoond."
+  }
+}

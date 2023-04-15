@@ -1,0 +1,128 @@
+{
+    "fields": {
+        "name": {
+            "type": "varchar",
+            "required": true,
+            "trim": true,
+            "pattern": "$noBadCharacters"
+        },
+        "body": {
+            "type": "wysiwyg",
+            "view": "views/template/fields/body"
+        },
+        "header": {
+            "type": "wysiwyg",
+            "view": "views/template/fields/body"
+        },
+        "footer": {
+            "type": "wysiwyg",
+            "view": "views/template/fields/body",
+            "tooltip": true
+        },
+        "entityType": {
+            "type": "enum",
+            "required": true,
+            "translation": "Global.scopeNames",
+            "view": "views/template/fields/entity-type"
+        },
+        "leftMargin": {
+            "type": "float",
+            "default": 10
+        },
+        "rightMargin": {
+            "type": "float",
+            "default": 10
+        },
+        "topMargin": {
+            "type": "float",
+            "default": 10
+        },
+        "bottomMargin": {
+            "type": "float",
+            "default": 25
+        },
+        "printFooter": {
+            "type": "bool"
+        },
+        "printHeader": {
+            "type": "bool"
+        },
+        "footerPosition": {
+            "type": "float",
+            "default": 15
+        },
+        "headerPosition": {
+            "type": "float",
+            "default": 10
+        },
+        "teams": {
+            "type": "linkMultiple"
+        },
+        "createdAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "modifiedAt": {
+            "type": "datetime",
+            "readOnly": true
+        },
+        "createdBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "modifiedBy": {
+            "type": "link",
+            "readOnly": true
+        },
+        "variables": {
+            "type": "base",
+            "notStorable": true,
+            "tooltip": true
+        },
+        "pageOrientation": {
+            "type": "enum",
+            "options": ["Portrait", "Landscape"],
+            "default": "Portrait"
+        },
+        "pageFormat": {
+            "type": "enum",
+            "options": ["A3", "A4", "A5", "A6", "A7", "Custom"],
+            "default": "A4"
+        },
+        "pageWidth": {
+            "type": "float",
+            "min": 1
+        },
+        "pageHeight": {
+            "type": "float",
+            "min": 1
+        },
+        "fontFace": {
+            "type": "enum",
+            "view": "views/template/fields/font-face"
+        },
+        "title": {
+            "type": "varchar"
+        }
+    },
+    "links": {
+        "teams": {
+            "type": "hasMany",
+            "entity": "Team",
+            "relationName": "entityTeam"
+        },
+        "createdBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        },
+        "modifiedBy": {
+            "type": "belongsTo",
+            "entity": "User"
+        }
+    },
+    "collection": {
+        "orderBy": "name",
+        "order": "asc"
+    },
+    "optimisticConcurrencyControl": true
+}

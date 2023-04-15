@@ -1,0 +1,22 @@
+[
+    {
+        "label": "",
+        "rows": [
+            [
+                {"name": "name"}
+            ],
+            [
+                {"name": "action"}
+            ],
+            [
+                {"name": "url"}
+            ],
+            [
+                {"name": "message"}
+            ],
+            [
+                {"name": "urlToUse"}
+            ]
+        ]
+    }
+]
